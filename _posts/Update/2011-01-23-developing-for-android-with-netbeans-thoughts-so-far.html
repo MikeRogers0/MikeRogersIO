@@ -1,0 +1,43 @@
+---
+layout: post
+title: Developing for Android with NetBeans - Thoughts so far
+tags:
+- Coding
+status: draft
+type: post
+published: false
+meta:
+  _wp_old_slug: ''
+  _edit_last: '1'
+  _yoast_wpseo_focuskw: ''
+  _yoast_wpseo_title: ''
+  _yoast_wpseo_metadesc: ''
+  _yoast_wpseo_meta-robots-noindex: '0'
+  _yoast_wpseo_meta-robots-nofollow: '0'
+  _yoast_wpseo_meta-robots-adv: none
+  _yoast_wpseo_canonical: ''
+  _yoast_wpseo_redirect: ''
+  _yoast_wpseo_linkdex: '0'
+---
+A few days ago I decided that Google recommend IDE for developing on Android (Eclipse) was pants on head silly. Somewhere between the high memory usage (700MB on idle),  poor performance on my laptop (It would lag every time I scrolled) and other annoyances (e.g. when it thought there was a bug, were their wasn't but would not run anything until I fixed the imaginary bug). Thus I decided to see if NetBeans (My preferred IDE for working with Java) could be a better alternative.
+
+<!--more-->
+
+<h2>Setting up Android to work on NetBeans</h2>
+Off the bat, NetBeans does not have many development tools for Android. In fact after an evening of searching I managed to only find one plugin for NetBeans. The plugin I found was <a href="http://nbandroid.kenai.com/">nbandroid</a>, which hasn't been updated in a few months, but for now was the best option.
+
+Installing the Android for NetBeans plugin was quite easy, the <a href="http://wiki.netbeans.org/IntroAndroidDevNetBeans">NetBeans Wiki</a> has a well written tutorial on how to get everything set up.
+<h2>Initial thoughts</h2>
+NetBeans is a much cleaner and easier to use interface in comparison to Eclipse, however a few differences stood out to me.
+<p style="text-align: center;"><a href="http://cdn.fullondesign.co.uk/uploads/2011/01/NetbeansIDE-Android-Applications.png"><img class="size-medium wp-image-1833" title="NetbeansIDE Android Application" src="http://cdn.fullondesign.co.uk/uploads/2011/01/NetbeansIDE-Android-Applications-300x160.png" alt="NetbeansIDE Android Application" width="300" height="160" /></a></p>
+Firstly, you will need to have a reasonable understanding of android projects' file structures, otherwise your pretty much back to square one. If you have a good reference material this should not be an issue, but if your looking just to have a play around it could end up being a little headache.
+
+One of the big features lacking is the visual layout designer, but this annoyance was easily overcame when I stumbled upon <a href="http://www.droiddraw.org/">DroidDraw</a>. DroidDraw is a neat little Java App which allows you to create layouts in a drag and drop GUI.
+<p style="text-align: center;"><a href="http://cdn.fullondesign.co.uk/uploads/2011/01/DrawDroid1.png"><img class="size-medium wp-image-1829" title="DrawDroid is so nice to work with." src="http://cdn.fullondesign.co.uk/uploads/2011/01/DrawDroid1-300x177.png" alt="DrawDroid Example" width="300" height="177" /></a></p>
+DrawDroid produces nice code and is reasonable easy understand. They have also <a href="http://www.droiddraw.org/tutorial.html">produced a few neat tutorials</a> to help you find your feet.
+<h2>After a week</h2>
+After a week of developing on NetBeansIDE for Android, I'm thoroughly impressed. However it's really not a practical solution as the extension for NetBeans has been barely updated for the last year and is seriously out of date. Running an App to check how it runs on the emulator is painfully slow (it can take 2-4 minutes to upload a small "Hello World" App), which really slows down development.
+
+Furthermore, when running NetBeans with a single file open the memory usage was peaking 600MB, which while is not as bad as Eclipse is still excessive.
+
+In a nutshell, it's cool to try out but it really needs work until I can change my Android Development IDE :(

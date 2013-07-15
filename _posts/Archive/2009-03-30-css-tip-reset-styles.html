@@ -1,0 +1,29 @@
+---
+layout: post
+title: 'CSS Tip: Reset Styles'
+tags:
+- css
+- reset style
+- XHTML &amp; CSS
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '1'
+  shorturls: a:7:{s:9:"permalink";s:79:"http://www.fullondesign.co.uk/coding/xhtml_and_css/591-css-tip-reset-styles.htm";s:7:"tinyurl";s:25:"http://tinyurl.com/ms8l3y";s:4:"isgd";s:18:"http://is.gd/2uFIb";s:5:"bitly";s:19:"http://bit.ly/bWRzU";s:5:"snipr";s:22:"http://snipr.com/qsxhi";s:5:"snurl";s:22:"http://snurl.com/qsxhi";s:7:"snipurl";s:24:"http://snipurl.com/qsxhi";}
+  _yoast_wpseo_linkdex: '0'
+---
+<p>CSS is incredible, however its implementation in browsers has not been standardised, meaning that every browser has a slightly different default settings for how elements should be rendered. Luckily there is an easy fix in CSS to reduce the level of dissimilarity.</p>
+<p>Add the following to the top of your CSS:</p>
+<pre lang="CSS">
+* {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #FFF;
+	font-style: inherit;
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: normal;
+}
+</pre>

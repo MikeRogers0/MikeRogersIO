@@ -1,0 +1,91 @@
+body{
+	
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font-size: 15px;
+	line-height: 25px;
+	@media screen and (min-width: $break-small) {}
+	@media screen and (min-width: $break-large) {
+		background: url(../img/use_your_illusion.png);
+	}
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: rgb(1, 39, 58);
+	font-weight: 500;
+	line-height: 120%;
+}
+
+.container{
+	width: 97%;
+	padding: 0 1.5%;
+	overflow:hidden;
+	 @media screen and (min-idth: $break-small) {}
+	 @media screen and (min-width: $break-large) {
+	    width: $break-large;
+	 }
+}
+
+#jumpLinks a{
+	position: absolute;
+	top:0;
+	left:0;
+	height: 1px;
+	width:1px;
+	overflow: hidden;
+
+	& :active, :focus{
+		height: auto;
+		width: auto;
+		position: static;
+	}
+}
+
+#main{
+	background: #fff;
+	margin: 0 auto 10px auto;
+	border-radius: 0 0 3px 3px;	
+
+	> footer{
+		margin: 20px 0 0 0;
+		padding: 0;
+		border-top: 1px solid #ddd;
+		.wrap{
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+		a{
+			color: #000;
+			&[href="/"]{
+			}
+		}
+	}
+}
+
+.wrap{
+	padding:1em 1.5em;
+}
+
+#content{
+	dl, ul{
+		font-size: 0.9em;
+		dt{
+			float:left;
+			width: 30%;
+		}
+		dd{
+			float: left;
+			margin:0;
+			width: 70%;
+			text-align:right;
+		}
+	}
+}
+
+@media screen and (min-width: $break-large) {
+	
+}
+@media screen and (min-width: $break-large) {
+
+}

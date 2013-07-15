@@ -1,0 +1,55 @@
+---
+layout: post
+title: PDO (PHP Data Objects) - Starter Guide
+tags:
+- PHP
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  _syntaxhighlighter_encoded: '1'
+  _yoast_wpseo_focuskw: ''
+  _yoast_wpseo_title: ''
+  _yoast_wpseo_metadesc: ''
+  _yoast_wpseo_meta-robots-noindex: '0'
+  _yoast_wpseo_meta-robots-nofollow: '0'
+  _yoast_wpseo_meta-robots-adv: none
+  _yoast_wpseo_canonical: ''
+  _yoast_wpseo_redirect: ''
+  _yoast_wpseo_linkdex: '0'
+---
+It may surprise you to hear, that using the <a href="http://php.net/manual/en/function.mysql-connect.php">mysql_connect()</a> function in PHP has recently be marked as "old hat" coding because it's slow in comparison with newer methods. A better alternative is <a href="http://php.net/manual/en/book.pdo.php">PDO (PHP Data Objects)</a>, a lightweight method for accessing databases. Here is a quick overview to help you get started with PDO.
+<h2>Reasons to use PDO</h2>
+<ul>
+	<li>It's Fast - it talks to the database via a database specific PDO-driver.</li>
+	<li>It's Object Oriented - The methods within the class are the same for each database driver, so you can easily change your database driver without lots of extra coding.</li>
+	<li>It's Flexible-  You can easily change between such database drivers as PostgreSQL, MySQL or SQLite by pretty much just changing your construct statement.</li>
+	<li>It's Safer - PDO encourages you to bind parameters to your SQL query's, meaning that it's significantly less likely your website will suffer from a SQL injection based attack.</li>
+</ul>
+<!--more-->
+<h2>Connecting to a Database</h2>
+Connecting to a database is pretty simple. Here is how to connect to a MySQL Database.
+
+[gist id="2941987" file="connecting-to-database.php"]
+
+<h2>Doing A Query</h2>
+Again, doing a query is just as simple as:
+
+[gist id="2941987" file="query.php"]
+
+However, if you are using user variables which may cause a SQL Injection you should bind the parameter to the query (see next example).
+<h2>Binding a parameter to a query</h2>
+[gist id="2941987" file="binding.php"]
+
+If you bind a parameter to a request, it will sterilize the input so that it will not cause a SQL Injection.
+<h2>Useful Resources</h2>
+<a href="http://php.net/manual/en/book.pdo.php">PHP Manual: PHP Data Objects</a>
+
+<a href="http://net.tutsplus.com/tutorials/php/why-you-should-be-using-phps-pdo-for-database-access/">Nettuts+: Why you Should be using PHP’s PDO for Database Access</a>
+
+<a href="http://www.amazon.co.uk/gp/product/0596804377/ref=as_li_ss_tl?ie=UTF8&tag=fulondes-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0596804377">PHP: The Good Parts</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=&l=as2&o=2&a=0596804377" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+
+<h2>Update:</h2>
+<a href="http://news.php.net/php.internals/53799">As of PHP 5.4 the MySQL extension will be softly deprecated</a>. This means you really should start using PDO ASAP!

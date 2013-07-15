@@ -1,0 +1,49 @@
+---
+layout: post
+title: Making Zebra Stripes with CSS3
+tags:
+- Amp
+- Background Color
+- Brackets
+- Colours
+- css
+- Css Reference
+- Css3
+- Element
+- Lt
+- Nth Number
+- pseudo-class
+- Sitepoint
+- Stripping
+- Ul
+- Usability
+- Zebra
+- Zebra Stripes
+status: draft
+type: post
+published: false
+meta:
+  syntaxhighlighter_encoded: '1'
+  _edit_last: '1'
+  shorturls: a:4:{s:9:"permalink";s:86:"http://www.fullondesign.co.uk/design/usability/1227-making-zebra-stripes-with-css3.htm";s:7:"tinyurl";s:26:"http://tinyurl.com/ya4wy9b";s:4:"isgd";s:18:"http://is.gd/4IylR";s:5:"bitly";s:20:"http://bit.ly/1lDyUj";}
+  _yoast_wpseo_focuskw: ''
+  _yoast_wpseo_title: ''
+  _yoast_wpseo_metadesc: ''
+  _yoast_wpseo_meta-robots-noindex: '0'
+  _yoast_wpseo_meta-robots-nofollow: '0'
+  _yoast_wpseo_meta-robots-adv: none
+  _yoast_wpseo_canonical: ''
+  _yoast_wpseo_redirect: ''
+  _yoast_wpseo_linkdex: '0'
+---
+<p>Zebra Stripping is the technique of having different colours per each line on a list. It generally is considered to help users read large tables of information; however there is <a href="http://www.alistapart.com/articles/zebrastripingdoesithelp/">evidence suggesting the effectiveness of zebra stripes is somewhat overrated</a>. Having said that, in CSS3 it's very easy to implement so it's worthwhile adding.</p>
+<p>To add Zebra Strips to a list, all you need to do is adding the following pseudo-class to the end of the CSS element you wish to edit:</p>
+
+<!--more-->
+
+[gist id="2942043"]
+
+<p>In this example, I've used an unordered list element. The data in the brackets refers to the "nth" number to affect, for example putting "(even)" will affect every even &lt;li&gt;. You can also put number in, for example "(3)" would affect every 3rd &lt;li&gt;.</p>
+<p>Below is a link to a working example of the code in action (Feel free to copy &amp; share).</p>
+<p><a href="http://www.fullondesign.co.uk/examples/zebra_strips_in_css3/zebra_strips_in_css3.html"><img class="aligncenter size-full wp-image-1229" title="zebra_strips_in_css3" src="http://cdn.fullondesign.co.uk/uploads/2009/10/zebra_strips_in_css3.png" alt="zebra_strips_in_css3" width="103" height="108" /></a></p>
+<p>If you want to read a bit more about the nth-child pseudo-class I recommend the <a href="http://reference.sitepoint.com/css/pseudoclass-nthchild">sitepoint CSS reference</a>.</p>

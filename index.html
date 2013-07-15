@@ -1,0 +1,44 @@
+---
+layout: default
+title: Mike Rogers - Berkshire based Web Developer
+---
+
+<div class="pure-u-1-2"><div class="wrap">
+    <h2>About Me</h2>
+    <p>I am a web developer based in Berkshire, UK. Here is an overview of my current skills:</p>
+    <dl>
+        <dt>Front-End</dt>
+        <dd>HTML5, JavaScript (jQuery, Backbone.JS), SCSS</dd>
+        <dt>Back-End</dt>
+        <dd>PHP (Yii, Wordpress), Node.JS, MySQL</dd>
+        <dt>Misc</dt>
+        <dd>Git, Vagrant</dd>
+    </dl>
+</div></div>
+<div class="pure-u-1-2"><div class="wrap">
+    <h2>Find Me</h2>
+    <p>I'm pretty easy to find online, here are a few of the networks I'm on:</p>
+    <ul>
+        <li><a href="https://twitter.com/mikerogers0">GitHub</a></li>
+        <li><a href="http://teamtreehouse.com/rmikerogers0">Treehouse</a></li>
+        <li><a href="https://twitter.com/mikerogers0">Twitter</a></li>
+    </ul>
+    <p>Alternatively, drop me an email <a href="mailto:me@mikerogers.io">me@mikerogers.io</a>.</p>
+</div></div>
+<div class="pure-u-1-2"><div class="wrap">
+    <h2>Recent Projects</h2>
+    <ul>
+        <li>[Some Project]</li>
+        <li>[Some Project]</li>
+        <li>[Some Project]</li>
+    </ul>
+</div></div>
+<div class="pure-u-1-2"><div class="wrap">
+    <h2>Recent Posts</h2>
+    <ul>
+        {% for post in site.posts limit:5 %}
+	      <li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
+	    {% endfor %}
+    </ul>
+    <a href="/posts.html">See all blog posts</a>
+</div></div>

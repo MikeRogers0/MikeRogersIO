@@ -1,0 +1,33 @@
+---
+layout: default
+title: Blog Posts
+---
+
+<div class="pure-u-1"><div class="wrap">
+	<h1>Blog Posts</h1>
+
+	<div class="pure-g-r">
+		{% for post in site.posts %}
+			{% if post.next %}      
+				{% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
+				{% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
+			{% endif %}
+
+			{% if forloop.first %}
+				<div class="pure-u-1-2">
+				<h2>{{ post.date | date: "%B %Y" }}</h2>
+				<ul>
+			{% endif %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
+			{% if month != nmonth %} 
+				</ul></div>
+				<div class="pure-u-1-2">
+				<h2>{{ post.date | date: "%B %Y" }}</h2>
+				<ul>
+			{% endif %}
+			{% if forloop.last %}  
+				</ul></div>
+			{% endif %}
+		{% endfor %}
+	</div>
+</div></div>

@@ -1,0 +1,26 @@
+---
+layout: post
+title: Blocking users via .htaccess
+tags:
+- allow
+- deny
+- htaccess
+- IP
+- Security
+- user
+status: draft
+type: post
+published: false
+meta:
+  description: 'A basic httaccess method to certain IP address from accessing your site.'
+---
+<p>Every website has problems with users . Here is a cool way to ban users who prove to be annoying.</p>
+<p>Open your .htaccess file (should be above your public_html folder and you may need to show hidden files), then add the following:</p>
+
+{% gist 2907470 deny-from-ip %}
+
+<p>If you want to add more than one IP, just add an extra "deny from [ip here]" line. On the other hand, if you want to just let one person onto a website just use the following:</p>
+
+{% gist 2907470 allow-from-ip %}
+
+<p>Allowing just a few IP's to certain areas is useful when protecting administrator sections or user areas.</p>

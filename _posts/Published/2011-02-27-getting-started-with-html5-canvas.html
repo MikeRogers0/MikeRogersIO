@@ -1,0 +1,69 @@
+---
+layout: post
+title: Getting Started with HTML5 Canvas
+tags:
+- XHTML &amp; CSS
+status: publish
+type: post
+published: true
+meta:
+  _syntaxhighlighter_encoded: '1'
+  _edit_last: '1'
+  _yoast_wpseo_linkdex: '0'
+---
+The HTML5 canvas is a really neat new feature which allows you to draw shapes. It's a little unknown of how it will be implemented in the mainstream web, however current forecasts suggests it can create really cool games such as <a href="http://www.pirateslovedaisies.com/">Pirates Love Daisies</a>, applications such as <a href="http://mugtug.com/sketchpad/">Sketchpad</a> or even a new method of CAPTCHA.
+
+Here is a quick cookbook on how to get started with Canvas where you will learn how to draw basic shapes and colours.
+<h2>Finding your Feet</h2>
+The first thing you need to start playing with the canvas tool is a browser which supports canvas. Currently most modern browsers do support canvas (This includes, IE9, Google Chrome and Firefox).
+
+Next, set up the shell of your HTML5 page. To save you time I <a href="http://www.fullondesign.co.uk/examples/Getting_Started_with_HTML5_Canvas/html5_canvas_start.html">have made a basic example</a><a></a> you can copy.
+
+The important thing to remember about adding the canvas tag to your page is:
+<ol>
+	<li>Your page has the html5 doctype, otherwise it might not work.</li>
+	<li>You add a width and height, otherwise your graphics may look cropped.</li>
+	<li>You add a "Your browser does not support the  HTML5 notice" notice in the canvas tag for older browsers.</li>
+</ol>
+<!--more-->
+<h2>Making a Square</h2>
+<img class="aligncenter size-full wp-image-1929" title="Making a Square" src="http://cdn.fullondesign.co.uk/uploads/2011/02/Making_a_Square.png" alt="Making a Square" width="108" height="81" />
+
+Making a square is pretty simple; in a nutshell all you need to be able to do is understand how x/y coordinates work. I've <a href="http://www.fullondesign.co.uk/examples/Getting_Started_with_HTML5_Canvas/html_canvas_square.html">uploaded this demo</a>.
+
+[code]// More canvas stuff  will go here.
+context.moveTo(5, 10); // Move the start point to x = 5, y = 10
+context.beginPath(); // Open the path i.e. Start drawing
+context.lineTo(55, 10); // Draw the line to x = 55, y = 10 then continue
+context.lineTo(55, 60);
+context.lineTo(5, 60);
+context.lineTo(5, 10);
+context.closePath(); // Close the path, so that javascript knows the shape is done.
+	
+// Fill the shape.
+context.fillStyle=&quot;#8ED6FF&quot;;
+context.fill();
+	
+// Colour in the border of the shape.
+context.strokeStyle=&quot;#0000ff&quot;;
+context.stroke();[/code]
+<h2>Building a Circle</h2>
+<img class="aligncenter size-full wp-image-1928" title="Building a Circle" src="http://cdn.fullondesign.co.uk/uploads/2011/02/Building_a_Circle.png" alt="Building a Circle" width="194" height="153" />
+
+Creating a circle is a little different, instead of just putting the x/y coordinates you also have to state the starting radius, ending radius and whether if you your arc to be anti-clockwise (Weird right?). Here <a href="http://www.fullondesign.co.uk/examples/Getting_Started_with_HTML5_Canvas/html_canvas_circle.html">is the code example</a>.
+
+[code]context.arc(100,75,50,0,Math.PI*2,true); // arc(x coordinate, y coordinate, radius, startAngle, endAngle, anticlockwise)[/code]
+<h2>Rotating your Canvas</h2>
+<img class="aligncenter size-full wp-image-1930" title="Rotating your Canvas" src="http://cdn.fullondesign.co.uk/uploads/2011/02/Rotating_your_Canvas.png" alt="Rotating your Canvas" width="163" height="125" />
+
+This is probably one of the most useful features for most web designers out there. Pretty much you can rotate the canvas. <a href="http://www.fullondesign.co.uk/examples/Getting_Started_with_HTML5_Canvas/html_canvas_rotating.html">Check out my example</a>.
+
+[code]// Rotate the canvas 15%
+context.rotate(0.15);[/code]
+<h2>Further Reading</h2>
+<ul>
+	<li><a href="https://developer.mozilla.org/En/Canvas_tutorial">MDN Canvas Tutorial</a></li>
+	<li><a href="http://thinkvitamin.com/code/how-to-draw-with-html-5-canvas/">How to Draw with HTML 5 Canvas by Think Vitamin</a></li>
+	<li><a href="http://simon.html5.org/dump/html5-canvas-cheat-sheet.html">HTML5 Canvas Cheat Sheet</a></li>
+	<li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html">The canvas element - HTML Standard</a></li>
+</ul>

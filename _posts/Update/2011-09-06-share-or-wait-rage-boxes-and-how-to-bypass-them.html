@@ -1,0 +1,33 @@
+---
+layout: post
+title: Share or wait rageboxes (And how to bypass them)
+tags:
+- XHTML &amp; CSS
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '1'
+  _yoast_wpseo_linkdex: '0'
+---
+I was recently shown (via <a href="http://www.reddit.com/r/reddit.com/comments/k5pgj/share_or_wait_600_seconds_i_will_do_neither/">Reddit</a>) possibly one of the biggest crime against UX, a lightbox which asks you to share the website or wait 600 seconds.
+
+<img class="aligncenter size-full wp-image-2110" title="share or wait 600 seconds *facepalm*" src="http://cdn.fullondesign.co.uk/uploads/2011/09/share_or_wait_600_seconds.png" alt="share or wait 600 seconds *facepalm*" width="498" height="214" />
+
+At first I thought it was fake, but if you visit the <a href="http://www.soccercaffe.com/hot-news/indonesia-turmenistan-4-3.html" rel="nofollow">offending website</a>, it's unfortunately real. So yeah, after a short time of giggling and raging I worked on a way to bypass this.
+<h2>How to bypass it</h2>
+The easiest way, is to vote with your feet and not use the website. But in some cases, that isn't always an option.
+
+A working method I found (if you are using Google Chrome or Safari) is to hide the element.  With your mouse right click on the element and click "Inspect Element", this will open the developer tools. Then under the "style" side menu just add the rule "display:none;" and it should disappear. In most cases, it might look a bit like the screenshot below.
+
+<a href="http://cdn.fullondesign.co.uk/uploads/2011/09/developer_tools.png"><img class="aligncenter size-medium wp-image-2113" title="developer tools - showing the rule in action." src="http://cdn.fullondesign.co.uk/uploads/2011/09/developer_tools-300x180.png" alt="developer tools - showing the rule in action" width="300" height="180" /></a>
+
+You can also right click on the element in the developer tools and click "delete node" on the html causing the ragebox. 
+
+<!--more-->
+<h2>Extra Notes</h2>
+<ul>
+	<li>This is the same method using on my post labelled: <a href="http://www.fullondesign.co.uk/coding/xhtml_and_css/1406-bypass-facebooks-like-this-to-see-the-picture-pages-using-google-chrome.htm">Bypass Facebook’s “Like this to see the picture” pages using Google Chrome</a>.</li>
+	<li>You can also add a rule to your AdBlocker to stop these working on most websites, but that might affect sites which use lightboxes to look pretty.</li>
+	<li>We totally need to standardise the &lt;lightbox&gt; tag into HTML5, just to deal with crap like this</li>
+</ul>

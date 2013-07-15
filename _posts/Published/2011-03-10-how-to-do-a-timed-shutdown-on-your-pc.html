@@ -1,0 +1,48 @@
+---
+layout: post
+title: How to do a timed shutdown on your PC
+tags:
+- Bits &amp; bytes
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  _syntaxhighlighter_encoded: '1'
+  _yoast_wpseo_focuskw: ''
+  _yoast_wpseo_title: ''
+  _yoast_wpseo_metadesc: ''
+  _yoast_wpseo_meta-robots-noindex: '0'
+  _yoast_wpseo_meta-robots-nofollow: '0'
+  _yoast_wpseo_meta-robots-adv: none
+  _yoast_wpseo_canonical: ''
+  _yoast_wpseo_redirect: ''
+  _yoast_wpseo_linkdex: '0'
+---
+Recently I've stumbled upon a really neat technique to listening to <a href="http://www.spotify.com/">Spotify</a> while I'm heading off to bed, then not have to get up to turn my music off once I'm dropping off.
+
+Firstly, set up a playlist in Spotify which will help you relax. Once you have done this step, open up command line (<a href="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/cmd.mspx?mfr=true">cmd.exe</a>) and type the following:
+
+<!--more-->
+
+[gist id="2942065" file="shutdown.bat"]
+
+<h2>Code Breakdown</h2>
+The above command will shutdown your PC in 900 seconds. Let me quickly break down how this command works:
+<ul>
+	<li><em>shutdown</em> indicates you want to run <a href="http://technet.microsoft.com/en-us/library/bb491003.aspx">shutdown.exe</a></li>
+	<li><em>-s</em> is a flag saying you want to shutdown your PC</li>
+	<li><em>-f</em> is a flag stating you want to force shutdown, so your PC will not hang around waiting for applications to close while shutting down</li>
+	<li><em>-t</em> is a flag which indicates you want a timed shutdown</li>
+	<li><em>900</em> means the amount of seconds until the shutdown occurs. In this case 900 seconds, or 15 minutes.</li>
+</ul>
+Once this is command has been run you should see an information bubble (Like below) stating when the shutdown will occur.
+
+<a href="http://www.fullondesign.co.uk/uncategorized/1972-how-to-do-a-timed-shutdown-on-your-pc.htm"><img class="aligncenter size-full wp-image-1977" title="Information Bubble" src="http://cdn.fullondesign.co.uk/uploads/2011/03/information_bubble.png" alt="Information Bubble" width="317" height="134" /></a>
+
+<h2>How to abort</h2>
+You may also want to abort your shutdown, in that case just put the following code into your command line:
+
+[gist id="2942065" file="cancel-shutdown.bat"]
+
+The <em>-a</em> flag stands for "Abort a system shutdown".

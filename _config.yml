@@ -1,0 +1,12 @@
+markdown : rdiscount
+permalink : /:year/:month/:day/:title.html
+rdiscount extensions : [smart]
+
+name: Mike Rogers
+pygments: true
+
+production_url : http://mikerogers.io
+
+sass:
+    syntax: scss        # scss|sass
+    style:  compact  # nested|expanded|compact|compressed

@@ -1,0 +1,72 @@
+---
+layout: post
+title: Using cookieless domains to improve a website performance
+tags:
+- Browsers
+- Code Language
+- Coding
+- Config
+- Cookie Data
+- Domain
+- Domains
+- Improving Performance
+- Kilobytes
+- Loading Times
+- Static Files
+- Static Image
+- Subdomain
+- Unnecessary Data
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  _syntaxhighlighter_encoded: '1'
+  _yoast_wpseo_focuskw: ''
+  _yoast_wpseo_title: ''
+  _yoast_wpseo_metadesc: ''
+  _yoast_wpseo_meta-robots-noindex: '0'
+  _yoast_wpseo_meta-robots-nofollow: '0'
+  _yoast_wpseo_meta-robots-adv: none
+  _yoast_wpseo_canonical: ''
+  _yoast_wpseo_redirect: ''
+  _yoast_wpseo_linkdex: '0'
+---
+Fast loading times are a really important factor when it comes to website ranking, so it's important to remove as much unnecessary data as possible. A good method to do this is via cookieless domains.
+
+Cookieless domains are (as the name suggests) are domains, in which the user will not send cookies (Which can add quite a few kilobytes to a request). For example, say I want a user to load a static image it would be silly of them to also send me the cookie data. Luckily they are super easy to set up.
+
+<!--more-->
+
+<h2>Set up a sub-domain</h2>
+
+Firstly, set up a subdomain on your website. For example static.yourdomain.com would be suitable, but it's really up to you. Now point the domain to a path where you will keep your static files (Such as images and CSS files). For Full On Design, I set up <a href="http://files.fullondesign.co.uk/">http://files.fullondesign.co.uk/</a>.
+
+<h2>Stop cookies being set site wide</h2>
+
+Next, make sure your website does not set website wide cookies. The fastest way to do this is by amending the .htaccess file and adding a <a href="http://httpd.apache.org/docs/2.2/mod/mod_usertrack.html#CookieDomain">CookieDomain Directive</a>. For example: 
+
+[gist id="2942004" file=".htaccess"]
+
+Alternatively in PHP's <a href="http://php.net/manual/en/function.setcookie.php">setcookie()</a> function, I could just use something like:
+
+[gist id="2942004" file="setCookie.php"]
+
+The key point to note is that the domain parameter is set to www.fullondesign.co.uk, not .fullondesign.co.uk. Thus the cookies will only be sent when the subdomain is www.fullondesign.co.uk. 
+
+Now start linking up to files in that directory and your pretty much done.
+
+<h2>Setting up cookieless domains in Wordpress</h2>
+
+Wordpress has a few neat built in functions to make this process easier. If you use wordpress pop the following code (just before the "That's all, stop editing! Happy blogging." comment) into your config.php file (amend as required):
+
+[gist id="2942004" file="wp-cookie-domain.php"]
+
+You can also change the uploads URL of your Wordpress install to point to your cookieless domain. In the config.php file add the following(amend as required).: 
+
+[gist id="2942004" file="wp-content-url.php"]
+
+<h2>Useful Resources </h2>
+I've barely touched on the topic of cookieless domains aside from just saying "They making your website load faster", here a two website which go a little more in depth.
+<ul><li><a href="http://code.google.com/speed/page-speed/docs/request.html">Google: Minimize request overhead</a></li>
+<li><a href="http://www.ravelrumba.com/blog/static-cookieless-domain/">Ravelrumba: Serving Static Content from a Cookieless Domain</a></li></ul>

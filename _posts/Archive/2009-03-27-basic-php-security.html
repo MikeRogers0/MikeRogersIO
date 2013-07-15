@@ -1,0 +1,46 @@
+---
+layout: post
+title: Basic PHP Security
+tags:
+- PHP
+- preg
+- Security
+- sessions
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '1'
+  syntaxhighlighter_encoded: '1'
+  shorturls: a:7:{s:9:"permalink";s:72:"http://www.fullondesign.co.uk/coding/security/571-basic-php-security.htm";s:7:"tinyurl";s:25:"http://tinyurl.com/m5wysr";s:4:"isgd";s:18:"http://is.gd/2vYOI";s:5:"bitly";s:19:"http://bit.ly/WIXwT";s:5:"snipr";s:22:"http://snipr.com/qt8uo";s:5:"snurl";s:22:"http://snurl.com/qt8uo";s:7:"snipurl";s:24:"http://snipurl.com/qt8uo";}
+  _yoast_wpseo_focuskw: ''
+  _yoast_wpseo_title: ''
+  _yoast_wpseo_metadesc: ''
+  _yoast_wpseo_meta-robots-noindex: '0'
+  _yoast_wpseo_meta-robots-nofollow: '0'
+  _yoast_wpseo_meta-robots-adv: none
+  _yoast_wpseo_canonical: ''
+  _yoast_wpseo_redirect: ''
+  _yoast_wpseo_linkdex: '0'
+---
+<p>Saying "Don't trust your users" would be a little over statement, but in the world of programming it's the best mindset. Here are some really basic tips for programming in general (but mostly focusing on PHP).</p>
+<h2>Validate All Input</h2>
+<p>It's very important to check all input to your script; a client could accidentally put a semi-colon in a field and possibly break your code. Always check that the user is posting what you expect. Here are some simple methods to validate input.</p>
+<!--more-->
+
+[gist id="2907496" file="input-validator.php"]
+
+<h2>Hash Passwords</h2>
+
+<p><a href="http://www.fullondesign.co.uk/coding/php/490-securing-passwords-in-php.htm">Hashing passwords</a> is mostly important from a privacy view point; if a hacker gets in they could sell your users details.</p>
+
+<h2>Use Sessions, not cookies</h2>
+
+<p>Never set sensitive data in cookies, users could edit them and potentially cause problems on your website. Instead use Sessions; they are a server side solution which is a little more secure.</p>
+
+[gist id="2907496" file="sessions.php"]
+
+<h2>Related Links</h2>
+<p><a href="http://www.amazon.co.uk/gp/product/0672329166?ie=UTF8&amp;tag=fulondes-21&amp;linkCode=as2&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0672329166">PHP and MySQL Web Development (Developer's Library)</a><br />
+ <a href="http://www.webcheatsheet.com/php/regular_expressions.php">Using Regular Expressions with PHP</a><br />
+ <a href="http://www.smashingmagazine.com/2008/11/18/10-advanced-php-tips-to-improve-your-progamming/">10 Advanced PHP Tips To Improve Your Programming</a></p>

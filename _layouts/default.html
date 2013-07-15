@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    {% if page.meta.description != null %}
+       <meta name="description" content="{{ page.meta.description }}">
+    {% endif %}
+    {% if page.meta.index == null %}<meta name="robots" content="noindex">{% endif %}
+    <link rel="author" href="105245695794314659553">
+    <link rel="canonical" href="{{ page.path }}" />
+
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div id="main" class="container">
+    <div id="jumpLinks">
+        <a href="#content">Skip to Content</a>
+    </div>
+    <header>
+        <div class="wrap">
+            <a id="myName" href="/">
+                <div>
+                    <!-- Responsive image of me -->
+                </div>
+                Mike Rogers <em>Web Developer</em>
+            </a>
+        </div>
+    </header>
+    <div id="content" class="pure-g-r">
+        {{ content }}
+    </div>
+    <footer class="pure-u-1">
+        <div class="wrap">
+            <p>&copy; 2013 <a href="/">Mike Rogers</a> | <a href="rss.xml">RSS Feed</a> | <a href="/posts.html">Blog</a></p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
