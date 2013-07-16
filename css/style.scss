@@ -2,6 +2,7 @@
 
 /* Set up some varibles to set screen sizes. */
 $break-small: 480px;
+$break-mid: 720px;
 $break-large: 1100px;
 
 /* Start with a few bootstrap bits. */
@@ -11,4 +12,5 @@ $break-large: 1100px;
 @import "articles";
 @import "sidebar";
 
+@import "projectThumbs";
 @import "resImg";

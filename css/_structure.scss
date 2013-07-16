@@ -21,25 +21,10 @@ h1, h2, h3, h4, h5, h6{
 	width: 97%;
 	padding: 0 1.5%;
 	overflow:hidden;
-	 @media screen and (min-idth: $break-small) {}
+	 @media screen and (min-width: $break-small) {}
 	 @media screen and (min-width: $break-large) {
 	    width: $break-large;
 	 }
-}
-
-#jumpLinks a{
-	position: absolute;
-	top:0;
-	left:0;
-	height: 1px;
-	width:1px;
-	overflow: hidden;
-
-	& :active, :focus{
-		height: auto;
-		width: auto;
-		position: static;
-	}
 }
 
 #main{

@@ -1,0 +1,26 @@
+.projectThumbs{
+	padding: 0;
+	margin-left: -10%;
+	li{
+		float: left;
+		list-style:none;
+		width: 90%;
+		margin-left: 10%;
+
+		@media screen and (min-width: $break-small) {
+
+		}
+		@media screen and (min-width: $break-mid) {
+			width: 40%;
+		}
+		margin-bottom: 1.2em;
+		background: #ccc;
+		a{
+			width: 90%;
+			margin-top: 50px;
+			background: rgba(0,0,0,0.5);
+			display:block;
+			padding: 0.5em 5%;
+		}
+	}
+}
