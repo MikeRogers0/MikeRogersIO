@@ -1,26 +1,66 @@
 .projectThumbs{
 	padding: 0;
 	margin-left: -10%;
+
+	a{
+		background: rgba(0,0,0,0.1) no-repeat center center;
+		height: 100px;
+		width: 100%;
+		float:left;
+		&:hover{
+			.name{
+				opacity: 1;
+			}
+		}
+	}
 	li{
 		float: left;
 		list-style:none;
-		width: 90%;
+		
 		margin-left: 10%;
-
-		@media screen and (min-width: $break-small) {
-
-		}
+		border-radius: 3px;
+		overflow: hidden;
+		
+		margin-bottom: 2em;
+		position:relative;
+		
+		width: 90%;
+		max-width: 225px;
 		@media screen and (min-width: $break-mid) {
 			width: 40%;
 		}
-		margin-bottom: 1.2em;
-		background: #ccc;
-		a{
-			width: 90%;
-			margin-top: 50px;
-			background: rgba(0,0,0,0.5);
-			display:block;
-			padding: 0.5em 5%;
-		}
 	}
+	.name{
+		position:absolute;
+		bottom: 0;
+		width: 90%;
+		background: rgba(0,0,0,0.8);
+		display:block;
+		padding: 0.5em 5%;
+		color: #fff;
+		text-decoration:none;
+		opacity: 0;
+
+		border-bottom-right-radius: 3px;
+		border-bottom-left-radius: 3px;
+
+		-webkit-transition: opacity 0.2s ease;
+		-moz-transition: opacity 0.2s ease;
+		-ms-transition: opacity 0.2s ease;
+		-o-transition: opacity 0.2s ease;
+		transition: opacity 0.2s ease;
+	}
+}
+
+#livePage{
+	background-image: url(/img/projects/livepage.jpg);
+}
+#clearmycache{
+	background-image: url(/img/projects/clearmycache.jpg);
+}
+#wpCategorySelector{
+	background-image: url(/img/projects/wpcategoryselector.jpg);
+}
+#phpHtml5FormClass{
+	background-image: url(/img/projects/phphtml5formclass.jpg);
 }

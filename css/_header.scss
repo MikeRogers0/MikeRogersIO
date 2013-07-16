@@ -1,72 +1,53 @@
-#main {
-	header{
-		
-		/*position: relative;
-		overflow:hidden;*/
+header{
+	background: #fff;
+	margin: 0 auto 10px auto;
+	@media screen and (min-width: $break-large) {
+		border-radius: 0 0 3px 3px;
+	}
+}
 
-		
+#myName{
+	text-decoration:none;
+	overflow:hidden;
+	display:block;
+	text-align:center;
+	font-size: 38.5px;
+	line-height: 40px;
+	color: rgb(1, 39, 58);
 
-		/*@media screen and (min-width: $break-large) {
-			&:before{
-				content: "";
-				position: absolute;
-				width: 100%;
-				height: 100%;
-				top: 0;
-				left: 0;
-				background: url(../img/use_your_illusion.png);
-				opacity: 0.05;
-			}
-		}*/
+	@media screen and (min-width: $break-small) {
+		width: 360px;
+	}
+	@media screen and (min-width: $break-large) {
+		padding: 20px 0 10px 0;
+	}
 
-		#myName{
-			text-decoration:none;
-			overflow:hidden;
+	em{
+		font-style: normal;
+		display:block;
+		font-size: 0.75em;
+		color: #999;
+	}
+	div{
+		display: none;
+		@media screen and (min-width: $break-small) {
+			background: url(../img/mike_rogers_good_looking_web_developer.jpeg);
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			width: 80px;
+			height: 80px;
+			border-radius: 40px;
+			float:left;
 			display:block;
-			text-align:center;
-			font-size: 38.5px;
-			line-height: 40px;
-			color: rgb(1, 39, 58);
-
-			@media screen and (min-width: $break-small) {
-				width: 360px;
-			}
-			@media screen and (min-width: $break-large) {
-				padding: 20px 0 10px 0;
-			}
-
-			em{
-				font-style: normal;
-				display:block;
-				font-size: 0.75em;
-				color: #999;
-			}
-			div{
-				display: none;
-				@media screen and (min-width: $break-small) {
-					background: url(../img/mike_rogers_good_looking_web_developer.jpeg);
-					-webkit-background-size: cover;
-					-moz-background-size: cover;
-					-o-background-size: cover;
-					background-size: cover;
-					width: 80px;
-					height: 80px;
-					border-radius: 40px;
-					float:left;
-					display:block;
-					margin-right: 20px;
-				}
-				@media screen and (min-width: $break-large) {
-					width: 100px;
-					height: 100px;
-					border-radius: 50px;
-					margin-top: -10px;
-				}
-			}
+			margin-right: 20px;
 		}
-
-		.pure-menu{
-			text-align:left;
+		@media screen and (min-width: $break-large) {
+			width: 100px;
+			height: 100px;
+			border-radius: 50px;
+			margin-top: -10px;
 		}
 	}
 }

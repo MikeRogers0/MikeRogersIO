@@ -5,9 +5,10 @@ body{
 	color: #666;
 	font-size: 15px;
 	line-height: 25px;
+	background: #202020;
 	@media screen and (min-width: $break-small) {}
 	@media screen and (min-width: $break-large) {
-		background: url(../img/use_your_illusion.png);
+		background-image: url(../img/use_your_illusion.png);
 	}
 }
 
@@ -29,8 +30,11 @@ h1, h2, h3, h4, h5, h6{
 
 #main{
 	background: #fff;
-	margin: 0 auto 10px auto;
-	border-radius: 0 0 3px 3px;	
+
+	@media screen and (min-width: $break-large) {
+	    margin: 0 auto 10px auto;
+		border-radius: 3px;	
+	 }
 
 	> footer{
 		margin: 20px 0 0 0;
