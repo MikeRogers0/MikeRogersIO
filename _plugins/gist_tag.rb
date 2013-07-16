@@ -17,20 +17,30 @@ module Jekyll
       if parts = @text.match(/([\d]*) (.*)/)
         gist, file = parts[1].strip, parts[2].strip
         script_url = script_url_for gist, file
+        gist_url = link_url_for gist, file
         code       = get_cached_gist(gist, file) || get_gist_from_web(gist, file)
-        html_output_for script_url, code
+        html_output_for script_url, code, gist_url
       else
         ""
       end
     end
 
-    def html_output_for(script_url, code)
+    def html_output_for(script_url, code, gist_url)
       code = CGI.escapeHTML code
-      "<script src='#{script_url}'></script><div><noscript><pre><code>#{code}</code></pre></noscript></div>"
+      # Gists can be kinda slow to serve. 
+      if code == ""
+        "<script src='#{script_url}'></script><div><noscript><pre class=\"gist\"><code>#{code}</code></pre></noscript></div>"
+      else
+        "<pre class=\"gistRaw\"><code>#{code}</code><a href=\"#{gist_url}\" class=\"gistUrl\">View on Github</a></pre>"
+      end
     end
 
     def script_url_for(gist_id, filename)
       "https://gist.github.com/#{gist_id}.js?file=#{filename}"
+    end
+
+    def link_url_for(gist_id, filename)
+      "https://gist.github.com/#{gist_id}?file=#{filename}"
     end
 
     def get_gist_url_for(gist, file)
