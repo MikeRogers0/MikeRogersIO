@@ -17,7 +17,7 @@ module Jekyll
 
         # Update the source to link correctly to CDN.
         if src.start_with?('/')
-          @src = Jekyll.configuration({})['cdn_uri'] + @src
+          @src = Jekyll.configuration({})['cdn_uri'] + src
         end
       end
       super
