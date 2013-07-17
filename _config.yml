@@ -1,6 +1,10 @@
 markdown : rdiscount
 permalink : /:year/:month/:day/:title.html
 rdiscount extensions : [smart]
+title: Mike Rogers
+description: The occasional ramblings on programming and technology.
+rss_path: /rss.xml
+cdn_uri: http://mikerogers.io
 
 name: Mike Rogers
 pygments: true
@@ -9,4 +13,4 @@ production_url : http://mikerogers.io
 
 sass:
     syntax: scss        # scss|sass
-    style:  compact  # nested|expanded|compact|compressed
+    style:  compressed  # nested|expanded|compact|compressed

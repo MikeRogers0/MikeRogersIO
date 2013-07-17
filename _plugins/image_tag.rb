@@ -14,12 +14,16 @@ module Jekyll
 
         @width = width
         @height = height
+
+        # Update the source to link correctly to CDN.
+        if src.start_with?('/')
+          @src = Jekyll.configuration({})['cdn_uri'] + @src
+        end
       end
       super
     end
 
     def render(context)
-
       html = '<a href="'+@src+'" class="resImg" style="max-width: '+@width+'px; max-height: '+@height+'px;">'
       html << '<img src="'+@src+'" alt="'+@alt+'"/>'
       html << '</a>'
