@@ -4,6 +4,11 @@ header{
 	@media screen and (min-width: $break-large) {
 		border-radius: 0 0 3px 3px;
 	}
+
+	.wrap{
+		padding-top: 0;
+		padding-bottom: 0.4em;
+	}
 }
 
 #myName{
