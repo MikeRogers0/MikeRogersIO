@@ -1,0 +1,9 @@
+---
+# Remember to set production_url in your _config.yml file!
+title : Nginx Config
+
+# Remember to do a quick find and replace to clean up this file.
+# .html > .htm and the url.
+---
+{% for post in site.posts %}
+	rewrite ^(.*)-{{ post.url }} {{ site.production_url }}{{ post.url }} permanent;{% endfor %}
