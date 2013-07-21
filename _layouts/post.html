@@ -3,9 +3,9 @@ layout: default
 ---
 <div class="pure-u-1"><div class="wrap">
 
-<article itemprop itemtype="http://schema.org/BlogPosting">
-	<h1>{{ page.title }}</h1>
-	<p class="meta">{{ page.date | date_to_long_string }}</p>
+<article itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 itemprop="name">{{ page.title }}</h1>
+	<p class="meta" itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</p>
 	{{ content }}
 </article>
 
