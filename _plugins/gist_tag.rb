@@ -40,7 +40,9 @@ module Jekyll
     end
 
     def link_url_for(gist_id, filename)
-      "https://gist.github.com/#{gist_id}?file=#{filename}"
+      # Make the filename into an ancour.
+      filename = filename.gsub('.', '-').gsub('--', '-').downcase
+      "https://gist.github.com/#{gist_id}#file-#{filename}"
     end
 
     def get_gist_url_for(gist, file)
