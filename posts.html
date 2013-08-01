@@ -18,13 +18,13 @@ title: Blog Posts
 				<h2>{{ post.date | date: "%B %Y" }}</h2>
 				<ul>
 			{% endif %}
-				<li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
 			{% if month != nmonth %} 
 				</ul></div>
 				<div class="pure-u-1-2">
 				<h2>{{ post.date | date: "%B %Y" }}</h2>
 				<ul>
 			{% endif %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
 			{% if forloop.last %}  
 				</ul></div>
 			{% endif %}
