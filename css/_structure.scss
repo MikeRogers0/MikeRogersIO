@@ -15,7 +15,16 @@ body{
 h1, h2, h3, h4, h5, h6{
 	color: rgb(1, 39, 58);
 	font-weight: 500;
-	line-height: 120%;
+	line-height: 100%;
+	margin: 0.75em 0 0.25em 0;
+}
+
+h1{
+	margin: 0.25em 0 0.5em 0;
+}
+
+p, pre{
+	margin: 0.25em 0;
 }
 
 .container{
@@ -41,8 +50,8 @@ h1, h2, h3, h4, h5, h6{
 		padding: 0;
 		border-top: 1px solid #ddd;
 		.wrap{
-			padding-top: 0;
-			padding-bottom: 0;
+			padding-top: 0.5em;
+			padding-bottom: 0.5em;
 		}
 		a{
 			color: #000;
