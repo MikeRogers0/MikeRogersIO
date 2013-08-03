@@ -4,9 +4,10 @@ layout: default
 <div class="pure-u-1">
 
 <article itemprop itemtype="http://schema.org/BlogPosting" class="wrap">
+	<meta content="{{ site.production_url }}{{ page.url }}" itemprop="url">
 	<h1 itemprop="name">{{ page.title }}</h1>
 	<p class="meta" itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">Posted: {{ page.date | date_to_long_string }}</p>
-	{{ content }}
+	<section itemprop="description articleBody">{{ content }}</section>
 </article>
 
 <!--<section>
