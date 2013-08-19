@@ -6,11 +6,11 @@ layout: default
 <article itemprop itemtype="http://schema.org/BlogPosting" class="wrap">
 	<meta content="{{ site.production_url }}{{ page.url }}" itemprop="url">
 	<h1 itemprop="name">{{ page.title }}</h1>
-	<p class="meta" itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">Posted: {{ page.date | date_to_long_string }}</p>
+	<p class="metadata" itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">Posted: {{ page.date | date_to_long_string }}</p>
 	<section itemprop="description articleBody">{{ content }}</section>
 </article>
 
-<section class="subnotes wrap">
+<section class="subnotes metadata wrap">
 	<p>If you want to discuss this post, feel free to tweet me (<a href="https://twitter.com/MikeRogers0">@MikeRogers0</a>) or drop me an <a href="mailto:me+blog@mikerogers.io">email</a>. Any code samples unless stated otherwise are licensed under the <a href="http://opensource.org/licenses/MIT">The MIT License (MIT)</a>.</p>
 	<!--{{if page.previous != null}}
 		<a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
