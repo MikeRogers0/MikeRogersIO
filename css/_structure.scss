@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
 	margin: 0.25em 0 0.5em 0;
+	line-height: 120%;
 }
 
 p, pre{
@@ -42,7 +43,7 @@ p, pre{
 
 	@media screen and (min-width: $break-large) {
 	    margin: 0 auto 10px auto;
-		border-radius: 3px;	
+		border-radius: 0 0 3px 3px;	
 	 }
 
 	> footer{

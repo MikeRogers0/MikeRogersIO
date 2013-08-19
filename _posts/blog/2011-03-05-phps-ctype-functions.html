@@ -1,0 +1,27 @@
+---
+layout: post
+title: PHP's Ctype Functions
+tags:
+- PHP
+status: publish
+type: post
+published: true
+categories:
+ – blog
+meta:
+  description: 'PHPs Ctype functions which validate strings quickly without regex.'
+  index: true
+---
+<p>A few days ago I was researching methods of validating alphanumeric strings and I was shown PHPs <a href="http://www.php.net/manual/en/ref.ctype.php">Ctype Functions</a> by <a href="http://www.sebastianroming.de/">Sebastian Roming</a>.</p>
+
+<p>In a nutshell they are a group of PHP functions why can be used to check strings to see if they are alphanumeric, numeric etc without using regex (So they are fast!). The key thing to remember is that they return TRUE or FALSE, unlike filter_var which returns FALSE or the string. </p>
+
+<p>Here is the code example:</p>
+
+{% gist 2941974 ctypes-alpha-alnum.php %}
+
+<p>It also contains functions to check for just numeric strings, uppercase strings and lowercase strings.</p>
+
+{% gist 2941974 digit-upper-lower.php %}
+
+<p>Handy right?</p> 

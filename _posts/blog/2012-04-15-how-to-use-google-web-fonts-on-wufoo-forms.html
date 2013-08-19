@@ -1,0 +1,26 @@
+---
+layout: post
+title: How to use Google Web Fonts on Wufoo forms
+tags:
+- XHTML &amp; CSS
+status: publish
+type: post
+published: true
+categories:
+ – blog
+meta:
+  description: 'How to embed custom fonts from google web fonts into Wufoo forms.'
+  index: true
+---
+<p><a href="http://wufoo.com/">Wufoo</a> is a great service which makes managing forms on a website pretty simple, unfortunately their font selection is fairly limited. Luckily there is a really quick way to get better fonts on Wufoo.</p>
+
+<p>Firstly, create a Wufoo theme with a custom CSS file. You can achieve this by clicking "Themes" in the tabbed navigation, than selecting "Advanced" in the property select box and than putting a URL to a CSS file to which you have access to. Than click "Save Theme" &amp; giving it a rememberable name.</p>
+
+{% img /uploads/2012/04/custom-css-file.jpg 500x134 "Custom CSS file set up on Wufoo" %}
+
+<p>Next find the font you want to use on <a href="http://www.google.com/webfonts">Google Web Fonts</a>, than click "Quick-use" than select the "@import" tab to receive the code to put into your CSS sheet. The @import CSS rule will be used to download the extra font.</p>
+
+{% img /uploads/2012/04/google-web-fonts.jpg 500x109 "Screenshot of the import option for a google font." %}
+
+<p>Put the code provided by Google Web Fonts into the top of your CSS file and voila, you can start using the font you selected on Wufoo forms.</p>
+<p>I've set up an <a href="http://demos.fullondesign.co.uk/wufoo-fonts/">example Wufoo form</a>, you can copy.</p>

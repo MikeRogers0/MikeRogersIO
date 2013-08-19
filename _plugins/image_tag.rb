@@ -12,8 +12,13 @@ module Jekyll
 
         /(?<width>\d+)?x(?<height>\d+)?/ =~ dimensions
 
-        @width = width
-        @height = height
+        if !width.nil? and !height.nil?
+          @width = width
+          @height = height
+        else
+          @width = '150'
+          @height = '100'
+        end
 
         # Update the source to link correctly to CDN.
         if src.start_with?('/')

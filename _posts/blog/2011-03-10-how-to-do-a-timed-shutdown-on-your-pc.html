@@ -1,0 +1,41 @@
+---
+layout: post
+title: How to do a timed shutdown on your PC
+tags:
+- Bits &amp; bytes
+status: publish
+type: post
+published: true
+categories:
+ – blog
+meta:
+  description: 'How to do a timed shutdown on Windows 7 and 8'
+  index: true
+---
+<p>Recently I've stumbled upon a really neat technique to listening to <a href="http://www.spotify.com/">Spotify</a> while I'm heading off to bed, then not have to get up to turn my music off once I'm dropping off.</p>
+
+<p>Firstly, set up a playlist in Spotify which will help you relax. Once you have done this step, open up command line (<a href="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/cmd.mspx?mfr=true">cmd.exe</a>) and type the following:</p>
+
+{% gist 2942065 shutdown.bat %}
+
+<h2>Code Breakdown</h2>
+<p>The above command will shutdown your PC in 900 seconds. Let me quickly break down how this command works:</p>
+
+<ul>
+	<li><em>shutdown</em> indicates you want to run <a href="http://technet.microsoft.com/en-us/library/bb491003.aspx">shutdown.exe</a></li>
+	<li><em>-s</em> is a flag saying you want to shutdown your PC</li>
+	<li><em>-f</em> is a flag stating you want to force shutdown, so your PC will not hang around waiting for applications to close while shutting down</li>
+	<li><em>-t</em> is a flag which indicates you want a timed shutdown</li>
+	<li><em>900</em> means the amount of seconds until the shutdown occurs. In this case 900 seconds, or 15 minutes.</li>
+</ul>
+
+<p>Once this is command has been run you should see an information bubble (Like below) stating when the shutdown will occur.</p>
+
+{% img /uploads/2011/03/information_bubble.png 317x134 "An information bubble on windows 7 showing the computer is about to shutdown." %}
+
+<h2>How to abort</h2>
+<p>You may also want to abort your shutdown, in that case just put the following code into your command line:</p>
+
+{% gist 2942065 cancel-shutdown.bat %}
+
+<p>The <em>-a</em> flag stands for "Abort a system shutdown".</p>

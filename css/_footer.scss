@@ -1,0 +1,18 @@
+footer .wrap{
+	overflow:hidden;
+}
+#copyright, #siteLinks{
+	text-align:center;
+	@media screen and (min-width: $break-mid) {
+		text-align:left;
+	}
+}
+
+@media screen and (min-width: $break-mid) {
+	#copyright{
+		float:right;
+	}
+	#siteLinks{
+		float:left;
+	}
+}

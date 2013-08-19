@@ -1,13 +1,12 @@
 header{
 	background: #fff;
-	margin: 0 auto 10px auto;
-	@media screen and (min-width: $break-large) {
-		border-radius: 0 0 3px 3px;
-	}
+	margin: 0 auto;
 
 	.wrap{
 		padding-top: 0.5em;
 		padding-bottom: 0.5em;
+
+		border-bottom: 1px solid #ddd;
 	}
 }
 
@@ -19,6 +18,7 @@ header{
 	font-size: 38.5px;
 	line-height: 40px;
 	color: rgb(1, 39, 58);
+	padding: 5px 0 10px 0;
 
 	@media screen and (min-width: $break-small) {
 		width: 360px;

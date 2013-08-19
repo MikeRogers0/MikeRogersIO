@@ -1,0 +1,86 @@
+---
+layout: post
+title: Getting started with Git
+tags:
+- Git
+status: publish
+type: post
+published: true
+categories:
+ – blog
+meta:
+  description: 'A video of the talk I gave in April on getting started with Git'
+  index: true
+---
+<p>Git is a really powerful piece of version control software. Here is a short crash course on how to get started  on it, I presented at the University of Portsmouth in April 2012.</p>
+
+{% vimeo 42888074 %}
+
+<h2>What is version control?</h2>
+<p>Version control allows you to keep changes to files organised.</p>
+
+<h2>What makes Git so great?</h2>
+<ul>
+	<li>Git is really fast, mostly because it keeps a database on your local machine.</li>
+	<li>Git is great for collaborative changes to files, so it's great for teams.</li>
+	<li>Distributed. Git uses remotes, so I can push to a main repo or I can push to my mates a repo.</li>
+	<li>Adds a .git folder in the root of the git folder as a database, so unlike SVN it will not add a .git folder to each folder in your tree.</li>
+	<li>You can commit parts of a file to staging you have worked on for better peer review.</li>
+	<li>Git doesn't delete anything, so it's almost impossible to lose stuff you've worked on.</li>
+</ul>
+
+<h2>Setting up Git (&amp; SSH Keys)</h2>
+<p>GitHub have written a really good tutorial on<a href="http://help.github.com/set-up-git-redirect/"> setting up Git on your OS</a>. For the most part, just you need to run through the installer using the default options.</p>
+
+<h2>Cloning a Repo</h2>
+<p>Cloning a repo will copy it's files &amp; history to your machine. Most git repos will provide you with a URL like 'git@github.com:MikeRogers0/siteng.in---SiteEngines-Site.git'. The 'foldername' is the directory you wish to clone to.</p>
+
+<pre class="gistRaw"><code>git clone URL foldername</code></pre>
+<h2>Reviewing &amp; Staging Changes</h2>
+<p>Once you have some some edits, you can stage them (Add them into version control with a brief message about what you have done).</p>
+
+<pre class="gistRaw"><code># Add all the new files in the repo into the next commit.
+git add .
+
+git commit -m 'Message Here'
+
+or
+
+git commit -a -m 'Message here'</code></pre>
+
+<h2>Branches</h2>
+<p>Branches are really powerful, they allow you to work on features independent from other peoples work. So for example, you could have someone adding a new feature to a site while the CSS is being edited in another branch &amp; you will not overwrite each others work. When your happy that the feature is done you can than merge is back into your master brach &amp; deploy it.</p>
+
+<p>Review the branches available</p>
+<pre class="gistRaw"><code>git branch</code></pre>
+
+<p>Change branch</p>
+<pre class="gistRaw"><code>git checkout branchname</code></pre>
+
+<p>Make a new branch</p>
+<pre class="gistRaw"><code>git checkout -b branchname</code></pre>
+
+<h2>Merging</h2>
+<p>Git is really good at looking at changes in different versions of a file &amp; merging them together as to not cause errors.</p>
+
+<pre class="gistRaw"><code>git checkout master; git merge branchname;</code></pre>
+
+<h2>Pushing Changes</h2>
+<p>Pushing a branch updates a remote repo.</p>
+
+<pre class="gistRaw"><code>git push</code></pre>
+<h2>Pulling changes</h2>
+<p>Pulling changes will fetch what others have pushed to a repo &amp; merge them into your local git repo.</p>
+
+<pre class="gistRaw"><code>git pull
+
+or
+
+git fetch; git merge origin/branchname</code></pre>
+
+<h2>Useful videos</h2>
+<ul>
+	<li><a href="http://www.youtube.com/watch?v=ZDR433b0HJY">Introduction to Git with Scott Chacon of GitHub</a></li>
+	<li><a href="http://git-scm.com/videos">Quick start videos from Git-scm</a></li>
+	<li><a href="http://www.arlocarreon.com/blog/git/deploying-your-git-repo-to-arvixe-web-hosting/">Deploying Your Git Repo To Arvixe Web Hosting</a></li>
+</ul>

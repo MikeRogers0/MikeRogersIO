@@ -1,3 +1,16 @@
 .metadata{
 	color: #999;
 }
+
+.subnotes{
+	color: #999;
+	font-size:0.8em;
+	padding: 0 1.5em;
+	a{
+		color: #999;
+		text-decoration:none;
+		&:hover{
+			text-decoration:underline;
+		}
+	}
+}

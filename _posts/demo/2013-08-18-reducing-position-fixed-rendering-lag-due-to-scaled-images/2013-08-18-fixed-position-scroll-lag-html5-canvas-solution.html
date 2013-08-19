@@ -1,0 +1,87 @@
+---
+layout: demo
+title: HTML5 Canvas approach to fixing lag caused by position:fixed;
+---
+
+<style type="text/css">
+#sillyFixedElement{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #fff;
+}
+
+body{
+	padding-top: 100px;
+}
+	li{
+		list-style: none;
+		float:left;
+		width: 150px;
+		height: 150px;
+		margin: 10px;
+		position: relative;
+	}
+	li canvas{
+		position: absolute;
+		z-index: -1;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+	}
+</style>
+
+<div id="sillyFixedElement">
+	<p>This is a demonstration of how using html5 canvas can reduce the lag caused by position:fixed;. More information about reducing the lag can be found <a href="/2013/08/18/reducing-position-fixed-rendering-lag-due-to-scaled-images.html">in the blog post I wrote</a> about the issue.</p>
+	<p>To see the difference, open timeline in chrome dev tools and press record.</p>
+</div>
+
+<ul id="imagesList">
+</ul>
+
+<script>
+// The function that scales an images with canvas then runs a callback.
+function scaleImage(url, width, height, liElm, callback){
+	var img = new Image(),
+	width = width,
+	height = height,
+	callback;
+
+	// When the images is loaded, resize it in canvas.
+	img.onload = function(){
+		var canvas = document.createElement("canvas"),
+        ctx = canvas.getContext("2d");
+
+        canvas.width = width;
+        canvas.height= height;
+
+        // draw the img into canvas
+        ctx.drawImage(this, 0, 0, width, height);
+
+        // Run the callback on what to do with the canvas element.
+        callback(canvas, liElm);
+	};
+
+	img.src = url;
+}
+
+// List of imgur images
+var images = ['u0s09PV','bdRlP3o','o7lwgZo','wvOjdUJ','D0lsDQz','sB46sHZ','nvRcyJM','3aPbhSD','oN6094g','sB09P8Q','uUAHAVS','WLkQXxR','njwWz9A','wqXWulo','OEtRTbd','XwDTHAj','4RxJtw7','u0aaaVU','Sf2FilY','6pxZaCU','H6Veq2V','xqyS3aD'],
+imagesList = document.getElementById('imagesList');
+
+// Loop through the images.
+for(i in images){
+	// make an li we can use in the callback.
+	liElm = document.createElement('li');
+	
+	// append the currently empty li into the ul.
+	imagesList.appendChild(liElm);
+
+	scaleImage('http://i.imgur.com/'+images[i]+'.jpg', 150, 150, liElm, function(canvas, liElm){
+		// Append the canvas element to the li.
+		liElm.appendChild(canvas);
+	});
+}
+</script>
