@@ -21,7 +21,7 @@ The best way to find out how your website will handle 400 people a second hittin
 This will make 25 requests (5 at a time) to http://mikerogers.io, then output a table of benchmark information into the terminal. 
 
 ### LoadImpact
-[http://loadimpact.com/](LoadImpact) is a cloud based benchmarking tool that offers a free test that will send a small number of concurrent users to your webpage, then plots on a graph the change in user load time over the duration of the test.
+[LoadImpact](http://loadimpact.com/) is a cloud based benchmarking tool that offers a free test that will send a small number of concurrent users to your webpage, then plots on a graph the change in user load time over the duration of the test.
 
 It also has a paid option where you can simulate a larger amount of concurrent users.
 
