@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Just Delete Me Chrome Extension
+title: JustDelete.Me Chrome Extension
 published: true
 categories:
  – blog
