@@ -1,0 +1,17 @@
+---
+layout: post
+title: Stubbing AppConfig's :get method
+tags:
+- Coding
+status: draft
+type: post
+published: false
+meta:
+  description: 
+  index: true
+---
+
+I always forget how to do this in rspec
+
+allow(AppConfig).to receive(:get).with(any_args).and_call_original
+allow(AppConfig).to receive(:get).with("some_attr") { "some value`" }
