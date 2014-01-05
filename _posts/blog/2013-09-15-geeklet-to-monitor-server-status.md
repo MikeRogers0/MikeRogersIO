@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Geeklet for monitoring server status
-published: true
+published: false
 categories:
  – blog
 meta:
