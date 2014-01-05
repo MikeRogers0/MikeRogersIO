@@ -7,6 +7,7 @@ module Jekyll
   class GistTag < Liquid::Tag
     def initialize(tag_name, text, token)
       super
+      @github_username = 'MikeRogers0'
       @text           = text
       @cache_disabled = false
       @cache_folder   = File.expand_path "../_gist_cache", File.dirname(__FILE__)
@@ -31,7 +32,8 @@ module Jekyll
       if code == ""
         "<script src='#{script_url}'></script><div><noscript><pre class=\"gist\"><code>#{code}</code></pre></noscript></div>"
       else
-        "<pre class=\"gistRaw\"><code>#{code}</code><a href=\"#{gist_url}\" class=\"gistUrl\">View on Github</a></pre>"
+        "<script src='#{script_url}'></script><div><noscript><pre class=\"gist\"><code>#{code}</code></pre></noscript></div>" + 
+        "<noscript><pre class=\"gistRaw\"><code>#{code}</code><a href=\"#{gist_url}\" class=\"gistUrl\">View on Github</a></pre></noscript>"
       end
     end
 
@@ -46,7 +48,7 @@ module Jekyll
     end
 
     def get_gist_url_for(gist, file)
-      "https://raw.github.com/gist/#{gist}/#{file}"
+      "https://gist.github.com/#{@github_username}/#{gist}/raw/#{file}"
     end
 
     def cache(gist, file, data)
