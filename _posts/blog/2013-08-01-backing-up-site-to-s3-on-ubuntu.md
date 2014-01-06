@@ -40,6 +40,9 @@ It's really important to create a MySQL user which has only the minimal privileg
 
 
 ## Setting up a cron
-To make this script run every day at 3am, just add the following to your crontab:
+To make this script run every day at 3am, just add the following to your [crontab](http://www.adminschoice.com/crontab-quick-reference/):
 
 {% gist 6127154 cronExample %}
+
+## Updates 
+6th January 2013: A big thanks to [David Behan](https://twitter.com/davidbehan) for updating the backup script, adding lots of helpful additional functionality.
