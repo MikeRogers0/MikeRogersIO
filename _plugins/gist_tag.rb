@@ -30,10 +30,9 @@ module Jekyll
       code = CGI.escapeHTML code
       # Gists can be kinda slow to serve. 
       if code == ""
-        "<script src='#{script_url}'></script><div><noscript><pre class=\"gist\"><code>#{code}</code></pre></noscript></div>"
+        "<script src='#{script_url}'></script>"
       else
-        "<script src='#{script_url}'></script><div><noscript><pre class=\"gist\"><code>#{code}</code></pre></noscript></div>" + 
-        "<noscript><pre class=\"gistRaw\"><code>#{code}</code><a href=\"#{gist_url}\" class=\"gistUrl\">View on Github</a></pre></noscript>"
+        "<script src='#{script_url}'></script><noscript><pre class=\"gistRaw\"><code>#{code}</code><a href=\"#{gist_url}\" class=\"gistUrl\">View on Github</a></pre></noscript>"
       end
     end
 
