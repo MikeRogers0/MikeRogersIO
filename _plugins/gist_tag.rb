@@ -32,7 +32,7 @@ module Jekyll
       if code == ""
         "<script src='#{script_url}'></script>"
       else
-        "<script src='#{script_url}'></script><noscript><pre class=\"gistRaw\"><code>#{code}</code><a href=\"#{gist_url}\" class=\"gistUrl\">View on Github</a></pre></noscript>"
+        "<script src='#{script_url}'></script><div><noscript><pre class=\"gistRaw\"><code>#{code}</code><a href=\"#{gist_url}\" class=\"gistUrl\">View on Github</a></pre></noscript></div>"
       end
     end
 
