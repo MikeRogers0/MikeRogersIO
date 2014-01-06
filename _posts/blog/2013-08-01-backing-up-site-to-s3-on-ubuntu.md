@@ -27,6 +27,7 @@ In the next subsections I've explained a few key aspects of the script you need 
 ### Variables
 For the most part, you should only need to edit the variables in the first 20 lines of the script. Here is an overview of what they all mean.
 
+* EMAIL - The email address to send backup reports to.
 * S3URI - This is the URI of your S3 bucket. This can be found in the AWS S3 management page and normally has the format `s3://bucket-name/`.
 * DirsToBackup - This is an array of the directories you want to backup. 
 * DBsToBackup - The names of the databases you want to backup.
