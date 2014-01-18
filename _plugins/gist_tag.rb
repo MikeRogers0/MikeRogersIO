@@ -37,7 +37,7 @@ module Jekyll
     end
 
     def script_url_for(gist_id, filename)
-      "https://gist.github.com/#{gist_id}.js?file=#{filename}"
+      "https://gist.github.com/#{@github_username}/#{gist_id}.js?file=#{filename}"
     end
 
     def link_url_for(gist_id, filename)
