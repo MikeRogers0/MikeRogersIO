@@ -5,7 +5,7 @@ published: true
 categories:
  – blog
 meta:
-  description: 
+  description: A geektool geeklet code sample that shows server status and ping.
   index: true
 ---
 
