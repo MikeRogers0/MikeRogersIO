@@ -1,0 +1,20 @@
+---
+layout: default
+title: Sitemap
+meta:
+    index: true
+---
+
+<h2>Pages</h2>
+<ul>
+{% for page in site.pages %}
+  <li><a href="{{site.production_url}}{{ page.url }}">{{ page.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Posts</h2>
+<ul>
+{% for post in site.categories['blog'] %}
+<li><a href="{{site.production_url}}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
