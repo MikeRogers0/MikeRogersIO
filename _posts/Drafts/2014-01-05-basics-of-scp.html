@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Basics of SCP
+title: Using SSH &amp; SCP to get a MySQL database dump quickly
 tags:
 - Coding
 status: draft
@@ -11,13 +11,56 @@ meta:
   index: true
 ---
 
-Screw FTP use SCP, it's way better.
+When I first started working with databases I used to always use PHPMyAdmin to export my database, then I would use some other local program to update my lcoal dev enviroment. This took forever with big databases, here is a better way.
 
-## Upload a file to a server
-blah
+## The Commands
 
-## Download a file from a server
-sdf
+### SSH into the server
+SSH in and navigate to a directory you're happy to store your DB dump.
 
-## Download a directory
-sdf
+`ssh user@example.com`
+
+### Make the dump
+Dump out the database in it's entirerity, 
+
+`mysqldump -u [MYSQL USER] -p [Database Name] > database_dump.sql`
+
+You'll be prompted for the MySQL password, then the dump will happen (and may leave you with a hanging looking terminal for a few seconds).
+
+### Create a gzipped tarball of the dump
+Odds are your sql file will contain a lot of repeated stuff and luckily Gzip is awesome at compressing that stuff down. 
+
+`tar czf database_dump.tar.gz database_dump.sql`
+
+The arguments stand for:
+-c - Create
+-z - gzipped
+-f - file
+
+### Get our directory
+We're about to copy the file, but first lets get a nice copy and pastable directory location.
+
+`pwd`
+
+### SCP the file 
+Login to the machine you want to move the SQL dump to and run SCP to transfer the file.
+
+`scp user@example.com:/pwd/copyied/location/database_dump.tar.gz .`
+
+The '.' is telling SCP to download the file to the location current terminal directory.
+
+### Untar that tarball
+
+`tar xf database_dump.tar.gz`
+
+x - Stands for extract
+
+### Restoring the DB
+Nice! Last step is:
+
+`mysql -u [MYSQL USER] -p [Database Name] < database_dump.sql`
+
+## Good Habbits
+Remove your DB dumps files when you're done.
+Time date the dumps in the filename, so then you have a have a second point of reference of when the dump was made.
+
