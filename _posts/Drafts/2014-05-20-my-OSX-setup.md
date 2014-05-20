@@ -3,7 +3,7 @@ layout: post
 title: My OSX setup
 categories:
  – blog
-published: false
+published: true
 meta:
   description: 
   index: true
@@ -27,10 +27,8 @@ It's a super pain to go and install all the apps and scripts I need, so I instal
 
 ## RVM
 
-I use Vagrants for most my development, but it's pretty handy to have all the [RVM](http://rvm.io/) goodness all setup for when I want to do a small bit of code.
+I use Vagrants for most my of development stuff, but it's pretty handy to have all the [RVM](http://rvm.io/) goodness all setup for when I want to do a small bit of code.
 
 ## Dotfiles
 
-I try to keep my dotfiles slim so I don't forget common commands, though I've got a few alias setup that I've nabbed from [Dan Harpers dotfiles](https://github.com/danharper/dotfiles).
-
-I'll go into more detail about my Vagrant and VIM setup in their own posts.
+I try to keep [my dotfiles](https://github.com/MikeRogers0/dotfiles) as slim as I can so I can remember everything. For the most part I've just got a few aliases setup that I've nabbed from [Dan Harper](https://github.com/danharper/dotfiles) and [Phil Balchin](https://github.com/phil/dotfiles)
