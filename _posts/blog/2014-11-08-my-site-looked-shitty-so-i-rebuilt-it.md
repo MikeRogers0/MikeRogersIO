@@ -15,11 +15,21 @@ I built the old design of my site with two goals in mind "Make it load fast" & "
 I had a few websites I really liked the look of that I used for inspiration, here they are with my notes:
 
 * [Clara Labs](https://claralabs.com) - I really like the inital "Hi there! I'm Clara" then the fading in of the rest of the homepage copy. 
-* [Dan Edwards](http://danedwards.me) - If there is someone how knows how to design a site, it's Dan Edwards. I really like the way Dan has layed out his portfollio on the homepage. 
+* [Dan Edwards](http://danedwards.me) - If there is someone who knows how to design a site, it's Dan Edwards. I really like the way Dan has layed out his portfollio on the homepage. 
 * [Edward Poole](http://edpoole.me/articles/pubhack2/) The way Ed has layed out his blog post is super content focused & looks awesome.
 * [Tom Kentell](http://tomkentell.me/) - I love the overall homepage layout & Toms use of responsive is awesome.
 * [X | The Theme (themeforest)](http://themeforest.net/item/x-the-theme/full_screen_preview/5871901) - I like the way they've layed out the classic portfollio.
 * [Bridge (themeforest)](http://themeforest.net/item/bridge-creative-multipurpose-wordpress-theme/full_screen_preview/7315054) - The services page will
+* [Meeet](http://meeet.co/) 
+* [Final](https://getfinal.com/)
+* [Jonathan Atkinson](http://themeforest.net/user/jonathan01/portfolio) - I always like Jonathan's work.
+
+## I might get assets from / use the following
+
+* [GameDev Market](https://www.gamedevmarket.net/) - If I have time it will be super cool to have a mini game hidden on the site.
+* [Dashboard starter kit](http://keen-starter-dashboard.brace.io/)
+* [capistrano-s3](https://github.com/hooktstudios/capistrano-s3) - I think I'll host on S3 and a CDN. Screw dealing with servers.
+
 
 ## What I have in mind
 I'm going to break up my site into 3 main sections: Homepage, Blog & Contact me. 
