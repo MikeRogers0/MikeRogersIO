@@ -1,6 +1,7 @@
 _site
 .sass-cache
 _gist_cache
+tmp/*
 
 # Is built on servo.
 css/style.css

@@ -1,18 +1,5 @@
-/*! mikerogers.io website, if you want to see the code behind this take a look at my github ;) */
+@import 'layout/fonts';
+@import 'layout/structure';
+@import 'layout/header';
 
-/* Set up some varibles to set screen sizes. */
-$break-small: 480px;
-$break-mid: 720px;
-$break-large: 1100px;
-
-/* Start with a few bootstrap bits. */
-@import "base";
-@import "structure";
-@import "header";
-@import "articles";
-@import "sidebar";
-@import "footer";
-
-@import "projectThumbs";
-@import "gist";
-@import "resImg";
+@import 'components/article';

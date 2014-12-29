@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My site looked shitty so I rebuilt it
+title: My site looked shitty so I rebuilt it 
 categories:
  – blog
 published: true
