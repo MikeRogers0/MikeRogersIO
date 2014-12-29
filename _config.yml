@@ -7,10 +7,14 @@ rss_path: /rss.xml
 cdn_uri: http://mikerogers.io
 
 name: Mike Rogers
-pygments: true
+highlighter: true
 
 production_url : http://mikerogers.io
 
+exclude:
+  - "bower_components"
+  - "bower.json"
+    
 sass:
     syntax: scss        # scss|sass
     style:  compressed  # nested|expanded|compact|compressed
