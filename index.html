@@ -1,52 +1,61 @@
 ---
-layout: default
+layout: index
 title: Mike Rogers - Berkshire based Web Developer
 meta:
-    index: true
+  index: true
 ---
 
-<div class="pure-u-1-2"><div class="wrap">
-    <h2>About Me</h2>
-    <p itemscope itemtype="http://data-vocabulary.org/Person">My name is <span itemprop="name">Mike Rogers</span> and I'm a <span itemprop="title">web developer</span> based in 
+<div id="say-hello">
+  <div class="container">
+    <p>Hello.<br />I'm Mike, a Ruby on Rails developer.</p>
+  </div>
+</div>
+
+<div class="container">
+  <h2>About Me</h2>
+  <p itemscope itemtype="http://data-vocabulary.org/Person">My name is <span itemprop="name">Mike Rogers</span> and I'm a <span itemprop="title">web developer</span> based in 
     <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
-        <span itemprop="locality">Berkshire</span>, 
-        <span itemprop="country-name">UK</span>
-    </span>. Here is an overview of my current skills:</p>
-    <dl>
-        <dt>Front-End</dt>
-        <dd>HTML5, JavaScript (jQuery, Backbone.JS), SCSS</dd>
-        <dt>Back-End</dt>
-        <dd>PHP (Yii, Wordpress), Node.JS, MySQL</dd>
-        <dt>Misc</dt>
-        <dd>Git, Vagrant</dd>
-    </dl>
-</div></div>
-<div class="pure-u-1-2"><div class="wrap">
-    <h2>Find Me</h2>
-    <p>I'm pretty easy to find online, here are a few of the networks I'm on:</p>
-    <ul>
-        <li><a href="https://github.com/mikerogers0" rel="me">GitHub</a></li>
-        <li><a href="http://teamtreehouse.com/rmikerogers0" rel="me">Treehouse</a></li>
-        <li><a href="https://twitter.com/mikerogers0" rel="me">Twitter</a></li>
-        <li><a href="http://www.linkedin.com/in/mikerogers0" rel="me">LinkedIn</a></li>
-    </ul>
-    <p>Alternatively, drop me an email <a href="mailto:me+site@mikerogers.io">me@mikerogers.io</a>.</p>
-</div></div>
-<div class="pure-u-1-2"><div class="wrap">
-    <h2>Recent Projects</h2>
-    <ul class="projectThumbs">
-        <li><a href="https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en" id="livePage"><div class="name">LivePage</div></a></li>
-        <li><a href="http://clearmycache.me/" id="clearmycache"><div class="name">Clear My Cache</div></a></li>
-        <li><a href="http://wordpress.org/plugins/wp-html5-category-selector/" id="wpCategorySelector"><div class="name">WP Category Selector</div></a></li>
-        <li><a href="https://github.com/MikeRogers0/PHP-HTML5-Form-class" id="phpHtml5FormClass"><div class="name">PHP HTML5 Form Class</div></a></li>
-    </ul>
-</div></div>
-<div class="pure-u-1-2"><div class="wrap">
-    <h2>Recent Posts</h2>
-    <ul>
-        {% for post in site.categories['blog'] limit:5 %}
-	      <li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
-	    {% endfor %}
-    </ul>
-    <a href="/posts.html">See all blog posts</a>
-</div></div>
+      <span itemprop="locality">Berkshire</span>, 
+      <span itemprop="country-name">UK</span>
+  </span>. Here is an overview of my current skills:</p>
+  <dl>
+    <dt>Front-End</dt>
+    <dd>HTML5, JavaScript (jQuery, Backbone.JS), SCSS</dd>
+    <dt>Back-End</dt>
+    <dd>PHP (Yii, Wordpress), Node.JS, MySQL</dd>
+    <dt>Misc</dt>
+    <dd>Git, Vagrant</dd>
+  </dl>
+</div>
+
+<div class="container">
+  <h2>Find Me</h2>
+  <p>I'm pretty easy to find online, here are a few of the networks I'm on:</p>
+  <ul>
+    <li><a href="https://github.com/mikerogers0" rel="me">GitHub</a></li>
+    <li><a href="http://teamtreehouse.com/rmikerogers0" rel="me">Treehouse</a></li>
+    <li><a href="https://twitter.com/mikerogers0" rel="me">Twitter</a></li>
+    <li><a href="http://www.linkedin.com/in/mikerogers0" rel="me">LinkedIn</a></li>
+  </ul>
+  <p>Alternatively, drop me an email <a href="mailto:me+site@mikerogers.io">me@mikerogers.io</a>.</p>
+</div>
+
+<div class="container">
+  <h2>Recent Projects</h2>
+  <ul class="projectThumbs">
+    <li><a href="https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en" id="livePage"><div class="name">LivePage</div></a></li>
+    <li><a href="http://clearmycache.me/" id="clearmycache"><div class="name">Clear My Cache</div></a></li>
+    <li><a href="http://wordpress.org/plugins/wp-html5-category-selector/" id="wpCategorySelector"><div class="name">WP Category Selector</div></a></li>
+    <li><a href="https://github.com/MikeRogers0/PHP-HTML5-Form-class" id="phpHtml5FormClass"><div class="name">PHP HTML5 Form Class</div></a></li>
+  </ul>
+</div>
+
+<div class="container">
+  <h2>Recent Posts</h2>
+  <ul>
+    {% for post in site.categories['blog'] limit:5 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
+    {% endfor %}
+  </ul>
+  <a href="/posts.html">See all blog posts</a>
+</div>

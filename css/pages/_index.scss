@@ -1,0 +1,12 @@
+#say-hello{
+  background: $tertiaryBg url(../img/black-linen.png) repeat 0 0;
+  display:block;
+  padding: 120px 0 100px 0;
+
+  .container {
+    text-align: center;
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.85);
+  }
+}
+

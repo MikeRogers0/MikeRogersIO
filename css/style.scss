@@ -1,8 +1,13 @@
-// Load this
+// Load the normalizer to get everything back to normal
 @import 'vendor/normalize';
 
-@import 'layout/fonts';
+// Setup base colours and layout
+@import 'layout/typography_and_colours';
 @import 'layout/structure';
 @import 'layout/header';
 
+// Add stuff that is going to be resued
 @import 'components/article';
+
+// Page unique stuff.
+@import 'pages/index';

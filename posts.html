@@ -9,8 +9,8 @@ title: Blog Posts
 	<div class="pure-g-r">
 		{% for post in site.categories['blog'] %}
 			{% if post.next %}      
-				{% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
-				{% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
+				{% capture month %}{{ post.date | date: '%B%Y' }}{% endcapture %}
+				{% capture nmonth %}{{ post.next.date | date: '%B%Y' }}{% endcapture %}
 			{% endif %}
 
 			{% if forloop.first %}

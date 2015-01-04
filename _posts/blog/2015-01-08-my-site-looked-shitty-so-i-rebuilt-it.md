@@ -3,7 +3,7 @@ layout: post
 title: My site looked shitty so I rebuilt it 
 categories:
  – blog
-published: true
+published: false
 meta:
   description: 
   index: false
@@ -23,12 +23,14 @@ I had a few websites I really liked the look of that I used for inspiration, her
 * [Meeet](http://meeet.co/) 
 * [Final](https://getfinal.com/)
 * [Jonathan Atkinson](http://themeforest.net/user/jonathan01/portfolio) - I always like Jonathan's work.
+* [Plasso](https://plasso.co/) - A really nice clean design
 
 ## I might get assets from / use the following
 
 * [GameDev Market](https://www.gamedevmarket.net/) - If I have time it will be super cool to have a mini game hidden on the site.
 * [Dashboard starter kit](http://keen-starter-dashboard.brace.io/)
 * [capistrano-s3](https://github.com/hooktstudios/capistrano-s3) - I think I'll host on S3 and a CDN. Screw dealing with servers.
+* http://www.colourlovers.com/palette/92095/Giant_Goldfish - I'm going to try and stick to a colour palette
 
 
 ## What I have in mind
