@@ -10,3 +10,28 @@
   }
 }
 
+.capabilities{
+  list-style:none;
+  padding: 0;
+  overflow: hidden;
+
+  li {
+    float: left;
+    padding: 10px 40px;
+    text-align: center;
+  }
+
+  .icon {
+    display: block;
+    border: 1px solid $tertiary;
+    border-radius: 5px;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .name {}
+  .since, .blurb {}
+  .read-more {}
+
+}

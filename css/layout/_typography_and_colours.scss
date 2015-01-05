@@ -1,5 +1,6 @@
 // Used paragraphs of text, links and for headers
 $primary: #484C55;
+$primary-accent: lighten($primary, 25);
 $secondary: #F38630;
 $tertiary: #FA6900;
 
@@ -7,6 +8,7 @@ $tertiary: #FA6900;
 /*$primaryBg: #E0E4CC;*/
 $primaryBg: #fff;
 $secondaryBg: #69D2E7;
+$secondaryBg-accent: lighten($secondaryBg, 10);
 $tertiaryBg: #A7DBD8;
 
 body {
@@ -24,6 +26,6 @@ a {
   color: $secondaryBg;
 
   &:active, &:hover {
-    color: $tertiaryBg;
+    color: $secondaryBg-accent;
   }
 }
