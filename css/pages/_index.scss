@@ -12,26 +12,33 @@
 
 .capabilities{
   list-style:none;
-  padding: 0;
   overflow: hidden;
+  padding: 0;
+  
+  display: flex; 
+  flex-flow: row wrap;
+  justify-content: space-between;
 
   li {
-    float: left;
-    padding: 10px 40px;
+    display:block;
+    padding: 20px 10px;
     text-align: center;
   }
 
   .icon {
     display: block;
-    border: 1px solid $tertiary;
+    /*border: 1px solid $tertiary;*/
     border-radius: 5px;
-    width: 75px;
-    height: 75px;
+    width: 105px;
+    height: 90px;
     margin: 0 auto;
     margin-bottom: 15px;
   }
   .name {}
-  .since, .blurb {}
+  .since, .blurb {
+    color: $primary-accent;
+    font-size: 0.9em;
+  }
   .read-more {}
 
 }
