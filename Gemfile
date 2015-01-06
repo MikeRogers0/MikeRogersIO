@@ -7,3 +7,6 @@ gem 'rdiscount'
 
 # Work with Pow
 gem 'rack-jekyll'
+
+# Deploy to S3
+gem 's3_website'
