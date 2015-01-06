@@ -1,3 +1,7 @@
+#content.index_content{
+  padding-top: 0;
+}
+
 #say-hello{
   background: $tertiaryBg url(../img/black-linen.png) repeat 0 0;
   display:block;
@@ -30,7 +34,7 @@
     /*border: 1px solid $tertiary;*/
     border-radius: 5px;
     width: 105px;
-    height: 90px;
+    height: 85px;
     margin: 0 auto;
     margin-bottom: 15px;
   }

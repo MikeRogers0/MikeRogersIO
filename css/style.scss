@@ -5,9 +5,11 @@
 @import 'layout/typography_and_colours';
 @import 'layout/structure';
 @import 'layout/header';
+@import 'layout/footer';
 
 // Add stuff that is going to be resued
 @import 'components/article';
+@import 'components/resImg';
 
 // Page unique stuff.
 @import 'pages/index';
