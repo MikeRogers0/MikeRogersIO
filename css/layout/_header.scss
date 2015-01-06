@@ -2,11 +2,15 @@
   border-bottom: 1px solid #eaeaea;
   overflow: hidden;
   padding: 0;
-  position: fixed;
+  position: static;
   top: 0;
   left: 0;
   right: 0;
   background: rgba(255,255,255,0.95);
+
+  @media screen and (min-width: 900px) {
+    position: fixed;
+  }
 
   a {
     display: block;
@@ -26,6 +30,10 @@
 
   nav {
     float:right;
+    display: none;
+    @media screen and (min-width: 520px) {
+      display: block;
+    }
   }
 
   ul {
@@ -47,5 +55,9 @@
 }
 
 #content{
-  padding-top: 60px;
+  @media screen and (min-width: 900px) {
+    padding-top: 60px;
+  }
 }
+
+

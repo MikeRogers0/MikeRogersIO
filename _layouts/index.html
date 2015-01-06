@@ -40,9 +40,25 @@
 
   <footer id="footer">
     <div class="container">
+      <ul id="site-links">
+        <li><a href="/rss.xml">RSS Feed</a></li>
+        <li><a href="/sitemap.html">Sitemap</a></li>
+        <li><a href="/posts.html">Blog</a></li>
+        <li><a href="https://github.com/MikeRogers0/MikeRogersIO">Source Code</a></li>
+      </ul>
       <div id="copyright">&copy; {{ site.time | date: '%Y' }} <a href="/">Mike Rogers</a></div>
-      <div id="site-links"><a href="/rss.xml">RSS Feed</a> | <a href="/sitemap.html">Sitemap</a> | <a href="/posts.html">Blog</a> | <a href="https://github.com/MikeRogers0/MikeRogersIO">Source Code</a></div>
     </div>
   </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write(unescape('%3Cscript src="/js/jquery.min.js">%3C/script>'))</script>
+  <script src="/js/typed.js"></script>
+  <script>
+    $('#typed-text').text('')
+    $('#typed-text').typed({
+      strings: ["Hello.<br /> ^750 I'm Mike, ^500 a Ruby on Rails developer."],
+        typeSpeed: 40
+      });
+  </script>
 </body>
 </html>

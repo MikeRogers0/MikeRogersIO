@@ -1,16 +1,23 @@
-#content.index_content{
-  padding-top: 0;
-}
-
 #say-hello{
   background: $tertiaryBg url(../img/black-linen.png) repeat 0 0;
   display:block;
-  padding: 120px 0 100px 0;
+  padding: 25px 0;
+  height: 275px;
 
   .container {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+  }
+
+  @media screen and (min-width: 900px) {
+    padding: 50px 0;
+    height: 300px;
+
+    .container {
+      font-size: 3em;
+    }
   }
 }
 

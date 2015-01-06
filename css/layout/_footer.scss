@@ -1,12 +1,48 @@
 #footer {
   overflow: hidden;
-  padding: 40px 0 20px 0;
+  margin: 20px 0 20px 0;
+  border-top: 1px solid #eaeaea;
+  background: rgba(255,255,255,0.95);
 }
-  
-  #copyright {
-    float: left;
+
+#site-links {
+  float: left;
+  width: 100%;
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+  overflow: hidden;
+
+  display: flex; 
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  a {
+    display: block;
+    padding: 5px;
   }
 
-  #site-links {
-    float: right;
+  li {
+    display: block;
   }
+}
+
+#copyright {
+  float: left;
+  width: 100%;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 780px) {
+  #site-links {
+    width: 50%;
+  }
+  
+  #copyright {
+    float:right;
+    width: 40%;
+    padding: 5px;
+    text-align: right;
+  }
+}
