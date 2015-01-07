@@ -1,3 +1,5 @@
+.env
+
 _site
 .sass-cache
 _gist_cache
@@ -8,6 +10,3 @@ tmp/*
 
 # Is built on servo.
 css/style.css
-
-# Don't share my API keys ;P
-s3_website.yml
