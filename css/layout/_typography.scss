@@ -1,0 +1,22 @@
+body {
+  background: $backgroundColour;
+  font-family: source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: $primaryTextColour;
+}
+
+h1, h2, h3, h4, h5 {
+  color: $darkPrimaryColour;
+  font-family: "source-serif-pro",Georgia,"Times New Roman",Times,serif;
+}
+
+a {
+  color: $primaryColour;
+
+  &:active, &:hover {
+    color: $lightPrimaryColour;
+  }
+}
+
+em, blockquote {
+  color: $secondaryTextColour;
+}

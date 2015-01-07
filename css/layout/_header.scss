@@ -1,5 +1,5 @@
 #header{
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid $lightDividerColour;
   overflow: hidden;
   padding: 0;
   position: static;
@@ -14,12 +14,12 @@
 
   a {
     display: block;
-    color: $primary;
+    color: $primaryTextColour;
     padding: 20px 20px 20px 20px;
     text-decoration: none;
 
     &:hover{
-      color: $primary-accent;
+      color: $secondaryTextColour;
     }
   }
 
@@ -43,10 +43,10 @@
   
   li{ 
     float: left;
-    border-right: solid #eaeaea 1px;
+    border-right: solid $lightDividerColour 1px;
 
     &:first-child{
-      border-left: solid #eaeaea 1px;
+      border-left: solid $lightDividerColour 1px;
     }
 
     &:last-child{

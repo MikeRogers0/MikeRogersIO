@@ -3,31 +3,35 @@ layout: default
 title: Blog Posts
 ---
 
-<div class="pure-u-1"><div class="wrap">
-	<h1>Blog Posts</h1>
+<h1>Blog Posts</h1>
 
-	<div class="pure-g-r">
-		{% for post in site.categories['blog'] %}
-			{% if post.next %}      
-				{% capture month %}{{ post.date | date: '%B%Y' }}{% endcapture %}
-				{% capture nmonth %}{{ post.next.date | date: '%B%Y' }}{% endcapture %}
-			{% endif %}
+<div class="calander">
+  {% for post in site.categories['blog'] %}
+    {% if post.next %}      
+      {% capture month %}{{ post.date | date: '%B%Y' }}{% endcapture %}
+      {% capture nmonth %}{{ post.next.date | date: '%B%Y' }}{% endcapture %}
+    {% endif %}
 
-			{% if forloop.first %}
-				<div class="pure-u-1-2">
-				<h2>{{ post.date | date: "%B %Y" }}</h2>
-				<ul>
-			{% endif %}
-			{% if month != nmonth %} 
-				</ul></div>
-				<div class="pure-u-1-2">
-				<h2>{{ post.date | date: "%B %Y" }}</h2>
-				<ul>
-			{% endif %}
-				<li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
-			{% if forloop.last %}  
-				</ul></div>
-			{% endif %}
-		{% endfor %}
-	</div>
-</div></div>
+    {% if forloop.first %}
+      <div>
+      <h2>{{ post.date | date: "%B %Y" }}</h2>
+      <ul class="post-list">
+    {% endif %}
+    {% if month != nmonth %} 
+      </ul>
+      </div>
+
+      <div>
+      <h2>{{ post.date | date: "%B %Y" }}</h2>
+      <ul class="post-list">
+    {% endif %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute"  }} read</div>
+      </li>
+    {% if forloop.last %}  
+      </ul>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

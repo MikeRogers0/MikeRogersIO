@@ -1,5 +1,5 @@
 #say-hello{
-  background: $tertiaryBg url(../img/black-linen.png) repeat 0 0;
+  background: $primaryColour url(../img/black-linen.png) repeat 0 0;
   display:block;
   padding: 25px 0;
   height: 275px;
@@ -7,7 +7,7 @@
   .container {
     text-align: center;
     font-size: 2.5em;
-    color: rgba(255, 255, 255, 0.85);
+    color: $textPrimaryColour;
     text-align: center;
   }
 
@@ -47,7 +47,7 @@
   }
   .name {}
   .since, .blurb {
-    color: $primary-accent;
+    color: $secondaryTextColour;
     font-size: 0.9em;
   }
   .read-more {}

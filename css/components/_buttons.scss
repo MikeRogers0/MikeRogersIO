@@ -1,0 +1,13 @@
+.btn {
+  background: $darkPrimaryColour;
+  border-radius: 7px;
+  padding: 7px 10px;
+  color: $textPrimaryColour;
+
+  text-decoration: none;
+
+  &:hover, &:focus {
+    background: $primaryColour;
+    color: $textPrimaryColour;
+  }
+}

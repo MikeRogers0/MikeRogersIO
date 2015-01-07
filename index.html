@@ -7,7 +7,7 @@ meta:
 
 <div id="say-hello">
   <div class="container">
-    <p><span id="typed-text">Hello.<br />I'm Mike, a Ruby on Rails developer.</span></p>
+    <p><span id="typed-text"><!-- Hello.<br />I'm Mike, a Ruby on Rails developer. --></span></p>
   </div>
 </div>
 
@@ -70,36 +70,36 @@ meta:
   <p>I'm pretty easy to find online, here are a few of the networks I'm on:</p>
   <ul class="capabilities">
     <li>
-      <a href="https://github.com/mikerogers0" rel="me" class="icon">
-        <img alt="GitHub" src="/img/logos/github.png" height="75">
+      <a href="https://github.com/mikerogers0" rel="me" class="icon" target="_blank">
+        <img alt="GitHub logo" src="/img/logos/github.png" height="75">
       </a>
       <div class="name">GitHub</div>
     </li>
 
     <li>
-      <a href="https://teamtreehouse.com/rmikerogers0" rel="me" class="icon">
-        <img alt="Treehouse" src="/img/logos/treehouse.png" height="75">
+      <a href="https://teamtreehouse.com/rmikerogers0" rel="me" class="icon" target="_blank">
+        <img alt="Treehouse logo" src="/img/logos/treehouse.png" height="75">
       </a>
       <div class="name">Treehouse</div>
     </li>
 
     <li>
-      <a href="https://twitter.com/mikerogers0" rel="me" class="icon">
-        <img alt="Twitter" src="/img/logos/twitter.svg" height="75">
+      <a href="https://twitter.com/mikerogers0" rel="me" class="icon" target="_blank">
+        <img alt="Twitters logo" src="/img/logos/tweeter.svg" height="75">
       </a>
       <div class="name">Twitter</div>
     </li>
 
     <li>
-      <a href="https://www.linkedin.com/in/mikerogers0" rel="me" class="icon">
-        <img alt="LinkedIn" src="/img/logos/linkedin.png" height="75">
+      <a href="https://www.linkedin.com/in/mikerogers0" rel="me" class="icon" target="_blank">
+        <img alt="LinkedIns logo" src="/img/logos/link_in.png" height="75">
       </a>
       <div class="name">LinkedIn</div>
     </li>
 
     <li>
-      <a href="https://www.youtube.com/user/rogem002" rel="me" class="icon">
-        <img alt="YouTube" src="/img/logos/youtube.png" height="75">
+      <a href="https://www.youtube.com/user/rogem002" rel="me" class="icon" target="_blank">
+        <img alt="YouTube logo" src="/img/logos/ytube.png" height="75">
       </a>
       <div class="name">YouTube</div>
     </li>
@@ -156,10 +156,13 @@ meta:
 
 <div class="container">
   <h2>Recent posts</h2>
-  <ul>
+  <ul class="post-list">
     {% for post in site.categories['blog'] limit:5 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></li>
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute"  }} read</div>
+    </li>
     {% endfor %}
   </ul>
-  <a href="/posts.html">See all blog posts</a>
+  <a href="/posts.html" class="btn">See all blog posts</a>
 </div>

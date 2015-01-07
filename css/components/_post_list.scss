@@ -1,0 +1,22 @@
+.post-list {
+  padding: 0;
+  list-style: none;
+  
+  li {
+    padding-bottom: 10px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  a {
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  .meta {
+	color: $secondaryTextColour;
+    font-size: 0.8em;
+  }
+}

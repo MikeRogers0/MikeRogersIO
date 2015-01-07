@@ -2,15 +2,19 @@
 @import 'vendor/normalize';
 
 // Setup base colours and layout
-@import 'layout/typography_and_colours';
+@import 'layout/palette';
+@import 'layout/typography';
 @import 'layout/structure';
 @import 'layout/header';
 @import 'layout/footer';
 
 // Add stuff that is going to be resued
 @import 'components/article';
+@import 'components/post_list';
 @import 'components/resImg';
 @import 'components/typed_js';
+@import 'components/buttons';
 
 // Page unique stuff.
 @import 'pages/index';
+@import 'pages/blog';

@@ -1,0 +1,16 @@
+.calander {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  > div {
+    display: block;
+    width: 100%;
+
+    @media screen and (min-width: 720px) {
+      width: 48%;
+      padding-right: 2%;
+    }
+  }
+}
