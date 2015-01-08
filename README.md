@@ -9,5 +9,6 @@ My personal website which shows off bits of my portfolio and ramblings from my b
 
 # How to deploy
 
+   jekyll build
    s3_website cfg apply
    s3_website push
