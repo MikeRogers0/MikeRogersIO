@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<title>{{ page.title }}</title>
+<link rel="dns-prefetch" href="https://gist.github.com" />
+<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Google Web Developer 2.0">
+{% if page.meta.description != null %}
+  <meta name="description" content="{{ page.meta.description }}">
+{% endif %}
+{% if page.meta.index == null %}<meta name="robots" content="noindex">{% endif %}
+
+<link rel="author" href="https://plus.google.com/105245695794314659553">
+<link rel="canonical" href="{{ site.production_url }}{{ page.url }}" />
+<link rel="alternate" type="application/rss+xml"  href="{{ site.production_url }}/rss.xml" title="Mike Rogers - Blog">

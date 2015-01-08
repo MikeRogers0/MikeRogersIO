@@ -9,7 +9,9 @@ cdn_uri: http://mikerogers.io
 name: Mike Rogers
 highlighter: true
 
-production_url : http://mikerogers.io
+production_url : https://mikerogers.io
+
+env: production
 
 exclude:
   - "bower_components"
