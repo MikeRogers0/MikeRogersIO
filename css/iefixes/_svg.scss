@@ -1,0 +1,15 @@
+/*
+ * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
+ * [1] IE9
+ * [2] IE10+
+ */
+// 1
+img[src*=".svg"] {
+  width: 500px\9; 
+}
+// 2
+@media screen and (min-width:0\0) {
+  img[src*=".svg"] {
+    width: 500px; 
+  }
+}

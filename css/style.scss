@@ -1,6 +1,9 @@
 // Load the normalizer to get everything back to normal
 @import 'vendor/normalize';
 
+// Annoying old IE!
+@import 'iefixes/svg';
+
 // Setup base colours and layout
 @import 'layout/palette';
 @import 'layout/typography';
