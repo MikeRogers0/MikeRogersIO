@@ -7,15 +7,20 @@ s3_bucket: mikerogers.io
 
 # site: path-to-your-website
 
-# max_age:
-#   "assets/*": 6000
-#   "*": 300
+max_age:
+  "css/*": <%= 60 * 60 * 24 * 7 %>
+  "js/*": <%= 60 * 60 * 24 * 7 %>
+  "img/*": <%= 60 * 60 * 24 * 7 * 365 %>
+  "uploads/*": <%= 60 * 60 * 24 * 7 * 365 %>
+  "*": <%= 60 * 60 * 24 * 7 %>
 
 gzip:
   - .html
   - .css
   - .md
   - .svg
+  - .png
+  - .js
 gzip_zopfli: true
 
 # See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
