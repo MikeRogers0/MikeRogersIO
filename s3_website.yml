@@ -18,7 +18,6 @@ gzip:
   - .html
   - .css
   - .md
-  - .svg
   - .png
   - .js
 gzip_zopfli: true

@@ -47,3 +47,4 @@ My old server was costing me about €18 a month, which for a site that only get
 ## Deploying
 
 https://github.com/laurilehmijoki/s3_website - I use this gem to deploy the site.
+https://bryce.fisher-fleig.org/blog/setting-up-ssl-on-aws-cloudfront-and-s3/ - I used this also

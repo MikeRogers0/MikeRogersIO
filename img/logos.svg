@@ -21,5 +21,4 @@ title: SVG Logos
   {% include logos/link_in.svg %}
   {% include logos/ytube.svg %}
   {% include logos/email.svg %}
-
 </svg>
