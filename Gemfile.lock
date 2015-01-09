@@ -16,21 +16,12 @@ GEM
     colored (1.2)
     configure-s3-website (1.6.0)
       deep_merge (= 1.0.0)
-    css_press (0.3.2)
-      csspool-st (= 3.1.2)
-      json
-    csspool-st (3.1.2)
     deep_merge (1.0.0)
     dotenv (1.0.2)
     execjs (2.2.2)
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     hitimes (1.2.2)
-    html_press (0.8.2)
-      htmlentities
-      multi_css (>= 0.1.0)
-      multi_js (>= 0.1.0)
-    htmlentities (4.3.3)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -50,11 +41,6 @@ GEM
       coffee-script (~> 2.2)
     jekyll-gist (1.1.0)
     jekyll-paginate (1.1.0)
-    jekyll-press (0.2.1)
-      html_press (>= 0.8.2)
-      jekyll
-      multi_css (>= 0.1.0)
-      multi_js (>= 0.1.0)
     jekyll-sass (1.2.2)
       colorator (~> 0.1)
       jekyll (>= 0.10.0)
@@ -63,7 +49,6 @@ GEM
       sass (~> 3.2)
     jekyll-watch (1.2.0)
       listen (~> 2.7)
-    json (1.8.1)
     kramdown (1.5.0)
     liquid (2.6.1)
     listen (2.8.5)
@@ -71,10 +56,6 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
-    multi_css (0.1.0)
-      css_press
-    multi_js (0.1.0)
-      uglifier (~> 2)
     octopress-autoprefixer (1.0.0)
       autoprefixer-rails (~> 2.2)
       jekyll (~> 2.0)
@@ -108,9 +89,6 @@ GEM
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
-    uglifier (2.6.1)
-      execjs (>= 0.3.0)
-      json (>= 1.8.0)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -118,7 +96,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  jekyll-press
   jekyll-sass
   octopress-autoprefixer
   rack-jekyll

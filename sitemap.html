@@ -7,21 +7,25 @@ meta:
 
 {% include partials/page_title.html %}
 
-<div class="container">
-  <h2>Pages</h2>
-  <ul class="post-list">
-  {% for page in site.pages %}
-    <li><a href="{{site.production_url}}{{ page.url }}">{{ page.title }}</a></li>
-  {% endfor %}
-  </ul>
-
-  <h2>Posts</h2>
-  <ul class="post-list">
-  {% for post in site.categories['blog'] %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute"  }} read</div>
-    </li>
-  {% endfor %}
-  </ul>
+<div class="container calander">
+  <div>
+    <h2>Posts</h2>
+    <ul class="post-list">
+    {% for post in site.categories['blog'] %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute"  }} read</div>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+  
+  <div>
+    <h2>Pages</h2>
+    <ul class="post-list">
+    {% for page in site.pages %}
+      <li><a href="{{site.production_url}}{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
 </div>

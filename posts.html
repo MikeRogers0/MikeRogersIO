@@ -6,34 +6,29 @@ title: Blog Posts
 {% include partials/page_title.html %}
 
 <div class="container">
-  <div class="calander">
-    {% for post in site.categories['blog'] %}
-      {% if post.next %}      
-        {% capture month %}{{ post.date | date: '%B%Y' }}{% endcapture %}
-        {% capture nmonth %}{{ post.next.date | date: '%B%Y' }}{% endcapture %}
-      {% endif %}
+  {% for post in site.categories['blog'] %}
+    {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture nyear %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
-      {% if forloop.first %}
-        <div>
-        <h2>{{ post.date | date: "%B %Y" }}</h2>
+    {% if forloop.first %}
+      <h2>{{ post.date | date: "%Y" }}</h2>
+      <ul class="post-list">
+    {% endif %}
+    
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute"  }} read</div>
+      </li>
+      
+    {% if forloop.last %}  
+      </ul>
+    {% else %}
+      {% if year != nyear %} 
+        </ul>
+
+        <h2>{{ nyear }}</h2>
         <ul class="post-list">
       {% endif %}
-      {% if month != nmonth %} 
-        </ul>
-        </div>
-
-        <div>
-        <h2>{{ post.date | date: "%B %Y" }}</h2>
-        <ul class="post-list">
-      {% endif %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute"  }} read</div>
-        </li>
-      {% if forloop.last %}  
-        </ul>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
+    {% endif %}
+  {% endfor %}
 </div>

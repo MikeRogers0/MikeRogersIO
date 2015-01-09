@@ -41,10 +41,10 @@ cloudfront_distribution_id: <%= ENV['CLOUDFRONT_DISTRIBUTION_ID'] %>
 cloudfront_distribution_config:
   default_cache_behavior:
     min_TTL: <%= 60 * 60 * 24 * 7 %>
-  aliases:
-    quantity: 1
-    items:
-      CNAME: www.mikerogers.io
+  #aliases:
+    #quantity: 1
+    #items:
+      #CNAME: wwW.mikerogers.io
 
 #cloudfront_invalidate_root: true
 
@@ -52,6 +52,7 @@ concurrency_level: 5
 
 redirects:
   index.php: /
+  feed/index.html: rss.xml
   sitemap/index.html: sitemap.html
   connect-with-me/index.html: /
   my-blog/index.html: posts.html
