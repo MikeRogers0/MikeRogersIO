@@ -25,6 +25,9 @@ gzip_zopfli: true
 # See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
 s3_endpoint: eu-west-1
 
+index_document: index.html
+error_document: 404.html
+
 # ignore_on_server: that_folder_of_stuff_i_dont_keep_locally
 
 # exclude_from_upload:
@@ -43,19 +46,24 @@ cloudfront_distribution_config:
     items:
       CNAME: www.mikerogers.io
 
-cloudfront_invalidate_root: true
+#cloudfront_invalidate_root: true
 
 concurrency_level: 5
 
-# redirects:
-#   index.php: /
-#   about.php: about.html
-#   music-files/promo.mp4: http://www.youtube.com/watch?v=dQw4w9WgXcQ
+redirects:
+  index.php: /
+  sitemap/index.html: sitemap.html
+  connect-with-me/index.html: /
+  my-blog/index.html: posts.html
 
-# routing_rules:
-#   - condition:
-#       key_prefix_equals: blog/some_path
-#     redirect:
-#       host_name: blog.example.com
-#       replace_key_prefix_with: some_new_path/
-#       http_redirect_code: 301
+#routing_rules:
+  #- condition:
+      #key_prefix_equals: coding/php/1953
+    #redirect:
+      #replace_key_with: 2011/03/05/phps-ctype-functions.html
+      #http_redirect_code: 301
+  #- condition:
+      #key_prefix_equals: page/
+    #redirect:
+      #replace_key_with: index.html
+      #http_redirect_code: 301

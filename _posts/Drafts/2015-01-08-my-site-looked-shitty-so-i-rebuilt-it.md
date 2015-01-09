@@ -3,7 +3,7 @@ layout: post
 title: I finally rebuilt my site :D
 categories:
  – blog
-published: false
+published: true
 meta:
   description: 
   index: false
