@@ -5,7 +5,7 @@ title: SVG Logos
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <svg:style xmlns:svg="http://www.w3.org/2000/svg" type="text/css">
-  .i { display: none; fill: #010101; }
+  .i { display: none; }
   .i:target { display: block; }
   </svg:style>
   

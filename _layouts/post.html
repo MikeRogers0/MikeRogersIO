@@ -7,7 +7,7 @@ layout: default
   {% include partials/page_title.html %}
   
   <div class="container">
-    <p class="metadata" itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">Posted: {{ page.date | date_to_long_string }}</p>
+    <p class="metadata"><span itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">Posted: {{ page.date | date_to_long_string }}</span>, {{ page | readtime | pluralize: "minute"  }} read</p>
     <section itemprop="description articleBody">{{ content }}</section>
 
     <section class="subnotes metadata">

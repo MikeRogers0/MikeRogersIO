@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My site looked shitty so I rebuilt it 
+title: I finally rebuilt my site :D
 categories:
  – blog
 published: false
@@ -9,53 +9,41 @@ meta:
   index: false
 ---
 
-I built the old design of my site with two goals in mind "Make it load fast" & "Make it 100% your work". The first goal for speed was great, but I massively overestimated my ability to make a website that looked decent. With this in mind & while fueled by Wisky and Kanye West, I chucked out my old build and started again.
+I built the old design of my site with two goals in mind "Make it load fast" and "Make it 100% your work". I ended up nailing both goals by making a fairly plain and simple website, as a result it was dull as a white wall.
 
-## Websites I liked
+It started to look super naff recently, so while fueled by Wisky and Kanye West, I chucked out most of the old build and started again.
+
+## Finding inspiration
+
 I had a few websites I really liked the look of that I used for inspiration, here they are with my notes:
 
 * [Clara Labs](https://claralabs.com) - I really like the inital "Hi there! I'm Clara" then the fading in of the rest of the homepage copy. 
-* [Dan Edwards](http://danedwards.me) - If there is someone who knows how to design a site, it's Dan Edwards. I really like the way Dan has layed out his portfollio on the homepage. 
-* [Edward Poole](http://edpoole.me/articles/pubhack2/) The way Ed has layed out his blog post is super content focused & looks awesome.
+* [No Divide](http://nodivide.us/) - If there is someone who knows how to design a site, it's Dan Edwards. I really like simple and clear the site is to use. 
+* [Edward Poole](http://edpoole.me/articles/pubhack2/) The way Ed has layed out his blog post is super content focused with little to distract the user. 
 * [Tom Kentell](http://tomkentell.me/) - I love the overall homepage layout & Toms use of responsive is awesome.
 * [X | The Theme (themeforest)](http://themeforest.net/item/x-the-theme/full_screen_preview/5871901) - I like the way they've layed out the classic portfollio.
-* [Bridge (themeforest)](http://themeforest.net/item/bridge-creative-multipurpose-wordpress-theme/full_screen_preview/7315054) - The services page will
-* [Meeet](http://meeet.co/) 
-* [Final](https://getfinal.com/)
+* [Meeet](http://meeet.co/) - Really lovely clean design that looks has little clutter to distract the user.
 * [Jonathan Atkinson](http://themeforest.net/user/jonathan01/portfolio) - I always like Jonathan's work.
-* [Plasso](https://plasso.co/) - A really nice clean design
+* [Plasso](https://plasso.co/) - Similar to meeet.co in terms of a super clear layout.
 
-## I might get assets from / use the following
+## The rebuild
 
-* [GameDev Market](https://www.gamedevmarket.net/) - If I have time it will be super cool to have a mini game hidden on the site.
-* [Dashboard starter kit](http://keen-starter-dashboard.brace.io/)
-* [capistrano-s3](https://github.com/hooktstudios/capistrano-s3) - I think I'll host on S3 and a CDN. Screw dealing with servers.
-* http://www.colourlovers.com/palette/92095/Giant_Goldfish - I'm going to try and stick to a colour palette
+I started doing inital sketches of what I had in mind for a layout and started coding. Here are some of the key changes 
 
+### A colour palette
 
-## What I have in mind
-I'm going to break up my site into 3 main sections: Homepage, Blog & Contact me. 
+I've found from experience having a set of colours that were documented in the project, helped keep me from building massively inconsistent webpages. With this in mind, I jumped over to [Material Palette](http://www.materialpalette.com/) to get a set of colours that should work nicely together. 
 
-### Homepage
-I'm going to assume anyone who hits my homepage meet me somewhere I wanted to see my portfollio. With them in mind, I'm going to take a similar appaoch as Clara Labs and start with a message like "Howdy! I'm Mike & I'm a Ruby On Rails developer". Then underneath have links to my portfollio and links to contact me.  
+Material palette was super handy and even generated a nice [Sass file](https://github.com/MikeRogers0/MikeRogersIO/blob/2015-epic/css/layout/_palette.scss) with the colours defined. I think it's helped keep the sites overall design not to messy.
 
-#### About me
-I think having a few logos with the technologies I'm fimilar with would be pretty nice.
+### Stacked SVGs
 
-#### Portfollio
-The old portfollio was never updated because I don't put out many fully finished products. I suspect my future portfollio will be the same, so I'm going to put a few of my current projects on the homepage linking off to them with a quick description.
+I wanted to show off the tools and frameworks I'm fimilar with on the homepage, but I didn't want to dick around with making CSS sprites. Instead I converted the logos on the homepage into vectors then stacked them into a single SVG file. The result is 12 logos being servered in a single http request without to much loss in quality.
 
-### Blog
-I'm going to keep my blog posts simple and centred without to much funky styling. 
+## Hosting
 
-### Contact me
-I'm going to just have some links off to my email and twitter. I can't be bothered with making a contact form that'll just spam me.
+My old server was costing me about €18 a month, which for a site that only gets around ~2k hits a month it was overkill. Instead I moved everything over to S3
 
-## Technology
-I used Jekyll on my last build and it was awesome, so I'll use it again.
+## Deploying
 
-### Servers and CDNs
-I don't get much traffic, so I'm going to chef up a low end CloudVPS server that'll just server content up for CloudFlare or CloudFront to send to end users.
-
-### Depoyment
-On my last site I used git's hooks to complile my site. I've started using Capistano at work & I think it's awesome, so I think I'll use that on the new build.
+https://github.com/laurilehmijoki/s3_website - I use this gem to deploy the site.
