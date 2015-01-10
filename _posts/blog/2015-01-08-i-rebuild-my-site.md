@@ -6,7 +6,7 @@ categories:
 published: true
 meta:
   description: A overview of some of the techniques I used to quickly rebuild my site
-  index: false
+  index: true
 ---
 
 I built the old design of my site with two goals in mind, "Make it load fast" and "Make it 100% your work". I ended up nailing both goals by making a fairly plain and simple website, as a result it was dull as a white wall.

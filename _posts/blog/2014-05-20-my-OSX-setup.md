@@ -5,7 +5,7 @@ categories:
  – blog
 published: true
 meta:
-  description: 
+  description: The brews I normally have to run to get setup
   index: true
 ---
 
