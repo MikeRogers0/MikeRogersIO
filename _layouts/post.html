@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
-<article itemprop itemtype="http://schema.org/BlogPosting">
-  <meta content="{{ site.production_url }}{{ page.url }}" itemprop="url">
-  
+<article role="main">
   {% include partials/page_title.html %}
   
   <div class="container">
     <p class="metadata"><span itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">Posted: {{ page.date | date_to_long_string }}</span>, {{ page | readtime | pluralize: "minute"  }} read</p>
-    <section itemprop="description articleBody">{{ content }}</section>
+    <section>{{ content }}</section>
 
     <section class="subnotes metadata">
       <p>If you want to discuss this post, feel free to tweet me (<a href="https://twitter.com/MikeRogers0">@MikeRogers0</a>) or drop me an <a href="mailto:me+blog@mikerogers.io?subject={{ page.title | cgi_escape }}">email</a>. Any code samples unless stated otherwise are licensed under the <a href="http://opensource.org/licenses/MIT">The MIT License (MIT)</a>.</p>

@@ -29,7 +29,7 @@ module Jekyll
     end
 
     def render(context)
-      html = '<a href="'+@src+'" class="resImg" style="max-width: '+@width+'px; max-height: '+@height+'px;">'
+      html = '<a href="'+@src+'" class="resImg" style="max-width: '+@width+'px; max-height: '+@height+'px;" target="_blank">'
       html << '<img src="'+@src+'" alt="'+@alt+'"/>'
       html << '</a>'
       return html;

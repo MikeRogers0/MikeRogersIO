@@ -12,5 +12,5 @@ gem 's3_website'
 
 group :jekyll_plugins do
   gem 'octopress-autoprefixer'
-  #gem 'jekyll-press'
+  gem 'jekyll-press'
 end

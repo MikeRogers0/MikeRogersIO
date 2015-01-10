@@ -4,7 +4,8 @@ rdiscount extensions : [smart]
 title: Mike Rogers
 description: The occasional ramblings on programming and technology.
 rss_path: /rss.xml
-cdn_uri: http://mikerogers.io
+cdn_uri: ''
+#cdn_uri: https://mikerogers.io
 
 name: Mike Rogers
 highlighter: true

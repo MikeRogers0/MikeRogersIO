@@ -5,7 +5,7 @@ categories:
  – blog
 published: true
 meta:
-  description: 
+  description: A overview of some of the techniques I used to quickly rebuild my site
   index: false
 ---
 
@@ -39,21 +39,25 @@ Material palette was super handy and even generated a nice [Sass file](https://g
 
 I wanted to show off the tools and frameworks I'm familiar with on the homepage, but I didn't want to dick around with making CSS sprites. Instead I converted the logos on the homepage into vectors then stacked them into a single SVG file. The result was 12 logos being served in a single http request without to much loss in quality. 
 
-This worked great until I opened the site in Safari and noticed it looked a bit off, so I opted just to put the SVG inline into the HTML instead.
+{% img /uploads/2015/01/08/stacked_svgs_in_safari.jpg 820x189 "Stacked SVGs rendering incorrectly in Safari" %}
+
+This worked great until I opened the site in Safari (The above screenshot) and noticed they looked a bit off, so I opted just to put the SVG inline into the HTML instead.
 
 ### Bower, Bootstrap and other things I decided against
 
-I really wanted to mess around with a few of the new tools and frameworks that are out there to make front end a bit easier, during this rebuild. 
+I really wanted to mess around with a few of the new tools and frameworks that are out there to make front end a bit easier.
 
 First off I tried [bower](http://bower.io/), a fontend package manager tool. It seemed pretty nice, though I ended up feeling it was more faff then it was worth considering my site only uses a little JS on the homepage. 
 
 I also considered a CSS framework such as Bootstrap or Foundation to help get the layout kick started, but then I read [A Complete Guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/) and decided I'd be better off just using flex where I needed it instead of bogging myself down with CSS I'll never use.
 
+I also removed a lot of the Microdata markup that I had on the old build, as I feel in the last year the support has fizzled out a lot.
+
 ## Hosting
 
 My old server was costing me about €18 a month, which for a site that only gets around ~2k hits a month it was overkill. Instead I moved everything over to S3 & CloudFront. 
 
-It was a bit of a pain to get SSL setup for cloudfront but I followed [this guide](https://bryce.fisher-fleig.org/blog/setting-up-ssl-on-aws-cloudfront-and-s3/) to find my feet. One of the main "Oh FFS" moments was when I had to setup CloudFront to only access S3 over port 80, instead of both port 80 and 443, otherwise it would error out.
+It was a bit of a pain to get SSL setup for CloudFront but I followed [this guide](https://bryce.fisher-fleig.org/blog/setting-up-ssl-on-aws-cloudfront-and-s3/) to find my feet. One of the main "Oh FFS" moments was when I had to setup CloudFront to only access S3 over port 80, instead of both port 80 and 443, otherwise it would error out.
 
 ## Deploying
 
