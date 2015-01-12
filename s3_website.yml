@@ -56,6 +56,9 @@ redirects:
   sitemap/index.html: sitemap.html
   connect-with-me/index.html: /
   my-blog/index.html: posts.html
+  coding/2516-how-use-twitter-oauth-1-1-javascriptjquery.htm: 2013/02/25/how-use-twitter-oauth-1-1-javascriptjquery.html
+  page/10: posts.html
+  page/11: posts.html
 
 #routing_rules:
   #- condition:

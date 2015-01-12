@@ -160,8 +160,8 @@ meta:
   <ul class="post-list">
     {% for post in site.categories['blog'] limit:5 %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute"  }} read</div>
+      <a href="{{ post.url | drop_index }}">{{ post.title }}</a>
+      <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute" }} read</div>
     </li>
     {% endfor %}
   </ul>

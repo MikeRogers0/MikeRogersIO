@@ -11,6 +11,5 @@
 {% endif %}
 {% if page.meta.index == null %}<meta name="robots" content="noindex">{% endif %}
 
-<link rel="author" href="https://plus.google.com/105245695794314659553">
-<link rel="canonical" href="{{ site.production_url }}{{ page.url }}" />
+<link rel="canonical" href="{{ site.production_url }}{{ page.url | drop_index }}" />
 <link rel="alternate" type="application/rss+xml"  href="{{ site.production_url }}/rss.xml" title="Mike Rogers - Blog">

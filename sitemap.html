@@ -13,8 +13,8 @@ meta:
     <ul class="post-list">
     {% for post in site.categories['blog'] %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute"  }} read</div>
+        <a href="{{ site.production_url }}{{ post.url | drop_index }}">{{ post.title }}</a>
+        <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute" }} read</div>
       </li>
     {% endfor %}
     </ul>
@@ -24,7 +24,7 @@ meta:
     <h2>Pages</h2>
     <ul class="post-list">
     {% for page in site.pages %}
-      <li><a href="{{site.production_url}}{{ page.url }}">{{ page.title }}</a></li>
+      <li><a href="{{ site.production_url }}{{ page.url | drop_index }}">{{ page.title }}</a></li>
     {% endfor %}
     </ul>
   </div>

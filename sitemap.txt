@@ -3,7 +3,7 @@
 title : Sitemap (text)
 ---
 {% for page in site.pages %}
-{{site.production_url}}{{ page.url }}{% endfor %}
+{{site.production_url}}{{ page.url | drop_index }}{% endfor %}
 
 {% for post in site.categories['blog'] %}
-{{site.production_url}}{{ post.url }}{% endfor %}
+{{site.production_url}}{{ post.url | drop_index }}{% endfor %}
