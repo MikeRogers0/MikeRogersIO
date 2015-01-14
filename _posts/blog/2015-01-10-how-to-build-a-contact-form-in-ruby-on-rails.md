@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to make a contact form in Ruby on Rails
+title: How to make a contact form (Rails 4)
 categories:
  – blog
 published: true
