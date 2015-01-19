@@ -9,6 +9,13 @@ h1, h2, h3, h4, h5 {
   font-family: 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
 }
 
+
+@media print {
+  h1, h2, h3, h4, h5 {
+    color: #000;
+  }
+}
+
 a {
   color: $primaryColour;
 

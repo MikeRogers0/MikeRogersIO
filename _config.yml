@@ -1,4 +1,5 @@
 markdown : rdiscount
+encoding: utf-8
 permalink : /:year/:month/:day/:title.html
 rdiscount extensions : [smart]
 title: Mike Rogers

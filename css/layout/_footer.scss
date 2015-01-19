@@ -25,6 +25,10 @@
   li {
     display: block;
   }
+
+  @media print {
+    display: none;
+  }
 }
 
 #copyright {

@@ -1,6 +1,4 @@
-require 'cgi'
-require 'digest/md5'
-require 'net/https'
+require 'open-uri'
 require 'uri'
 
 module Jekyll
@@ -32,7 +30,7 @@ module Jekyll
       if code == ""
         "<script src='#{script_url}'></script>"
       else
-        "<script src='#{script_url}'></script><div><noscript><pre class=\"gistRaw\"><code>#{code}</code><a href=\"#{gist_url}\" class=\"gistUrl\">View on Github</a></pre></noscript></div>"
+        "<script src='#{script_url}'></script><noscript><div class=\"gistRaw\"><pre><code>#{code}</code></pre><a href=\"#{gist_url}\" class=\"url\" target=\"_blank\">View on Github</a></div></noscript>"
       end
     end
 
@@ -73,15 +71,13 @@ module Jekyll
 
     def get_gist_from_web(gist, file)
       gist_url          = get_gist_url_for gist, file
-      raw_uri           = URI.parse gist_url
-      https             = Net::HTTP.new raw_uri.host, raw_uri.port
-      https.use_ssl     = true
-      https.verify_mode = OpenSSL::SSL::VERIFY_NONE
-      request           = Net::HTTP::Get.new raw_uri.request_uri
-      data              = https.request request
-      data              = data.body
+
+      data = open(gist_url)
+      data = data.read.force_encoding(Encoding::UTF_8)
+      
       cache gist, file, data unless @cache_disabled
       data
+
     end
   end
 

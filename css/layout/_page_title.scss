@@ -18,4 +18,12 @@
       font-size: 3em;
     }
   }
+  
+  @media print {
+    padding: 0;
+    
+    h1 {
+      font-size: 2em;
+    }
+  }
 }

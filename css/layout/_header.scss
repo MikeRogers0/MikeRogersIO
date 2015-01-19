@@ -13,6 +13,10 @@
     position: fixed;
   }
 
+  @media print {
+    border-bottom: none;
+  }
+
   a {
     display: block;
     color: $primaryTextColour;
@@ -28,6 +32,10 @@
     float: left;
     border: none;
     padding-left: 0;
+    
+    @media print {
+      display: none;
+    }
   }
 
   nav {
