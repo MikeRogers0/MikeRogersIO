@@ -114,54 +114,36 @@ meta:
   </ul>
 </div>
 
-<div class="container">
-  <h2>Recent projects</h2>
-  <ul class="capabilities projects">
-    <li>
-      <div class="preview icon">Cloud2FA</div>
-      <div class="blurb">A web app to sync 2FA authentication tokens between devices</div>
-      <div class="more-info">
-        <a href="" class="btn">View on Github</a>  
-      </div>
-    </li>
+<div class="container side-by-side">
 
-    <li>
-      <div class="preview icon">Oopsie</div>
-      <div class="blurb">A gem for generating 404 & 500 error pages</div>
-      <div class="more-info">
-        <a href="" class="btn">View on Github</a>  
-      </div>
-    </li>
+  <div>
+    <h2>Recent posts</h2>
+    <ul class="post-list">
+      {% for post in site.categories['blog'] limit:5 %}
+      <li>
+        <a href="{{ post.url | drop_index }}">{{ post.title }}</a>
+        <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute" }} read</div>
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="/posts.html" class="btn">See all blog posts</a>
+  </div>
 
-    <li>
-      <div class="preview icon">LivePage</div>
-      <div class="blurb">Reloads a page when its assets change using JS</div>
-      <div class="more-info">
-        <a href="" class="btn">View on Github</a>  
-        <a href="https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en" class="btn">Download on Chrome web store</a>
-      </div>
-    </li>
+  {% if 1 == 0 %}
 
-    <li>
-      <div class="preview icon">Clear My Cache</div>
-      <div class="blurb">A web app that tell users how to clear their cache</div>
-      <div class="more-info">
-        <a href="http://clearmycache.me/" class="btn">View on Github</a>  
-      </div>
-    </li>
-  </ul>
-</div>
+  <div>
+    <h2>Recent projects</h2>
+    <ul class="post-list">
+      <li>
+        <a href="https://github.com/MikeRogers0/show-when-this">Show when this</a>
+        <div class="meta">jQuery plugin to manage conditional showing/hiding of elements.</div>
+      </li>
+      <li>
+        <a href="#">Sync2FA</a>
+        <div class="meta">A Ruby On Rails project</div>
+      </li>
+    </ul>
+  </div>
 
-
-<div class="container">
-  <h2>Recent posts</h2>
-  <ul class="post-list">
-    {% for post in site.categories['blog'] limit:5 %}
-    <li>
-      <a href="{{ post.url | drop_index }}">{{ post.title }}</a>
-      <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute" }} read</div>
-    </li>
-    {% endfor %}
-  </ul>
-  <a href="/posts.html" class="btn">See all blog posts</a>
+  {% endif %}
 </div>
