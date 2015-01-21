@@ -70,7 +70,7 @@ redirects:
   uncategorized/970-apple-cant-do-math.htm : 2009/06/05/apple-cant-do-math.html
   projects/socialize-this/index.html : https://wordpress.org/plugins/socialize-this/
   socialize-this/index.html : https://wordpress.org/plugins/socialize-this/
-  <% (1..20).each do |index| %>
+  <% (1..25).each do |index| %>
   page/<%= index %>: posts.html
   <% end %>
 
