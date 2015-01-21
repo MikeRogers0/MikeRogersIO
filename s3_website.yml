@@ -56,7 +56,20 @@ redirects:
   sitemap/index.html: sitemap.html
   connect-with-me/index.html: /
   my-blog/index.html: posts.html
+  coding/php/1953-phps-ctype-functions.htm : 2011/03/05/phps-ctype-functions.html
   coding/2516-how-use-twitter-oauth-1-1-javascriptjquery.htm: 2013/02/25/how-use-twitter-oauth-1-1-javascriptjquery.html
+  coding/1668-using-cookieless-domains-to-improve-a-website-performance.htm: 2011/07/01/using-cookieless-domains-to-improve-a-website-performance.html
+  my-portfolio/index.html : https://github.com/mikerogers0
+  coding/php/1917-getting-the-weather-in-php.htm : 2011/02/27/getting-the-weather-in-php.html
+  coding/2483-list-current-active-connections-mac-osx.htm : 2012/11/20/list-current-active-connections-mac-osx.html
+  coding/php/1907-pdo-php-data-objects-starter-guide.htm : 2011/07/01/pdo-php-data-objects-starter-guide.html
+  uncategorized/2220-speed-up-bluetooth-devices-connecting-to-osx.htm : 2012/05/07/speed-up-bluetooth-devices-connecting-to-osx.html
+  xhtml_and_css/2197-how-to-use-google-web-fonts-on-wufoo-forms.htm : 2012/04/15/how-to-use-google-web-fonts-on-wufoo-forms.html
+  coding/xhtml_and_css/2197-how-to-use-google-web-fonts-on-wufoo-forms.htm : 2012/04/15/how-to-use-google-web-fonts-on-wufoo-forms.html
+  uncategorized/2437-getting-more-juice-out-of-virgin-media-super-hubs.htm : 2012/11/04/getting-more-juice-out-of-virgin-media-super-hubs.html
+  uncategorized/970-apple-cant-do-math.htm : 2009/06/05/apple-cant-do-math.html
+  projects/socialize-this/index.html : https://wordpress.org/plugins/socialize-this/
+  socialize-this/index.html : https://wordpress.org/plugins/socialize-this/
   <% (1..20).each do |index| %>
   page/<%= index %>: posts.html
   <% end %>
