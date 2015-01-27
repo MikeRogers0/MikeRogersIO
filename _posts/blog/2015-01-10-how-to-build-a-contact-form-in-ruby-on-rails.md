@@ -1,12 +1,14 @@
 ---
 layout: post
-title: How to make a contact form (Rails 4)
+title: How to make a contact form
 categories:
  – blog
 published: true
 meta:
   description: How to make a contact form in Rails with a BDD approach
   index: true
+tags:
+  - Rails
 video_length: 49
 ---
 

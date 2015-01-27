@@ -5,7 +5,11 @@ layout: default
   {% include partials/page_title.html %}
   
   <div class="container">
-    <p class="metadata">Posted: {{ page.date | date_to_long_string }}, {{ page | readtime | pluralize: "minute"  }} read</p>
+    <p class="metadata">
+      Posted: {{ page.date | date_to_long_string }}, 
+      {{ page | readtime | pluralize: "minute"  }} read
+      {% if page.tags.size > 0 %} - {{ page.tags | join: ', ' }}{% endif %}
+    </p>
     <section>{{ content }}</section>
 
     <section class="subnotes metadata">

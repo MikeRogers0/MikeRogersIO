@@ -13,7 +13,7 @@ module Jekyll
     end
 
     def render(context)
-      if parts = @text.match(/([\d]*) (.*)/)
+      if parts = @text.match(/([a-z0-9]*) (.*)/)
         gist, file = parts[1].strip, parts[2].strip
         script_url = script_url_for gist, file
         gist_url = link_url_for gist, file
@@ -45,7 +45,7 @@ module Jekyll
     end
 
     def get_gist_url_for(gist, file)
-      "https://gist.github.com/#{@github_username}/#{gist}/raw/#{file}"
+      "https://gist.githubusercontent.com/#{@github_username}/#{gist}/raw/#{file}"
     end
 
     def cache(gist, file, data)
@@ -70,7 +70,7 @@ module Jekyll
     end
 
     def get_gist_from_web(gist, file)
-      gist_url          = get_gist_url_for gist, file
+      gist_url = get_gist_url_for gist, file
 
       data = open(gist_url)
       data = data.read.force_encoding(Encoding::UTF_8)
@@ -90,4 +90,3 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('gist', Jekyll::GistTag)
-Liquid::Template.register_tag('gistnocache', Jekyll::GistTagNoCache)

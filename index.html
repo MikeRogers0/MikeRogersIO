@@ -122,7 +122,11 @@ meta:
       {% for post in site.categories['blog'] limit:5 %}
       <li>
         <a href="{{ post.url | drop_index }}">{{ post.title }}</a>
-        <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute" }} read</div>
+        <div class="meta">
+          {{ post.date | date_to_string }}, 
+          {{ post | readtime | pluralize: "minute" }} read
+          {% if post.tags.size > 0 %} - {{ post.tags | join: ', ' }}{% endif %}
+        </div>
       </li>
       {% endfor %}
     </ul>
