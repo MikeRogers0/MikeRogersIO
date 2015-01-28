@@ -17,7 +17,11 @@ title: Blog Posts
     
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
-        <div class="meta">{{ post.date | date_to_string }}, {{ post | readtime | pluralize: "minute" }} read</div>
+        <div class="meta">
+          {{ post.date | date_to_string }}, 
+          {{ post | readtime | pluralize: "minute" }} read
+          {% if post.tags.size > 0 %} - {{ post.tags | join: ', ' }}{% endif %}
+        </div>
       </li>
       
     {% if forloop.last %}  
