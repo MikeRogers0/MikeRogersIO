@@ -17,7 +17,7 @@ title : RSS Feed
         <item>
                 <title>{{ post.title }}</title>
                 <link>{{ site.production_url }}{{ post.url }}</link>
-                <guid>{{ site.production_url }}{{ post.id }}</guid>
+                <guid>{{ site.production_url }}{{ post.url }}</guid>
                 <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
                 <content type="html">{{ post.content | xml_escape }}</content>
         </item>
