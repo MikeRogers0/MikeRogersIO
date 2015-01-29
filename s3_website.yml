@@ -68,6 +68,8 @@ redirects:
   coding/xhtml_and_css/2197-how-to-use-google-web-fonts-on-wufoo-forms.htm : 2012/04/15/how-to-use-google-web-fonts-on-wufoo-forms.html
   uncategorized/2437-getting-more-juice-out-of-virgin-media-super-hubs.htm : 2012/11/04/getting-more-juice-out-of-virgin-media-super-hubs.html
   uncategorized/970-apple-cant-do-math.htm : 2009/06/05/apple-cant-do-math.html
+  coding/mysql/2120-mysql-replace-function.htm : 2011/09/10/mysql-replace-function.html
+  coding/php/1456-how-to-use-the-filter-functions-in-php.htm : 2010/06/21/how-to-use-the-filter-functions-in-php.html
   projects/socialize-this/index.html : https://wordpress.org/plugins/socialize-this/
   socialize-this/index.html : https://wordpress.org/plugins/socialize-this/
   <% (1..25).each do |index| %>

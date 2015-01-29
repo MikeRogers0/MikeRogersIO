@@ -3,6 +3,7 @@ layout: default
 title: Sitemap
 meta:
     index: true
+    show_in_sitemap: true
 ---
 
 {% include partials/page_title.html %}
@@ -24,7 +25,9 @@ meta:
     <h2>Pages</h2>
     <ul class="post-list">
     {% for page in site.pages %}
-      <li><a href="{{ site.production_url }}{{ page.url | drop_index }}">{{ page.title }}</a></li>
+      {% if page.meta.show_in_sitemap %}
+        <li><a href="{{ site.production_url }}{{ page.url | drop_index }}">{{ page.title }}</a></li>
+      {% endif %}
     {% endfor %}
     </ul>
   </div>
