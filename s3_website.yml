@@ -71,7 +71,7 @@ redirects:
   projects/socialize-this/index.html : https://wordpress.org/plugins/socialize-this/
   socialize-this/index.html : https://wordpress.org/plugins/socialize-this/
   <% (1..25).each do |index| %>
-  page/<%= index %>: posts.html
+  page/<%= index %>/index.html: posts.html
   <% end %>
 
 #routing_rules:
