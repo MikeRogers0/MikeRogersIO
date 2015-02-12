@@ -8,10 +8,10 @@ s3_bucket: mikerogers.io
 # site: path-to-your-website
 
 max_age:
-  "css/*": <%= 60 * 60 * 24 * 7 %>
-  "js/*": <%= 60 * 60 * 24 * 7 %>
-  "img/*": <%= 60 * 60 * 24 * 7 * 365 %>
-  "uploads/*": <%= 60 * 60 * 24 * 7 * 365 %>
+  "css/*": <%= 60 * 60 * 24 * 31 %>
+  "js/*": <%= 60 * 60 * 24 * 31 %>
+  "img/*": <%= 60 * 60 * 24 * 365 %>
+  "uploads/*": <%= 60 * 60 * 24 * 365 %>
   "*": <%= 60 * 60 * 24 * 7 %>
 
 gzip:
@@ -40,7 +40,7 @@ cloudfront_distribution_id: <%= ENV['CLOUDFRONT_DISTRIBUTION_ID'] %>
 
 cloudfront_distribution_config:
   default_cache_behavior:
-    min_TTL: <%= 60 * 60 * 24 * 7 %>
+    min_TTL: <%= 60 * 60 * 24 * 31 %>
   #aliases:
     #quantity: 1
     #items:
