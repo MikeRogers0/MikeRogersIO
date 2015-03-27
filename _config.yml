@@ -11,7 +11,7 @@ cdn_uri: ''
 name: Mike Rogers
 highlighter: true
 
-production_url : http://mikerogers.io
+production_url : https://mikerogers.io
 
 env: production
 

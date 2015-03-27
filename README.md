@@ -5,7 +5,7 @@ My personal website which shows off bits of my portfolio and ramblings from my b
 
 # How to turn on
 
-   bundle exec jekyll server -w -H 0.0.0.0
+   bundle exec jekyll server -w -H 127.0.0.1
 
 # How to deploy
 
