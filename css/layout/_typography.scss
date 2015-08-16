@@ -1,7 +1,7 @@
 body {
-  background: $backgroundColour;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: $primaryTextColour;
+  background: #fff;
 }
 
 h1, h2, h3, h4, h5 {
@@ -26,4 +26,9 @@ a {
 
 em, blockquote {
   color: $secondaryTextColour;
+}
+
+#content {
+  background: $backgroundColour;
+  padding-bottom: 20px;
 }

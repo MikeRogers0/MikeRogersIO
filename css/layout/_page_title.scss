@@ -9,6 +9,7 @@
     color: $onBgTextColour;
     font-weight: normal;
     margin: 0;
+    text-shadow: 1px 1px 1px rgba($primaryTextColour, 0.2);
   }
 
   @media screen and (min-width: 900px) {

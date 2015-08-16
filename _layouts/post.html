@@ -10,7 +10,7 @@ layout: default
       {{ page | readtime | pluralize: "minute"  }} read
       {% if page.tags.size > 0 %} - {{ page.tags | join: ', ' }}{% endif %}
     </p>
-    <section>{{ content }}</section>
+    <section role="main">{{ content }}</section>
 
     <section class="subnotes metadata">
       <p>If you want to discuss this post, feel free to tweet me (<a href="https://twitter.com/MikeRogers0">@MikeRogers0</a>) or drop me an <a href="mailto:me+blog@mikerogers.io?subject={{ page.title | cgi_escape }}">email</a>. Any code samples unless stated otherwise are licensed under the <a href="http://opensource.org/licenses/MIT">The MIT License (MIT)</a>.</p>
