@@ -7,6 +7,7 @@ published: true
 meta:
   description: Six fairly generic Rails tips that are pretty obvious, but will improve performance and help keep your codebase tidier. Number 3 won't shock you.
   index: true
+  image: https://mikerogers.io/uploads/2015/08/16/logic-in-views2.jpg
 ---
 
 I've been working on a medium sized Ruby on Rails application for the last few months, here are some nifty (Heroku suitable) hacks I been using that have helped keep performance reasonable, while still keeping the apps codebase manageable.
