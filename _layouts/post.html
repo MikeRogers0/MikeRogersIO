@@ -1,6 +1,25 @@
 ---
 layout: default
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title }}",
+  "datePublished": "{{ page.date }}",
+  "description": "{{ page.meta.description }}",
+  "url": "{{ site.production_url }}{{ page.url | drop_index }}",
+  "image": "{{ site.production_url }}/img/mike-rogers.jpg",
+  "author": {
+    "@type": "Person",
+      "image": "{{ site.production_url }}/img/mike-rogers.jpg",
+      "name": "Mike Rogers",
+      "sameAs": "{{ site.production_url }}"
+  }
+}
+</script>
+
 <article role="main">
   {% include partials/page_title.html %}
   

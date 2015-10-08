@@ -7,6 +7,22 @@ meta:
   show_in_sitemap: true
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Berkshire, UK"
+  },
+  "email": "mailto:me@mikerogers.io",
+  "image": "{{ site.production_url }}/img/mike-rogers.jpg",
+  "jobTitle": "Ruby on Rails Developer",
+  "name": "Mike Rogers",
+  "url": "{{ site.production_url }}"
+}
+</script>
+
 <div id="say-hello" class="page-title">
   <div class="container">
     <h1><span id="typed-text">Hello.<br />I'm <span class="my-name">Mike</span>, a Ruby on Rails developer.</span></h1>
@@ -15,6 +31,7 @@ meta:
 
 <div class="container">
   <h2>About me</h2>
+
   <p>I'm Mike Rogers, a Ruby on Rails developer from the UK. I've been a developer for a while now so I've used a lot of different languages, tools and libaries, but here is what I'm currently using regularly:</p>
   <ul class="capabilities">
     <li>
