@@ -27,7 +27,7 @@ layout: default
     <p class="metadata">
       Posted: {{ page.date | date_to_long_string }}, 
       {{ page | readtime | pluralize: "minute"  }} read
-      {% if page.tags.size > 0 %} - {{ page.tags | join: ', ' }}{% endif %}
+      {% if page.tags.size > 0 %} - {{ page.tags | join: ', ' }}{% endif %}. Written by <a href="/" ref="author">Mike Rogers</a>
     </p>
     <section role="main">{{ content }}</section>
 
