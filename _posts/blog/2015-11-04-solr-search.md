@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Searching with Solr
+title: Searching with Solr in Rails
 categories:
  – blog
 published: true
@@ -10,11 +10,17 @@ meta:
   image: TODO
 ---
 
-Adding a custom search to your website can be somewhat tricky if you want to organise results by relavancy, solr can make this a bit easier.
+Adding a custom search to your website can be somewhat tricky if you want to organise results by relavancy, solr can make this a bit easier. 
 
-## How to setup
+For this post I'm going to assume you've installed solr via brew, or are using WebSolr.
+
+## Setup in rails
+
+To setup Solr, add the [sunspot_rails](https://github.com/sunspot/sunspot) gem to your Gemfile, then bundle. 
 
 Examples how adding in the search
+
+## Add to your models
 
 ## Setup for more scale
 
