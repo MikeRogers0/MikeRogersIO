@@ -2,8 +2,7 @@ ruby '2.2.3'
 
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 2.5'
-gem 'jekyll-sass', '~> 1.2'
+gem 'jekyll', '~> 3.0'
 gem 'rdiscount', '~> 2.1'
 
 # Deploy to S3
