@@ -107,12 +107,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll
-  jekyll-press
-  jekyll-sass
-  octopress-autoprefixer
-  rdiscount
-  s3_website
+  jekyll (~> 2.5)
+  jekyll-press (~> 0.2)
+  jekyll-sass (~> 1.2)
+  octopress-autoprefixer (~> 1.0)
+  rdiscount (~> 2.1)
+  s3_website (~> 2.12)
 
 BUNDLED WITH
    1.10.6

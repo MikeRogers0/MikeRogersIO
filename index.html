@@ -132,11 +132,11 @@ meta:
   </ul>
 </div>
 
-<div class="container side-by-side">
+<div class="container">
 
   <div>
     <h2>Recent posts</h2>
-    <ul class="post-list">
+    <ul class="post-list side-by-side">
       {% for post in site.categories['blog'] limit:5 %}
       <li>
         <a href="{{ post.url | drop_index }}">{{ post.title }}</a>

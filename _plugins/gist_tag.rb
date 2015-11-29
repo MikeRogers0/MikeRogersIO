@@ -30,7 +30,7 @@ module Jekyll
       if code == ""
         "<script src='#{script_url}'></script>"
       else
-        "<script src='#{script_url}'></script><noscript><div class=\"gistRaw\"><pre><code>#{code}</code></pre><a href=\"#{gist_url}\" class=\"url\" target=\"_blank\">View on Github</a></div></noscript>"
+        "<div class=\"gistRaw\"><pre><code>#{code}</code></pre><a href=\"#{gist_url}\" class=\"url\" target=\"_blank\">View on Github</a></div>"
       end
     end
 
@@ -78,13 +78,6 @@ module Jekyll
       cache gist, file, data unless @cache_disabled
       data
 
-    end
-  end
-
-  class GistTagNoCache < GistTag
-    def initialize(tag_name, text, token)
-      super
-      @cache_disabled = true
     end
   end
 end

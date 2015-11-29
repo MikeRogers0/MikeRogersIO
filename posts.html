@@ -14,7 +14,7 @@ meta:
 
     {% if forloop.first %}
       <h2>{{ post.date | date: "%Y" }}</h2>
-      <ul class="post-list">
+      <ul class="post-list side-by-side">
     {% endif %}
     
       <li>
@@ -33,7 +33,7 @@ meta:
         </ul>
 
         <h2>{{ nyear }}</h2>
-        <ul class="post-list">
+        <ul class="post-list side-by-side">
       {% endif %}
     {% endif %}
   {% endfor %}

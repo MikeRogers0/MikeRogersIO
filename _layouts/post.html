@@ -19,6 +19,21 @@ layout: default
   }
 }
 </script>
+ 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+      "@id": "{{ site.production_url }}/posts.html",
+      "name": "Posts"
+    }
+  }]
+}
+</script>
 
 <article role="main">
   {% include partials/page_title.html %}
