@@ -9,27 +9,63 @@ meta:
   index: true
 ---
 
-For ages I had never fully embraced how time saving the i18n is in Rails. IMO it's one of its strongest features currently.
+For ages I had never fully embraced how time saving the i18n is in Rails, but once I started using it more frequently it started becomming by biggest time saver.
 
 ## How i18n decides on the language to use
 
 Looks at what the browser is requesting (The lang header), if not found it'll fallback to the default.
 
-## Where rails will do its magic to save you time
+## Where Rails magic does stuff for you
 
-Labels, attributes, models, placeholders and when you call it directly.
-
-## Lets imporve a form
+### Input Placeholders
 
 ```
-Some shitty form with no i18n
-```
-
-### The better version
-
+<%= form_for :message do "f| %>
+  <%= f.input :name, placeholder: true
+<% end %>
 ```
 
 ```
+en.activerecord.placeholders.message.name
+```
 
-### The en.yml
+### Labels
+```
+<%= form_for :message do "f| %>
+  <%= f.label :name
+<% end %>
+```
 
+```
+en.activerecord.label.message.name
+```
+
+### Adhocly in controllers
+
+```
+# app/controllers/messages_controller.rb
+MessagesController < BaseController
+  def update
+    # Some business logic
+
+    return redirect_to:index, notice: t(".notice") if @resource.save
+    render :edit, alert: t(".alert")
+  end
+end
+```
+
+```
+en.messages.notice
+en.messages.alert
+```
+
+### Adhocly in views (With arguments)
+
+```
+<!-- app/views/messages/_sidebar_pricing.html.erb -->
+<%= t ".pricing_information", price: number_to_currency(200, precision: 2) %>
+```
+
+```
+en.messages.pricing_information: "That'll cost #{price}"
+```
