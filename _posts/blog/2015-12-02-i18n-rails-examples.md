@@ -11,6 +11,11 @@ meta:
 
 For ages I had never fully embraced how time saving the i18n is in Rails, but once I started using it more frequently it started becomming by biggest time saver.
 
+## Useful tools
+
+There are two main tools I use to develop while seeing the i18n in action. Firstly [`i18n-debug`](https://github.com/fphilipe/i18n-debug) a rails gem that appends the i18n lookups to the logs.
+The second [Quick Language Switcher](https://chrome.google.com/webstore/detail/quick-language-switcher/pmjbhfmaphnpbehdanbjphdcniaelfie/related?hl=en) a chrome extension that allows you to change the `Accept-Language` header.
+
 ## How i18n decides on the language to use
 
 Looks at what the browser is requesting (The lang header), if not found it'll fallback to the default.
@@ -62,7 +67,7 @@ en.messages.alert
 ### Adhocly in views (With arguments)
 
 ```
-<!-- app/views/messages/_sidebar_pricing.html.erb -->
+<% # app/views/messages/_sidebar_pricing.html.erb %>
 <%= t ".pricing_information", price: number_to_currency(200, precision: 2) %>
 ```
 
