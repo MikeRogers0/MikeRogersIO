@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rails I18n examples
+title: Rails i18n examples
 categories:
  – blog
 published: true
@@ -9,16 +9,26 @@ meta:
   index: true
 ---
 
-For ages I had never fully embraced how time saving the i18n is in Rails, but once I started using it more frequently it started becomming by biggest time saver.
+For a long time I had never fully embraced how simple internationalisation (i18n) in Rails is, but once I started by default I started feeling the benefits.
 
-## Useful tools
+## Before I dive in
 
-There are two main tools I use to develop while seeing the i18n in action. Firstly [`i18n-debug`](https://github.com/fphilipe/i18n-debug) a rails gem that appends the i18n lookups to the logs.
+### Useful tools
+
+There are two main tools I use while developing to see the i18n in action. Firstly [`i18n-debug`](https://github.com/fphilipe/i18n-debug) a rails gem that appends the i18n lookups to the logs.
 The second [Quick Language Switcher](https://chrome.google.com/webstore/detail/quick-language-switcher/pmjbhfmaphnpbehdanbjphdcniaelfie/related?hl=en) a chrome extension that allows you to change the `Accept-Language` header.
 
-## How i18n decides on the language to use
+### Internationalisation != Localisation
 
-Looks at what the browser is requesting (The lang header), if not found it'll fallback to the default.
+Internationalisation and Localisation are not the same thing, and I used to get this confused far to often. The best way to remember the difference is:
+
+* Internationalisation - Displaying your app in the language the user is requesting.
+* Localisation - Displaying content in your app based upon the users physical location, for example using the users local currency.
+
+## How RoR decides on the i18n to use
+
+By default Rails will attempt to honor the `Accept-Language` header in the users HTTP request, and serve the translations saved in your `/config/locales/*.yml` files. 
+If it can't find a translation in the users language it'll fallback to the `default_locale`, which is normally set to `en`.
 
 ## Where Rails magic does stuff for you
 
@@ -74,3 +84,22 @@ en.messages.alert
 ```
 en.messages.pricing_information: "That'll cost #{price}"
 ```
+
+## Reloading locales during development
+
+Rails by default only loads up the translations once when you boot the app, this can make it a tad tricky when you're experimenting in development mode, to get around this add the following initializer:
+
+```
+# config/initializers/reload_locale.rb
+if Rails.env.development?
+  locale_reloader = ActiveSupport::FileUpdateChecker.new(Dir["config/locales/*yml"]) do
+     I18n.backend.reload!
+  end
+
+  ActionDispatch::Callbacks.to_prepare do
+    locale_reloader.execute_if_updated
+  end
+end
+```
+
+This will automatically reload your locales when they change without you having to restart the app.
