@@ -5,10 +5,10 @@ My personal website which shows off bits of my portfolio and ramblings from my b
 
 # How to turn on
 
-   bundle exec jekyll server -w -H 127.0.0.1
+    bundle exec jekyll server -w -H 127.0.0.1
 
 # How to deploy
 
-   bundle exec jekyll build
-   s3_website cfg apply
-   s3_website push
+    bundle exec jekyll build
+    s3_website cfg apply
+    s3_website push
