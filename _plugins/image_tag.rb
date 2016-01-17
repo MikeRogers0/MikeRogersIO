@@ -25,11 +25,13 @@ module Jekyll
     end
 
     def render(context)
-      html = '<a href="' + @attributes["src"] + '" class="res-img" style="max-width: ' + @attributes["width"] + 'px;" target="_blank">'
-      html << '<img src="' + @attributes["src"] + '" alt="' + @attributes["alt"] + '"/>'
-      html << '<div>' + @attributes["title"] + '</div>' unless @attributes["title"].nil?
-      html << '</a>'
-      return html;
+      html = '<div class="res-img">'
+        html << '<a href="' + @attributes["src"] + '" target="_blank">'
+          html << '<img src="' + @attributes["src"] + '" style="max-width: ' + @attributes["width"] + 'px;" alt="' + @attributes["alt"] + '"/>'
+        html << '</a>'
+        html << '<em>' + @attributes["title"] + '</em>' unless @attributes["title"].nil?
+      html << '</div>'
+      return html
     end
   end
 end
