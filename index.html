@@ -147,9 +147,9 @@ meta:
       {% for post in site.categories['blog'] limit:5 %}
       <li>
         <a href="{{ post.url | drop_index }}">{{ post.title }}</a>
-        {{ if post.meta.description }}
+        {% if post.meta.description %}
           <p class="description">{{ post.meta.description }}</p>
-        {{endif}}
+        {% endif %}
         <div class="meta">
           {{ post.date | date_to_string }}, 
           {{ post | readtime | pluralize: "minute" }} read

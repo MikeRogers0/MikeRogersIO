@@ -7,6 +7,7 @@ published: true
 meta:
   description: A handful of pictures showing my first year of being a Digital Nomad.
   index: true
+  image: /uploads/2016/01/17/working-at-beach.jpg
 ---
 
 At the start of 2015 I stumbled across the concept of a [digital nomad](https://en.wikipedia.org/wiki/Digital_nomad), the idea being that if you have an internet connection you can work from anywhere. 

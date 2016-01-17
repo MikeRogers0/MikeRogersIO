@@ -10,7 +10,11 @@ layout: default
   "datePublished": "{{ page.date }}",
   "description": "{{ page.meta.description }}",
   "url": "{{ site.production_url }}{{ page.url | drop_index }}",
+  {% if page.meta.image != null %}
+  "image": "{{ site.production_url }}{{ page.meta.image }}",
+  {% else %}
   "image": "{{ site.production_url }}/img/mike-rogers.jpg",
+  {% endif %}
   "author": {
     "@type": "Person",
       "image": "{{ site.production_url }}/img/mike-rogers.jpg",
@@ -47,7 +51,7 @@ layout: default
     <section role="main">{{ content }}</section>
 
     <section class="subnotes metadata">
-      <p>If you want to discuss this post, feel free to tweet me (<a href="https://twitter.com/MikeRogers0">@MikeRogers0</a>) or drop me an <a href="mailto:me+blog@mikerogers.io?subject={{ page.title | cgi_escape }}">email</a>. Any code samples unless stated otherwise are licensed under the <a href="http://opensource.org/licenses/MIT">The MIT License (MIT)</a>.</p>
+      <p>If you want to discuss this post, feel free to tweet me (<a href="https://twitter.com/MikeRogers0" rel="me" target="_blank">@MikeRogers0</a>) or drop me an <a href="mailto:me+blog@mikerogers.io?subject={{ page.title | cgi_escape }}">email</a>. Any code samples unless stated otherwise are licensed under the <a href="http://opensource.org/licenses/MIT"target="_blank">The MIT License (MIT)</a>. Spotted a mistake? Send me a <a href="https://github.com/MikeRogers0/MikeRogersIO/blob/master/{{ page.path }}" target="_blank">pull request</a> :)</p>
     </section>
   </div>
 </article>
