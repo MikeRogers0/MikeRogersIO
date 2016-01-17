@@ -1,0 +1,11 @@
+@keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@keyframes wiggle {
+  0% { transform:rotate(3deg); }
+  50% { transform:rotate(-3deg); }
+  100% { transform:rotate(3deg); }
+}

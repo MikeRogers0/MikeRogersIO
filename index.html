@@ -43,7 +43,7 @@ meta:
   <ul class="capabilities">
     <li>
       <div class="icon">
-        {% include logos/ruby_on_rails.svg %}
+        <img alt="Ruby on Rails" src="/img/logos.svg?#ruby_on_rails" width="63" height="75" type="image/svg+xml" data-fallback-src="/img/logos/ruby_on_rails.svg" />
       </div>
       <div class="name">Ruby on Rails</div>
       <div class="since">Since 2013</div>
@@ -51,7 +51,7 @@ meta:
 
     <li>
       <div class="icon">
-        {% include logos/postgresql_elephant.svg %}
+        <img alt="PostgreSQL" src="/img/logos.svg#postgresql_elephant" width="73" height="75" type="image/svg+xml" />
       </div>
       <div class="name">PostgreSQL</div>
       <div class="since">Since 2013</div>
@@ -59,7 +59,7 @@ meta:
     
     <li>
       <div class="icon">
-        {% include logos/heroku.svg %}
+        <img alt="Heroku" src="/img/logos.svg#heroku" width="60" height="75" type="image/svg+xml" />
       </div>
       <div class="name">Heroku</div>
       <div class="since">Since 2013</div>
@@ -67,7 +67,7 @@ meta:
 
     <li>
       <div class="icon">
-        {% include logos/sass.svg %}
+        <img alt="SASS" src="/img/logos.svg#sass" width="100" height="75" type="image/svg+xml" />
       </div>
       <div class="name">SASS</div>
       <div class="since">Since 2012</div>
@@ -75,7 +75,7 @@ meta:
 
     <li>
       <div class="icon">
-        {% include logos/git.svg %}
+        <img alt="Git" src="/img/logos.svg#git" width="75" height="75" type="image/svg+xml" />
       </div>
       <div class="name">Git</div>
       <div class="since">Since 2011</div>
@@ -83,7 +83,7 @@ meta:
 
     <li>
       <div class="icon">
-        {% include logos/jquery.svg %}
+        <img alt="jQuery" src="/img/logos.svg#jquery" width="78" height="75" type="image/svg+xml" />
       </div>
       <div class="name">jQuery</div>
       <div class="since">Since 2010</div>
@@ -97,42 +97,42 @@ meta:
   <ul class="capabilities">
     <li>
       <a href="https://github.com/mikerogers0" rel="me" class="icon" target="_blank">
-        {% include logos/github.svg %}
+        <img alt="GitHub logo" src="/img/logos.svg#github" width="75" height="75" type="image/svg+xml" />
       </a>
       <div class="name">GitHub</div>
     </li>
 
     <li>
       <a href="http://teamtreehouse.com/rmikerogers0" rel="me" class="icon" target="_blank">
-        {% include logos/treehouse.svg %}
+        <img alt="Treehouse logo" src="/img/logos.svg#treehouse" width="69" height="75" type="image/svg+xml" />
       </a>
       <div class="name">Treehouse</div>
     </li>
 
     <li>
       <a href="https://twitter.com/mikerogers0" rel="me" class="icon" target="_blank">
-        {% include logos/tweeter.svg %}
+        <img alt="Twitters logo" src="/img/logos.svg#tweeter" width="92" height="75" type="image/svg+xml" />
       </a>
       <div class="name">Twitter</div>
     </li>
 
     <li>
       <a href="https://www.linkedin.com/in/mikerogers0" rel="me" class="icon" target="_blank">
-        {% include logos/link_in.svg %}
+        <img alt="LinkedIns logo" src="/img/logos.svg#link_in" width="75" height="75" type="image/svg+xml" />
       </a>
       <div class="name">LinkedIn</div>
     </li>
 
     <li>
-      <a href="https://www.youtube.com/user/rogem002" rel="me" class="icon" target="_blank">
-        {% include logos/ytube.svg %}
+      <a href="http://stackoverflow.com/users/445724/mikerogers0" rel="me" class="icon" target="_blank">
+        <img alt="StackOverflow logo" src="/img/logos.svg#stackoverflow" width="75" height="75" type="image/svg+xml" />
       </a>
-      <div class="name">YouTube</div>
+      <div class="name">StackOverflow</div>
     </li>
-
+    
     <li>
       <a href="mailto:me+site@mikerogers.io?subject=Hi+from+your+site" rel="me" class="icon">
-        {% include logos/email.svg %}
+        <img alt="Email me" src="/img/logos.svg#email" width="75" height="75" type="image/svg+xml" />
       </a>
       <div class="name">Email me</div>
     </li>
@@ -179,3 +179,14 @@ meta:
 
   {% endif %}
 </div>
+
+<script type="text/javascript" async="async">
+  // Safari can't load SVGs as images when a target (logos.file#the-target), so havw to switch them out for objects.
+  //if( navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1 ){
+    var svgImages = document.querySelectorAll("img[type='image/svg+xml']");
+    for(var i = 0; svgImages[i]; i++){
+      image = svgImages[i];
+      image.setAttribute("src", image.getAttribute("data-fallback-src"));
+    }
+  //}
+</script>

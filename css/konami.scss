@@ -3,3 +3,12 @@
 body, h1, h2, h3, h4, h5 {
   font-family: 'Comic Sans MS'
 }
+
+h1, h2, h3, h4, h5 {
+  opacity: 1;
+  animation: blink 0.7s infinite;
+}
+
+img {
+  animation:wiggle .3s infinite;
+}
