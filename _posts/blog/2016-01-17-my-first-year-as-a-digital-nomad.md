@@ -26,7 +26,7 @@ Finally I attended a bunch of meetups in London, to find out what Digital Nomad 
 
 ## Hitting the road
 
-{% img src: /uploads/2016/01/17/christopher-mccandless.gif width: 470 alt: "Christopher McCandless from Into the Wild" %}
+{% img src: /uploads/2016/01/17/christopher-mccandless.jpg width: 600 alt: "Christopher McCandless from Into the Wild" %}
 
 My bag was packed and I had a MacBook Pro under my arm, I was set to go. In my mind I was venturing into the unknown on a amazing new adventure. 
 In reality I was just going to other city (A 1 hour flight away, still within the EU) for two and a bit weeks with a lovely AirBnB booked. I think starting off almost as a holiday where I worked for a few days during the week was a really nice way to ease into working remotely.
@@ -63,8 +63,6 @@ I didn't manage to try all the co-working spaces in Prague (There are far to man
 My favourite (That also happened to be a 5 minute walk from my accommodation) was [Locus Workspace](http://en.locusworkspace.cz/). It was a nice mix of members, and the staff organised lots of small events such as after work talks, shared biscuit & coffee breaks etc.
 
 Prague was also full of surprises, one of my favourites was when a really loud announcement in Czech came from outside, and was then followed by a really loud Siren. Everyone in the office just ignored it and kept working and I was quietly wondering if this would be my last commit before I start playing fallout in real life. Turns out there is a [Siren Test](https://www.youtube.com/watch?v=UbrmSrlEwtk) the first Wednesday of every month.
-
-{% img src: /uploads/2016/01/17/paris-does-washing.gif width: 320 alt: "Paris Hilton doing Laundry" %}
 
 Wifi was available in most locations in Prague. I was really pleasantly surprised to find [the Laundromat](http://praguelaundromat.cz/) I was doing my washing in had 50mb/s internet.
 
