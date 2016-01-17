@@ -39,7 +39,7 @@ meta:
 <div class="container">
   <h2>About me</h2>
 
-  <p>I'm Mike Rogers, a Ruby on Rails developer from the UK. I've been a developer for a while now so I've used a lot of different languages, tools and libaries, but here is what I'm currently using regularly:</p>
+  <p>I'm Mike Rogers, a Ruby on Rails developer from the UK. I've been a web developer since 2009 so I've used a lot of different languages, tools and libaries, but here is what I'm currently using regularly:</p>
   <ul class="capabilities">
     <li>
       <div class="icon">
@@ -143,10 +143,13 @@ meta:
 
   <div>
     <h2>Recent posts</h2>
-    <ul class="post-list side-by-side">
+    <ul class="post-list">
       {% for post in site.categories['blog'] limit:5 %}
       <li>
         <a href="{{ post.url | drop_index }}">{{ post.title }}</a>
+        {{ if post.meta.description }}
+          <p class="description">{{ post.meta.description }}</p>
+        {{endif}}
         <div class="meta">
           {{ post.date | date_to_string }}, 
           {{ post | readtime | pluralize: "minute" }} read

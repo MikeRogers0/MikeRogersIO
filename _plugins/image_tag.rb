@@ -1,39 +1,35 @@
-# Based upon https://github.com/mrdanadams/jekyll-thumbnailer/blob/master/thumbnail.rb
+# Based upon @paulrobertlloyd's work https://github.com/Shopify/liquid/issues/507
+# 
 # Usage
-# {% img /uploads/2009/06/apple_cant_do_math.jpg 700x478 "In the background ..." %}
+# {% img src: /uploads/2009/06/apple_cant_do_math.jpg width: 700 alt: "In the background ..." %}
+# or (title is optional)
+# {% img src: /uploads/2009/06/apple_cant_do_math.jpg width: 700 alt: "In the background ..." title: "only 70%" %}
 
 module Jekyll
   class ImgTag < Liquid::Tag
 
     def initialize(tag_name, markup, tokens)
-      if /(?<src>[^\s]+)\s+(?<dimensions>[^\s]+)\s+[?\"](?<alt>[^\"]+)/i =~ markup
-        @src = src
-        @alt = alt
+      super
+      @attributes = {}
 
-        /(?<width>\d+)?x(?<height>\d+)?/ =~ dimensions
-
-        if !width.nil? and !height.nil?
-          @width = width
-          @height = height
-        else
-          @width = '150'
-          @height = '100'
-        end
-
-        # Update the source to link correctly to CDN.
-        if src.start_with?('/')
-          @src = Jekyll.configuration({})['cdn_uri'] + src
-        end
+      markup.scan(Liquid::TagAttributes) do |key, value|
+        @attributes[key] = value.gsub(/^'|"/, '').gsub(/'|"$/, '')
       end
+
+      # Update the source to link correctly to CDN.
+      if @attributes["src"].start_with?('/')
+        @attributes["src"] = Jekyll.configuration({})["cdn_uri"] + @attributes["src"]
+      end
+
       super
     end
 
     def render(context)
-      html = '<a href="'+@src+'" class="resImg" style="max-width: '+@width+'px; max-height: '+@height+'px;" target="_blank">'
-      html << '<img src="'+@src+'" alt="'+@alt+'"/>'
+      html = '<a href="' + @attributes["src"] + '" class="res-img" style="max-width: ' + @attributes["width"] + 'px;" target="_blank">'
+      html << '<img src="' + @attributes["src"] + '" alt="' + @attributes["alt"] + '"/>'
+      html << '<div>' + @attributes["title"] + '</div>' unless @attributes["title"].nil?
       html << '</a>'
       return html;
-
     end
   end
 end

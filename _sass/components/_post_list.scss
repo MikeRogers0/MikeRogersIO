@@ -3,7 +3,7 @@
   list-style: none;
   
   li {
-    padding-bottom: 10px;
+    padding-bottom: 12px;
 
     &:last-child {
       padding-bottom: 0;
@@ -12,7 +12,11 @@
 
   a {
     display: block;
-    padding-bottom: 5px;
+    padding-bottom: 6px;
+  }
+
+  .description {
+    margin: 0 0 6px 0;
   }
 
   .meta {

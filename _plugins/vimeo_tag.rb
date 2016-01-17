@@ -1,6 +1,4 @@
 # Based upon https://github.com/mrdanadams/jekyll-thumbnailer/blob/master/thumbnail.rb
-# Usage
-# {% img /uploads/2009/06/apple_cant_do_math.jpg 700x478 "In the background ..." %}
 
 module Jekyll
   class VimeoTag < Liquid::Tag
@@ -14,7 +12,7 @@ module Jekyll
 
     def render(context)
 
-      html = '<div class="resVid" style="max-width: 640px;">'
+      html = '<div class="res-vid" style="max-width: 640px;">'
       html << '<iframe src="http://player.vimeo.com/video/'+@src+'" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>'
       html << '</div>'
       return html;

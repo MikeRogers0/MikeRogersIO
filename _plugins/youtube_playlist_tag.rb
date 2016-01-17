@@ -1,6 +1,4 @@
 # Based upon https://github.com/mrdanadams/jekyll-thumbnailer/blob/master/thumbnail.rb
-# Usage
-# {% img /uploads/2009/06/apple_cant_do_math.jpg 700x478 "In the background ..." %}
 
 module Jekyll
   class YoutubePlaylistTag < Liquid::Tag
@@ -14,7 +12,7 @@ module Jekyll
 
     def render(context)
 
-      html = '<div class="resVid" style="max-width: 640px;">'
+      html = '<div class="res-vid" style="max-width: 640px;">'
       html << '<iframe width="100%" height="100%" src="//www.youtube.com/embed/videoseries?list='+@src+'#vq=hd720" frameborder="0" allowfullscreen></iframe>'
       html << '</div>'
       return html;

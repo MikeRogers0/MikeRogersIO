@@ -20,7 +20,7 @@ a {
   color: $primaryColour;
 
   &:active, &:hover {
-    color: $lightPrimaryColour;
+    text-decoration: none;
   }
 }
 

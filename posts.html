@@ -14,11 +14,14 @@ meta:
 
     {% if forloop.first %}
       <h2>{{ post.date | date: "%Y" }}</h2>
-      <ul class="post-list side-by-side">
+      <ul class="post-list">
     {% endif %}
     
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
+        {{ if post.meta.description }}
+          <p class="description">{{ post.meta.description }}</p>
+        {{endif}}
         <div class="meta">
           {{ post.date | date_to_string }}, 
           {{ post | readtime | pluralize: "minute" }} read
@@ -33,7 +36,7 @@ meta:
         </ul>
 
         <h2>{{ nyear }}</h2>
-        <ul class="post-list side-by-side">
+        <ul class="post-list">
       {% endif %}
     {% endif %}
   {% endfor %}

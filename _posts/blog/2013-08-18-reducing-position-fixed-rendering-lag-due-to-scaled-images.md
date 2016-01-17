@@ -13,7 +13,7 @@ I'm currently working on a project that uses a variable amount of images which a
 ## The Problem
 After watching the page render in the timeline tool in Chrome and watching the timeline as the page was scrolled, the issue was clear. 
 
-{% img /uploads/2013/08/18/timeine-repainting.jpg 750x538 "The Chrome Dev tools timeline showing the lag cause" %}
+{% img src: /uploads/2013/08/18/timeine-repainting.jpg width: 750 alt: "The Chrome Dev tools timeline showing the lag cause" %}
 
 The scaled images were being repainted from the cache each time the page was scrolled. As there was quite a few images this caused a lag in the page rendering. Upon further investigation it turned out to be due to there being a element which used position:fixed; on the page, which triggers the elements on the page to be repainted when they collide. More information about this issue has been documented by <a href="http://remysharp.com/2012/05/24/issues-with-position-fixed-scrolling-on-ios/">Remy Sharp</a>.
 

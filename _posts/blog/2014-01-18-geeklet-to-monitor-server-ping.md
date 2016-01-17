@@ -11,7 +11,7 @@ meta:
 
 I've been using [Geektool](http://projects.tynsoe.org/en/geektool/) for a while now, it's a super handy way to display useful information on my desktop. One geeklet I've found to be useful displays the status and ping of my VPS.
 
-{% img /uploads/2014/01/18/uptime-monitor-geeklet.png 168x50 "Server name and its ping" %}
+{% img src: /uploads/2014/01/18/uptime-monitor-geeklet.png width: 168 alt: "Server name and its ping" %}
 
 ## Geeklet code
 Here is the code you need to stick in the command box.
