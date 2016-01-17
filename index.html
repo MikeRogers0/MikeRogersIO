@@ -182,11 +182,11 @@ meta:
 
 <script type="text/javascript" async="async">
   // Safari can't load SVGs as images when a target (logos.file#the-target), so havw to switch them out for objects.
-  //if( navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1 ){
+  if( navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1 ){
     var svgImages = document.querySelectorAll("img[type='image/svg+xml']");
     for(var i = 0; svgImages[i]; i++){
       image = svgImages[i];
       image.setAttribute("src", image.getAttribute("data-fallback-src"));
     }
-  //}
+  }
 </script>
