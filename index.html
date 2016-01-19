@@ -181,7 +181,7 @@ meta:
 </div>
 
 <script type="text/javascript" async="async">
-  // Safari can't load SVGs as images when a target (logos.file#the-target), so havw to switch them out for objects.
+  // Safari can't load SVGs as images when a hash is present (logos.file#the-hash), so have to fallback to direct linking to the standalone svg.
   if( navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1 ){
     var svgImages = document.querySelectorAll("img[type='image/svg+xml']");
     for(var i = 0; svgImages[i]; i++){
