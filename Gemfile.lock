@@ -81,6 +81,3 @@ DEPENDENCIES
   octopress-autoprefixer (~> 1.0)
   rdiscount (~> 2.1)
   s3_website (~> 2.12)
-
-BUNDLED WITH
-   1.10.6
