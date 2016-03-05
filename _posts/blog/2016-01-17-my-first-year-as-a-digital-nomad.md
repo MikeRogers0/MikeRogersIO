@@ -59,7 +59,7 @@ My two favourite co-working spaces were, [The Castle](https://www.facebook.com/t
 
 Prague is the perfect city for remote working in my opinion, it has a low cost of living and offers a very good quality of life for what you're paying. Also the metro system makes travel around the city super easy.
 
-I didn't manage to try all the co-working spaces in Prague (There are far to many to choose from), I did manage to try a few though. 
+I didn't manage to try all the co-working spaces in Prague (There are far too many to choose from), I did manage to try a few though. 
 My favourite (That also happened to be a 5 minute walk from my accommodation) was [Locus Workspace](http://en.locusworkspace.cz/). It was a nice mix of members, and the staff organised lots of small events such as after work talks, shared biscuit & coffee breaks etc.
 
 Prague was also full of surprises, one of my favourites was when a really loud announcement in Czech came from outside, and was then followed by a really loud Siren. Everyone in the office just ignored it and kept working and I was quietly wondering if this would be my last commit before I start playing fallout in real life. Turns out there is a [Siren Test](https://www.youtube.com/watch?v=UbrmSrlEwtk) the first Wednesday of every month.
@@ -96,4 +96,4 @@ Everywhere I went I really enjoyed meeting other people, one of my fondest memor
 
 Flights are currently super cheap, so it makes sense to keep traveling while I can. That being said, I'd love to settle down in a city for a few months and put down a few roots.
 
-Where ever I go, I don't want to buy a return ticket. One of the main lessons of learnt in the last 6 months is having a fixed return date stops me wanting to say "That other city sounds more fun, I'll go there" or "This place is awesome, I should stay a little longer".
+Where ever I go, I don't want to buy a return ticket. One of the main lessons I've learned in the last 6 months is having a fixed return date stops me wanting to say "That other city sounds more fun, I'll go there" or "This place is awesome, I should stay a little longer".
