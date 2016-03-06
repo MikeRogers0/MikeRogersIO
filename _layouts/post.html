@@ -51,7 +51,15 @@ layout: default
     <section role="main">{{ content }}</section>
 
     <section class="subnotes metadata">
-      <p>If you want to discuss this post, feel free to tweet me (<a href="https://twitter.com/MikeRogers0" rel="me" target="_blank">@MikeRogers0</a>) or drop me an <a href="mailto:me+blog@mikerogers.io?subject={{ page.title | cgi_escape }}">email</a>. Any code samples unless stated otherwise are licensed under the <a href="http://opensource.org/licenses/MIT"target="_blank">The MIT License (MIT)</a>. Spotted a mistake? Send me a <a href="https://github.com/MikeRogers0/MikeRogersIO/blob/master/{{ page.path }}" target="_blank">pull request</a> :)</p>
+      <p>Want to share this post on 
+        <a href="http://twitter.com/share?url={{ site.production_url }}{{ page.url | drop_index }}&text={{ page.title | url_encode }}&via=MikeRogers0" target="_blank">Twitter</a>, 
+        <a href="https://news.ycombinator.com/submitlink?u={{ site.production_url }}{{ page.url | drop_index }}&t={{ page.title | url_encode }}" target="_blank">HackerNews</a>, 
+        <a href="http://www.facebook.com/sharer/sharer.php?u={{ site.production_url }}{{ page.url | drop_index }}" target="_blank">Facebook</a>, 
+        <a href="http://reddit.com/submit?url={{ site.production_url }}{{ page.url | drop_index }}&title={{ page.title | url_encode }}" target="_blank">Reddit</a> or 
+        <a href="https://plus.google.com/share?url={{ site.production_url }}{{ page.url | drop_index }}" target="_blank">Google Plus</a>? Awesome!
+      </p>
+
+      <p>If you want to discuss this post, feel free to tweet me (<a href="https://twitter.com/MikeRogers0" rel="me" target="_blank">@MikeRogers0</a>) or drop me an <a href="mailto:me+blog@mikerogers.io?subject={{ page.title | cgi_escape }}">email</a>. Any code samples unless stated otherwise are licensed under the <a href="http://opensource.org/licenses/MIT" target="_blank">The MIT License (MIT)</a>. Spotted a mistake? Send me a <a href="https://github.com/MikeRogers0/MikeRogersIO/blob/master/{{ page.path }}" target="_blank">pull request</a> :)</p>
     </section>
   </div>
 </article>
