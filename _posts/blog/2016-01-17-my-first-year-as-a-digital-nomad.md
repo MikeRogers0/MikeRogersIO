@@ -82,7 +82,7 @@ As a result I met a bunch of other remote workers, who really opened my eyes to 
 
 ### Gibraltar
 
-{% img src: /uploads/2016/01/17/yacht.jpg width: 599 alt: "The yacht I was staying on" %}
+{% img src: /uploads/2016/01/17/yacht.jpg width: 599 alt: "The yacht I was staying on" title: "Growing a beard seemed like a great idea" %}
 
 I was only in Gibraltar for a few days but it was such a weird, but worth visiting place, especially if you're a British. It's best described as a small exaggerated version of the UK, with monkeys. I was only staying for a few days, but the history and setup of the country was enough to keep me interested. 
 
