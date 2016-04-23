@@ -13,7 +13,7 @@ module Jekyll
     def render(context)
 
       html = '<div class="res-vid" style="max-width: 640px;">'
-      html << '<iframe src="http://player.vimeo.com/video/'+@src+'" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>'
+      html << '<iframe src="https://player.vimeo.com/video/'+@src+'" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>'
       html << '</div>'
       return html;
 
