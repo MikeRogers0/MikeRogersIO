@@ -1,12 +1,23 @@
 markdown : rdiscount
 encoding: utf-8
-permalink : /:year/:month/:day/:title.html
 rdiscount extensions : [smart]
 title: Mike Rogers
 description: The occasional ramblings on programming and technology.
 rss_path: /rss.xml
 cdn_uri: ''
 #cdn_uri: https://mikerogers.io
+
+defaults:
+  -   
+   scope:
+     type: pages
+   values:
+     permalink: /:path/:basename:output_ext
+  -   
+   scope:
+     type: posts
+   values:
+     permalink: /:year/:month/:day/:title.html
 
 name: Mike Rogers
 highlighter: true
