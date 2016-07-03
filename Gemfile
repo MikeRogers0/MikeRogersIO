@@ -2,12 +2,10 @@ ruby '2.3.1'
 
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 3.0'
-gem 'rdiscount', '~> 2.1'
+gem 'jekyll'
+gem 'rdiscount'
+gem 'octopress-autoprefixer', '~> 1.0'
 
 # Deploy to S3
-gem 's3_website', '~> 2.12'
+gem 's3_website'
 
-group :jekyll_plugins do
-  gem 'octopress-autoprefixer', '~> 1.0'
-end

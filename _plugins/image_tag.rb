@@ -26,7 +26,7 @@ module Jekyll
 
     def render(context)
       html = '<div class="res-img">'
-        html << '<a href="' + @attributes["src"] + '" target="_blank">'
+        html << '<a href="' + ( @attributes["href"] || @attributes["src"] ) + '" target="_blank">'
           html << '<img src="' + @attributes["src"] + '" style="max-width: ' + @attributes["width"] + 'px;" alt="' + @attributes["alt"] + '"/>'
         html << '</a>'
         html << '<em>' + @attributes["title"] + '</em>' unless @attributes["title"].nil?
