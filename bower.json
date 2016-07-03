@@ -1,0 +1,18 @@
+{
+  "name": "mike-rogers-io",
+  "homepage": "https://mikerogers.io/",
+  "authors": [
+    "Mike Rogers <me@mikerogers.io>"
+  ],
+  "description": "My blog",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "instantclick": "^3.1.0"
+  }
+}

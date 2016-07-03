@@ -4,6 +4,7 @@ _site
 .sass-cache
 _gist_cache
 tmp/*
+_assets
 
 # Bower bits.
 /bower_components/

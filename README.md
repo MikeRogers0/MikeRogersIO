@@ -2,6 +2,11 @@
 
 My personal website which shows off bits of my portfolio and ramblings from my blog.
 
+# Setup
+
+    gem install foreman
+    bundle
+    bower install
 
 # How to turn on
 
