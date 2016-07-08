@@ -16,7 +16,7 @@ meta:
 
 Back in 2011 when I was working as a Junior Developer I launched [LivePage](https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en), a small chrome extension to help me develop the front-end of websites.
 
-LivePage wasn't my first open source project, however it is one of the few that I've quietly kept maintaining. At the end of June 2016 (When LivePage was fast approaching 5 years old), LivePage had just over 26,000 Daily Active Users (DAU). This is fantastic!
+LivePage wasn't my first open source project, however it is one of the few that I've quietly kept maintaining. At the end of June 2016 (When LivePage was fast approaching 5 years old), LivePage had just over 26,000 Weekly Active Users (WAU). This is fantastic!
 
 Unfortunately to keep maintaining LivePage in a manor I'd expect from any piece of software, I feel the best option is to start charging a small yearly (£2.99) fee for it. Hopefully this article will help you understand why I've made the change & where the extension is heading.
 
@@ -30,7 +30,7 @@ I also want to improve the extension, I can do some of the things myself, howeve
 
 ## Why not sell it outright?
 
-Every other month or so, I receive a request to sell LivePage outright (Normally offering $0.10 per DAU). A quick search normally suggests the buyer simply wants to [inject adware into the extension](http://www.labnol.org/internet/sold-chrome-extension/28377/). I am 100% against exposing users who have trusted me to that level of douchebaggery.
+Every other month or so, I receive a request to sell LivePage outright (Normally offering $0.10 per WAU). A quick search normally suggests the buyer simply wants to [inject adware into the extension](http://www.labnol.org/internet/sold-chrome-extension/28377/). I am 100% against exposing users who have trusted me to that level of douchebaggery.
 
 ## What is happen next?
 
@@ -38,7 +38,7 @@ It'll still stay open source, though I've updated the license to be AGPL. Basica
 
 My main priority is to add clearer copy and expand the internationalisation, as I feel this will help LivePage reach a bigger audience. If budget permits I'd love to be able to pay copyrighters and translators to do a fantastic job & really make LivePage as friendly as possible. Furthermore I'd love to add a test suite around LivePage's functionality (when I first wrote it I knew nothing about testing) & update the syntax to be ES6.
 
-Lastly, in 3 months time (October 2016) I'm going to publish a follow up post on how successful switching to a subscription model was. I'm going to be completely transparent on the effect on DAU numbers and how many users have subscribed to the extension. 
+Lastly, in 3 months time (October 2016) I'm going to publish a follow up post on how successful switching to a subscription model was. I'm going to be completely transparent on the effect on WAU numbers and how many users have subscribed to the extension. 
 
 ## Caveats & Sidenotes
 
