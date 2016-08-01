@@ -17,9 +17,11 @@ Here is the question the interviewer asked me:
 
 > Write some code that'll flatten an array of arbitrarily nested arrays of integers into a flat array of integers. e.g. [[1,2,[3]],4] -> [1,2,3,4] without using ruby's built in `.flatten` method.
 
+A quick search [suggests it's a pretty common question](https://www.google.co.uk/search?q=Flatten+a+Ruby+Array+without+using+built-in+%27flatten%27+method) to be asked, and typically you'll solve it with recursion. However I wanted to be a unique snowfake.
+
 ## The Solution
 
-A quick search [suggests it's a pretty common question](https://www.google.co.uk/search?q=Flatten+a+Ruby+Array+without+using+built-in+%27flatten%27+method) to be asked and recursion is the prefered way to do it. So to be a unique snowfake I solved it as follows:
+Here is how I solved it with regex:
 
 ```
 # flatten_regex.rb
