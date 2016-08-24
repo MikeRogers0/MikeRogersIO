@@ -1,0 +1,27 @@
+.amazon-links {
+  margin: 20px 0;
+
+  iframe {
+    display: none;
+    margin: 0 auto;
+
+
+    @media screen and (max-width: 899px) {
+      &[width="234"] {
+        display: block;
+      }
+    }
+
+    @media screen and (min-width: 900px) and (max-width: 1199px) {
+      &[width="468"] {
+        display: block;
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+      &[width="728"] {
+        display: block;
+      }
+    }
+  }
+}
