@@ -44,15 +44,10 @@ layout: default
   
   <div class="container">
 
-    <div class="amazon-links">
-      <iframe src="//rcm-eu.amazon-adsystem.com/e/cm?t=fulondes-21&o=2&p=42&l=ez&f=ifr&f=ifr" width="234" height="60" scrolling="no" marginwidth="0" marginheight="0" border="0" frameborder="0" style="border:none;max-width:800px;max-height:600px;"></iframe>
-      
-      <iframe src="//rcm-eu.amazon-adsystem.com/e/cm?t=fulondes-21&o=2&p=26&l=ez&f=ifr&f=ifr" width="468" height="60" scrolling="no" marginwidth="0" marginheight="0" border="0" frameborder="0" style="border:none;max-width:800px;max-height:600px;"></iframe>
-      
-      <iframe src="//rcm-eu.amazon-adsystem.com/e/cm?t=fulondes-21&o=2&p=48&l=ez&f=ifr&f=ifr" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" border="0" frameborder="0" style="border:none;max-width:800px;max-height:600px;"></iframe>
-    </div>
-    
-    
+    {% unless page.meta.skip_monetization %}
+      {% include partials/ads.html %}
+    {% endunless %}
+
     <p class="metadata">
       Posted: {{ page.date | date_to_long_string }}, 
       {{ page | readtime | pluralize: "minute" }} read{% if page.tags.size > 0 %} - {{ page.tags | join: ', ' }}{% endif %}. Written by <a href="/" ref="author">Mike Rogers</a>
