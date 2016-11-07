@@ -7,6 +7,7 @@ published: true
 meta:
   description: I made LivePage (my Chrome Extension) £2.99 a year, here is the explanation of why, and my future plans.
   index: true
+  skip_monetization: true
   image: /uploads/2016/07/02/1400x560_marquee-halfsize.jpg
 ---
 
