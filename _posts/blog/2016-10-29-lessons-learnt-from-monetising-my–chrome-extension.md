@@ -13,7 +13,7 @@ meta:
 
 {% img src: /uploads/2016/07/02/1400x560_marquee-halfsize.jpg width: 1400 alt: "LivePage marquee image with it's new logo on a code background" href: https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en?utm_source=blog&utm_medium=web&utm_campaign=followup %}
 
-In July 2016 I [started charging for my Chrome Extension LivePage](/2016/07/03/why-im-charging-for-livepage.html), a simple development tool that I had built back in 2011 to reload web pages as I was building them. 
+In July 2016 I [started charging for my Chrome Extension](/2016/07/03/why-im-charging-for-livepage.html) [LivePage](https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en?utm_source=blog&utm_medium=web&utm_campaign=followup), a simple development tool that I had built back in 2011 to reload web pages as I was building them. 
 
 I didn't have a massive "I'll be living on passive income soon" party, nor did I invest in advertising. I just changed the price, then went off to my local pub. I was a little sceptical people would be willing to pay for something that had been free for so many years, but as sales started I had no doubt it in my mind that it was the best move.
 
