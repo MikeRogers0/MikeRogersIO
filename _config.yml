@@ -22,6 +22,11 @@ defaults:
 name: Mike Rogers
 highlighter: true
 
+collections:
+  coworking_spaces:
+    output: false
+    title: "Coworking Spaces"
+
 production_url : https://mikerogers.io
 
 env: production

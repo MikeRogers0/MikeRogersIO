@@ -1,0 +1,38 @@
+---
+title : Coworking Map (kml)
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Coworking Map</name>
+
+    <Style id="coworking_space">
+    </Style>
+
+    <Style id="coffee_shop">
+    </Style>
+
+    <Style id="city">
+    </Style>
+
+    {% for place in site.coworking_spaces %}
+      <Placemark>
+        <name>{{ place.title }}/name>
+        <styleUrl>#{{ place.type }}</styleUrl>
+        <ExtendedData>
+          <Data name="info">
+            <value>
+              <![CDATA[
+                <p>{{ place.content }}</p>
+              ]]>
+            </value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>{{ place.coordinates }}</coordinates>
+        </Point>
+      </Placemark>
+    {% endfor %}
+
+  </Document>
+</kml>
