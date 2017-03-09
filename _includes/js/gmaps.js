@@ -12,7 +12,7 @@ function initGMap() {
 function loadKmlLayer(src, map) {
   var kmlLayer = new google.maps.KmlLayer(src, {
     suppressInfoWindows: false,
-    preserveViewport: false,
+    preserveViewport: true,
     map: map
   });
   //google.maps.event.addListener(kmlLayer, 'click', function(event) {

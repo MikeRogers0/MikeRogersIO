@@ -1,38 +1,48 @@
 ---
-title : Coworking Map (kml)
+title : Coworking Map (KML)
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
+<kml xmlns="http://earth.google.com/kml/2.2">
   <Document>
     <name>Coworking Map</name>
 
-    <Style id="coworking_space">
+    <Style id="todo_coworking_space">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
     </Style>
 
-    <Style id="coffee_shop">
+    <Style id="todo_coffee_shop">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
     </Style>
 
-    <Style id="city">
+    <Style id="todo_city">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
     </Style>
 
     {% for place in site.coworking_spaces %}
-      <Placemark>
-        <name>{{ place.title }}/name>
+      <Placemark id="{{ place.filename }}">
+        <name>{{ place.title }}</name>
         <styleUrl>#{{ place.type }}</styleUrl>
-        <ExtendedData>
-          <Data name="info">
-            <value>
-              <![CDATA[
-                <p>{{ place.content }}</p>
-              ]]>
-            </value>
-          </Data>
-        </ExtendedData>
+        <description>
+          <![CDATA[
+            {{ place.content }}
+          ]]>
+        </description>
         <Point>
           <coordinates>{{ place.coordinates }}</coordinates>
         </Point>
       </Placemark>
     {% endfor %}
-
   </Document>
 </kml>
