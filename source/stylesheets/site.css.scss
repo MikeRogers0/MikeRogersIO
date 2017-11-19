@@ -1,24 +1,26 @@
-body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
-}
+// Load the normalizer to get everything back to normal
+@import 'vendor/normalize';
 
-a {
-  color: rgba(#000, 0.7);
+// Setup base colours and layout
+@import 'layout/palette';
+@import 'layout/typography';
+@import 'layout/structure';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/page_title';
 
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
-}
+// Add stuff that is going to be resued
+@import 'components/animations';
+@import 'components/article';
+@import 'components/amazon_link';
+@import 'components/post_list';
+@import 'components/res_img';
+@import 'components/typed_js';
+@import 'components/buttons';
+@import 'components/gist';
+@import 'components/gmap';
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
+// Page unique stuff.
+@import 'pages/index';
+@import 'pages/blog';
+

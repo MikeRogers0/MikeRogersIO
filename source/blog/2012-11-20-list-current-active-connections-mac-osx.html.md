@@ -12,6 +12,6 @@ meta:
   description: 'A shell script that shows active connections on Mac OSX'
   index: true
 ---
-<p>This is a handy little terminal script I've used a lot recently which lists the current active connections on OSX. It's really handy for seeing if Apache / Node.js / Ruby stuff is running on ports correctly.</p>
+This is a handy little terminal script I've used a lot recently which lists the current active connections on OSX. It's really handy for seeing if Apache / Node.js / Ruby stuff is running on ports correctly.
 
 {% gist 4119811 currentConnections.sh %}

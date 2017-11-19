@@ -5,7 +5,7 @@
       <time><%= article.date.strftime('%b %e %Y') %></time>
     </h1>
 
-    <%= article.summary %>
+    <%= article.data.meta.description %>
 
     <a href="<%= article.url %>">Read more</a>
   </article>

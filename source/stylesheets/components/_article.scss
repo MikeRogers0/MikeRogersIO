@@ -1,0 +1,36 @@
+.metadata{
+  color: $secondaryTextColour;
+  font-size: 0.85em;
+  margin: 24px 0;
+}
+
+.subnotes {
+  margin-top: 30px;
+}
+
+article table {
+  width: 100%;
+  
+  thead {
+    border-bottom: 1px solid $lightDividerColour;
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid $lightDividerColour;
+      
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+
+  th, td {
+    padding: 12px;
+    border-left: 1px solid $lightDividerColour;
+
+    &:first-child {
+      border-left: none;
+    }
+  }
+}

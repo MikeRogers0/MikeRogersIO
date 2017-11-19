@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -9,6 +9,8 @@
     <%= javascript_include_tag :site %>
   </head>
   <body>
+    <%= partial 'shared/header' %>
     <%= yield %>
+    <%= partial 'shared/footer' %>
   </body>
 </html>

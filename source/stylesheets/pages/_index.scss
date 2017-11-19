@@ -1,0 +1,61 @@
+#say-hello{
+  padding: 30px 0 0 0;
+  height: 250px;
+
+  .my-name {
+    /*color: $lightPrimaryColour;*/
+    /*font-weight: bold;*/
+  }
+
+  @media screen and (min-width: 475px) {
+    padding: 60px 0 0 0;
+  }
+
+  @media screen and (min-width: 900px) {
+    padding: 70px 0 0 0;
+  }
+}
+
+.capabilities{
+  list-style:none;
+  overflow: hidden;
+  padding: 0;
+  
+  display: flex; 
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  li {
+    display:block;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  a {
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  .icon {
+    display: block;
+    border-radius: 5px;
+    width: 105px;
+    height: 85px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .name {}
+  .since, .blurb {
+    color: $secondaryTextColour;
+    font-size: 0.9em;
+  }
+  .read-more {}
+
+}
+
+.projects {
+  li {
+    width: 100%;
+  }
+}
