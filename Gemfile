@@ -14,7 +14,7 @@ source 'https://rubygems.org' do
   gem 'middleman-sprockets'
   gem 'middleman-cdn'
 
-  gem 'liquid'
+  gem 'liquid', require: false
 
   # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
   gem 'turbolinks', '~> 5', require: false

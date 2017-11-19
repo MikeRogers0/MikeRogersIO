@@ -41,10 +41,9 @@ helpers do
   end
 end
 
-# Use the shopify liquid template engine
-# Mostly this is because my old Jekyll site used it.
-set :liquid, layout_engine: :liquid
-#Dir[File.dirname(__FILE__) + '/lib/tags/*.rb'].each {|file| require file }
+Dir[File.dirname(__FILE__) + '/lib/tags/*.rb'].each {|file| require file }
+require 'lib/tilt/kramer_liquid_template'
+set :markdown_engine, :kramer_liquid
 
 activate :blog do |blog|
   blog.layout = 'post'
