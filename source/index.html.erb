@@ -1,0 +1,7 @@
+---
+---
+
+<% blog.articles[0..5].each do |article| %>
+  <h2><%= link_to article.title, article %> <span><%= article.date %></span></h2>
+  <p><%= article.data.meta.description %></p>
+<% end %>

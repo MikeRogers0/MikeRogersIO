@@ -1,8 +1,0 @@
----
-# Remember to set production_url in your _config.yml file!
-title : Robots
----
-Sitemap: {{site.production_url}}/sitemap.txt
-
-User-agent: *
-Allow: /

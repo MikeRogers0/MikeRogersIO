@@ -1,13 +1,10 @@
-.env
-
-_site
+.bundle
+.cache
+.DS_Store
 .sass-cache
-_gist_cache
+build/
+.env
+log/*
 tmp/*
-_assets
 
-# Bower bits.
-/bower_components/
-
-# Is built on servo.
-css/style.css
+spec/.validation/*

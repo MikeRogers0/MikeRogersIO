@@ -1,0 +1,21 @@
+{
+  "name": "Mike Rogers Blog",
+  "description": "My Blog/Website Website",
+  "scripts": {},
+  "env": {
+    "URL": "/",
+    "LANG": {
+      "required": true
+    },
+    "SERVE_STATIC": {
+      "required": true
+    }
+  },
+  "formation": {},
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}

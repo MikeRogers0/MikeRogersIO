@@ -1,9 +1,0 @@
----
-# Remember to set production_url in your _config.yml file!
-title : Sitemap (text)
----
-{% for page in site.pages %}{% if page.meta.show_in_sitemap %}
-{{site.production_url}}{{ page.url | drop_index }}{% endif %}{% endfor %}
-
-{% for post in site.categories['blog'] %}
-{{site.production_url}}{{ post.url | drop_index }}{% endfor %}
