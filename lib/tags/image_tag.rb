@@ -25,12 +25,12 @@ module Jekyll
     end
 
     def render(context)
-      html = '<div class="res-img">'
+      html= '<figure class="figure d-block">'
         html << '<a href="' + ( @attributes["href"] || @attributes["src"] ) + '" target="_blank">'
-          html << '<img src="' + @attributes["src"] + '" style="max-width: ' + @attributes["width"] + 'px;" alt="' + @attributes["alt"] + '"/>'
+          html << '<img src="' + @attributes["src"] + '" class="figure-img img-fluid rounded mx-auto d-block" alt="' + @attributes["alt"] + '"/>'
         html << '</a>'
-        html << '<em>' + @attributes["title"] + '</em>' unless @attributes["title"].nil?
-      html << '</div>'
+      html << '<figcaption class="figure-caption text-center">' + @attributes["title"] + '</figcaption>' unless @attributes["title"].nil?
+      html << '</figure>'
       return html
     end
   end

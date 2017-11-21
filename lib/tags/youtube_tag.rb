@@ -12,8 +12,8 @@ module Jekyll
 
     def render(context)
 
-      html = '<div class="res-vid" style="max-width: 640px;">'
-      html << '<iframe width="100%" height="100%" src="//www.youtube-nocookie.com/embed/'+@src+'?vq=hd720" frameborder="0" allowfullscreen></iframe>'
+      html = '<div class="embed-responsive embed-responsive-16by9">'
+      html << '<iframe class="embed-responsive-item" src="//www.youtube-nocookie.com/embed/'+@src+'?vq=hd720" frameborder="0" allowfullscreen></iframe>'
       html << '</div>'
       return html;
 

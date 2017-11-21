@@ -12,6 +12,10 @@ GEM
     autoprefixer-rails (7.1.6)
       execjs
     backports (3.10.3)
+    bootstrap (4.0.0.beta)
+      autoprefixer-rails (>= 6.0.3)
+      popper_js (~> 1.11.1)
+      sass (>= 3.4.19)
     builder (3.2.3)
     cloudflare (2.1.0)
       json (~> 1)
@@ -63,7 +67,7 @@ GEM
     json (1.8.6)
     jwt (2.1.0)
     kramdown (1.15.0)
-    liquid (3.0.6)
+    liquid (4.0.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -143,8 +147,9 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.12.0)
+    popper_js (1.11.1)
     public_suffix (3.0.1)
-    puma (3.10.0)
+    puma (3.11.0)
     rack (1.6.8)
     rack-contrib (1.8.0)
       rack (~> 1.4)
@@ -178,6 +183,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap!
   dotenv!
   liquid!
   middleman!

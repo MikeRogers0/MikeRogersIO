@@ -10,7 +10,11 @@
   </head>
   <body>
     <%= partial 'shared/header' %>
-    <%= yield %>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
     <%= partial 'shared/footer' %>
   </body>
 </html>

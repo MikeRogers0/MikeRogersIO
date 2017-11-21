@@ -1,26 +1,42 @@
-// Load the normalizer to get everything back to normal
-@import 'vendor/normalize';
+@charset "utf-8";
 
-// Setup base colours and layout
-@import 'layout/palette';
-@import 'layout/typography';
-@import 'layout/structure';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/page_title';
+// Settings
+@import "varibles";
 
-// Add stuff that is going to be resued
-@import 'components/animations';
-@import 'components/article';
-@import 'components/amazon_link';
-@import 'components/post_list';
-@import 'components/res_img';
-@import 'components/typed_js';
-@import 'components/buttons';
-@import 'components/gist';
-@import 'components/gmap';
-
-// Page unique stuff.
-@import 'pages/index';
-@import 'pages/blog';
-
+// Bootstrap
+/*@import "bootstrap";*/
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+/*@import "bootstrap/root";*/
+@import "bootstrap/print";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+/*@import "bootstrap/forms";*/
+/*@import "bootstrap/buttons";*/
+/*@import "bootstrap/transitions";*/
+/*@import "bootstrap/dropdown";*/
+/*@import "bootstrap/button-group";*/
+/*@import "bootstrap/input-group";*/
+/*@import "bootstrap/custom-forms";*/
+/*@import "bootstrap/nav";*/
+/*@import "bootstrap/navbar";*/
+/*@import "bootstrap/card";*/
+/*@import "bootstrap/breadcrumb";*/
+/*@import "bootstrap/pagination";*/
+/*@import "bootstrap/badge";*/
+/*@import "bootstrap/jumbotron";*/
+/*@import "bootstrap/alert";*/
+/*@import "bootstrap/progress";*/
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+/*@import "bootstrap/close";*/
+/*@import "bootstrap/modal";*/
+/*@import "bootstrap/tooltip";*/
+/*@import "bootstrap/popover";*/
+/*@import "bootstrap/carousel";*/
+@import "bootstrap/utilities";

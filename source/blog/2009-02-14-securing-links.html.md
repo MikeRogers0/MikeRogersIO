@@ -16,8 +16,8 @@ meta:
   description: 'A simple link cloaker example with PHP'
   index: true
 ---
-<p>Have you ever wanted to secure links on your website (for example hide the real source of a file)? Here is a quick and easy way to do this.</p>
+Have you ever wanted to secure links on your website (for example hide the real source of a file)? Here is a quick and easy way to do this.
 
-<h3>The Code</h2>
+## The Code
 
 {% gist 2907524 link_cloaker.php %}
