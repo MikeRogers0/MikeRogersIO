@@ -1,12 +1,13 @@
-<% blog.articles.each do |article| %>
-  <article>
-    <h1>
-      <a href="<%= article.url %>"><%= article.title %></a>
-      <time><%= article.date.strftime('%b %e %Y') %></time>
-    </h1>
+<% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+  <h1><%= year %></h1>
 
-    <%= article.data.meta.description %>
-
-    <a href="<%= article.url %>">Read more</a>
-  </article>
+  <% articles.each do |article| %>
+    <article>
+      <h2><%= link_to article.title, article %></h2>
+      <p><%= article.data.meta.description %></p>
+      <div class="text-muted">
+        <p>Posted on <time datetime="<%= article.date.strftime('%Y-%m-%d') %>"><%= article.date.strftime('%A %b %e, %Y') %></time></p>
+      </div>
+    </article>
+  <% end %>
 <% end %>

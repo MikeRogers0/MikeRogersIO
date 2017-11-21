@@ -1,7 +1,13 @@
-<header class="mt-3 mb-4">
+<header class="mt-3 mb-5">
   <div class="container">
-    <nav>
-      <a class="navbar-brand" href="/">Mike Rogers</a>
-    </nav>
+    <div class="d-flex flex-row align-items-center">
+      <div>
+        <%= link_to image_tag('mike-rogers.jpg', width: 75, height: 75, class: 'rounded-circle mx-auto', alt: 'Mike Rogers on a Snowmobile'), '/' %>
+      </div>
+      <div class="pl-4">
+        <div class="h1">Mike Rogers</div>
+        <div class="h2 text-muted small">Web Developer</div>
+      </div>
+    </div>
   </div>
 </header>

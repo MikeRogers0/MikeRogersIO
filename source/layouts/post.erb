@@ -1,11 +1,11 @@
 <% wrap_layout :layout do %>
   <article>
-    <h1><%= current_article.title %></h3>
+    <h1 class="mb-4 text-center"><%= current_article.title %></h3>
 
     <%= yield %>
 
   </article>
-  <aside>
+  <aside class="text-muted">
     <p>Posted on <time datetime="<%= current_article.date.strftime('%Y-%m-%d') %>"><%= current_article.date.strftime('%A %b %e, %Y') %></time></p>
   </aside>
 <% end %>

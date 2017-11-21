@@ -1,10 +1,63 @@
 ---
+title: Mike Rogers - Web Developer from Berkshire
 ---
 
-<% blog.articles[0..5].each do |article| %>
-  <%= link_to article.title, article %> 
-  <p><%= article.data.meta.description %></p>
-  <div>
-    <p><%= article.date %></p>
+<div class="hello-im-a-dickhead mb-5">
+  <p class="lead text-center">Hello! I'm a web developer from Berkshire UK.<br>I've specialised in making performant Ruby on Rails applications since 2012.</p>
+  <div class="text-center">
+    <a href="mailto:me+site@mikerogers.io?subject=Work%20with%20You" class="btn btn-primary">Work with me 📬</a>
   </div>
-<% end %>
+</div>
+
+<div class="projects mb-5">
+  <h2 class="text-center mb-4">Products I've delivered</h2>
+
+  <div class="row">
+    <div class="col-12 col-md-4">
+      <h3 class="sr-only">Bundlify</h3>
+
+      <figure class="figure">
+        <a href="https://www.bundlifyapp.com/">
+          <img src="https://via.placeholder.com/300x150" class="figure-img img-fluid rounded img-thumbnail" alt="">
+        </a>
+        <figcaption class="figure-caption">Bundlify is an invoicing tool I wrote after becoming dissatisfied with the current market space offerings.</figcaption>
+      </figure>
+    </div>
+    <div class="col-12 col-md-4">
+      <h3 class="sr-only">Track Changes</h3>
+
+      <figure class="figure">
+        <a href="https://trackchanges.mikerogers.io/">
+          <img src="https://via.placeholder.com/300x150" class="figure-img img-fluid rounded img-thumbnail" alt="">
+        </a>
+        <figcaption class="figure-caption">Track Changes is a Chrome Extension I wrote to help share front end changes to a with developers.</figcaption>
+      </figure>
+    </div>
+    <div class="col-12 col-md-4">
+      <h3 class="sr-only">LivePage</h3>
+
+      <figure class="figure">
+        <a href="https://livepage.mikerogers.io/">
+          <img src="https://via.placeholder.com/300x150" class="figure-img img-fluid rounded img-thumbnail" alt="">
+        </a>
+        <figcaption class="figure-caption">LivePage reloads websites as they change.</figcaption>
+      </figure>
+    </div>
+  </div>
+
+</div>
+
+<div class="blog-posts mb-5">
+  <h2 class="text-center mb-4">Things I've written</h2>
+
+  <% blog.articles[0..5].each do |article| %>
+    <h3><%= link_to article.title, article %></h3>
+    <p><%= article.data.meta.description %></p>
+
+    <div class="text-muted">
+      <p>Posted on <time datetime="<%= article.date.strftime('%Y-%m-%d') %>"><%= article.date.strftime('%A %b %e, %Y') %></time></p>
+    </div>
+  <% end %>
+
+  <%= link_to 'See all Posts', 'posts.html', class: 'btn btn-primary' %>
+</div>
