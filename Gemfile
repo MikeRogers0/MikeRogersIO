@@ -21,6 +21,7 @@ source 'https://rubygems.org' do
   gem 'turbolinks', '~> 5', require: false
 
   gem 'bootstrap'
+  gem 'font-awesome-sass'
   
   # Cross platform compatibility.
   gem 'tzinfo-data', platforms: %i[mswin mingw jruby]
