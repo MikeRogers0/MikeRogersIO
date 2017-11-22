@@ -1,7 +1,15 @@
+// Overriding variables from https://github.com/twbs/bootstrap/blob/fc94de5b8b5b329a298eeeb76174b146ff17af2d/scss/_variables.scss
+
+// Fonts
 $font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $font-family-monospace:       "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-$font-family-base:            $font-family-sans-serif !default;
+$font-family-base:            $font-family-sans-serif;
 
+// Body
+$body-bg:                   #f1f1f1;
+$body-color:                #23455b;
+
+// Container sizes
 $container-max-widths: (
   sm: 540px,
   md: 720px,

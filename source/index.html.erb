@@ -7,10 +7,6 @@ title: Mike Rogers - Web Developer from Berkshire
   <div class="text-center mb-3">
     <a href="mailto:me+site@mikerogers.io?subject=Work%20with%20You" class="btn btn-primary">Work with me 📬</a>
   </div>
-
-  <div class="text-center">
-    [Social] [Media] [Icons]
-  </div>
 </div>
 
 <div class="projects mb-5">
@@ -21,29 +17,24 @@ title: Mike Rogers - Web Developer from Berkshire
       <h3 class="sr-only">Bundlify</h3>
 
       <figure class="figure">
-        <a href="https://www.bundlifyapp.com/">
-          <img src="https://via.placeholder.com/300x150" class="figure-img img-fluid rounded img-thumbnail" alt="">
-        </a>
+        <%= link_to image_tag('https://via.placeholder.com/440x280', class: 'figure-img img-fluid rounded img-thumbnail', alt: 'Visit the Bundlify Landing Page'), 'https://www.bundlifyapp.com/', target: '_blank' %>
         <figcaption class="figure-caption">Bundlify is an invoicing tool I wrote after becoming dissatisfied with the current market space offerings.</figcaption>
       </figure>
     </div>
     <div class="col-12 col-md-4">
-      <h3 class="sr-only">Track Changes</h3>
+      <h3 class="sr-only">TrackChanges</h3>
 
       <figure class="figure">
-        <a href="https://trackchanges.mikerogers.io/">
-          <img src="https://via.placeholder.com/300x150" class="figure-img img-fluid rounded img-thumbnail" alt="">
-        </a>
-        <figcaption class="figure-caption">Track Changes is a Chrome Extension I wrote to help share front end changes to a with developers.</figcaption>
+        <%= link_to image_tag('trackchanges_promo.png', class: 'figure-img img-fluid rounded img-thumbnail', alt: 'Visit the TrackChanges Landing Page'), 'https://trackchanges.mikerogers.io/', target: '_blank' %>
+
+        <figcaption class="figure-caption">TrackChanges is a Chrome Extension I wrote to help share front end changes to a with developers.</figcaption>
       </figure>
     </div>
     <div class="col-12 col-md-4">
       <h3 class="sr-only">LivePage</h3>
 
       <figure class="figure">
-        <a href="https://livepage.mikerogers.io/">
-          <img src="https://via.placeholder.com/300x150" class="figure-img img-fluid rounded img-thumbnail" alt="">
-        </a>
+        <%= link_to image_tag('livepage_promo.jpg', class: 'figure-img img-fluid rounded img-thumbnail', alt: 'Visit the LivePage Landing Page'), 'https://livepage.mikerogers.io/', target: '_blank' %>
         <figcaption class="figure-caption">LivePage reloads websites as they change.</figcaption>
       </figure>
     </div>
