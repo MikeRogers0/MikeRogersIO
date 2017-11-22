@@ -1,3 +1,6 @@
+---
+title: Blog Posts
+---
 <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
   <h1><%= year %></h1>
 
