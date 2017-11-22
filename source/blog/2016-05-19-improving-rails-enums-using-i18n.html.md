@@ -49,40 +49,30 @@ The solution I decided was most "the rails way" was to store a translated versio
 
 For this example, I'm going to create the enum `approval_state` in my User model, like so:
 
-```
-  # app/model/user.rb
-  class User < ActiveRecord::Base
-
-    enum approval_state: { unprocessed: 0, approved: 1, declined: 2 }
-
-  end
-```
+    # app/model/user.rb
+    class User < ActiveRecord::Base
+      enum approval_state: { unprocessed: 0, approved: 1, declined: 2 }
+    end
 
 The YAML file should then contain a list of the translated keys under the pluralised version of the enum attribute:
 
-```
-  # config/locales/activerecord.en.yml
-  en:
-    activerecord:
-      attributes:
-        user:
-          approval_states:
-            unprocessed: "Unprocessed"
-            approved: "Approved"
-            declined: "Declined"
-```
+    # config/locales/activerecord.en.yml
+    en:
+      activerecord:
+        attributes:
+          user:
+            approval_states:
+              unprocessed: "Unprocessed"
+              approved: "Approved"
+              declined: "Declined"
 
 You can then output a users current `approval_state` by doing the following:
 
-```
- <%= enum_l(user, :approval_state) %>
-```
+     <%= enum_l(user, :approval_state) %>
 
 You can also have a list of all the available options for that enum in a select box, like so:
 
-```
- <div class="form-group">
-   <%= f.label :approval_state %>
-   <%= f.select :approval_state, enum_options_for_select(User, :approval_state) %>
- </div>
-```
+     <div class="form-group">
+       <%= f.label :approval_state %>
+       <%= f.select :approval_state, enum_options_for_select(User, :approval_state) %>
+     </div>
