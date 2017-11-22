@@ -11,12 +11,12 @@ meta:
   description: 'How to do hello world in Java via netbeans'
   index: true
 ---
-<p>Here is a really quick and simple tutorial on how to do "Hello World" in Java.</p>
+Here is a really quick and simple tutorial on how to do "Hello World" in Java.
 
 {% youtube EciUcU77jzM %}
 
-<p>Here is the code I used:</p>
+Here is the code I used:
 
 {% gist 2941952 hello.java %}
 
-<p>You can download <a href="http://netbeans.org/">NetBeans IDE</a> from their website and try this yourself for free :)</p>
+You can download [NetBeans IDE](http://netbeans.org/) from their website and try this yourself for free :)

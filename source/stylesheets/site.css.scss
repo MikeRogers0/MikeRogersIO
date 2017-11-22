@@ -55,3 +55,12 @@
     text-decoration: $link-hover-decoration;
   }
 }
+
+// Make the code samples mildly prettier
+
+article pre {
+  border: $border-width solid $gray-200;
+  border-radius: $border-radius;
+  background: $white;
+  padding: $table-cell-padding;
+}

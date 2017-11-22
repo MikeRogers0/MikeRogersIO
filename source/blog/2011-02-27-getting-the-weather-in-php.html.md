@@ -12,14 +12,14 @@ meta:
   description: 'How to use a secret google API to get the weather.'
   index: true
 ---
-<p>A few months ago I made a small PHP class which can get the weather based on latitude and longitude.</p>
+A few months ago I made a small PHP class which can get the weather based on latitude and longitude.
 
-<p>Here is a code example of how to get the weather:</p>
+Here is a code example of how to get the weather:
 
 {% gist 2941958 weather.php %}
 
-<p>Here is the class file to make it all work:</p>
+Here is the class file to make it all work:
 
 {% gist 2941958 weather-class.inc.php %}
 
-<p>Enjoy!</p>
+Enjoy!
