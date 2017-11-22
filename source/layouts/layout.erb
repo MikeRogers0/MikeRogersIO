@@ -5,8 +5,14 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= current_page.data.title || "Middleman" %></title>
+    <link rel="preload" href="<%= asset_path(:css, 'site') %>" as="style" />
+    <link rel="preload" href="<%= asset_path(:js, 'site') %>" as="script" />
+
     <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :site %>
+
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+    <link rel="canonical" href="<%= current_url %>"/>
+    <%= javascript_include_tag :site, defer: true %>
   </head>
   <body>
     <%= partial 'shared/header' %>
