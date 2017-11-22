@@ -46,8 +46,12 @@
 @import "bootstrap/utilities";
 
 // https://stackoverflow.com/questions/22429881/how-to-unstyle-anchor-when-using-bootstrap/33596636#33596636
-// TODO: Make this use the body-colour variblables, then make them go darker on hover.
 .link-unstyled, .link-unstyled:link, .link-unstyled:hover {
-  color: inherit;
+  color: $body-color;
   text-decoration: inherit;
+
+  @include hover {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+  }
 }
