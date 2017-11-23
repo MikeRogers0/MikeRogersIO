@@ -16,26 +16,26 @@ title: Mike Rogers - Web Developer from Berkshire
     <div class="col-12 col-md-4">
       <h3 class="sr-only">Bundlify</h3>
 
-      <figure class="figure">
+      <figure class="figure text-center">
         <%= link_to image_tag('https://via.placeholder.com/440x280', class: 'figure-img img-fluid rounded img-thumbnail', alt: 'Visit the Bundlify Landing Page'), 'https://www.bundlifyapp.com/', target: '_blank' %>
-        <figcaption class="figure-caption text-center">Bundlify is an invoicing tool I wrote after becoming dissatisfied with the current market space offerings.</figcaption>
+        <figcaption class="figure-caption">Bundlify is an invoicing tool I wrote after becoming dissatisfied with the current market space offerings.</figcaption>
       </figure>
     </div>
     <div class="col-12 col-md-4">
       <h3 class="sr-only">TrackChanges</h3>
 
-      <figure class="figure">
+      <figure class="figure text-center">
         <%= link_to image_tag('trackchanges_promo.png', class: 'figure-img img-fluid rounded img-thumbnail', alt: 'Visit the TrackChanges Landing Page'), 'https://trackchanges.mikerogers.io/', target: '_blank' %>
 
-        <figcaption class="figure-caption text-center">TrackChanges is a Chrome Extension I wrote to help share front end changes to a with developers.</figcaption>
+        <figcaption class="figure-caption">TrackChanges is a Chrome Extension I wrote to help share front end changes to a with developers.</figcaption>
       </figure>
     </div>
     <div class="col-12 col-md-4">
       <h3 class="sr-only">LivePage</h3>
 
-      <figure class="figure">
+      <figure class="figure text-center">
         <%= link_to image_tag('livepage_promo.jpg', class: 'figure-img img-fluid rounded img-thumbnail', alt: 'Visit the LivePage Landing Page'), 'https://livepage.mikerogers.io/', target: '_blank' %>
-        <figcaption class="figure-caption text-center">LivePage is a Chrome Extension I wrote that reloads websites as they change.</figcaption>
+        <figcaption class="figure-caption">LivePage is a Chrome Extension I wrote that reloads websites as they change.</figcaption>
       </figure>
     </div>
   </div>
@@ -49,7 +49,7 @@ title: Mike Rogers - Web Developer from Berkshire
     <h3><%= link_to article.title, article %></h3>
     <p><%= article.data.meta.description %></p>
 
-    <div class="text-muted">
+    <div class="text-muted small">
       <p>Posted on <time datetime="<%= article.date.strftime('%Y-%m-%d') %>"><%= article.date.strftime('%A %b %e, %Y') %></time></p>
     </div>
   <% end %>

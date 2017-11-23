@@ -58,7 +58,7 @@
 
 // Make the code samples mildly prettier
 article pre {
-  @extend .pre-scrollable;
+  /*@extend .pre-scrollable;*/
 
   border: $border-width solid $gray-200;
   border-radius: $border-radius;
