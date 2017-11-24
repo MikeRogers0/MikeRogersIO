@@ -43,7 +43,8 @@ if ENV['SERVE_STATIC'] && ENV['SERVE_STATIC'] == 'true'
       def call(env)
         redirects = {
           '/wp-login.php' => '/',
-          '/wp-admin' => '/'
+          '/wp-admin' => '/',
+          '/sitemap.html' => '/posts.html'
         }
         req = Rack::Request.new(env)
         return redirect(redirects[req.path]) if redirects.include?(req.path)
