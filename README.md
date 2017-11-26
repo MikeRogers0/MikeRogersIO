@@ -2,10 +2,20 @@
 
 My personal website which shows off bits of my portfolio and ramblings from my blog.
 
-## OMG so bland
+## TODO
 
-Damn tootin! It's like whisky without water, awesome!
+### Moves gists into posts
 
-## Portfolios
+I need to replace all the `{ gist }` type tags with their actual code blocks
+
+### Remove rubbish posts
+
+Some of the information is fairly dated and simply not helpful. I should remove the posts which are not decent any more.
+
+### Swap out Font-Awesome with SVGs
+
+I think it would be more performant to create a layered SVG from the icons I'm using ( https://github.com/encharm/Font-Awesome-SVG-PNG/blob/master/black/svg/instagram.svg ) then use that instead of importing all the font-awesome stuff.
+
+### Portfolios
 
 I need a portfolio of my work, maybe make it look like https://foundation.zurb.com/templates-previews-sites-f6/product-page.html
