@@ -4,14 +4,19 @@ meta:
   description: All the blog posts written by Mike Rogers
   index: true
 ---
+<div class="text-center">
+  <h1>All Blog Posts</h1>
+  <p>This is the archive of all the blog posts I've written over the past few years.</p>
+</div>
+
 <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-  <h1><%= year %></h1>
+  <h2><%= year %></h2>
 
   <% articles.each do |article| %>
     <article>
-      <h2><%= link_to article.title, article %></h2>
+      <h3><%= link_to article.title, article %></h3>
       <p><%= article.data.meta.description %></p>
-      <div class="text-muted">
+      <div class="text-muted small">
         <p>Posted on <time datetime="<%= article.date.strftime('%Y-%m-%d') %>"><%= article.date.strftime('%A %b %e, %Y') %></time></p>
       </div>
     </article>
