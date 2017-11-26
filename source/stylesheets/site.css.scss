@@ -66,3 +66,9 @@ article pre {
   background: $code-bg;
   padding: $table-cell-padding;
 }
+
+article {
+  h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+    margin-top: 1.5rem;
+  }
+}

@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= current_page.data.title || "Mike Rogers Site" %></title>
     <link rel="preload" href="<%= asset_path(:css, 'site') %>" as="style" />
-    <link rel="preload" href="<%= asset_path(:js, 'site') %>" as="script" />
+    <!--<link rel="preload" href="<%= asset_path(:js, 'site') %>" as="script" />-->
 
-    <meta name="description" content="">
+    <meta name="description" content="<%= current_page.data.meta.description %>">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@MikeRogers0" />
     <meta name="twitter:creator" content="@MikeRogers0" />
-    <meta name="twitter:description" content="" />
-    <meta property="og:url" content="https://mikerogers.io/" />
-    <meta property="og:title" content="Mike Rogers - Ruby on Rails developer" />
-    <meta property="og:description" content="A Ruby on Rails developer from the UK's personal website. Showcases an overview of his skills and how to get in touch." />
+    <meta name="twitter:description" content="<%= current_page.data.meta.description %>" />
+    <meta property="og:url" content="<%= current_url %>" />
+    <meta property="og:title" content="<%= current_page.data.title || "Mike Rogers Site" %>" />
+    <meta property="og:description" content="<%= current_page.data.meta.description %>" />
 
     <%= stylesheet_link_tag :site %>
 
     <link rel="icon" type="image/ico" href="/favicon.ico" />
     <link rel="canonical" href="<%= current_url %>"/>
-    <%= javascript_include_tag :site, defer: true %>
+    <%#= javascript_include_tag :site, defer: true %>
   </head>
   <body>
     <%= partial 'shared/header' %>

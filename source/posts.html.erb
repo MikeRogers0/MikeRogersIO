@@ -1,5 +1,8 @@
 ---
 title: Blog Posts
+meta:
+  description: All the blog posts written by Mike Rogers
+  index: true
 ---
 <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
   <h1><%= year %></h1>
