@@ -4,6 +4,12 @@ My personal website which shows off bits of my portfolio and ramblings from my b
 
 ## TODO
 
+### Posts
+
+ - TrackChanges
+ - Subscriptions Suck
+ - Do you need a complex site? 
+
 ### Moves gists into posts
 
 I need to replace all the `{ gist }` type tags with their actual code blocks
