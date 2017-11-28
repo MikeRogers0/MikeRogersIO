@@ -71,7 +71,7 @@ GEM
     ipaddress (0.8.3)
     json (1.8.6)
     jwt (2.1.0)
-    kramdown (1.15.0)
+    kramdown (1.16.1)
     liquid (4.0.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -213,4 +213,4 @@ RUBY VERSION
    ruby 2.4.2p198
 
 BUNDLED WITH
-   1.15.4
+   1.16.0

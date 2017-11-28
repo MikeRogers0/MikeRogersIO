@@ -28,7 +28,7 @@ I decided the only sensible thing to do was cancel out the remaining subscriptio
 
 Over the last year I've earned a total of £2,532 (An average of £211 a month). This has been awesome! While this doesn't quite cover my rent, it does allow me to happily provide support & do a few days of maintenance a month.
 
-## Support is an adventure
+## Support is an adventure
 
 Supporting an extension that I initially wrote when I was a junior developer has been an experience. Development wise, I mostly just sit down when I get a spare weekend and bash through the issue list on GitHub.
 
@@ -46,7 +46,7 @@ The Google Chrome Store feels very much the same as it did a year ago. I'm aware
 
 Small things like being made aware of and responding to reviews where a user is reporting a problem they encounter is fairly cumbersome. I combated this by encouraging users to message me via emails (Or on GitHub) instead of returning to the Chrome Store, which seemed to work pretty well.
 
-## What's next?
+## What's next?
 
 The weekly active users has dropped from ~49k users to ~21k over the last year, I want to do everything I can to improve that number. I've recently started using Firefox more often, so I'm looking into ways to make a Firefox version which is also monetised.
 
