@@ -6,8 +6,6 @@ My personal website which shows off bits of my portfolio and ramblings from my b
 
 ### Posts
 
- - TrackChanges
- - Subscriptions Suck
  - Do you need a complex site? 
 
 ### Moves gists into posts
