@@ -18,10 +18,10 @@ Firstly, create a Wufoo theme with a custom CSS file. You can achieve this by cl
 
 {% img src: /uploads/2012/04/custom-css-file.jpg width: 500 alt: "Custom CSS file set up on Wufoo" %}
 
-Next find the font you want to use on [Google Web Fonts](http://www.google.com/webfonts), than click "Quick-use" than select the "@import" tab to receive the code to put into your CSS sheet. The @import CSS rule will be used to download the extra font.
+Next find the font you want to use on [Google Web Fonts](https://www.google.com/webfonts), than click "Quick-use" than select the "@import" tab to receive the code to put into your CSS sheet. The @import CSS rule will be used to download the extra font.
 
 {% img src: /uploads/2012/04/google-web-fonts.jpg width: 500 alt: "Screenshot of the import option for a google font." %}
 
 Put the code provided by Google Web Fonts into the top of your CSS file and voila, you can start using the font you selected on Wufoo forms.
 
-I've set up an [example Wufoo form](http://demos.fullondesign.co.uk/wufoo-fonts/), you can copy.
+I've set up an [example Wufoo form](https://demos.mikerogers.io/wufoo-fonts/), you can copy.
