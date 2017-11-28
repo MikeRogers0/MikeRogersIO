@@ -47,9 +47,9 @@ I stayed in Kreuzberg (Near [Kottbusser Tor](https://www.youtube.com/watch?v=6IL
 
 I didn't know what to expect from Stockholm. I was told before leaving that Stockholm was an dull, unfriendly & expensive city. I think these were just a [stereotype](https://www.youtube.com/watch?v=2OSLXjsqmXg) spread by people who don't want Stockholm to become overcrowded.
 
-Stockholm had a lot of interesting things to see and do (Like [the Vasa](https://en.wikipedia.org/wiki/Vasa_(ship) & [Abba The Museum](http://www.abbathemuseum.com/)), but as a city they've also embraced [Meetup](http://www.meetup.com/find/?allMeetups=true&radius=5&userFreeform=Stockholm%2C+Sweden). Most days I'd be able to find something different to do and as a result I met a bunch of really interesting people.
+Stockholm had a lot of interesting things to see and do (Like [the Vasa](https://en.wikipedia.org/wiki/Vasa_(ship)) & [Abba The Museum](http://www.abbathemuseum.com/)), but as a city they've also embraced [Meetup](http://www.meetup.com/find/?allMeetups=true&radius=5&userFreeform=Stockholm%2C+Sweden). Most days I'd be able to find something different to do and as a result I met a bunch of really interesting people.
 
-I settled into the co-working spaces in Stockholm really quickly. One of the main contributors to this was the concept of ["Fika"](https://en.wikipedia.org/wiki/Fika_(culture\)), a Swedish cultural quirk, where you sit down and have cinnamon buns with coffee while talking to each other. This helped break the ice & made for a really warm & welcoming atmosphere where ever I went.
+I settled into the co-working spaces in Stockholm really quickly. One of the main contributors to this was the concept of ["Fika"](https://en.wikipedia.org/wiki/Fika_(Sweden)), a Swedish cultural quirk, where you sit down and have cinnamon buns with coffee while talking to each other. This helped break the ice & made for a really warm & welcoming atmosphere where ever I went.
 
 Stockholm (like most of the nordic countries) is a tad on the expensive side, however generally the quality of everything is much higher. In my eyes paying the little bit extra was always a reasonable trade off.
 
