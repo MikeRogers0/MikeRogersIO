@@ -45,6 +45,12 @@
 /*@import "bootstrap/carousel";*/
 @import "bootstrap/utilities";
 
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 // https://stackoverflow.com/questions/22429881/how-to-unstyle-anchor-when-using-bootstrap/33596636#33596636
 .link-unstyled, .link-unstyled:link, .link-unstyled:hover {
   color: $body-color;
