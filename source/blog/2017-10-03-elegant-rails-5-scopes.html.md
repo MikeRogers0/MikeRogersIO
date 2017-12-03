@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Elegant Rails 5.2 Scopes
+title: Elegant Rails 5 Scopes
 categories:
  – blog
 published: true
 meta:
-  description: 
+  description: Stop writing raw SQL, instead let Active Record handle that for you.
   index: true
 ---
 
@@ -26,7 +26,7 @@ If you pass an array into the [where](https://apidock.com/rails/ActiveRecord/Que
     end
 
     puts User.active_trial.to_sql
-    # SELECT "users".* FROM "users" WHERE ("users"."trial_expires_at" >= '2017-12-03 14:26:30.806410')
+    # SELECT "users".* FROM "users" WHERE ("users"."trial_expires_at" >= '2017-10-03 14:26:30.806410')
 
     puts User.has_normal_amount_of_cats.to_sql
     # SELECT "users".* FROM "users" WHERE ("users"."cats" <= 4)
@@ -42,7 +42,7 @@ Passing two integers into into the method will output SQL for "Give me rows wher
     end
 
     puts User.expired_trial.to_sql
-    # SELECT "users".* FROM "users" WHERE ("users"."trial_expires_at" BETWEEN '1970-01-01 00:00:00' AND '2017-12-03 14:51:43.216361')
+    # SELECT "users".* FROM "users" WHERE ("users"."trial_expires_at" BETWEEN '1970-01-01 00:00:00' AND '2017-10-03 14:51:43.216361')
 
     puts User.millennials.to_sql
     # SELECT "users".* FROM "users" WHERE ("users"."dob_year" BETWEEN 1985 AND 2000)
