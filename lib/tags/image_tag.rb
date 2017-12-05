@@ -27,7 +27,7 @@ module Jekyll
     def render(context)
       html= '<figure class="figure d-block">'
         html << '<a href="' + ( @attributes["href"] || @attributes["src"] ) + '" target="_blank">'
-          html << '<img src="' + @attributes["src"] + '" class="figure-img img-fluid rounded mx-auto d-block" alt="' + @attributes["alt"] + '"/>'
+          html << '<img src="' + @attributes["src"] + '" class="figure-img img-fluid rounded mx-auto d-block" alt="' + @attributes["alt"] + '" width="' + @attributes["width"] + '"/>'
         html << '</a>'
       html << '<figcaption class="figure-caption text-center">' + @attributes["title"] + '</figcaption>' unless @attributes["title"].nil?
       html << '</figure>'

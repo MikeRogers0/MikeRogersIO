@@ -81,5 +81,16 @@ article {
   .embed-responsive {
     background: #fff;
     border: 5px #fff solid;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .figure-img {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .figure-caption {
+    margin-top: 0.5rem;
   }
 }
