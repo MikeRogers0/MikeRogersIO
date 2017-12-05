@@ -13,6 +13,8 @@ Just over a year ago, I wrote [a post](/2016/10/29/lessons-learnt-from-monetisin
 
 ## Subscriptions were a terrible idea
 
+{% img src: /uploads/2017/11/28/livepage-income.png width: 720 alt: "The last three months of income status, a very up and down line between £0 and £15" title: "Most days I earn about £8 from LivePage via one off payments." %}
+
 A year ago I was pretty confident that asking for $2 or so a year was the right way to go. I couldn't have been more wrong.
 
 One of the big feedback points I received from the comments on [Hacker News](https://news.ycombinator.com/item?id=12925467) was that I should make it a one off payment. So I experimented! Previously when I had subscriptions I'd earned about ~£140 a month, during the month I switched to one off payments I earned a total of £200. Clearly the one off payment was the more popular choice.
@@ -47,6 +49,8 @@ The Google Chrome Store feels very much the same as it did a year ago. I'm aware
 Small things like being made aware of and responding to reviews where a user is reporting a problem they encounter is fairly cumbersome. I combated this by encouraging users to message me via emails (Or on GitHub) instead of returning to the Chrome Store, which seemed to work pretty well.
 
 ## What's next?
+
+{% img src: /uploads/2017/11/28/livepage-weekly-users.png width: 720 alt: "The last three months of weekly users is a slow decline with a 90,000 blip one week" title: "One week I had 90,000 users, but generally weekly users are declining." %}
 
 The weekly active users has dropped from ~49k users to ~21k over the last year, I want to do everything I can to improve that number. I've recently started using Firefox more often, so I'm looking into ways to make a Firefox version which is also monetised.
 
