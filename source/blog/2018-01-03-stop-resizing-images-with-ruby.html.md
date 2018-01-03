@@ -58,7 +58,7 @@ Then setup your uploader with your versions:
 Then use the `cl_image_upload` method to skip uploading images directly to your server.
 
     <!-- app/views/users/_form.html.erb -->
-    <%= form.cl_image_upload(:avatar, tags: form.object.avatar.direct_uploading_tags, allowed_formats: ['jpg'], html: { id: 'user_avatar' }) %>
+    <%= form.cl_image_upload(:avatar, tags: form.object.avatar.direct_uploading_tags, allowed_formats: %w(jpg jpeg gif png), html: { id: 'user_avatar' }) %>
 
 Easy as pie right?!
 

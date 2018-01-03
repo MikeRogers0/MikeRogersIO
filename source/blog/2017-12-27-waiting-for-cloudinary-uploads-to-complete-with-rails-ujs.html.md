@@ -23,7 +23,7 @@ This is a pretty bog standard Rails form. I'm using the [Cloudinary Ruby Gem](ht
       The `cl_image_upload` method does all the authorisation magic and always has
       the class `cloudinary-fileupload`.
       -->
-      <%= f.cl_image_upload(:image) %>
+      <%= f.cl_image_upload(:image, allowed_formats: %w(jpg jpeg gif png)) %>
 
       <!--
       Rails 5 will add the attribute `data-disable-with` to submit buttons, which is shown
