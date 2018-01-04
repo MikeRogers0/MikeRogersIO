@@ -61,6 +61,6 @@ You can link to the image version by passing the version type in the `url` metho
 
 Easy as pie right?! I've setup a [fresh Rails 5.1 project](https://github.com/MikeRogers0/CloudinaryHerokuDemo), which shows an example integration which can be deployed to Heroku.
 
-## Future options
+## Future options
 
 Cloudinary, like most SaaS can begin to feel a [little bit expensive](https://cloudinary.com/pricing) if you're not utilizing a large percentage of your plan. However as mentioned above Fastly is a reasonable alternative. If you're really scaling up, it's also possible to [resize images via AWS Lambda](https://github.com/ysugimoto/aws-lambda-image).
