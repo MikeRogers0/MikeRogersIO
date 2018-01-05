@@ -70,7 +70,7 @@ configure :build do
   end
 
   activate :minify_css
-  activate :minify_javascript
+  #activate :minify_javascript
   activate :asset_hash, ignore: %r{^(images|uploads)/.*}
 
   activate :minify_html do |html|
