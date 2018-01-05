@@ -2,3 +2,6 @@
 # yarn lockfile v1
 
 
+"rainbow-code@https://github.com/MikeRogers0/rainbow.git":
+  version "2.1.3"
+  resolved "https://github.com/MikeRogers0/rainbow.git#9a47bc470f4aa077419b2d4120b79ed8d383a999"

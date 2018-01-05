@@ -1,5 +1,9 @@
 {
-  "name": "MikeRogersIO",
-  "author": "Mike Rogers <me@mikerogers.io>",
-  "dependencies": {}
+  "name": "mikerogersio",
+  "version": "1.0.0",
+  "dependencies": {
+    "rainbow-code": "https://github.com/MikeRogers0/rainbow.git"
+  },
+  "repository": "git@github.com:MikeRogers0/MikeRogersIO.git",
+  "author": "Mike Rogers <me@mikerogers.io>"
 }
