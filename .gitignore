@@ -10,3 +10,5 @@ tmp/*
 spec/.validation/*
 
 /lib/_gist_cache/*
+
+node_modules/*

@@ -2,6 +2,7 @@
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 activate :sprockets
+sprockets.append_path 'node_modules'
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
