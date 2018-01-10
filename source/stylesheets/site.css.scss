@@ -97,4 +97,16 @@ article {
   .figure-caption {
     margin-top: 0.5rem;
   }
+
+  .sponsorship {
+    .remote-zoo {
+      width: 300px;
+      height: 250px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      background: #fff;
+      border: $border-width solid $gray-200;
+    }
+  }
 }
