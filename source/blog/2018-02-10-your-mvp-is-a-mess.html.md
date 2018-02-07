@@ -17,14 +17,24 @@ I totally get why people want to cut corners, but when it leads to a shitshow...
 
 ## How to actually build a rails MVP
 
-You do it fucking organised.
+You do it fucking organised. Like don't waste time making decisions and figuring out how your tiny idea will work.
 
 ### yarn for bootstrap
 
+Don't do your design yourself. You'll waste a lot of your time. Instead just use Bootstrap and follow its conventions.
+
 ### ActiveAdmin for admining
+
+FFS, don't write your own admin panel. Just use ActiveAdmin or something, then just define your fields in their DSL.
 
 ### Simple forms - only list out the forms.
 
+Again, don't do weird extra work. Just list your fields and let the gem do the extra let work. You'd be a dumbshit to do any extra.
+
 ### Devise for users - don't fuck it up.
 
-Seriously, don't fuck this shit up.
+Seriously, don't fuck this shit up. It pretty much does everything you need for a user to sign up and get using your product.
+
+### Hosting - Heroku that mess
+
+Seriously, no one can setup a server. Let alone you're 3-bit developer.
