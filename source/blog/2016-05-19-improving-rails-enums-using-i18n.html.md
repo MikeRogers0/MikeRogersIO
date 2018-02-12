@@ -29,7 +29,7 @@ The solution I decided was most "the rails way" was to store a translated versio
         end
       end
 
-      # Returns the i18n version the the models current enum key
+      # Returns the i18n version the models current enum key
       # Example usage:
       # enum_l(user, :approval_state)
       def enum_l(model, enum)
@@ -40,7 +40,7 @@ The solution I decided was most "the rails way" was to store a translated versio
       # Example usage:
       # enum_i18n(User, :approval_state, :unprocessed)
       def enum_i18n(class_name, enum, key)
-        I18n.t("activerecord.attributes.#{class_name.model_name.i18n_key}.#{enum.to_s.pluralize}.#{key}")
+        I18n.t("activerecord.enums.#{class_name.model_name.i18n_key}.#{enum.to_s.pluralize}.#{key}")
       end
 
     end
@@ -59,7 +59,7 @@ The YAML file should then contain a list of the translated keys under the plural
     # config/locales/activerecord.en.yml
     en:
       activerecord:
-        attributes:
+        enums:
           user:
             approval_states:
               unprocessed: "Unprocessed"
