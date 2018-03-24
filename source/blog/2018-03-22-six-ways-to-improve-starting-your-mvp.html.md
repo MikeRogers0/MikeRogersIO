@@ -5,7 +5,7 @@ categories:
  – blog
 published: true
 meta:
-  description: I've learnt a lot helping small companies launch new products.
+  description: I've learnt a lot helping small companies launch new products, here are some thoughts.
   index: true
 ---
 
