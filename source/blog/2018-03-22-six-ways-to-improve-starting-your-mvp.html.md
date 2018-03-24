@@ -21,7 +21,7 @@ Here are some lessons I've learnt while building out products for clients over t
 
 Finding a decent freelancer won't be easy. I recommend attending a local networking event (Search online for "[Your City Name] + Freelance Meetup"), find some real people who can say "I've worked with this person I can recommend, they're great".
 
-Once you've found someone, look at their portfolio of work, it should have a decent amount of elements of what you'd like to build. Then sit down with them, explain the most basic version of your idea, and then let them build it in what they think they can deliver in. Don't set arbitrary technology restraints, just let them work.
+Once you've found someone, look at their portfolio of work, it should have a decent amount of elements of what you'd like to build. Then sit down with them, explain the most basic version of your idea, and then let them build it in what they think they can deliver in. If you're unsure about the technology choice your person has chosen, it could be advantageous to hire an additional separate freelancer whose entire role is to review their code and choices.
 
 ## Make the most of Bootstrap Variables & Themes
 
