@@ -15,39 +15,61 @@ Seriously. More often then not, the codebase is an unreadable tangled mess, whic
 
 I totally get why people want to cut corners, but when it leads to a shitshow...it's not MVP. It's maxium terrible product. It's not validating the idea, it's only validating that they can't hire decent developers.
 
+## Build it in something you can hire for
+
+Hiring the right person is bloody difficult, limiting yourself to a specific language or framework won't make finding someone easier.
+
+Your best bet is a freelancer who has delivered something similar, preferable local to you. Sit down, explain the most basic version of you idea, and then let them build it in what they think they can deliver in. 
+
+Finding a decent freelancer won't be easy either. I recommend attending a local networking event & find some real people who can say "I've worked with this person, they're great".
+
+// Sites I use for my locality.
+
 ## Make the most of Bootstrap Themes & Variables
 
 It's very tempting to create a bespoke designs, but don't! Finding a top notch designer who can create something a developer can actually work with is next to impossible.
 
-Bootstrap gives a lot of flexibility in terms of editing the underlying (via it's _variables.scss) file, plus there are some pretty decent base themes to get you started.
+Instead use a fairly popular front-end library, which both your designer and developer will be familiar with. 
+
+Personally I like Bootstrap, it gives a lot of flexibility in terms of editing the underlying (via it's _variables.scss) file, plus there are some pretty decent base themes to get you started.
 
 // Examples
 
 ## Create a styleguide or component guide
 
-Document your styles and things you build! It's a total waste of time to design something and hide it in hundreds of lines of code. Setup something simple where common components can be reused, instead of rebuild.
+Document your styles and things you build! It's a total waste of time to design something and hide it in a mess of hundreds of lines of code.
 
-//Examples
+Setup something simple where common components can easily reviewed in isolation and can be easily used as a reference point when deciding UX.
 
-## Build it in something you can hire for
+// Examples
 
-Hiring the right person is bloody difficult. Finding someone who'll be able to build the first iteration at a reasonable price will be an uphill struggle, truth be told the best developers are in comfortable jobs & wouldn't take the risk.
+## Building a solid foundation
 
-Your best bet is a freelancer with a similar track record, preferable local.
+It's very easy to say "We'll rebuild when we're making money", but this is a toxic mindset. Like building a house, starting on a weak foundation will cause many more unnecessary problems down the line.
 
-// Sites I use for my locality.
+A MVP should be a simple version of your idea which validates people want it, but it's also it's going to be the what your use to attract the best talent to grow your product. If it's a total clusterfuck, you'll only attract the kind of talent who enjoys working in a clusterfuck.
 
-## Hosting - Starting on the right now.
-
-MVPs are meant to be the simplest form of your app to validate it can be made (and people want it), but they will end up being the foundation of your future builds. Like a house, adjusting the manciple plumbing which keeps the house working is a mammoth task.
+A solid approach to look out for is a 12factor application approach.
 
 Your app is the same. A good initial database design and architecture starts your off on a safe footing.
 
 // Explain 12factor apps and why I love Heroku.
 
-## Setting KPIs and keeping on track
+## Agree milestones with the people you work with
+
+Having milestones with a fixed scope will help you stay focused on the first iteration of your product. 
+
+Break your product into deliverables (Then those deliverables into tasks that should take at most 3 hours each), which can be reviewed atomically every 2-3 days on a 20 minute video call. 
+
+Personally I'm a big fan of using Pivotal Tracker to manage this process. It's an agile project management tool which I've found to have a fairly minimal learning curve.
 
 // I love pivotal. Like keep things bitesized. People are inherently scared of big tasks, if they're broken up into smaller bits it's easier.
+
+## Separate marketing and your application
+
+Don't waste your developers time on tweaking marketing copy and building landing pages. Use something where you can work asynchronously to your team.
+
+// app.example.com / www.example.com
 
 -- Shit after this point --
 
