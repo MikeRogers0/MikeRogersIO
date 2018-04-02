@@ -137,6 +137,8 @@ GEM
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
+    middleman-sitemap-ping (1.0.0)
+      middleman (>= 3.1)
     middleman-sprockets (4.1.1)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
@@ -201,6 +203,7 @@ DEPENDENCIES
   middleman-cdn!
   middleman-favicon-maker!
   middleman-minify-html!
+  middleman-sitemap-ping!
   middleman-sprockets!
   puma!
   rack-contrib!

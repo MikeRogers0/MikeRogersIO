@@ -107,3 +107,9 @@ activate :cdn do |cdn|
   # We only run this during the release task.
   cdn.after_build = false
 end
+
+activate :sitemap_ping do |config|
+  config.host         = ENV['URL']
+  config.sitemap_file = 'sitemap.txt'
+  config.after_build  = false
+end

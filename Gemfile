@@ -13,6 +13,7 @@ source 'https://rubygems.org' do
   gem 'middleman-minify-html'
   gem 'middleman-sprockets'
   gem 'middleman-cdn'
+  gem 'middleman-sitemap-ping'
   gem 'middleman-favicon-maker'
 
   gem 'liquid', require: false

@@ -6,4 +6,9 @@ if [ "$INVALIDATE_CDN_AFTER_RELEASE" == "true" ]; then
   bundle exec middleman cdn
 fi
 
+if [ "$PING_SITEMAP_AFTER_RELEASE" == "true" ]; then 
+  echo "Invalidating CDN"
+  bundle exec middleman sitemap_ping
+fi
+
 echo "Done"
