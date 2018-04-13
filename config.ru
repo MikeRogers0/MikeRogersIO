@@ -66,7 +66,7 @@ if ENV['SERVE_STATIC'] && ENV['SERVE_STATIC'] == 'true'
         end
 
         links += Dir.glob('build/javascripts/*.js').collect do |file|
-          "</#{file.gsub('build/', '')}>; rel=preload;"
+          "</#{file.gsub('build/', '')}>; rel=preload; as=script"
         end
         links
       end
