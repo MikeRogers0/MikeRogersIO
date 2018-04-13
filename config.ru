@@ -82,7 +82,8 @@ if ENV['SERVE_STATIC'] && ENV['SERVE_STATIC'] == 'true'
     end
   end
 
-  use Rack::EarlyHints
+  # Breaks on Heroku
+  # use Rack::EarlyHints
 
   use Rack::TryStatic,
     root: 'build',
