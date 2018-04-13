@@ -8,15 +8,12 @@
       </section>
     </header>
 
-    <section class="sponsorship mb-3">
-      <p class="p3 mb-0 small text-center">This was written by Mike Rogers, a freelance Ruby on Rails developer based in London.</p>
-    </section>
-
     <section>
       <%= yield %>
     </section>
 
-    <footer class="text-muted small">
+    <footer class="text-muted text-center small mt-3 mb-3">
+      <p>This was written by Mike Rogers, a freelance Ruby on Rails developer based in London.</p>
       <p>Share the ♥ by sharing this!</p>
 
       <p>If you want to discuss this post, feel free to tweet me (<a href="https://twitter.com/MikeRogers0" rel="me" target="_blank">@MikeRogers0</a>) or drop me an <a href="mailto:me+blog@mikerogers.io?subject=<%= CGI.escape current_article.title %>">email</a>. Any code samples unless stated otherwise are licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank">The MIT License (MIT)</a>. Spotted a mistake? Send me a <a href="https://github.com/MikeRogers0/MikeRogersIO/blob/master/source/<%= current_article.path %>.md" target="_blank">pull request</a> :)</p>
