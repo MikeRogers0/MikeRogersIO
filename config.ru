@@ -53,6 +53,35 @@ if ENV['SERVE_STATIC'] && ENV['SERVE_STATIC'] == 'true'
     end
   end
 
+  module Rack
+    class EarlyHints
+      def initialize(app)
+        @app = app
+      end
+
+      def assets_to_early_hint
+        links = []
+        links += Dir.glob('build/stylesheets/*.css').collect do |file|
+          "</#{file.gsub('build/', '')}>; rel=preload; as=style"
+        end
+
+        links += Dir.glob('build/javascripts/*.js').collect do |file|
+          "</#{file.gsub('build/', '')}>; rel=preload;"
+        end
+        links
+      end
+      
+      def call(env)
+        if env['rack.early_hints'] && ( env['REQUEST_PATH'].ends_with?('/') || env['REQUEST_PATH'].ends_with?('.html') )
+          env['rack.early_hints'].call("Link" => assets_to_early_hint.join("\n"))
+        end
+        @app.call(env)
+      end
+    end
+  end
+
+  use Rack::EarlyHints
+
   use Rack::TryStatic,
     root: 'build',
     urls: %w[/], try: ['.html', 'index.html', '/index.html'],
