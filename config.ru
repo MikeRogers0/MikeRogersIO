@@ -73,7 +73,9 @@ if ENV['SERVE_STATIC'] && ENV['SERVE_STATIC'] == 'true'
       
       def call(env)
         if env['rack.early_hints'] && ( env['REQUEST_PATH'].ends_with?('/') || env['REQUEST_PATH'].ends_with?('.html') )
-          env['rack.early_hints'].call("Link" => assets_to_early_hint.join("\n"))
+          assets_to_early_hint.each do |link|
+            env['rack.early_hints'].call("Link" => link)
+          end
         end
         @app.call(env)
       end
