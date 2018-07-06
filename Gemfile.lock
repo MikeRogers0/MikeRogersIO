@@ -12,10 +12,6 @@ GEM
     autoprefixer-rails (8.2.0)
       execjs
     backports (3.11.1)
-    bootstrap (4.0.0.beta)
-      autoprefixer-rails (>= 6.0.3)
-      popper_js (~> 1.11.1)
-      sass (>= 3.4.19)
     builder (3.2.3)
     cloudflare (2.1.0)
       json (~> 1)
@@ -157,7 +153,6 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.12.1)
-    popper_js (1.11.1)
     public_suffix (3.0.2)
     puma (3.11.3)
     rack (1.6.9)
@@ -193,7 +188,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap!
   dotenv!
   font-awesome-sass!
   liquid!
