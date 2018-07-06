@@ -8,7 +8,7 @@
 @import "varibles";
 
 // PrismJS
-@import "rainbow-code/themes/sass/solarized-light";
+@import "rainbow-code/themes/sass/github";
 
 // Bootstrap
 /*@import "bootstrap";*/
@@ -81,7 +81,6 @@ article pre {
   border: $border-width solid $gray-200;
   border-radius: $border-radius;
   font-size: $code-font-size;
-  background: $code-bg;
   padding: $table-cell-padding;
 }
 
