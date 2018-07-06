@@ -5,7 +5,7 @@ categories:
  – blog
 published: true
 meta:
-  description: Sometimes you need to pass in some funky characters to your mail parameters, use Mail::Address to do it safely
+  description: Sometimes you need to pass in some funky characters to your mail parameters, use Mail::Address to do it safely.
   index: true
 ---
 

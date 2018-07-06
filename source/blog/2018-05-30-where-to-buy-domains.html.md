@@ -5,7 +5,7 @@ categories:
  – blog
 published: true
 meta:
-  description: Domain registrars is hard get right, here are the ones I like
+  description: Domain registrars is hard get right, here are the ones I like.
   index: true
 ---
 
