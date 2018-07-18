@@ -5,7 +5,7 @@ categories:
  – blog
 published: true
 meta:
-  description: Speed up your tests and make them more re-playable.
+  description: Speed up your tests and make them more replayable.
   index: true
 ---
 
