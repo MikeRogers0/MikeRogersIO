@@ -32,6 +32,6 @@ source 'https://rubygems.org' do
     gem 'capistrano-rbenv', '~> 2.1'
     gem 'capistrano-bundler', '~> 1.3'
     gem 'capistrano3-puma'
-    gem 'capistrano-npm'
+    gem 'capistrano-yarn'
   end
 end
