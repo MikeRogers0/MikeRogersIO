@@ -46,3 +46,6 @@ append :linked_dirs, '.bundle', '.env', 'node_modules'
 
 # Use our deploy user 
 set :tmp_dir, '/home/deploy/tmp'
+
+# Yarn - Make sure it works with our version of node
+set :yarn_flags, '--production --silent --no-progress --ignore-engines'
