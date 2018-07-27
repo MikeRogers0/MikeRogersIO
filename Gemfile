@@ -1,4 +1,4 @@
-ruby '2.5.0'
+ruby File.read('.ruby-version').chomp
 
 source 'https://rubygems.org' do
   gem 'dotenv', groups: %i[development test]
@@ -26,4 +26,11 @@ source 'https://rubygems.org' do
   # Cross platform compatibility.
   gem 'tzinfo-data', platforms: %i[mswin mingw jruby]
   gem 'wdm', '~> 0.1', platforms: %i[mswin mingw]
+
+  group :development do
+    gem 'capistrano', '~> 3.11'
+    gem 'capistrano-rbenv', '~> 2.1'
+    gem 'capistrano-bundler', '~> 1.3'
+    gem 'capistrano3-puma'
+  end
 end
