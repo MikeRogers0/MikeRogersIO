@@ -3,6 +3,7 @@ lock "~> 3.11.0"
 
 set :application, "MikeRogersIO"
 set :repo_url, "git@github.com:MikeRogers0/MikeRogersIO.git"
+set :branch, ENV['BRANCH'] if ENV['BRANCH']
 
 # rbenv options
 set :rbenv_type, :user # or :system, depends on your rbenv setup
@@ -22,7 +23,7 @@ set :rbenv_ruby, File.read('.ruby-version').strip
 # set :format_options, command_output: true, log_file: "log/capistrano.log", color: :auto, truncate: :auto
 
 # Default value for :pty is false
-# set :pty, true
+set :pty, true
 
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml"
@@ -43,4 +44,5 @@ append :linked_dirs, '.bundle', '.env', 'node_modules'
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
 
-set :tmp_dir, "/home/deploy"
+# Use our deploy user 
+set :tmp_dir, '/home/deploy/tmp'
