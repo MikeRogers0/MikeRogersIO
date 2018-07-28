@@ -33,5 +33,6 @@ source 'https://rubygems.org' do
     gem 'capistrano-bundler', '~> 1.3'
     gem 'capistrano3-puma'
     gem 'capistrano-yarn'
+    gem 'capistrano-dotenv', require: false
   end
 end

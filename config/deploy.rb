@@ -26,7 +26,7 @@ set :deploy_to, -> { "/home/ubuntu/var/www/#{fetch(:application)}" }
 set :pty, true
 
 # Default value for :linked_files is []
-append :linked_files, 'config/puma.rb', '.env'
+append :linked_files, 'config/puma.rb', '.env', 'tmp/restart.txt'
 
 # Default value for linked_dirs is []
 # append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
