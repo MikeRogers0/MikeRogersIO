@@ -11,7 +11,6 @@ install_plugin Capistrano::SCM::Git
 # Include tasks from other gems included in your Gemfile
 require "capistrano/rbenv"
 require "capistrano/bundler"
-require "capistrano/rails"
 
 require 'capistrano/puma'
 install_plugin Capistrano::Puma

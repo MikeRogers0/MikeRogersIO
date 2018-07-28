@@ -1,7 +1,14 @@
 namespace :deploy do
-  namespace :assets do
-    task :backup_manifest do
-      # Do nothing, just override the Capistrano-rails task.
+  namespace :middleman do
+    desc "Build site on the server"
+    task :build do
+      on roles(:web) do
+        within release_path do
+          execute :bundle, "exec middleman build"
+        end
+      end
     end
   end
+
+  after 'deploy:updated', 'deploy:middleman:build'
 end
