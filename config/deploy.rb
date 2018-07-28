@@ -31,5 +31,5 @@ set :yarn_flags, '--production --silent --no-progress --ignore-engines'
 # Puma
 set :puma_conf, "#{shared_path}/config/puma.rb"
 
-# Nginx
-set :nginx_server_name, "mikerogers.adhoc-projects.mikerogers.io"
+# Nginx, where the CDN (CloudFront) will look for our site.
+set :nginx_server_name, "mikerogersio.adhoc.mikerogers.io"
