@@ -1,7 +1,7 @@
 ruby File.read('.ruby-version').chomp
 
 source 'https://rubygems.org' do
-  gem 'dotenv', groups: %i[development test]
+  gem 'dotenv'
 
   gem 'puma'
   gem 'rake'

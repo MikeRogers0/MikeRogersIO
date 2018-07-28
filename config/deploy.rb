@@ -13,7 +13,7 @@ set :rbenv_ruby, File.read('.ruby-version').strip
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, -> { "~/var/www/#{fetch(:application)}" }
+set :deploy_to, -> { "/home/ubuntu/var/www/#{fetch(:application)}" }
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
@@ -44,11 +44,14 @@ append :linked_dirs, '.bundle', 'node_modules', 'log', 'tmp/pids', 'tmp/cache', 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
 
-# Use our deploy user 
-set :tmp_dir, '/home/ubuntu/tmp'
+# Use our deploy user for the tmp file
+#set :tmp_dir, '/home/ubuntu/tmp'
 
 # Yarn - Make sure it works with our version of node
 set :yarn_flags, '--production --silent --no-progress --ignore-engines'
 
 # Puma
 set :puma_conf, "#{shared_path}/config/puma.rb"
+
+# Nginx
+set :nginx_server_name, "mikerogers.adhoc-projects.mikerogers.io"

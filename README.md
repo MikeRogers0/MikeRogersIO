@@ -2,6 +2,15 @@
 
 My personal website which shows off bits of my portfolio and ramblings from my blog.
 
+## Deploying
+
+    cap production deploy
+
+### Setup
+
+    cap production puma:config
+    cap production puma:nginx_config
+
 ## TODO
 
 ### Posts
