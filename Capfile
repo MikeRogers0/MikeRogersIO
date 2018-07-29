@@ -18,6 +18,7 @@ install_plugin Capistrano::Puma::Monit
 install_plugin Capistrano::Puma::Nginx
 
 require 'capistrano/yarn'
+require 'capistrano/logrotate'
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
 Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
