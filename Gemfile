@@ -21,7 +21,7 @@ source 'https://rubygems.org' do
   # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
   gem 'turbolinks', '~> 5', require: false
 
-  gem 'font-awesome-sass'
+  gem 'font-awesome-sass', '~> 4.7.0'
   
   # Cross platform compatibility.
   gem 'tzinfo-data', platforms: %i[mswin mingw jruby]
