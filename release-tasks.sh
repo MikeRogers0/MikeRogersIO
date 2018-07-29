@@ -1,12 +1,12 @@
 #!/bin/bash
 
 echo "Running Release Tasks"
-if [ "$INVALIDATE_CDN_AFTER_RELEASE" == "true" ]; then 
+if [ "$AFTER_RELEASE_INVALIDATE_CDN" == "true" ]; then 
   echo "Invalidating CDN"
   bundle exec middleman cdn
 fi
 
-if [ "$PING_SITEMAP_AFTER_RELEASE" == "true" ]; then 
+if [ "$AFTER_RELEASE_PING_SITEMAP" == "true" ]; then 
   echo "Pinging the world"
   bundle exec middleman sitemap_ping
 fi
