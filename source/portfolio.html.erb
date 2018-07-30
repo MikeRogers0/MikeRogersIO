@@ -8,28 +8,32 @@ meta:
   <p>Here are some of the projects I've worked on recently.</p>
 </div>
 
-<div class="p-3 mb-4">
-  <h2 class="h5 text-center">LivePage</h2>
-  <div class="row">
-    <div class="col-12 col-md-4 d-flex align-items-center">
-      <figure class="figure text-center mb-0">
-        <%= link_to image_tag('livepage.jpg', class: 'figure-img img-fluid rounded img-thumbnail', alt: 'Visit the LivePage Landing Page'), 'https://livepage.mikerogers.io/', target: '_blank' %>
-      </figure>
-    </div>
-    <div class="col-12 col-md-8">
-      <p>LivePage is a Chrome Extension that reloads web pages as they change.</p>
+<% data.projects.each do |project| %>
+  <div class="p-3 mb-4">
+    <div class="row">
+      <div class="col-12 col-md-4 d-flex">
+        <figure class="figure text-center mb-0 mt-1">
+          <%= link_to image_tag(project.image_path, class: 'figure-img img-fluid rounded img-thumbnail', alt: "Visit #{project.name}"), project.url, target: '_blank' %>
+        </figure>
+      </div>
+      <div class="col-12 col-md-8">
+        <h2 class="h5"><%= project.name %></h2>
+        <p><%= project.description %></p>
 
-      <dl class="row small">
-        <dt class="col-sm-3">Release Date</dt>
-        <dd class="col-sm-9">June 10, 2019</dd>
-        <dt class="col-sm-3">Stack</dt>
-        <dd class="col-sm-9">JavaScript</dd>
-      </dl>
+        <dl class="row small">
+          <% project.stats.each do |key, value| %>
+            <dt class="col-sm-3"><%= key %></dt>
+            <dd class="col-sm-9"><%= value %></dd>
+          <% end %>
+        </dl>
 
-      <div role="group">
-        <%= link_to 'View Project', 'https://livepage.mikerogers.io/', target: '_blank', class: 'btn btn-sm btn-outline-primary' %>
-        <%= link_to 'View Source Code', 'https://github.com/MikeRogers0/LivePage', target: '_blank', class: 'btn btn-sm btn-outline-primary' %>
+        <div role="group">
+          <%= link_to 'View Project', project.url, target: '_blank', class: 'btn btn-sm btn-outline-secondary' %>
+          <%= link_to 'View Source Code', project.source_url, target: '_blank', class: 'btn btn-sm btn-outline-secondary' if project.source_url.present? %>
+        </div>
       </div>
     </div>
   </div>
-</div>
+
+  <hr />
+<% end %>
