@@ -30,7 +30,7 @@ meta:
 
 <div class="hello-im-mike mb-5">
   <p class="lead text-center">Hello! I'm a web developer from Berkshire UK.<br>I've specialised in making performant Ruby on Rails applications since 2012.</p>
-  <div class="text-center mt-4 mb-3">
+  <div class="text-center mt-4 mb-4">
     <a href="mailto:me+site@mikerogers.io?subject=Work%20with%20You" class="btn btn-primary">Contact Me via Email</a>
   </div>
 </div>
@@ -39,33 +39,21 @@ meta:
   <h2 class="text-center mb-4">Products I've delivered</h2>
 
   <div class="row">
-    <div class="col-12 col-md-4">
-      <h3 class="sr-only">Bundlify</h3>
 
-      <figure class="figure text-center mb-4">
-        <%= link_to image_tag('bundlify.png', class: 'figure-img img-fluid rounded img-thumbnail', alt: 'Visit Bundlify'), 'https://www.bundlify.com/', target: '_blank' %>
-        <figcaption class="figure-caption">Bundlify is an SaaS startup which makes invoicing on a branded domain super easy.</figcaption>
-      </figure>
-    </div>
-    <div class="col-12 col-md-4">
-      <h3 class="sr-only">TrackChanges</h3>
-
-      <figure class="figure text-center mb-4">
-        <%= link_to image_tag('trackchanges.png', class: 'figure-img img-fluid rounded img-thumbnail', alt: 'Visit the TrackChanges Landing Page'), 'https://trackchanges.mikerogers.io/', target: '_blank' %>
-
-        <figcaption class="figure-caption">TrackChanges is a Chrome Extension which helps to share changes made in inspect mode with developers.</figcaption>
-      </figure>
-    </div>
-    <div class="col-12 col-md-4">
-      <h3 class="sr-only">LivePage</h3>
-
-      <figure class="figure text-center mb-4">
-        <%= link_to image_tag('livepage.jpg', class: 'figure-img img-fluid rounded img-thumbnail', alt: 'Visit the LivePage Landing Page'), 'https://livepage.mikerogers.io/', target: '_blank' %>
-        <figcaption class="figure-caption">LivePage is a Chrome Extension that reloads web pages as they change.</figcaption>
-      </figure>
-    </div>
+    <% data.projects.select { |p| p.featured }.each do |project| %>
+      <div class="col-12 col-md-4">
+        <h3 class="sr-only"><%= project.name %></h3>
+        <figure class="figure text-center mb-4">
+          <%= link_to image_tag(project.image_path, class: 'figure-img img-fluid rounded img-thumbnail', alt: "Visit #{project.name}"), project.url, target: '_blank' %>
+          <figcaption class="figure-caption"><%= project.description %></figcaption>
+        </figure>
+      </div>
+    <% end %>
   </div>
 
+  <div class="text-center mb-4">
+    <%= link_to 'See More Projects', 'portfolio.html', class: 'btn btn-primary' %>
+  </div>
 </div>
 
 <div class="blog-posts mb-5">
@@ -80,5 +68,7 @@ meta:
     </div>
   <% end %>
 
-  <%= link_to 'See all Posts', 'posts.html', class: 'btn btn-primary' %>
+  <div class="text-center">
+    <%= link_to 'See All Posts', 'posts.html', class: 'btn btn-primary' %>
+  </div>
 </div>
