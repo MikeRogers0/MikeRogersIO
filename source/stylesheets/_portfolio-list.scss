@@ -19,3 +19,13 @@
     }
   }
 }
+
+.portfolio-list__image {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: map-get($grid-breakpoints, 'md')) {
+    max-width: 100%;
+  }
+}
