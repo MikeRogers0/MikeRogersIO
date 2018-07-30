@@ -32,22 +32,36 @@ And replace it with:
     require "rails"
 
     # Include each railties manually, excluding `active_storage/engine`
-    %w(
-      active_record/railtie
-      action_controller/railtie
-      action_view/railtie
-      action_mailer/railtie
-      active_job/railtie
-      action_cable/engine
-      rails/test_unit/railtie
-      sprockets/railtie
-    ).each do |railtie|
-      begin
-        require railtie
-      rescue LoadError
-      end
-    end
+    require "active_model/railtie"
+    require "active_job/railtie"
+    require "active_record/railtie"
+    # require "active_storage/engine"
+    require "action_controller/railtie"
+    require "action_mailer/railtie"
+    require "action_view/railtie"
+    require "action_cable/engine"
+    require "sprockets/railtie"
+    require "rails/test_unit/railtie"
 
 What this will do is instead of requiring [rails/all](https://github.com/rails/rails/blob/master/railties/lib/rails/all.rb), it'll just require the railties we're planning to use.
 
 By removing `active_storage/engine`, the Active Storage railties is no longer required and the routes it requires are no longer mounted. 👍
+
+### Undefined method `active_storage'
+
+If you're running into an error that looks a little bit like:
+
+    NoMethodError: undefined method `active_storage' for #<Rails::Application::Configuration
+
+You have a reference to ActiveStorage in one of your `config/application.rb` or `config/environments/*.rb` files which looks like:
+
+    # Store uploaded files on the local file system (see config/storage.yml for options)
+    config.active_storage.service = :local
+
+Remove that line and also the `config/storage.yml` if it is present, and you should be good to go.
+
+### Skip adding ActiveStorage on new builds
+
+If you're starting a new project and you'd like to skip having ActiveStorage be added from the get go, add the `--skip-active-storage` argument when you generate a new project. For example:
+
+    rails new AwesomeProject --skip-active-storage
