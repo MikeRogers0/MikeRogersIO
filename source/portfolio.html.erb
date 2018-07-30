@@ -8,7 +8,7 @@ meta:
   <p>Here are some of the projects I've worked on recently.</p>
 </div>
 
-<% data.projects.each do |project| %>
+<% data.projects.sort_by { |p| -(Date.parse(p.launched_on).to_time.to_i) }.each do |project| %>
   <div class="p-3 mb-4">
     <div class="row">
       <div class="col-12 col-md-4 d-flex">
@@ -21,6 +21,8 @@ meta:
         <p><%= project.description %></p>
 
         <dl class="row small">
+          <dt class="col-sm-3">Launched</dt>
+          <dd class="col-sm-9"><%= Date.parse(project.launched_on).strftime('%b %e, %Y') %></dd>
           <% project.stats.each do |key, value| %>
             <dt class="col-sm-3"><%= key %></dt>
             <dd class="col-sm-9"><%= value %></dd>

@@ -1,50 +1,58 @@
 - name: Bundlify
+  featured: true
   image_path: bundlify.png
   url: https://www.bundlify.com/
+  launched_on: 1/8/2018
   description: |
     Bundlify is an SaaS startup which makes invoicing on a branded domain super easy.
   stats:
-    "Launched": August 1st, 2018
-    "Stack": Ruby on Rails, Middleman, PostgreSQL, Heroku, Stripe
+    "Stack": Ruby on Rails, Middleman, Yarn, PostgreSQL, Heroku, Stripe Connect, Rspec
 
 - name: My Daily Shuffle
+  featured: true
   url: https://spotify-daily-shuffle.mikerogers.io/
+  launched_on: 8/7/2018
   description: |
     Shuffle your playlists every day, so your smart device's music alarm will play it in a random order.
   stats:
-    "Launched": July 1st, 2018
     "Stack": Ruby on Rails, Spotify API
 
 - name: Bootstrap-O-Matic
+  featured: false
   url: https://bootstrap-o-matic.mikerogers.io/
+  launched_on: 15/6/2018
   description: |
-    Configure Bootstrap 4 variables and get a live preview
+    Configure Bootstrap 4 variables and get a live preview.
   stats:
-    "Launched": July 1st, 2018
-    "Stack": Ruby on Rails, Bootstrap 4, LibSass, WebComponents
+    "Stack": Ruby on Rails, Bootstrap 4, WebComponents
 
 - name: Meetup Maps
+  featured: false
   url: https://meetups-map.mikerogers.io/#51.5949,-0.1581
   source_url: https://github.com/MikeRogers0/Meetup-Map
+  launched_on: 1/4/2017
   description: |
-    View all the events happening you on a Google Map
+    View all the events happening you on a Google Map.
   stats:
-    "Launched": July 1st, 2018
     "Stack": Ruby on Rails, Meetup API, Google Maps API
 
 - name: TrackChanges
+  featured: false
   image_path: trackchanges.png
   url: https://trackchanges.mikerogers.io/
+  launched_on: 3/12/2017
   description: |
     TrackChanges is a Chrome Extension which helps to share changes made in inspect mode with developers.
   stats:
-    "Launched": December 3rd, 2017
+    "Stack": ES2016, Chrome API
 
 - name: LivePage
+  featured: true
   image_path: livepage.jpg
   url: https://livepage.mikerogers.io/
   source_url: https://github.com/MikeRogers0/LivePage
+  launched_on: 10/4/2013
   description: |
     LivePage is a Chrome Extension that reloads web pages as they change.
   stats:
-    "Launched": April 10th, 2013
+    "Stack": JavaScript, Chrome API
