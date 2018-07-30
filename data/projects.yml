@@ -10,6 +10,7 @@
 
 - name: My Daily Shuffle
   featured: true
+  image_path: my-daily-shuffle.png
   url: https://spotify-daily-shuffle.mikerogers.io/
   launched_on: 8/7/2018
   description: |
@@ -19,6 +20,7 @@
 
 - name: Bootstrap-O-Matic
   featured: false
+  image_path: bootstrap-o-matic.png
   url: https://bootstrap-o-matic.mikerogers.io/
   launched_on: 15/6/2018
   description: |
@@ -26,8 +28,9 @@
   stats:
     "Stack": Ruby on Rails, Bootstrap 4, WebComponents
 
-- name: Meetup Maps
+- name: Meetups Map
   featured: false
+  image_path: meetups-map.png
   url: https://meetups-map.mikerogers.io/#51.5949,-0.1581
   source_url: https://github.com/MikeRogers0/Meetup-Map
   launched_on: 1/4/2017
@@ -44,7 +47,7 @@
   description: |
     TrackChanges is a Chrome Extension which helps to share changes made in inspect mode with developers.
   stats:
-    "Stack": ES2016, Chrome API
+    "Stack": ES16, Chrome API, Babel
 
 - name: LivePage
   featured: true
