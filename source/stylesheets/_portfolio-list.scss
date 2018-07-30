@@ -1,0 +1,21 @@
+.portfolio-list {}
+
+.portfolio-list__item {
+  &:after {
+    display: block;
+    content: ' ';
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-top: 1px dashed rgba(0, 0, 0, 0.1);
+    width: 20rem;
+  }
+
+  &:last-child {
+    &:after {
+      display: none;
+    }
+  }
+}

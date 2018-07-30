@@ -57,6 +57,8 @@ $theme-colors: map-merge((
 /*@import "bootstrap/scss/carousel";*/
 @import "bootstrap/scss/utilities";
 
+@import "portfolio-list";
+
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
