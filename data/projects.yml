@@ -2,60 +2,76 @@
   featured: true
   image_path: bundlify.png
   url: https://www.bundlify.com/
-  launched_on: 1/8/2018
+  date: 1/8/2018
   description: |
     Bundlify is an SaaS startup which makes invoicing on a branded domain super easy.
   stats:
+    "Launched": Aug 1st, 2018
     "Stack": Ruby on Rails, Middleman, Yarn, PostgreSQL, Heroku, Stripe Connect, Rspec
 
 - name: My Daily Shuffle
   featured: true
-  image_path: my-daily-shuffle.png
+  image_path: my-daily-shuffle.jpg
   url: https://spotify-daily-shuffle.mikerogers.io/
-  launched_on: 8/7/2018
+  date: 8/7/2018
   description: |
     Shuffle your playlists every day, so your smart device's music alarm will play it in a random order.
   stats:
+    "Launched": Jul 8th, 2018
     "Stack": Ruby on Rails, Spotify API
 
 - name: Bootstrap-O-Matic
   featured: false
-  image_path: bootstrap-o-matic.png
+  image_path: bootstrap-o-matic.jpg
   url: https://bootstrap-o-matic.mikerogers.io/
-  launched_on: 15/6/2018
+  date: 15/6/2018
   description: |
     Configure Bootstrap 4 variables and get a live preview.
   stats:
+    "Launched": Jun 15th, 2018
     "Stack": Ruby on Rails, Bootstrap 4, WebComponents
 
 - name: Meetups Map
   featured: false
-  image_path: meetups-map.png
+  image_path: meetups-map.jpg
   url: https://meetups-map.mikerogers.io/#51.5949,-0.1581
   source_url: https://github.com/MikeRogers0/Meetup-Map
-  launched_on: 1/4/2017
+  date: 1/4/2017
   description: |
     View all the events happening you on a Google Map.
   stats:
+    "Launched": Aug 1st, 2017
     "Stack": Ruby on Rails, Meetup API, Google Maps API
 
 - name: TrackChanges
   featured: false
   image_path: trackchanges.png
   url: https://trackchanges.mikerogers.io/
-  launched_on: 3/12/2017
+  date: 3/12/2017
   description: |
     TrackChanges is a Chrome Extension which helps to share changes made in inspect mode with developers.
   stats:
+    "Launched": Dec 3rd, 2017
     "Stack": ES16, Chrome API, Babel
+
+- name: AwesomeWeb
+  featured: false
+  image_path: awesomeweb.jpg
+  url: https://www.awesomeweb.com/
+  date: 1/2/2016
+  description: |
+    A freelance marketplace for Web Designers and Developers.
+  stats:
+    "Stack": Ruby on Rails, Apache Solr, Heroku
 
 - name: LivePage
   featured: true
   image_path: livepage.jpg
   url: https://livepage.mikerogers.io/
   source_url: https://github.com/MikeRogers0/LivePage
-  launched_on: 10/4/2013
+  date: 10/4/2013
   description: |
     LivePage is a Chrome Extension that reloads web pages as they change.
   stats:
-    "Stack": JavaScript, Chrome API
+    "Launched": Apr 10th, 2013
+    "Stack": JavaScript, Chrome API, Internationalisation
