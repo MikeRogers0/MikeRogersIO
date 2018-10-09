@@ -93,7 +93,7 @@ if ENV['SERVE_STATIC'] && ENV['SERVE_STATIC'] == 'true'
         #'X-Frame-Options' => 'SAMEORIGIN',
         'X-XSS-Protection' => '1; mode=block',
         'X-Content-Type-Options' => 'nosniff',
-        'Content-Security-Policy' => ENV.fetch('CONTENT_SECURITY_POLICY') { '' },
+        'Content-Security-Policy' => ENV.fetch('CONTENT_SECURITY_POLICY') { "default-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; worker-src 'self' blob: ; script-src 'self' https: 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; upgrade-insecure-requests" },
         'Strict-Transport-Security' => 'max-age=15552000; includeSubDomains',
         'Referrer-Policy' => 'no-referrer-when-downgrade',
         'Access-Control-Allow-Origin' => '*',
