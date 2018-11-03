@@ -5,15 +5,15 @@ categories:
  – blog
 published: true
 meta:
-  description: I didn't setup CORS on AWS S3 and had a bad time, this is how I fixed it.
+  description: The AWS S3 CORS configuration to allow Direct Upload for ActiveStorage.
   index: true
 ---
 
-If you haven't tried Rails new ActiveStorage feature, do it! It's bloody lovely to work with! However, recently I ran into a "OMFG why isn't this working" moment while uploading files with Direct Upload to AWS S3 for ActiveStorage.
+If you haven't tried Rails new ActiveStorage feature, do it! It's bloody lovely to work with! However, recently I ran into a "OMFG why isn't this working" moment while uploading files with Direct Upload to AWS S3 via ActiveStorage in Ruby On Rails.
 
 ## The Error
 
-When I submitted my form, it just stalled and nothing happened.
+After submitting the form, it got stuck in it's disabled "I am submitting" state.
 
 The error in my browser console looked a little like this:
 
@@ -21,7 +21,7 @@ The error in my browser console looked a little like this:
 
 ## The Fix
 
-The fix took me a bit of searching to get right, but on the AWS website navigate to your S3 bucket, go to permissions, then "CORS Configuration". The URL should look something like:
+The fix took me a bit of searching to get this totally right, but on the AWS website navigate to your S3 bucket, go to permissions, then "CORS Configuration". The URL should look something like:
 
     https://s3.console.aws.amazon.com/s3/buckets/YOUR_BUCKET_NAME/?region=us-east-1&tab=permissions
 
