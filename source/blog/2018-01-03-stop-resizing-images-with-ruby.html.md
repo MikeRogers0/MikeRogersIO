@@ -64,3 +64,7 @@ Easy as pie right?! I've setup a [fresh Rails 5.1 project](https://github.com/Mi
 ## Future options
 
 Cloudinary, like most SaaS can begin to feel a [little bit expensive](https://cloudinary.com/pricing) if you're not utilizing a large percentage of your plan. However as mentioned above Fastly is a reasonable alternative. If you're really scaling up, it's also possible to [resize images via AWS Lambda](https://github.com/ysugimoto/aws-lambda-image).
+
+## Footnotes
+
+As pointed out by a reader MiniMagick is just a Ruby wrapper for C functionality. So more accurately, this could have been more accurately titled "Stop resizing images with C" or "Stop resizing images yourself".
