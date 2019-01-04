@@ -3,7 +3,7 @@
   "lisence": "MIT",
   "version": "1.0.0",
   "dependencies": {
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.2.1",
     "rainbow-code": "https://github.com/MikeRogers0/rainbow.git"
   },
   "repository": "git@github.com:MikeRogers0/MikeRogersIO.git",
