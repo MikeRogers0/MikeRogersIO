@@ -42,6 +42,12 @@ These were often eager loaded on a lot of pages, so moving them to a JSONB store
 
 I like this a lot, as it remove the need for eager loading (or an N+1), plus when I ran `post.inspect` the relationship of posts to tags was still there.
 
+However, to query if a tag was associated to a post I had to run:
+
+    User.where("meta @> ?", {tags: ['tag']}.to_json) }
+
+Which is nice, but not the most obvious query to run.
+
 ### A belongs_to relationship (User preferences)
 
 In the same project as above, I was storing users preferences in its own model like:
