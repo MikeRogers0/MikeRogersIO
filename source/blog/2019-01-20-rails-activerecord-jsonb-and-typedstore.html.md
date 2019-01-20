@@ -9,6 +9,8 @@ meta:
   index: true
 ---
 
+TL;DR: JSOB is a nice way to normalise your database by avoiding unnecessary `has_many` relationships, but it also increased the complexity of your queries.
+
 One of my favourite features of Rails ActiveRecord is its support for [storing JSON in your database](https://edgeguides.rubyonrails.org/active_record_postgresql.html#json-and-jsonb). Instead of having to store your JSON as string, then do some parsing when you pull it back out, you can declare a field as a `JSONB` type, and then rails will do the hard work for you. Plus when coupled with a Postgres database you'll get some neat performance wins.
 
 ## Where you can use it
