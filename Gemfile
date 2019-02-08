@@ -18,8 +18,9 @@ source 'https://rubygems.org' do
 
   gem 'liquid', require: false
 
-  gem 'font-awesome-sass', '~> 4.7.0'
-  
+  gem 'sass'
+  gem 'sassc-rails'
+
   # Cross platform compatibility.
   gem 'tzinfo-data', platforms: %i[mswin mingw jruby]
   gem 'wdm', '~> 0.1', platforms: %i[mswin mingw]

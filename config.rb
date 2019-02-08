@@ -32,7 +32,7 @@ page '/*.txt', layout: false
 
 helpers do
   def root_url
-    ENV.fetch('URL') { 'https://mikerogers.dev' }
+    ENV.fetch('URL') { 'https://mikerogersio.test' }
   end
 
   def current_url
@@ -60,6 +60,8 @@ activate :favicon_maker, icons: {
     { icon: 'favicon.ico', size: '64x64,32x32,24x24,16x16' },
   ]
 }
+
+set :fonts_dir, 'fonts'
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

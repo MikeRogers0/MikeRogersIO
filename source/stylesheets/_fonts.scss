@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+// Fonts generated from https://icomoon.io/app/#/select/font
+
+@font-face {
+  font-family: 'icomoon';
+  src:  font-url('fonts/icomoon.eot?fjhsg7');
+  src:  font-url('fonts/icomoon.eot?fjhsg7#iefix') format('embedded-opentype'),
+    font-url('fonts/icomoon.ttf?fjhsg7') format('truetype'),
+    font-url('fonts/icomoon.woff?fjhsg7') format('woff'),
+    font-url('fonts/icomoon.svg?fjhsg7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-2x {
+  font-size: 2em;
+}
+
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+
