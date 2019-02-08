@@ -46,7 +46,6 @@ My current preferred method is to base my colours around actions or objects, so 
     $alert: $destroy;
     $notice: #e9dccd;
 
-
 I like this approach as it requires less thinking when writing code as to which colour should be used. For example, if a button is going to create an object in the database, I use the `$create` colour, which can be mapped to a button called `.btn-create`.
 
 ### How I use this in my Rails + Bootstrap Projects
