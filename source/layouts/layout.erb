@@ -7,6 +7,8 @@
     <title><%= current_page.data.title || "Mike Rogers Site" %></title>
     <link rel="preload" href="<%= asset_path(:css, 'site') %>" as="style" />
     <link rel="preload" href="<%= asset_path(:js, 'site') %>" as="script" />
+    <link rel="preload" href="<%= image_path('mike-rogers.jpg') %>" as="image" />
+    <link rel="preload" href="<%= image_path('assets/fonts/icomoon.ttf') %>" as="font" crossorigin="anonymous" />
 
     <meta name="description" content="<%= current_page.data.meta.description %>">
     <meta name="twitter:card" content="summary" />
@@ -19,7 +21,7 @@
 
     <%= stylesheet_link_tag :site %>
 
-    <link rel="icon" type="image/ico" href="/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="canonical" href="<%= current_url %>"/>
   </head>
   <body>

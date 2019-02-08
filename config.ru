@@ -99,7 +99,12 @@ if ENV['SERVE_STATIC'] && ENV['SERVE_STATIC'] == 'true'
         'Access-Control-Allow-Origin' => '*',
         'Cache-Control' => 'public, max-age=604800'
       }],
-      [['png', 'jpg', 'js', 'css', 'svg', 'woff', 'ttf', 'eot'], { 'Cache-Control' => 'public, max-age=31536000' }]
+      [['png', 'jpg', 'js', 'css', 'svg', 'woff', 'ttf', 'eot', 'ico'], { 'Cache-Control' => 'public, no-transform, max-age=31536000' }],
+      [['ico'], { 'Content-Type' => 'image/x-icon' }],
+      [['svg'], { 'Content-Type' => 'image/svg+xml' }],
+      [['woff'], { 'Content-Type' => 'application/font-woff' }],
+      [['ttf'], { 'Content-Type' => 'application/x-font-ttf' }],
+      [['eot'], { 'Content-Type' => 'application/vnd.ms-fontobject' }]
     ]
 
   use Rack::Redirect

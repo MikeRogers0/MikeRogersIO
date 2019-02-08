@@ -63,15 +63,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+// Override the github theme a touch for better visibility
+pre, code {
+  background: $code-bg;
+}
+
 // https://stackoverflow.com/questions/22429881/how-to-unstyle-anchor-when-using-bootstrap/33596636#33596636
-.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+.link-unstyled, .link-unstyled:link {
   color: $body-color;
   text-decoration: inherit;
-
-  @include hover {
-    color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
-  }
 }
 
 // Make the code samples mildly prettier

@@ -14,7 +14,7 @@ meta:
       <div class="row">
         <div class="col-12 col-md-4 d-flex">
           <figure class="figure text-center mb-0 mt-1">
-            <%= link_to image_tag(project.image_path, class: 'figure-img portfolio-list__image img-fluid rounded img-thumbnail', alt: "Visit #{project.name}"), project.url, target: '_blank' %>
+            <%= link_to image_tag(project.image_path, class: 'figure-img portfolio-list__image img-fluid rounded img-thumbnail', alt: "Visit #{project.name}"), project.url, target: '_blank', 'rel': 'noopener' %>
           </figure>
         </div>
         <div class="col-12 col-md-8">
@@ -30,7 +30,7 @@ meta:
 
           <div role="group">
             <%= link_to 'View Project', project.url, target: '_blank', class: 'btn btn-sm btn-outline-secondary' %>
-            <%= link_to 'View Source Code', project.source_url, target: '_blank', class: 'btn btn-sm btn-outline-secondary' if project.source_url.present? %>
+            <%= link_to 'View Source Code', project.source_url, target: '_blank', class: 'btn btn-sm btn-outline-secondary', 'rel': 'noopener' if project.source_url.present? %>
           </div>
         </div>
       </div>
