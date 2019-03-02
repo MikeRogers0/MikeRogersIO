@@ -16,13 +16,6 @@ require 'fileutils'
 FileUtils.mkdir('log') unless File.exist?('log')
 ::Middleman::Logger.singleton("log/#{ENV['RACK_ENV']}.log")
 
-# Keep out the unwanted people.
-if ENV['REQUIRE-AUTH'] && ENV['REQUIRE-AUTH'] == 'true'
-  use Rack::Auth::Basic, 'Restricted Area' do |username, password|
-    [username, password] == %w[awesome awesome]
-  end
-end
-
 # When in production, use the build folder.
 if ENV['SERVE_STATIC'] && ENV['SERVE_STATIC'] == 'true'
   # Serve static files under a `build` directory:
@@ -52,38 +45,6 @@ if ENV['SERVE_STATIC'] && ENV['SERVE_STATIC'] == 'true'
       end
     end
   end
-
-  module Rack
-    class EarlyHints
-      def initialize(app)
-        @app = app
-      end
-
-      def assets_to_early_hint
-        links = []
-        links += Dir.glob('build/stylesheets/*.css').collect do |file|
-          "</#{file.gsub('build/', '')}>; rel=preload; as=style"
-        end
-
-        links += Dir.glob('build/javascripts/*.js').collect do |file|
-          "</#{file.gsub('build/', '')}>; rel=preload; as=script"
-        end
-        links
-      end
-      
-      def call(env)
-        if env['rack.early_hints'] && ( env['REQUEST_PATH'].ends_with?('/') || env['REQUEST_PATH'].ends_with?('.html') )
-          assets_to_early_hint.each do |link|
-            env['rack.early_hints'].call("Link" => link)
-          end
-        end
-        @app.call(env)
-      end
-    end
-  end
-
-  # Breaks on Heroku
-  # use Rack::EarlyHints
 
   use Rack::TryStatic,
     root: 'build',
