@@ -25,9 +25,12 @@
     <link rel="canonical" href="<%= current_url %>"/>
   </head>
   <body>
+    <div class="position-fixed">
+      <a href="#main" class="mt-2 ml-4 sr-only sr-only-focusable">Skip to main content</a>
+    </div>
     <%= partial 'shared/header' %>
 
-    <div class="container">
+    <div class="container" role="main" id="main">
       <%= yield %>
     </div>
 

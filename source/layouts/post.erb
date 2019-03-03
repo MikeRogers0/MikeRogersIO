@@ -1,5 +1,5 @@
 <% wrap_layout :layout do %>
-  <article>
+  <article role="article">
     <header>
       <h1 class="mb-3 text-center"><%= current_article.title %></h1>
 
@@ -12,7 +12,7 @@
       <%= yield %>
     </section>
 
-    <footer class="text-muted text-center small mt-3 mb-3">
+    <footer class="text-muted text-center small mt-3 mb-3" role="contentinfo">
       <p>This was written by Mike Rogers, a freelance Ruby on Rails developer based in London.</p>
       <p>Share the ♥ by sharing this!</p>
 
