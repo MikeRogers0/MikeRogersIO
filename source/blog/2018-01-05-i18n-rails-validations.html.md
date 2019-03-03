@@ -54,4 +54,4 @@ Here is an example:
 
 ## Keep things standard
 
-Using custom keys to be specific about what type of error occurred is super handy, plus having a "This will be translated in the future" will save you a lot of technical debt going forward. But it's important to note Rails does [ship with a bunch of standard validation messages](https://github.com/svenfuchs/rails-i18n/blob/e489753e293e77a6c7bee25a5a7e4c36a22d897b/rails/locale/en.yml#L111), where possible you should consider the standard message keys.
+Using custom keys to be specific about what type of error occurred is super handy, plus having a "This will be translated in the future" will save you a lot of technical debt going forward. But it's important to note Rails does [ship with a bunch of standard validation messages](https://github.com/rails/rails/blob/b2eb1d1c55a59fee1e6c4cba7030d8ceb524267c/activemodel/lib/active_model/locale/en.yml#L8), where possible you should consider the standard message keys.
