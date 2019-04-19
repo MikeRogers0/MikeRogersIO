@@ -76,3 +76,8 @@ You can also have a list of all the available options for that enum in a select 
        <%= f.label :approval_state %>
        <%= f.select :approval_state, enum_options_for_select(User, :approval_state) %>
      </div>
+
+## Update 2019: I found a better solution
+
+After writing this, I found this [StackOverflow post with a better solution](https://stackoverflow.com/questions/22827270/how-to-use-i18n-with-rails-4-enums/36335591#36335591). I think it's a much better compared to the one posted above.
+
