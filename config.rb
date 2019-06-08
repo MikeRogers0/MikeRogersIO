@@ -67,12 +67,8 @@ set :fonts_dir, 'fonts'
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
 configure :build do
-  activate :autoprefixer do |prefix|
-    prefix.browsers = 'last 2 versions'
-  end
-
   activate :minify_css
-  #activate :minify_javascript
+  activate :minify_javascript
   activate :asset_hash, ignore: %r{^(images|uploads)/.*}
 
   activate :minify_html do |html|

@@ -8,7 +8,6 @@ source 'https://rubygems.org' do
   gem 'rack-contrib'
 
   gem 'middleman'
-  gem 'middleman-autoprefixer'
   gem 'middleman-blog'
   gem 'middleman-minify-html'
   gem 'middleman-sprockets'
