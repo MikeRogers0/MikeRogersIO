@@ -1,19 +1,22 @@
+# frozen_string_literal: true
+
 ruby File.read('.ruby-version').chomp
 
 source 'https://rubygems.org' do
   gem 'dotenv'
 
   gem 'puma'
-  gem 'rake'
   gem 'rack-contrib'
+  gem 'rake'
 
   gem 'middleman'
   gem 'middleman-blog'
-  gem 'middleman-minify-html'
-  gem 'middleman-sprockets'
   gem 'middleman-cdn'
-  gem 'middleman-sitemap-ping'
   gem 'middleman-favicon-maker'
+  gem 'middleman-imageoptim'
+  gem 'middleman-minify-html'
+  gem 'middleman-sitemap-ping'
+  gem 'middleman-sprockets'
 
   gem 'liquid', require: false
 
@@ -26,10 +29,10 @@ source 'https://rubygems.org' do
 
   group :development do
     gem 'capistrano', '~> 3.11'
-    gem 'capistrano-rbenv', '~> 2.1'
     gem 'capistrano-bundler', '~> 1.3'
-    gem 'capistrano3-puma'
-    gem 'capistrano-yarn'
     gem 'capistrano-logrotate'
+    gem 'capistrano-rbenv', '~> 2.1'
+    gem 'capistrano-yarn'
+    gem 'capistrano3-puma'
   end
 end
