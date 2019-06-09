@@ -9,7 +9,7 @@ meta:
   index: true
 ---
 
-Rails 6 ships with some pretty nice new features, the main one I'm pretty excited about is [Action Mailbox](https://edgeguides.rubyonrails.org/action_mailbox_basics.html), however testing within RSpec is a requires a little bit of new setup.
+Rails 6 ships with some pretty nice new features, the main one I'm pretty excited about is [Action Mailbox](https://edgeguides.rubyonrails.org/action_mailbox_basics.html), however writing RSpec tests for it requires a little bit of extra setup.
 
 ## Add the support helper
 
