@@ -15,12 +15,24 @@ Rails 5.2 introduced support for PostgreSQL's JSONB field type, which is super a
 
 ### Merging new data into your JSONB Field
 
-It is super tempting to have code like:
+Imagine a scenario where you'd like to store some adhoc data against a model, so you merge the new data into the previous e.g:
 
-    model.jsonb_field.merge!({new: 'values'})
+
+    model = Model.find(params[:id])
+
+    # Set some values:
+    new_values = { important_value: :value }
+
+    # But in another HTTP request, at the same time you're running:
+    new_values = { other_important: :value }
+
+    model.jsonb_field.merge!(new_values)
     model.save
+    model.jsonb_field['important_value'] # Could be empty or out of date.
 
-However this is a terrible idea. In the event you have two requests updating that field at the same time, you run the risk of losing data.
+This is really risky pattern, because in a multi-threaded environments (e.g. two HTTP requests updating the same object around the same time) you'll run the risk of losing data. This is because from the point `.find` is called, the model may have been updated from another thread.
+
+A better approach is to store data you _really want to be there_ in its own field. Most frameworks are smart enough to know what fields you've changed, and only save the new ones back to the database.
 
 ### A catch all for hard to categorise data
 
