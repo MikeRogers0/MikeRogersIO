@@ -11,9 +11,9 @@ meta:
 
 Rails 5.2 introduced support for [JSON field types](https://edgeguides.rubyonrails.org/active_record_postgresql.html#json-and-jsonb), which is super awesome. It allows a really nice way of storing blobs of JSON against an object in your database. But while they're convenient, they can end up being a double edged sword and can lead to a headache if you aren't careful.
 
-## Patterns to avoid
+Here are two patterns I've seen popping up, which I think should be avoided.
 
-### Merging JSON data
+## Merging JSON data
 
 Imagine a scenario where you'd like to store some adhoc data against a model, so you merge the new data over the old data e.g:
 
@@ -34,7 +34,7 @@ This is a really risky pattern, because in a multi-threaded environments (e.g. t
 
 A better approach is to store data you _really want to be there_ in its own field. Most frameworks are smart enough to only update the fields you've changed (Rails included).
 
-### A replacement for columns
+## A replacement for columns
 
 A pattern I've seen pop up, is the JSON columns being used as an alternative to putting things in their own columns, e.g:
 
