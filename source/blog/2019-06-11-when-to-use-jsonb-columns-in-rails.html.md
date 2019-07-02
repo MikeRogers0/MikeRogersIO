@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Patterns to avoid when using JSON columns
+title: Patterns to avoid when using JSON columns in Rails
 categories:
  – blog
 published: true
@@ -8,6 +8,7 @@ meta:
   description: Rails supporting JSON field type is a great, but can screw you right over. 
   index: true
 ---
+
 
 Rails 5.2 introduced support for [JSON field types](https://edgeguides.rubyonrails.org/active_record_postgresql.html#json-and-jsonb), which is super awesome. It allows a really nice way of storing blobs of JSON against an object in your database. But while they're convenient, they can end up being a double edged sword and can lead to a headache if you aren't careful.
 
@@ -53,3 +54,7 @@ However, I've found querying against this data can be unreliable, e.g.
 If the event the User model hadn't been saved since a new field in the JSON was added, this could return in incorrect number.
 
 A better approach would be to add a migration for a field called `settings_dark_mode` with a default of `true` or `false`. While visually not as lovely, it does make for more reliable querying.
+
+## Further Reading
+
+* [PostgreSQL anti-patterns: Unnecessary json/hstore dynamic columns](https://www.2ndquadrant.com/en/blog/postgresql-anti-patterns-unnecessary-jsonhstore-dynamic-columns/) - Summarises the anti-pattern I'm eluding to above a lot better then I did.
