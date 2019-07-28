@@ -29,7 +29,7 @@ source 'https://rubygems.org' do
 
   group :development do
     gem 'capistrano', '~> 3.11'
-    gem 'capistrano-bundler', '~> 1.3'
+    gem 'capistrano-bundler', '~> 1.6'
     gem 'capistrano-logrotate'
     gem 'capistrano-rbenv', '~> 2.1'
     gem 'capistrano-yarn'
