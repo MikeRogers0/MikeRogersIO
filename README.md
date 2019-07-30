@@ -6,7 +6,7 @@ My personal website which shows off bits of my portfolio and ramblings from my b
 
     cap production deploy
 
-### Setup
+### Setup
 
     cap production puma:config
     cap production puma:nginx_config
