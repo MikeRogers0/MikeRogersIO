@@ -19,17 +19,19 @@ Here are two patterns I've seen popping up, which I think should be avoided.
 Imagine a scenario where you'd like to store some adhoc data against a model, so you merge the new data over the old data e.g:
 
 
-    model = Model.find(params[:id])
+```ruby
+model = Model.find(params[:id])
 
-    # Set some values:
-    new_values = { important_value: :value }
+# Set some values:
+new_values = { important_value: :value }
 
-    # But in another HTTP request, at the same time you're running:
-    new_values = { other_important: :value }
+# But in another HTTP request, at the same time you're running:
+new_values = { other_important: :value }
 
-    model.jsonb_field.merge!(new_values)
-    model.save
-    model.jsonb_field['important_value'] # Could be empty or out of date.
+model.jsonb_field.merge!(new_values)
+model.save
+model.jsonb_field['important_value'] # Could be empty or out of date.
+```
 
 This is a really risky pattern, because in a multi-threaded environments (e.g. two HTTP requests updating the same object around the same time) you'll run the risk of losing data. This is because from the point `.find` is called, the model may have been updated from another request.
 

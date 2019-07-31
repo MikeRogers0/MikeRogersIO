@@ -17,7 +17,9 @@ source 'https://rubygems.org' do
   gem 'middleman-minify-html'
   gem 'middleman-sitemap-ping'
   gem 'middleman-sprockets'
+  gem 'middleman-syntax'
 
+  gem 'redcarpet'
   gem 'liquid', require: false
 
   gem 'sass'

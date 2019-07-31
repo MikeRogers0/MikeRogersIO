@@ -44,9 +44,9 @@ helpers do
   end
 end
 
-Dir[File.dirname(__FILE__) + '/lib/tags/*.rb'].each { |file| require file }
-require 'lib/tilt/kramer_liquid_template'
-set :markdown_engine, :kramer_liquid
+activate :syntax, line_numbers: true
+set :markdown_engine, :redcarpet
+set :markdown, fenced_code_blocks: true, smartypants: true
 
 activate :blog do |blog|
   blog.layout = 'post'

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= current_page.data.title || "Mike Rogers Site" %></title>
     <link rel="preload" href="<%= asset_path(:css, 'site') %>" as="style" />
+    <link rel="preload" href="<%= asset_path(:css, 'highlight') %>" as="style" />
     <link rel="preload" href="<%= asset_path(:js, 'site') %>" as="script" />
     <link rel="preload" href="<%= image_path('mike-rogers.jpg') %>" as="image" />
     <link rel="preload" href="<%= image_path('assets/fonts/icomoon.ttf') %>" as="font" crossorigin="anonymous" />
@@ -20,6 +21,7 @@
     <meta property="og:description" content="<%= current_page.data.meta.description %>" />
 
     <%= stylesheet_link_tag :site %>
+    <%= stylesheet_link_tag :highlight %>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180-precomposed.png" />
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
