@@ -54,6 +54,11 @@ $theme-colors: map-merge((
 
 @import "portfolio-list";
 
+<%= Rouge::Themes::Github.render(scope: '.highlight') %>
+article pre.highlight {
+  background-color: #fff;
+}
+
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

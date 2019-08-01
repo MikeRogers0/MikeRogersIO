@@ -41,17 +41,21 @@ A better approach is to store data you _really want to be there_ in its own fiel
 
 A pattern I've seen pop up, is the JSON columns being used as an alternative to putting things in their own columns, e.g:
 
-    user.settings = {
-      dark_mode: true,
-      send_weekly_digest: true,
-      locale: 'en'
-    }
+```ruby
+user.settings = {
+  dark_mode: true,
+  send_weekly_digest: true,
+  locale: 'en'
+}
+```
 
 This is usually done in an attempt to normalise data to avoid N+1 queries, which is good & gems such as [activerecord-typedstore](https://github.com/byroot/activerecord-typedstore) make this process fairly manageable.
 
 However, I've found querying against this data can be unreliable, e.g.
 
-     User.where("settings @> ?", { dark_mode: true }.to_json) }
+```ruby
+ User.where("settings @> ?", { dark_mode: true }.to_json) }
+ ```
 
 If the event the User model hadn't been saved since a new field in the JSON was added, this could return in incorrect number.
 
