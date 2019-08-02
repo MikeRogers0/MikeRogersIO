@@ -23,17 +23,23 @@ This is awesome! It means you can have zero downtime deploys.
 
 When you deploy, Heroku looks for a `release` command in your Procfile. So if you'd like to run migrations on every deploy, you can update your `Procfile` to have this line:
 
-    release: bundle exec rails db:migrate
+```
+release: bundle exec rails db:migrate
+```
 
 However, I like to store my commands in a shell script, then have them run only if they're enabled by environmental variables.
 
 To do this as well, create a `release-tasks.sh` file, and make sure it has executable permissions:
 
-    touch release-tasks.sh && chmod 0777 release-tasks.sh
+```bash
+touch release-tasks.sh && chmod 0777 release-tasks.sh
+```
 
 Then append this line to your `Procfile`:
 
-    release: bash ./release-tasks.sh
+```
+release: bash ./release-tasks.sh
+```
 
 ## Running tasks based on environmental variables
 
@@ -43,23 +49,25 @@ To do this, you can set a "Config Variable" (environmental variable) in your Her
 
 Here is my current `release-tasks.sh` file which I normally add to my Rails 5 projects:
 
-    #!/bin/bash
+```bash
+#!/bin/bash
 
-    echo "Running Release Tasks"
+echo "Running Release Tasks"
 
-    if [ "$RUN_MIGRATIONS_DURING_RELEASE" == "true" ]; then 
-      echo "Running Migrations"
-      bundle exec rails db:migrate
-    fi
+if [ "$RUN_MIGRATIONS_DURING_RELEASE" == "true" ]; then
+  echo "Running Migrations"
+  bundle exec rails db:migrate
+fi
 
-    if [ "$SEED_DB_DURING_RELEASE" == "true" ]; then 
-      echo "Seeding DB"
-      bundle exec rails db:seed
-    fi
+if [ "$SEED_DB_DURING_RELEASE" == "true" ]; then
+  echo "Seeding DB"
+  bundle exec rails db:seed
+fi
 
-    if [ "$CLEAR_CACHE_DURING_RELEASE" == "true" ]; then 
-      echo "Clearing Rails Cache"
-      bundle exec rails r "Rails.cache.clear"
-    fi
+if [ "$CLEAR_CACHE_DURING_RELEASE" == "true" ]; then
+  echo "Clearing Rails Cache"
+  bundle exec rails r "Rails.cache.clear"
+fi
 
-    echo "Done running release-tasks.sh"
+echo "Done running release-tasks.sh"
+```

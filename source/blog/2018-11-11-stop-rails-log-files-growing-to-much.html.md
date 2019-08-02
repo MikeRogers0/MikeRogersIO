@@ -17,9 +17,11 @@ Luckily, there is a one line fix to help keep log files in check!
 
 Open the environment configuration files `config/environments/development.rb` & `config/environments/test.rb`, in both those files add the line:
 
-    # Stop the development & test logs from taking up to much space
-    # https://stackoverflow.com/questions/7784057/ruby-on-rails-log-file-size-too-large/37499682#37499682
-    config.logger = ActiveSupport::Logger.new(config.paths['log'].first, 1, 50.megabytes)
+```ruby
+# Stop the development & test logs from taking up to much space
+# https://stackoverflow.com/questions/7784057/ruby-on-rails-log-file-size-too-large/37499682#37499682
+config.logger = ActiveSupport::Logger.new(config.paths['log'].first, 1, 50.megabytes)
+```
 
 This will tell Rails you'd like to limit your development & test log files to be at most 50 megabytes, so they should never get to out of control again! Awesome!
 
@@ -27,4 +29,6 @@ This will tell Rails you'd like to limit your development & test log files to be
 
 Lots of other apps create random log files which eat up disk space, which are often hidden deep within your system. Here is a handy terminal command I sometimes run to reduce those log files to nothing:
 
-    find ~/ -iname '*.log' -exec dd if=/dev/null of={} \;
+```bash
+find ~/ -iname '*.log' -exec dd if=/dev/null of={} \;
+```

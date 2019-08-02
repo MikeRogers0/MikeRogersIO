@@ -15,41 +15,43 @@ One of the more lesser known aspects is that you can pass in a symbol, and Rails
 
 Here is an example:
 
-    class User < ApplicationRecord
-      # When using the `validates` method, only the translated model name,
-      # translated attribute name and the value available for interpolation.
-      # en.activerecord.errors.models.user.attributes.avatar.error_key:
-      # "You've forgot the %{attribute} in %{model}"
-      validates :avatar, presence: { message: :error_key }
+```ruby
+class User < ApplicationRecord
+  # When using the `validates` method, only the translated model name,
+  # translated attribute name and the value available for interpolation.
+  # en.activerecord.errors.models.user.attributes.avatar.error_key:
+  # "You've forgot the %{attribute} in %{model}"
+  validates :avatar, presence: { message: :error_key }
 
-      validate :validate_will_always_fail
-      validate :validate_will_always_fail_with_interpolations
+  validate :validate_will_always_fail
+  validate :validate_will_always_fail_with_interpolations
 
-      private
-      def validate_will_always_fail
-        # en.activerecord.errors.models.user.attributes.avatar.error_type:
-        # "No interpolations here"
-        errors.add(:avatar, :error_type)
-      end
+  private
+  def validate_will_always_fail
+    # en.activerecord.errors.models.user.attributes.avatar.error_type:
+    # "No interpolations here"
+    errors.add(:avatar, :error_type)
+  end
 
-      def validate_will_always_fail_with_interpolations
-        # When using errors.add, you can pass in custom interpolations
-        # en.activerecord.errors.models.user.attributes.base.another_error_type:
-        # "Another error type: %{value}"
-        errors.add(:base, :another_error_type, { value: name })
-      end
-    end
+  def validate_will_always_fail_with_interpolations
+    # When using errors.add, you can pass in custom interpolations
+    # en.activerecord.errors.models.user.attributes.base.another_error_type:
+    # "Another error type: %{value}"
+    errors.add(:base, :another_error_type, { value: name })
+  end
+end
 
-    # So running:
-    user = User.new(name: 'Gary')
-    user.valid?
-    puts user.errors.messages.inspect
+# So running:
+user = User.new(name: 'Gary')
+user.valid?
+puts user.errors.messages.inspect
 
-    # Would output:
-    # {
-    #   avatar: ["No interpolations here", "You've forgot the Avatar in User"],
-    #   base: ["Another error type Gary"]
-    # }
+# Would output:
+# {
+#   avatar: ["No interpolations here", "You've forgot the Avatar in User"],
+#   base: ["Another error type Gary"]
+# }
+```
 
 
 ## Keep things standard

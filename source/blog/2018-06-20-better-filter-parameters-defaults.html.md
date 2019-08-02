@@ -19,19 +19,21 @@ Instead of hoping people remember to add sensitive parameters while developing, 
 
 When I start or take on a project, I just replace this file to include the parameters often passed by Stripe, APIs and Devise. Like this:
 
-    # config/initializers/filter_parameter_logging.rb
-    # Be sure to restart your server when you modify this file.
+```ruby
+# config/initializers/filter_parameter_logging.rb
+# Be sure to restart your server when you modify this file.
 
-    # Configure sensitive parameters which will be filtered from the log file.
-    Rails.application.config.filter_parameters += [
-      :password,
-      # Stripe
-      :stripe_card_token, :stripe_publishable_key,
-      # An API
-      :access_token, :refresh_token,
-      # Devise
-      :confirmation_token
-    ]
+# Configure sensitive parameters which will be filtered from the log file.
+Rails.application.config.filter_parameters += [
+  :password,
+  # Stripe
+  :stripe_card_token, :stripe_publishable_key,
+  # An API
+  :access_token, :refresh_token,
+  # Devise
+  :confirmation_token
+]
+```
 
 ## What I'd like to see in the future
 

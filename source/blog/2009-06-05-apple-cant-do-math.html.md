@@ -18,4 +18,4 @@ meta:
 ---
 I was recently checking my emails and I noticed a nice email from Apple informing me on how I can get a great deal on an iPod Touch if I purchased a Mac. Unfortunately I was a little distracted by the pie chart in the background.
 
-{% img src: /uploads/2009/06/apple_cant_do_math.jpg width: 700 alt: "In the background of the photo a pie chart showing 15% of the chart shaded with a note saying 50%." %}
+![In the background of the photo a pie chart showing 15% of the chart shaded with a note saying 50%.](/uploads/2009/06/apple_cant_do_math.jpg)

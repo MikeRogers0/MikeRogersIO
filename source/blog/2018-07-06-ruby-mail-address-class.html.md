@@ -19,24 +19,28 @@ What I discovered was that [Mail](https://github.com/mikel/mail) (which ships wi
 
 To build an internet safe address for ActionMailer, you can use the tap method like so:
 
-    Mail::Address.new.tap do |m|
-      m.address = 'name@example.com'
-      m.display_name = 'Super <@>, Name'
-    end.to_s
+```ruby
+Mail::Address.new.tap do |m|
+  m.address = 'name@example.com'
+  m.display_name = 'Super <@>, Name'
+end.to_s
 
-    # Outputs: "\"Super <@>, Name\" <name@example.com>"
+# Outputs: "\"Super <@>, Name\" <name@example.com>"
+```
 
 ### How to use with ActionMailer
 
 To use this address in the "from" field in an email, just pass the output of `to_s` to the `from` argument when sending an email. Like this:
 
-    class GuestMailer < ApplicationMailer
-      def get_hyped
-        user_address = Mail::Address.new.tap do |m|
-          m.address = 'name@example.com'
-          m.display_name = 'Super <@>, Name'
-        end.to_s
+```ruby
+class GuestMailer < ApplicationMailer
+  def get_hyped
+    user_address = Mail::Address.new.tap do |m|
+      m.address = 'name@example.com'
+      m.display_name = 'Super <@>, Name'
+    end.to_s
 
-        mail to: 'guest@example.com', from: user_address
-      end
-    end
+    mail to: 'guest@example.com', from: user_address
+  end
+end
+```

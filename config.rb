@@ -45,10 +45,11 @@ helpers do
 end
 
 Dir[File.dirname(__FILE__) + '/lib/tags/*.rb'].each { |file| require file }
+require 'lib/tilt/redcarpet_liquid_template'
 require 'lib/markdown_helper/bootstrap_renderer'
 
 activate :syntax
-set :markdown_engine, :redcarpet
+set :markdown_engine, :redcarpet_liquid
 set :markdown, fenced_code_blocks: true, smartypants: true, tables: true, renderer: MarkdownHelper::BootstrapRenderer
 
 activate :blog do |blog|
