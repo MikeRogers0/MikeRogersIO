@@ -13,7 +13,7 @@ tags:
 video_length: 13
 ---
 
-{% youtube lEmuj3bVrW0 %}
+{% youtube_playlist PLsqSLeo9DZwQaX4N64YIYtYzF_4sPkuRw %}
 
 In this tutorial I explain [Seedbank](https://github.com/james2m/seedbank), a gem that I use regularly that helps keep the seeds in your project organised.
 

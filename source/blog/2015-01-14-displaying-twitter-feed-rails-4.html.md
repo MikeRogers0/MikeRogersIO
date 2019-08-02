@@ -12,7 +12,7 @@ tags:
 video_length: 19
 ---
 
-{% youtube uAx2Pu0vIwE %}
+{% youtube_playlist PLsqSLeo9DZwTLSLxfe0ke6uSproB7QMN_ %}
 
 In these tutorials I show how to display a Twitter feed via the Twitter API, then cache the output with [fragment caching](http://guides.rubyonrails.org/caching_with_rails.html#fragment-caching).
 
