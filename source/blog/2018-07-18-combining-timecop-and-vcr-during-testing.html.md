@@ -50,7 +50,6 @@ feature 'Sign up', acceptance: true, vcr: true do
 
     # Make sure just the one customer has been created since this test started
     expect(Stripe::Customer.all(created: { gte: start_time.to_i } ).count).to eq(1)
-    
   end
 end
 ```

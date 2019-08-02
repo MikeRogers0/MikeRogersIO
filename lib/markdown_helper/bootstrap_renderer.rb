@@ -3,6 +3,9 @@ module MarkdownHelper
   require 'middleman-core/renderers/redcarpet'
 
   class BootstrapRenderer < Middleman::Renderers::MiddlemanRedcarpetHTML
+
+    include Middleman::Syntax::RedcarpetCodeRenderer
+
     def initialize(options={})
       super
     end

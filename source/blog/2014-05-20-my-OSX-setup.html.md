@@ -17,13 +17,91 @@ OSX has a few default settings that aren't great if you're a developer (Such as 
 
 After running Bens script, I run a few extra configuration settings to make OSX feel a little snappier:
 
-{% gist 11140140 feels-like-home.sh %}
+```bash
+#!/usr/bin/env sh
+#
+# Make OSX feel a little snappier, I normally run this after running https://gist.github.com/BenNunney/7219538
+
+# Speed up window tranisations
+defaults write NSGlobalDomain NSWindowResizeTime 0.01;
+
+# Speed up mission control transition (F3)
+defaults write com.apple.dock expose-animation-duration -float 0.1; 
+
+# Speed up Launchpad (F4)
+defaults write com.apple.dock springboard-show-duration -float 0.1;
+defaults write com.apple.dock springboard-hide-duration -float 0.1;
+
+# Stop dock item jumping when they want my attension
+defaults write com.apple.dock no-bouncing -bool TRUE;
+
+# Set preview to default screenshots to jpg.
+defaults write com.apple.screencapture type jpg
+killall SystemUIServer
+
+# Restart dock so effects can kick in.
+killall Dock;
+
+# Turn off volume change overlays 
+sudo defaults write /System/Library/LaunchAgents/com.apple.BezelUI Disabled --bool YES
+```
 
 ## Homebrew and Homebrew Cask
 
 It's a super pain to go and install all the apps and scripts I need, so I install [Homebrew](http://brew.sh/) and [Homebrew Cask](http://caskroom.io/) to quickly install the stuff I want. Here are the essential libaries and apps I normally install:
 
-{% gist 11140140 essential-brew.sh %}
+```bash
+#!/usr/bin/env sh
+#
+# Things I normally install when I first install Homebrew / Homebrew cask
+# Make sure you've install XCode commandline tools & accepted the terms and conditions before running this.
+
+# Homebrew stuff
+
+## A nice text editor (Will show how to configure in another post)
+brew install vim
+brew install macvim
+
+## Git 
+brew install git
+### Set the global configs for git
+git config --global core.editor "vim"
+git config --global push.default current
+
+## Make searching in Vim easier.
+brew install ack
+brew install the_silver_searcher
+
+## Node.JS
+brew install node
+
+## S3CMD - Makes it easy to talk to AWS S3
+brew install s3cmd
+
+## Makes adding SSH keys to servers easier.
+brew install ssh-copy-id
+
+# Homebrew Cask bits
+
+## Development tools
+brew cask install integrity
+brew cask install virtualbox
+brew cask install vagrant
+
+## Firewall
+brew cask install little-snitch
+### I love little snitch, mostly because I setup the rules to stop Spotify connecting in P2P mode (My ISP sucks and throttles me when I p2p).
+
+## Apps I use often
+brew cask install google-chrome
+brew cask install alfred
+brew cask install flux
+brew cask install steam
+brew cask install transmission
+brew cask install vlc
+brew cask install spotify
+brew cask install geektool
+```
 
 ## RVM
 

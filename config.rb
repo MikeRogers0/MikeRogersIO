@@ -50,6 +50,8 @@ require 'lib/markdown_helper/bootstrap_renderer'
 
 activate :syntax
 set :markdown_engine, :redcarpet_liquid
+# TODO: Parse tilt code before parsing markdown, some images aren't loading.
+# TODO: Blockquotes aren't working.
 set :markdown, fenced_code_blocks: true, smartypants: true, tables: true, renderer: MarkdownHelper::BootstrapRenderer
 
 activate :blog do |blog|

@@ -25,6 +25,49 @@ Scaling the images via canvas, then injecting the canvas like a background image
 
 Below is the code sample used in the demonstration, though to keep things simple I didn't do much with image ratios.
 
-{% gist 6264546 resize-image.js %}
+```javascript
+// The function that scales an images with canvas then runs a callback.
+function scaleImage(url, width, height, liElm, callback){
+	var img = new Image(),
+	width = width,
+	height = height,
+	callback;
+
+	// When the images is loaded, resize it in canvas.
+	img.onload = function(){
+		var canvas = document.createElement("canvas"),
+        ctx = canvas.getContext("2d");
+
+        canvas.width = width;
+        canvas.height= height;
+
+        // draw the img into canvas
+        ctx.drawImage(this, 0, 0, width, height);
+
+        // Run the callback on what to do with the canvas element.
+        callback(canvas, liElm);
+	};
+
+	img.src = url;
+}
+
+// List of imgur images
+var images = ['u0s09PV','bdRlP3o','o7lwgZo','wvOjdUJ','D0lsDQz','sB46sHZ','nvRcyJM'],
+imagesList = document.getElementById('imagesList');
+
+// Loop through the images.
+for(i in images){
+	// make an li we can use in the callback.
+	liElm = document.createElement('li');
+	
+	// append the currently empty li into the ul.
+	imagesList.appendChild(liElm);
+
+	scaleImage('http://i.imgur.com/'+images[i]+'.jpg', 150, 150, liElm, function(canvas, liElm){
+		// Append the canvas element to the li.
+		liElm.appendChild(canvas);
+	});
+}
+```
 
 This works by downloading the image, then resizing it into a canvas element which is injected into the list element, then CSS absolute position is used to position the canvas correctly. 

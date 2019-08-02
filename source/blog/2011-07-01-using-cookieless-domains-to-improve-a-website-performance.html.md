@@ -23,11 +23,17 @@ Firstly, set up a subdomain on your website. For example static.yourdomain.com w
 
 Next, make sure your website does not set website wide cookies. The fastest way to do this is by amending the .htaccess file and adding a [CookieDomain Directive](http://httpd.apache.org/docs/2.2/mod/mod_usertrack.html#CookieDomain). For example:
 
-{% gist 2942004 .htaccess %}
+```
+CookieDomain www.fullondesign.co.uk
+```
 
 Alternatively in PHP's [setcookie()](http://php.net/manual/en/function.setcookie.php) function, I could just use something like:
 
-{% gist 2942004 setCookie.php %}
+```php
+<?php
+setcookie("TestCookie", 'Some Value', time()+3600, "/", "www.fullondesign.co.uk", 1);
+?>
+```
 
 The key point to note is that the domain parameter is set to www.fullondesign.co.uk, not .fullondesign.co.uk. Thus the cookies will only be sent when the subdomain is www.fullondesign.co.uk.
 
@@ -37,11 +43,19 @@ Now start linking up to files in that directory and your pretty much done.
 
 Wordpress has a few neat built in functions to make this process easier. If you use wordpress pop the following code (just before the "That's all, stop editing! Happy blogging." comment) into your config.php file (amend as required):
 
-{% gist 2942004 wp-cookie-domain.php %}
+```php
+<?php
+define('COOKIE_DOMAIN', 'www.fullondesign.co.uk');
+?>
+```
 
 You can also change the uploads URL of your Wordpress install to point to your cookieless domain. In the config.php file add the following(amend as required).:
 
-{% gist 2942004 wp-content-url.php %}
+```php
+<?php
+define('WP_CONTENT_URL', 'http://files.fullondesign.co.uk');
+?>
+```
 
 ## Useful Resources
 
