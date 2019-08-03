@@ -26,7 +26,6 @@ After two months of being a paid chrome extension I had earned a total of £170.
 | Free                             | 560                       | 55                     | £0                  |
 | Annual Subscription (With trial) | 441                       | 32                     | £28.82              |
 | Annual Subscription Only         | 489                       | 8                      | £141.53             |
-{: class='table table-striped table-bordered'}
 
 For an extension that I had been developing in my spare time for free, these are fantastic results. 
 

@@ -23,5 +23,3 @@ Next find the font you want to use on [Google Web Fonts](https://www.google.com/
 {% img src: /uploads/2012/04/google-web-fonts.jpg width: 500 alt: "Screenshot of the import option for a google font." %}
 
 Put the code provided by Google Web Fonts into the top of your CSS file and voila, you can start using the font you selected on Wufoo forms.
-
-I've set up an [example Wufoo form](https://demos.mikerogers.io/wufoo-fonts/), you can copy.

@@ -15,12 +15,14 @@ Rails 6 ships with some pretty nice new features, the main one I'm pretty excite
 
 First create a file in `spec/support/mailbox.rb`, inside it add:
 
-    # spec/support/mailbox.rb
-    require 'action_mailbox/test_helper'
+```ruby
+# spec/support/mailbox.rb
+require 'action_mailbox/test_helper'
 
-    RSpec.configure do |config|
-      config.include ActionMailbox::TestHelper, type: :mailbox
-    end
+RSpec.configure do |config|
+  config.include ActionMailbox::TestHelper, type: :mailbox
+end
+```
 
 This will include the [ActionMailbox::TestHelper](https://rubydocs.org/d/rails-6-0-0-rc1/classes/ActionMailbox/TestHelper.html) module, this adds methods like `receive_inbound_email_from_source` for use in your tests.
 
@@ -28,33 +30,39 @@ This will include the [ActionMailbox::TestHelper](https://rubydocs.org/d/rails-6
 
 I've been using `type: :mailbox` and putting  them in the `spec/mailboxes/` folder, a sample looks like:
 
-    # spec/mailboxes/generic_emails_mailbox_spec.rb
-    require 'rails_helper'
+```ruby
+# spec/mailboxes/generic_emails_mailbox_spec.rb
+require 'rails_helper'
 
-    RSpec.describe GenericEmailsMailbox, type: :mailbox do
-      subject do
-        receive_inbound_email_from_mail(
-          from: 'from-address@example.com',
-          to: 'to-address@example.com',
-          subject: 'Sample Subject',
-          body: "I'm a sample body"
-        )
-      end
+RSpec.describe GenericEmailsMailbox, type: :mailbox do
+  subject do
+    receive_inbound_email_from_mail(
+      from: 'from-address@example.com',
+      to: 'to-address@example.com',
+      subject: 'Sample Subject',
+      body: "I'm a sample body"
+    )
+  end
 
-      it do
-        expect { subject }.to change(SomeModel, :count).by(1)
-      end
-    end
+  it do
+    expect { subject }.to change(SomeModel, :count).by(1)
+  end
+end
+```
 
 ## Fixing "NotImplementedError"
 
 If you hit an error that looks like:
 
-    NotImplementedError:
-       Use a queueing backend to enqueue jobs in the future.
+```
+NotImplementedError:
+   Use a queueing backend to enqueue jobs in the future.
+```
 
 This means you're using Active Job in inline mode in your tests, which doesn't play nicely with with Active Mailbox. I fixed this by setting `config.active_job.queue_adapter` in my test environment to be `:test`.
 
-    # config/environments/test.rb
-    # Run Active Job in test mode.
-    config.active_job.queue_adapter = :test
+```ruby
+# config/environments/test.rb
+# Run Active Job in test mode.
+config.active_job.queue_adapter = :test
+```

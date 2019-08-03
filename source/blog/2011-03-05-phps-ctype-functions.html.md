@@ -18,10 +18,33 @@ In a nutshell they are a group of PHP functions why can be used to check strings
 
 Here is the code example:
 
-{% gist 2941974 ctypes-alpha-alnum.php %}
+```php
+<?php
+// Check if input is alphanumeric (letters and numbers)
+ctype_alnum('abcdef1234'); // This returns TRUE
+ctype_alnum('£%^&ab2'); // This on the otherhand returns FALSE
 
+// check if input is alpha (letters)
+ctype_alpha('dssfsdf'); // returns TRUE
+ctype_alpha('12345dssfsdf'); // Returns FALSE
+?>
+```
 It also contains functions to check for just numeric strings, uppercase strings and lowercase strings.
 
-{% gist 2941974 digit-upper-lower.php %}
+```php
+<?php
+// Check if the input is numeric
+ctype_digit('1234'); // TRUE
+ctype_digit('1as2d34f'); // FALSE
+
+// Uppercase
+ctype_upper('HELLO'); // TRUE
+ctype_upper('hElLo'); // FALSE
+
+// Lowercase
+ctype_lower('hello'); // TRUE
+ctype_lower('HeLLo'); // FALSE
+?>
+```
 
 Handy right?

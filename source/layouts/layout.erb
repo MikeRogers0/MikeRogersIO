@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= current_page.data.title || "Mike Rogers Site" %></title>
     <link rel="preload" href="<%= asset_path(:css, 'site') %>" as="style" />
-    <link rel="preload" href="<%= asset_path(:js, 'site') %>" as="script" />
     <link rel="preload" href="<%= image_path('mike-rogers.jpg') %>" as="image" />
     <link rel="preload" href="<%= image_path('assets/fonts/icomoon.ttf') %>" as="font" crossorigin="anonymous" />
 
@@ -45,6 +44,5 @@
     <hr />
 
     <%= partial 'shared/footer' %>
-    <%= javascript_include_tag :site, defer: true %>
   </body>
 </html>

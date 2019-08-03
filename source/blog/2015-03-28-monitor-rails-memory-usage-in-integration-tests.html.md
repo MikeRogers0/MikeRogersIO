@@ -23,20 +23,72 @@ However I did find [Oink](https://github.com/noahd1/oink), a gem that creates a 
 
 I set up Oink to only log memory while I was running my test suite. I done this by setting up an an initializer ( `config/initializers/oink.rb` ).
 
-{% gist 1da6a53cd0d626dbde5f oink.rb %}
+```ruby
+# This can be added to either:
+# config/environments/test.rb
+# config/initializers/oink.rb
+Rails.application.middleware.use Oink::Middleware if Rails.env.test?
+```
 
 Next I only wanted the Oink results from the last run of the test suite, so before each test I cleared all the logs via the `spec/rails_helper.rb` file.
 
 Then once the tests had finished running, I called the terminal command from Rails with a low threshold, this returned the memory usage of each action.
 
-{% gist 1da6a53cd0d626dbde5f rails_helper.rb %}
+```ruby
+RSpec.configure do |config|
+  config.before(:suite) do
+    `rake log:clear LOGS=oink`
+  end
 
+  config.after(:suite) do
+    puts ""
+    puts `oink --threshold=1 log/oink.log`
+  end
+end
+```
 
 ### The output
 
 This is the output I had after running my test suite.
 
-{% gist 1da6a53cd0d626dbde5f example_output.txt %}
+```bash
+$ rspec
+....................................................................................................
+---- MEMORY THRESHOLD ----
+THRESHOLD: 1 MB
+
+-- SUMMARY --
+Worst Requests:
+1. Mar 27 14:14:13, 18432 KB, home#index
+2. Mar 27 14:14:12, 16384 KB, contact_us#create
+3. Mar 27 14:14:08, 6072 KB, contact_us#create
+4. Mar 27 14:14:25, 4204 KB, farms#create
+5. Mar 27 14:14:05, 3096 KB, devise/sessions#new
+6. Mar 27 14:14:30, 2048 KB, farms#index
+7. Mar 27 14:14:07, 1092 KB, active_admin/dashboard#index
+
+Worst Actions:
+2, contact_us#create
+1, home#index
+1, devise/sessions#new
+1, active_admin/dashboard#index
+1, farms#create
+1, farms#index
+
+Aggregated Totals:
+Action                             	Max     Mean	Min	Total	Number of requests
+contact_us#create                  	16384   11228	6072	22456	2
+home#index	                        18432	18432	18432	18432	1
+farms#create                  	   	4204	4204	4204	4204	1
+devise/sessions#new                	3096	3096	3096	3096	1
+farms#index                   	  	2048	2048	2048	2048	1
+active_admin/dashboard#index       	1092	1092	1092	1092	1
+
+
+Finished in 1 minute 26.49 seconds (files took 4.86 seconds to load)
+120 examples, 0 failures
+Coverage report generated for RSpec to /Users/MikeRogers/Workspace/ExampleApp/coverage. 1528 / 1528 LOC (100%) covered.
+```
 
 Pretty handy right?
 

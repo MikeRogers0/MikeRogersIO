@@ -25,19 +25,49 @@ It may surprise you to hear, that using the [mysql_connect()](http://php.net/man
 
 Connecting to a database is pretty simple. Here is how to connect to a MySQL Database.
 
-{% gist 2941987 connecting-to-database.php %}
+```php
+<?php
+// Define the parameters
+$host = 'localhost';
+$dbname = 'my_database';
+$user = 'mysql_username';
+$pass = 'mysql_password';
+
+try {
+  // Call the PDO class.
+  $db= new PDO('mysql:host='.$host.';dbname='.$dbname, $user, $pass);
+} catch(PDOException $e) {
+  // If something goes wrong, PDO throws an exception with a nice error message.
+  echo $e->getMessage();
+}
+
+?>
+```
 
 ## Doing A Query
 
 Again, doing a query is just as simple as:
 
-{% gist 2941987 query.php %}
+```php
+<?php
+$query = $db->query('SELECT * FROM `users` ORDER BY ID DESC;');
+$result = $query->fetchAll(PDO::FETCH_ASSOC);
+
+// $result will now contain an object of all the rows in the table 'Users'
+?>
+```
 
 However, if you are using user variables which may cause a SQL Injection you should bind the parameter to the query (see next example).
 
 ## Binding a parameter to a query
 
-{% gist 2941987 binding.php %}
+```php
+<?php
+$query = $db->prepare('SELECT * FROM `users` WHERE `ID` = :ID: AND `email` = :email: ORDER BY ID DESC LIMIT 0,1;');
+$query->execute(array(':ID:' => '3', ':email:' => 'me@email.com'));
+$result = $query->fetchAll(PDO::FETCH_ASSOC);
+?>
+```
 
 If you bind a parameter to a request, it will sterilize the input so that it will not cause a SQL Injection.
 

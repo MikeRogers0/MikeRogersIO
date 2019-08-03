@@ -21,11 +21,27 @@ In this tutorial I explain [Seedbank](https://github.com/james2m/seedbank), a ge
 
 To help keep the seed files as clean as possible, I've made a class that stops seeds being added twice and also outputs to the user what has been added to the database:
 
-{% gist 640980264e980b52bab0 seeds.rb %}
+```ruby
+class Seeds
+  def self.add model, attrs
+    object = model.find_or_initialize_by(attrs)
+
+    if object.new_record? && object.save
+      puts "#{object}"
+    end
+  end
+end
+```
 
 Here is how to implement the class in your seeds:
 
-{% gist 640980264e980b52bab0 users.seeds.rb %}
+```ruby
+after :farms do
+  puts 'Adding Users:'
 
+  farm = Farm.find_by name: 'McCain'
+  Seeds.add User, full_name: 'Mr McCain', is_manager: true, farm: farm
+end
+```
 
 You can find all the code behind this tutorial in the [GitHub Repo](https://github.com/MikeRogers0/GenericApp/tree/refactoring-seeds).

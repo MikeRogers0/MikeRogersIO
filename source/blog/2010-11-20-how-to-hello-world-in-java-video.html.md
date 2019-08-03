@@ -17,6 +17,23 @@ Here is a really quick and simple tutorial on how to do "Hello World" in Java.
 
 Here is the code I used:
 
-{% gist 2941952 hello.java %}
+```java
+package helloworld;
+
+/**
+* @author Mike
+*/
+public class Main {
+
+  /**
+  * @param args the command line arguments
+  */
+  public static void main(String[] args) {
+    // TODO code application logic here
+    System.out.println("Hello World");
+  }
+
+}
+```
 
 You can download [NetBeans IDE](http://netbeans.org/) from their website and try this yourself for free :)

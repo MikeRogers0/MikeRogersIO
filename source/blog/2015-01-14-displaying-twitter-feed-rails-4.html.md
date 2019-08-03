@@ -23,5 +23,5 @@ You can find all the code behind this tutorial in the [GitHub Repo](https://gith
 Here are the main gems I used:
 
 * [twitter](https://github.com/sferik/twitter) - The Ruby interface we used to talk to the Twitter API.
-* [dotenv-rails](https://github.com/bkeepers/dotenv) - We used this gem to load up our consumer key and secret into our app, so we can access them via ENV['TWITTER_CONSUMER_KEY'].
+* [dotenv-rails](https://github.com/bkeepers/dotenv) - We used this gem to load up our consumer key and secret into our app, so we can access them via `ENV['TWITTER_CONSUMER_KEY']`.
 

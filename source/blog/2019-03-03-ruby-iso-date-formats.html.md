@@ -25,7 +25,6 @@ These are the methods which ship with Ruby's [DateTime class](https://ruby-doc.o
 | `DateTime.now.rfc822` |  `%a, %-d %b %Y %H:%M:%S +%H%M` | Sun, 3 Mar 2019 13:45:58 +0000 |
 | `DateTime.now.xmlschema` |  `%Y-%m-%dT%H:%M:%S+%H:%M` | 2019-03-03T13:49:32+00:00 |
 | `DateTime.now.to_i` |  `%s` | 1551621698 |
-{: class='table table-striped table-bordered'}
 
 ## Rails
 
@@ -36,7 +35,6 @@ Non-developers are a bit rubbish at reading those standardised formats. Luckily,
 | `I18n.l(DateTime.now, format: :default)` | Sun, 03 Mar 2019 14:17:01 +0000 |
 | `I18n.l(DateTime.now, format: :short)` | 03 Mar 14:17 |
 | `I18n.l(DateTime.now, format: :long)` | March 03, 2019 14:17 |
-{: class='table table-striped table-bordered'}
 
 By default, rails ships with the `:en` locale. However, pretty often you'll want to localise your dates and times to different international formats, for this the [rails-i18n gem](https://github.com/svenfuchs/rails-i18n) to save you a bunch of time.
 
@@ -47,6 +45,5 @@ Add that gem to your Gemfile, then you can either set the locale from the `Accep
 | `I18n.l(DateTime.now, format: :long, locale: :'en-US')` | March 03, 2019 02:37 PM |
 | `I18n.l(DateTime.now, format: :long, locale: :'en-GB')` | 03 March, 2019 14:38 |
 | `I18n.l(DateTime.now, format: :long, locale: :'de')` | Sonntag, 03. März 2019, 14:38 Uhr |
-{: class='table table-striped table-bordered'}
 
 This should handle most your date & time formatting needs when outputting to various users :D

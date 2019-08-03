@@ -45,8 +45,12 @@ helpers do
 end
 
 Dir[File.dirname(__FILE__) + '/lib/tags/*.rb'].each { |file| require file }
-require 'lib/tilt/kramer_liquid_template'
-set :markdown_engine, :kramer_liquid
+require 'lib/tilt/redcarpet_liquid_template'
+require 'lib/markdown_helper/bootstrap_renderer'
+
+activate :syntax
+set :markdown_engine, :redcarpet_liquid
+set :markdown, fenced_code_blocks: true, smartypants: true, tables: true, footnotes:true, renderer: MarkdownHelper::BootstrapRenderer
 
 activate :blog do |blog|
   blog.layout = 'post'

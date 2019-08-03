@@ -14,13 +14,13 @@ meta:
 ---
 I recently spent a month backpacking around western Europe. I didn't want to take my MacBook Pro with me (The kerfuffle with insurance if it was stolen outweighed my need for it), so my main source of information was my [HTC Desire S](http://en.wikipedia.org/wiki/HTC_Desire_S). Here are a few notes on stuff I found was useful.
 
-## 1\. Improving battery life
+## 1. Improving battery life
 
 One of the main let downs with Android is the crapware networks & manufactures put on the handset (in most cases you can't even uninstall it). So I rooted my phone & put [CyanogenMod](http://www.cyanogenmod.com/) on it. Removing the unused apps gave me about 25% more battery per day.
 
 I also put my phone in Airplane mode when I wasn't using it. I found having my phone in airplane mode used about 1/20 of the battery it would have if I didn't have airplane mode on.
 
-## 2\. Improve security
+## 2. Improve security
 
 I was fairly paranoid about losing my phone, or my data while I was away. Here are a three apps & one technique I used to keep myself a little safer.
 
@@ -40,7 +40,7 @@ I used a a few shared wireless hotspots, quite a few of these offered some prett
 
 I also used a private VPN while I was traveling mostly because I wanted to keep my data secure from anyone listening over wifi or mobile network connections. If you have a VPS, you can install [OpenVPN](http://blog.ninjahideout.com/posts/osx-ubuntu-and-openvpn-in-5-minutes) pretty easily (though make sure your VPS provider is ok about it).
 
-## 3\. Finding my way around
+## 3. Finding my way around
 
 Before I went away, I was given a couple of books to help find my way about. However, carrying a big book around a city during the day seemed a little silly. Here are a few apps I used to help find my way around.
 
@@ -56,12 +56,12 @@ I found the [TripAdvisor](https://play.google.com/store/apps/developer?id=TripAd
 
 [FourSquare](https://play.google.com/store/apps/details?id=com.joelapenna.foursquared) was really handy for finding awesome places around the cities, though reading the reviews & checking in ate lots of data.
 
-## 4\. Dealing with data
+## 4. Dealing with data
 
 Even with lower data roaming prices within Europe, the price of sending the odd tweet or checking google maps was silly. So I picked up a prepaid data sim (it's pretty easy to walk into a phone shop and ask for one, they should only cost a few euros for 1GB data) and used a [Micro Sim Adaptor](http://www.amazon.co.uk/gp/product/B005SV2H9I/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005SV2H9I&linkCode=as2&tag=fulondes-21) to make it work with my phone.
 
 In most cities the signal was pretty awesome, I could download at about 100kb/s. That said, you may want to look into a picking up a [unlocked MiFi](http://www.amazon.co.uk/gp/product/B005KLOLM2/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B005KLOLM2&linkCode=as2&tag=fulondes-21) to get more out of your SIM.
 
-## 5\. Making calls on the cheap
+## 5. Making calls on the cheap
 
-Calling & texting while traveling looked friggin expensive! However with the data sim I had & jumping onto free wifi, I used [Viber](http://www.viber.com/) (It's like Skype, but not a bloated OTT POS) to make calls & message people.
+Calling & texting while traveling looked friggin expensive! However with the data SIM I had & jumping onto free wifi, I used [Viber](http://www.viber.com/) (It's like Skype, but not a bloated OTT POS) to make calls & message people.
