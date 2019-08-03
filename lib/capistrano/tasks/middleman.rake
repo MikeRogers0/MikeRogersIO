@@ -1,10 +1,10 @@
 namespace :deploy do
   namespace :middleman do
-    desc "Build site on the server"
+    desc 'Build site on the server'
     task :build do
       on roles(:web) do
         within release_path do
-          execute :bundle, "exec middleman build"
+          execute :bundle, 'exec middleman build'
         end
       end
     end
@@ -22,7 +22,7 @@ namespace :deploy do
   end
   after 'deploy:finished', 'deploy:invalidating_cdn'
 
-  desc "Ping the various sitemap providers"
+  desc 'Ping the various sitemap providers'
   task :sitemap_ping do
     on roles(:web) do
       within release_path do

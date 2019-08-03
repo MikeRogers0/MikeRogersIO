@@ -50,7 +50,7 @@ require 'lib/markdown_helper/bootstrap_renderer'
 
 activate :syntax
 set :markdown_engine, :redcarpet_liquid
-set :markdown, fenced_code_blocks: true, smartypants: true, tables: true, footnotes:true, renderer: MarkdownHelper::BootstrapRenderer
+set :markdown, fenced_code_blocks: true, smartypants: true, tables: true, footnotes: true, renderer: MarkdownHelper::BootstrapRenderer
 
 activate :blog do |blog|
   blog.layout = 'post'

@@ -28,9 +28,9 @@ if ENV['SERVE_STATIC'] && ENV['SERVE_STATIC'] == 'true'
       def initialize(app)
         @app = app
       end
-      
+
       def redirect(location)
-        [301, {'Location' => location, 'Content-Type' => 'text/html'}, ['Moved Permanently']]
+        [301, { 'Location' => location, 'Content-Type' => 'text/html' }, ['Moved Permanently']]
       end
 
       def call(env)
@@ -41,38 +41,39 @@ if ENV['SERVE_STATIC'] && ENV['SERVE_STATIC'] == 'true'
         }
         req = Rack::Request.new(env)
         return redirect(redirects[req.path]) if redirects.include?(req.path)
+
         @app.call(env)
       end
     end
   end
 
   use Rack::TryStatic,
-    root: 'build',
-    urls: %w[/], try: ['.html', 'index.html', '/index.html'],
-    header_rules: [
-      [:all, {
-        #'X-Frame-Options' => 'SAMEORIGIN',
-        'X-XSS-Protection' => '1; mode=block',
-        'X-Content-Type-Options' => 'nosniff',
-        'Content-Security-Policy' => ENV.fetch('CONTENT_SECURITY_POLICY') { "default-src 'self' https: blob:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; worker-src 'self' blob: ; script-src 'self' https: 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; upgrade-insecure-requests" },
-        'Strict-Transport-Security' => 'max-age=15552000; includeSubDomains',
-        'Referrer-Policy' => 'no-referrer-when-downgrade',
-        'Access-Control-Allow-Origin' => '*',
-        'Cache-Control' => 'public, max-age=604800'
-      }],
-      [['png', 'jpg', 'js', 'css', 'svg', 'woff', 'ttf', 'eot', 'ico'], { 'Cache-Control' => 'public, max-age=31536000' }],
-      [['ico'], { 'Content-Type' => 'image/x-icon' }],
-      [['svg'], { 'Content-Type' => 'image/svg+xml' }],
-      [['woff'], { 'Content-Type' => 'application/font-woff' }],
-      [['ttf'], { 'Content-Type' => 'application/x-font-ttf' }],
-      [['eot'], { 'Content-Type' => 'application/vnd.ms-fontobject' }]
-    ]
+      root: 'build',
+      urls: %w[/], try: ['.html', 'index.html', '/index.html'],
+      header_rules: [
+        [:all, {
+          # 'X-Frame-Options' => 'SAMEORIGIN',
+          'X-XSS-Protection' => '1; mode=block',
+          'X-Content-Type-Options' => 'nosniff',
+          'Content-Security-Policy' => ENV.fetch('CONTENT_SECURITY_POLICY') { "default-src 'self' https: blob:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; worker-src 'self' blob: ; script-src 'self' https: 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; upgrade-insecure-requests" },
+          'Strict-Transport-Security' => 'max-age=15552000; includeSubDomains',
+          'Referrer-Policy' => 'no-referrer-when-downgrade',
+          'Access-Control-Allow-Origin' => '*',
+          'Cache-Control' => 'public, max-age=604800'
+        }],
+        [%w[png jpg js css svg woff ttf eot ico], { 'Cache-Control' => 'public, max-age=31536000' }],
+        [['ico'], { 'Content-Type' => 'image/x-icon' }],
+        [['svg'], { 'Content-Type' => 'image/svg+xml' }],
+        [['woff'], { 'Content-Type' => 'application/font-woff' }],
+        [['ttf'], { 'Content-Type' => 'application/x-font-ttf' }],
+        [['eot'], { 'Content-Type' => 'application/vnd.ms-fontobject' }]
+      ]
 
   use Rack::Redirect
 
   # Run your own Rack app here or use this one to serve 404 messages:
   run lambda { |_env|
-    not_found_page = File.expand_path('../build/404/index.html', __FILE__)
+    not_found_page = File.expand_path('build/404/index.html', __dir__)
     if File.exist?(not_found_page)
       [404, { 'Content-Type'  => 'text/html' }, [File.read(not_found_page)]]
     else

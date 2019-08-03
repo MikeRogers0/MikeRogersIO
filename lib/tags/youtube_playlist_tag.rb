@@ -2,7 +2,6 @@
 
 module Jekyll
   class YoutubePlaylistTag < Liquid::Tag
-
     def initialize(tag_name, markup, tokens)
       if /(?<src>[^\s]+)/i =~ markup
         @src = src
@@ -10,13 +9,11 @@ module Jekyll
       super
     end
 
-    def render(context)
-
+    def render(_context)
       html = '<div class="embed-responsive embed-responsive-16by9 mb-3">'
-      html << '<iframe width="100%" height="100%" src="//www.youtube-nocookie.com/embed/videoseries?list='+@src+'#vq=hd720" frameborder="0" allowfullscreen></iframe>'
+      html << '<iframe width="100%" height="100%" src="//www.youtube-nocookie.com/embed/videoseries?list=' + @src + '#vq=hd720" frameborder="0" allowfullscreen></iframe>'
       html << '</div>'
-      return html;
-
+      html
     end
   end
 end

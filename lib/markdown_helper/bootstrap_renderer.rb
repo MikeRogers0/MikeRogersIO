@@ -3,10 +3,9 @@ module MarkdownHelper
   require 'middleman-core/renderers/redcarpet'
 
   class BootstrapRenderer < Middleman::Renderers::MiddlemanRedcarpetHTML
-
     include Middleman::Syntax::RedcarpetCodeRenderer
 
-    def initialize(options={})
+    def initialize(options = {})
       super
     end
 
@@ -14,7 +13,7 @@ module MarkdownHelper
       "<table class=' table table-striped table-bordered'>" \
         "<thead>#{header}</thead>" \
         "<tbody>#{body}</tbody>" \
-        "</table>"
+        '</table>'
     end
 
     def block_quote(quote)

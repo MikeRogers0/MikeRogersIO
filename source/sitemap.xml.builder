@@ -1,5 +1,5 @@
 xml.instruct!
-xml.urlset "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9" do
+xml.urlset 'xmlns' => 'http://www.sitemaps.org/schemas/sitemap/0.9' do
   ['/', '/posts.html', '/portfolio.html'].each do |resource|
     xml.url do
       xml.loc URI.join(root_url, resource)

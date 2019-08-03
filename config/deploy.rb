@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
-lock "~> 3.11.0"
+lock '~> 3.11.0'
 
-set :application, "MikeRogersIO"
-set :repo_url, "git@github.com:MikeRogers0/MikeRogersIO.git"
+set :application, 'MikeRogersIO'
+set :repo_url, 'git@github.com:MikeRogers0/MikeRogersIO.git'
 set :branch, ENV['BRANCH'] if ENV['BRANCH']
 
 # rbenv options
@@ -32,4 +32,4 @@ set :yarn_flags, '--production --silent --no-progress --ignore-engines'
 set :puma_conf, "#{shared_path}/config/puma.rb"
 
 # Nginx, where the CDN (CloudFront) will look for our site.
-set :nginx_server_name, "mikerogersio.adhoc.mikerogers.io"
+set :nginx_server_name, 'mikerogersio.adhoc.mikerogers.io'
