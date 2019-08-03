@@ -22,6 +22,5 @@ cap production puma:nginx_config
 ## Running the specs
 
 ```bash
-brew install tidy-html5
 bundle exec rspec
 ```
