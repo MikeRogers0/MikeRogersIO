@@ -1,5 +1,7 @@
 # MikeRogers.io ##
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/df7d23ccf98c47179b1eec1d72568785)](https://app.codacy.com/app/MikeRogers0/MikeRogersIO?utm_source=github.com&utm_medium=referral&utm_content=MikeRogers0/MikeRogersIO&utm_campaign=Badge_Grade_Dashboard)
+
 My personal website which shows off bits of my portfolio and ramblings from my blog.
 
 ## Deploying
