@@ -101,7 +101,6 @@ GEM
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     hashie (3.6.0)
-    html_validation (1.1.5)
     htmlcompressor (0.2.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
@@ -124,8 +123,6 @@ GEM
     ipaddress (0.8.3)
     jwt (2.2.1)
     kramdown (1.17.0)
-    launchy (2.4.3)
-      addressable (~> 2.3)
     liquid (4.0.3)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -327,8 +324,6 @@ DEPENDENCIES
   capistrano3-puma!
   capybara!
   dotenv!
-  html_validation!
-  launchy!
   liquid!
   middleman!
   middleman-blog!

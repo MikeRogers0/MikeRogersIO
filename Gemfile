@@ -40,8 +40,6 @@ source 'https://rubygems.org' do
 
   group :development, :test do
     gem 'capybara'
-    gem 'html_validation'
-    gem 'launchy'
     gem 'rspec', '~> 3.5'
   end
 end

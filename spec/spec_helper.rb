@@ -14,9 +14,6 @@ require 'middleman-core/load_paths'
 require 'middleman-core'
 require 'middleman-core/rack'
 
-require 'html_validation'
-include PageValidations
-
 @middleman_app = ::Middleman::Application.new
 
 Capybara.app = ::Middleman::Rack.new(@middleman_app).to_app do
