@@ -56,7 +56,7 @@ GEM
     docile (1.3.2)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
-    dotenv (2.7.4)
+    dotenv (2.7.5)
     erubis (2.7.0)
     excon (0.65.0)
     execjs (2.7.0)
