@@ -6,16 +6,12 @@ cache:
   directories:
     - vendor/bundle
     - node_modules
-    - tidy-html5
     - $HOME/.nvm
 addons:
   chrome: stable
-  packages:
-    - cmake
 before_script:
   # Tidy
-  - git clone https://github.com/htacg/tidy-html5.git
-  - cd tidy-html5 && cmake . && make && make install
+  - npm -g tidy-html5
   # Repo for Yarn
   - sudo apt-key adv --fetch-keys http://dl.yarnpkg.com/debian/pubkey.gpg
   - echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
