@@ -9,7 +9,6 @@ meta:
   index: true
 ---
 
-
 Rails 5.2 introduced support for [JSON field types](https://edgeguides.rubyonrails.org/active_record_postgresql.html#json-and-jsonb), which is super awesome. It allows a really nice way of storing blobs of JSON against an object in your database. But while they're convenient, they can end up being a double edged sword and can lead to a headache if you aren't careful.
 
 Here are two patterns I've seen popping up, which I think should be avoided.
