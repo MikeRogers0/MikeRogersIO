@@ -19,8 +19,8 @@ source 'https://rubygems.org' do
   gem 'middleman-sprockets'
   gem 'middleman-syntax'
 
-  gem 'redcarpet'
   gem 'liquid', require: false
+  gem 'redcarpet'
 
   gem 'sass'
   gem 'sassc-rails'
@@ -36,5 +36,10 @@ source 'https://rubygems.org' do
     gem 'capistrano-rbenv', '~> 2.1'
     gem 'capistrano-yarn'
     gem 'capistrano3-puma'
+  end
+
+  group :development, :test do
+    gem 'capybara'
+    gem 'rspec', '~> 3.5'
   end
 end

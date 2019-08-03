@@ -1,9 +1,10 @@
 {
   "name": "mikerogersio",
-  "lisence": "MIT",
+  "license": "MIT",
   "version": "1.0.0",
   "dependencies": {
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "tidy-html5": "^0.1.1"
   },
   "repository": "git@github.com:MikeRogers0/MikeRogersIO.git",
   "author": "Mike Rogers <me@mikerogers.io>"

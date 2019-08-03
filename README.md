@@ -1,34 +1,27 @@
-# MikeRogers.io ##
+[![Build Status](https://travis-ci.org/MikeRogers0/MikeRogersIO.svg?branch=master)](https://travis-ci.org/MikeRogers0/MikeRogersIO)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/df7d23ccf98c47179b1eec1d72568785)](https://app.codacy.com/app/MikeRogers0/MikeRogersIO?utm_source=github.com&utm_medium=referral&utm_content=MikeRogers0/MikeRogersIO&utm_campaign=Badge_Grade_Dashboard)
+[![Maintainability](https://api.codeclimate.com/v1/badges/6f1ddb38ace46bf6ff07/maintainability)](https://codeclimate.com/github/MikeRogers0/MikeRogersIO/maintainability)
+
+# MikeRogers.io
 
 My personal website which shows off bits of my portfolio and ramblings from my blog.
 
 ## Deploying
 
-    cap production deploy
+```bash
+cap production deploy
+```
 
-### Setup
+### Deploy Setup
 
-    cap production puma:config
-    cap production puma:nginx_config
+```bash
+cap production puma:config
+cap production puma:nginx_config
+```
 
-## TODO
+## Running the specs
 
-### Posts
-
- - Do you need a complex site? 
-
-### Moves gists into posts
-
-I need to replace all the `{ gist }` type tags with their actual code blocks
-
-### Remove rubbish posts
-
-Some of the information is fairly dated and simply not helpful. I should remove the posts which are not decent any more.
-
-### Swap out Font-Awesome with SVGs
-
-I think it would be more performant to create a layered SVG from the icons I'm using ( https://github.com/encharm/Font-Awesome-SVG-PNG/blob/master/black/svg/instagram.svg ) then use that instead of importing all the font-awesome stuff.
-
-### Portfolios
-
-I need a portfolio of my work, maybe make it look like https://foundation.zurb.com/templates-previews-sites-f6/product-page.html
+```bash
+brew install tidy-html5
+bundle exec rspec
+```
