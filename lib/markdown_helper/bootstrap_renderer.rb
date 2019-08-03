@@ -17,6 +17,10 @@ module MarkdownHelper
         "</table>"
     end
 
+    def block_quote(quote)
+      %(<blockquote class="blockquote pl-4 border-left">#{quote}</blockquote>)
+    end
+
     def image(link, title, alt_text)
       if !@local_options[:no_images]
         # We add bootstrap centering and responsive class here

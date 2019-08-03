@@ -6,7 +6,7 @@
 @import "varibles";
 
 // Bootstrap
-/*@import "bootstrap";*/
+// @import "bootstrap";
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
 
@@ -36,7 +36,7 @@ $theme-colors: map-merge((
 /*@import "bootstrap/scss/custom-forms";*/
 /*@import "bootstrap/scss/nav";*/
 /*@import "bootstrap/scss/navbar";*/
-/*@import "bootstrap/scss/card";*R
+/*@import "bootstrap/scss/card";*/
 /*@import "bootstrap/scss/breadcrumb";*/
 /*@import "bootstrap/scss/pagination";*/
 /*@import "bootstrap/scss/badge";*/
@@ -76,19 +76,19 @@ pre, code {
   text-decoration: inherit;
 }
 
-// Make the code samples mildly prettier
-article pre {
-  /*@extend .pre-scrollable;*/
-
-  border: $border-width solid $gray-200;
-  border-radius: $border-radius;
-  font-size: $code-font-size;
-  padding: $table-cell-padding;
-}
-
 article {
   h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     margin-top: 1.5rem;
+  }
+
+  // Make the code samples mildly prettier
+  pre {
+    /*@extend .pre-scrollable;*/
+
+    border: $border-width solid $gray-200;
+    border-radius: $border-radius;
+    font-size: $code-font-size;
+    padding: $table-cell-padding;
   }
 
   .embed-responsive {
@@ -106,15 +106,5 @@ article {
 
   .figure-caption {
     margin-top: 0.5rem;
-  }
-
-  .sponsorship {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    background: #fff;
-    border: $border-width solid $gray-200;
   }
 }
