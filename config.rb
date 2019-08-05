@@ -126,8 +126,8 @@ activate :cdn do |cdn|
     distribution_id: ENV['AWS_CLOUDFRONT_DISTRIBUTION_ID']
   }
 
-  # Only invalidate HTML files.
-  cdn.filter = /\.html/i
+  # Only invalidate HTML, txt & RSS files.
+  cdn.filter = /\.(html|rss|txt)/i
 
   # We only run this during the release task.
   cdn.after_build = false
