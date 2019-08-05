@@ -127,7 +127,7 @@ activate :cdn do |cdn|
   }
 
   # Only invalidate HTML, txt & RSS files.
-  cdn.filter = /\.(html|rss|txt)/i
+  cdn.filter = /\.(html|rss|txt|xml)/i
 
   # We only run this during the release task.
   cdn.after_build = false
