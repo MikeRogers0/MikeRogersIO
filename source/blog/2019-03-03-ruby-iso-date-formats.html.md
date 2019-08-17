@@ -9,7 +9,7 @@ meta:
   index: true
 ---
 
-Ruby and Rails come with a bunch of time saving libraries, which can save you a lot of time coding for specific scenarios.
+Ruby and Ruby on Rails come with a bunch of time saving libraries, which can save you a lot of time coding for specific scenarios.
 
 ## Pure Ruby
 
