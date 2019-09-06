@@ -9,6 +9,17 @@
     "Launched": Aug 1st, 2019
     "Stack": Ruby on Rails, GitHub API, RSpec
 
+- name: puma-ngrok-tunnel
+  featured: false
+  image_path: puma-ngrok-tunnel.jpg
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel
+  date: 4/5/2019
+  description: |
+    A Ruby Gem to help create a tunnel via Ngrok to your local development environment. It makes working with webhooks super seamless.
+  stats:
+    "Launched": May 4th, 2019
+    "Stack": Ngrok, Minitest, Rubygems
+
 - name: Bundlify
   featured: false
   image_path: bundlify.png
@@ -30,17 +41,6 @@
   stats:
     "Launched": Jul 8th, 2018
     "Stack": Ruby on Rails, Spotify API
-
-- name: Bootstrap-O-Matic
-  featured: false
-  image_path: bootstrap-o-matic.jpg
-  url: https://bootstrap-o-matic.mikerogers.io/
-  date: 15/6/2018
-  description: |
-    Configure Bootstrap 4 variables and get a live preview.
-  stats:
-    "Launched": Jun 15th, 2018
-    "Stack": Ruby on Rails, Bootstrap 4, WebComponents
 
 - name: TrackChanges
   featured: false
