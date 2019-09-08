@@ -18,7 +18,7 @@ before_script:
   - yarn
 language: ruby
 rvm:
-  - 2.6.3
+  - 2.6.4
 script:
   - bundle exec rspec
 before_install: gem install bundler -v 2.0.1
