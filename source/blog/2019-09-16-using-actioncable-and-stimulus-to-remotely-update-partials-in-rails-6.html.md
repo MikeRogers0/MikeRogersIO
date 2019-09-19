@@ -5,7 +5,7 @@ categories:
  – blog
 published: true
 meta:
-  description: How to provide real-time updates to user in Rails 6, without having to reload the page.
+  description: How to provide real-time updates to a user in Rails 6, without having to reload the page.
   index: true
 ---
 
@@ -13,7 +13,7 @@ Displaying the most up-to-date information to users is one of the main challenge
 
 There are many ways to solve this and in this post I'm going to cover an approach that'll push an updated partial to the user, without adding too much extra to the vanilla Ruby On Rails stack.
 
-If you want to skip ahead and see the working final solution, I've posted [the working code to GitHub](https://github.com/MikeRogers0/RealtimePartialUpdateApp) & you can deploy it to Heroku to see it working.
+If you want to skip ahead and see the working final solution, I've posted [the code to GitHub](https://github.com/MikeRogers0/RealtimePartialUpdateApp) & you can deploy it to Heroku to see it working.
 
 ## The Approach
 
