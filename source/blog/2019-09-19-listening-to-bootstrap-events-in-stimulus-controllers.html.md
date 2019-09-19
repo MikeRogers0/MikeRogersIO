@@ -9,7 +9,7 @@ meta:
   index: true
 ---
 
-I love [Bootstrap 4](https://getbootstrap.com) & [Stimulus](https://stimulusjs.org), both are fantastic libraries that allow me to develop at really good pace without making a mess. However they required a bit of setup to help them play nicely together.
+I love [Bootstrap 4](https://getbootstrap.com) & [Stimulus](https://stimulusjs.org), both are fantastic libraries that allow me to develop at a good pace without making a mess. However they require a bit of setup to help them play nicely together.
 
 If you want to skip ahead and see the working final solution, I've posted [the code to GitHub](https://github.com/MikeRogers0/BootstrapAndStimulusExample), which you can deploy to Heroku to see it working.
 
