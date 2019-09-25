@@ -19,3 +19,4 @@ Some typos:
  - Apple_Pie
  - MathedMan
  - def method
+ - CI Service
