@@ -18,3 +18,4 @@ Some typos:
  - ApplePie
  - Apple_Pie
  - MathedMan
+ - def method
