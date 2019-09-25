@@ -20,3 +20,4 @@ Some typos:
  - MathedMan
  - def method
  - CI Service
+ - A b c easy as 123
