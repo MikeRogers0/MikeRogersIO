@@ -40,6 +40,6 @@ source 'https://rubygems.org' do
 
   group :development, :test do
     gem 'capybara'
-    gem 'rspec', '~> 3.5'
+    gem 'rspec', '~> 3.9'
   end
 end
