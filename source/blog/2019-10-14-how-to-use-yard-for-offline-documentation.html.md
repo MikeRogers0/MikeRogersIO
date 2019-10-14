@@ -39,4 +39,6 @@ This will output a URL where you can read all the documentation for the gems you
 
 ## Using it with puma-dev
 
-Having to turn on the yard server every time you want to lookup some information is a little tedious, so I setup a [project on GitHub](https://github.com/MikeRogers0/Yard-Docs) you can setup locally. It uses puma-dev so it'll turn on the yard server & serve you the documentation when you visit `http://yard-docs.test/` on your local machine.
+Having to turn on the yard server every time you want to lookup some information is a little tedious, so I setup a [project on GitHub](https://github.com/MikeRogers0/Yard-Docs) you can setup locally.
+
+It uses puma-dev so it'll turn on the yard server & serve you the documentation when you visit `http://yard-docs.test/` on your local machine.
