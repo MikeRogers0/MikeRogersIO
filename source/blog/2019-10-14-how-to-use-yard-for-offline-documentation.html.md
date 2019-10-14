@@ -9,11 +9,13 @@ meta:
   index: true
 ---
 
-I like being able to work offline, there is something quite reassuring about being able to sit on a train and still get on with my daily tasks without being dependent on an solid internet connection.
+I like being able to work offline, there is something quite reassuring about being able to sit on a train and still get on with my daily tasks without being dependent on a solid internet connection.
 
-One of the main things I need to do is read ruby gem documentation, which having a reliable offline source is super helpful.
+When working, a good part of my day is reading ruby gem documentation, so having that available offline is super helpful.
 
 A tool I've recently started using to make this easier is [Yard](https://yardoc.org/). Yard is pretty magical, but pretty much it looks at the code & comments of your local gems, then serves them in a nice bowser based UI. If you've ever used [rubydoc.info](https://rubydoc.info/) it's what powers it behind the scenes.
+
+Yard is really fun to get setup locally!
 
 ## Getting setup
 
@@ -23,7 +25,7 @@ To get started, you need to install the [yard](https://github.com/lsegal/yard) g
 gem install yard
 ```
 
-You may also need to generate the rdoc files, you can do this by running:
+You may also need to generate the Rdoc files, you can do this by running:
 
 ```bash
 gem rdoc --all
