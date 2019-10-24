@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Speed Up Heroku CI with In Dyno Databases
+title: How to Speed Up Heroku CI via In Dyno Databases
 categories:
  – blog
 published: true
