@@ -31,3 +31,31 @@ Rails.application.config.public_file_server.headers = {
 ```
 
 After this file is added, the assets will ask the browser to cache them for a year. This solves that PageSpeed suggestion.
+
+## Verifying the change
+
+To check the new headers are returning as you expect, open up terminal and run:
+
+```bash
+curl -I https://your.app/path-to-assets.css
+```
+
+For me this returns:
+
+```text
+HTTP/2 200
+content-type: application/javascript
+content-length: 114289
+server: Cowboy
+date: Sun, 03 Nov 2019 14:19:22 GMT
+last-modified: Sat, 02 Nov 2019 15:29:40 GMT
+cache-control: public, max-age=31536000
+expires: Mon, 02 Nov 2020 15:30:50 +0000
+strict-transport-security: max-age=31536000; includeSubDomains
+via: 1.1 vegur, 1.1 a411e1d9cf3f776cc77733eb0d71fb34.cloudfront.net (CloudFront)
+vary: Accept-Encoding,Accept-Encoding
+x-cache: Hit from cloudfront
+x-amz-cf-pop: LHR61-C2
+x-amz-cf-id: DqS4jmnAooJ9E5MEsvjhx_xzncjfyljtKPkJSv4ZRKqXVET5wY-g8Q==
+age: 12
+```
