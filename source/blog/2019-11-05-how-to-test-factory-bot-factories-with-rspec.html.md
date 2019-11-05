@@ -5,7 +5,7 @@ categories:
  – blog
 published: true
 meta:
-  description: Invalid factories are the worst. Here is a script I normally drop into my rails projects.
+  description: Invalid factories are the worst. Here is a script I normally drop into my rails projects to help spot them.
   index: true
 ---
 
