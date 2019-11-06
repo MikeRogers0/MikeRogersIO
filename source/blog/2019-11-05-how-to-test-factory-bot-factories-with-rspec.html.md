@@ -9,6 +9,8 @@ meta:
   index: true
 ---
 
+**Update:** I just found [FactoryBot.lint](https://github.com/thoughtbot/factory_bot/blob/master/GETTING_STARTED.md#linting-factories) which is a much nicer way to do this.
+
 I'm a big fan of using [FactoryBot](https://github.com/thoughtbot/factory_bot) when testing my Rails Apps with RSpec. The DSL is super easy to work with, so adding variations of a model for my tests is a breeze.
 
 One drawback when working with factories (and fixtures!) is when a models validation or schema change, causing your factory to no longer be valid. It can sometimes be a little unobvious on exactly where the issue is.
