@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Test FactoryBot Factories with RSpec
+title: How to Lint FactoryBot Factories with RSpec
 categories:
  – blog
 published: true
