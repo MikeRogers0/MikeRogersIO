@@ -9,7 +9,6 @@ meta:
   index: true
 ---
 
-**Update:** I just found [FactoryBot.lint](https://github.com/thoughtbot/factory_bot/blob/master/GETTING_STARTED.md#linting-factories) which is a much nicer way to do this.
 
 I'm a big fan of using [FactoryBot](https://github.com/thoughtbot/factory_bot) when testing my Rails Apps with RSpec. The DSL is super easy to work with, so adding variations of a model for my tests is a breeze.
 
@@ -23,21 +22,11 @@ To do this in RSpec, I setup a file in `spec/factories_spec.rb` with the followi
 # spec/factories_spec.rb
 require 'rails_helper'
 
-# Loop through all the factories, check their valid & can save.
-FactoryBot.factories.map(&:name).each do |factory_name|
-  describe "The #{factory_name} factory" do
-    it { expect(build(factory_name)).to be_valid }
-    it { expect(create(factory_name).persisted?).to eq(true) }
-
-    # Loop through this factories traits, check them also.
-    FactoryBot.factories[factory_name].defined_traits.each do |trait|
-      context "trait: #{trait}" do
-        it { expect(build(factory_name, trait.name)).to be_valid }
-        it { expect(create(factory_name, trait.name).persisted?).to eq(true) }
-      end
-    end
-  end
+describe FactoryBot do
+  it { FactoryBot.lint traits: true }
 end
 ```
 
 Now whenever I get tripped up by an weird failing test, I can verify the factories I'm using in my tests are in the DB & working as intended.
+
+*Update:* I updated my sample to use [FactoryBot.lint](https://github.com/thoughtbot/factory_bot/blob/master/GETTING_STARTED.md#linting-factories) - It's a way better approach to doing this.
