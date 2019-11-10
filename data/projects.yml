@@ -1,13 +1,25 @@
 - name: PigCI
   featured: true
+  image_path: typo-ci.png
+  url: https://typoci.com/
+  date: 1/09/2019
+  description: |
+    Typo CI analyses commits for spelling mistakes and add annotations to Pull Requests.
+  stats:
+    "Launched": October 1st, 2019
+    "Stack": Heroku, Ruby on Rails, Bootstrap, GitHub API, RSpec
+
+- name: PigCI
+  featured: true
   image_path: pig-ci.png
   url: https://pigci.com/
+  source_url: https://github.com/PigCI/pig-ci-rails
   date: 1/8/2019
   description: |
     PigCI is a GitHub integration that monitors memory usage in CI to help spot memory leaks.
   stats:
     "Launched": Aug 1st, 2019
-    "Stack": Ruby on Rails, GitHub API, RSpec
+    "Stack": Heroku, Ruby on Rails, Bootstrap, GitHub API, RSpec
 
 - name: puma-ngrok-tunnel
   featured: false
@@ -64,7 +76,7 @@
     "Stack": Ruby on Rails, Apache Solr, Heroku
 
 - name: LivePage
-  featured: true
+  featured: false
   image_path: livepage.jpg
   url: https://livepage.mikerogers.io/
   source_url: https://github.com/MikeRogers0/LivePage
