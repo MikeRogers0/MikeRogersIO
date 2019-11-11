@@ -1,4 +1,4 @@
-- name: PigCI
+- name: Typo CI
   featured: true
   image_path: typo-ci.png
   url: https://typoci.com/
