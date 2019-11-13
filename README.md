@@ -4,7 +4,7 @@
 
 # MikeRogers.io
 
-My personal website which shows off bits of my portfolio and ramblings from my blog. Sample Typoooo
+My personal website which shows off bits of my portfolio and ramblings from my blog.
 
 ## Deploying
 
