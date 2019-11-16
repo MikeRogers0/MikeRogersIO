@@ -23,9 +23,9 @@
       {
         "@context": "http://schema.org",
           "@type": "BlogPosting",
-          "headline": "<%= current_article.title %>",
+          "headline": "<%= html_escape current_article.title %>",
           "datePublished": "<%= current_article.date.strftime('%Y-%m-%d') %>",
-          "description": "<%= current_article.data.meta.description %>",
+          "description": "<%= html_escape current_article.data.meta.description %>",
           "url": "<%= URI.join(root_url, current_article.url) %>",
           <% if current_article.data.meta.image.present? %>
             "image": "<%= URI.join(root_url, current_article.data.meta.image) %>",
