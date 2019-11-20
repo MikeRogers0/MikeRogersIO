@@ -34,10 +34,41 @@ if ENV['SERVE_STATIC'] && ENV['SERVE_STATIC'] == 'true'
       end
 
       def call(env)
+        github_pull_requests = {
+          'q' => [
+            'is:closed',
+            'is:pr',
+            'author:MikeRogers0',
+            'archived:false',
+            'repo:thepracticaldev/dev.to',
+            'repo:rubygems/rubygems.org',
+            'repo:activeadmin/activeadmin',
+            'repo:MindscapeHQ/raygun4ruby',
+            'repo:thoughtbot/griddler-sendgrid',
+            'repo:icoretech/omniauth-spotify',
+            'repo:leighmcculloch/middleman-cdn',
+            'repo:MiniProfiler/rack-mini-profiler',
+            'repo:plataformatec/devise',
+            'repo:rebelidealist/stripe-ruby-mock',
+            'repo:devnacho/mountain_view',
+            'repo:alphagov/frontend',
+            'repo:alphagov/whitehall',
+            'repo:alphagov/govuk_template',
+            'repo:phatworx/devise_security_extension',
+            'repo:mileszs/wicked_pdf',
+            'author:MikeRogers0',
+            'state:closed'
+          ].join(' '),
+          's' => 'created',
+          'type' => 'Issues',
+          'ref' => 'advsearch'
+        }
+
         redirects = {
           '/wp-login.php' => '/',
           '/wp-admin' => '/',
-          '/sitemap.html' => '/posts.html'
+          '/sitemap.html' => '/posts.html',
+          '/my-pull-requests' => "https://github.com/search?#{github_pull_requests.to_param}"
         }
         req = Rack::Request.new(env)
         return redirect(redirects[req.path]) if redirects.include?(req.path)
