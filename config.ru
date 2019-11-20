@@ -56,6 +56,7 @@ if ENV['SERVE_STATIC'] && ENV['SERVE_STATIC'] == 'true'
             'repo:alphagov/govuk_template',
             'repo:phatworx/devise_security_extension',
             'repo:mileszs/wicked_pdf',
+            'repo:twbs/bootstrap',
             'author:MikeRogers0',
             'state:closed'
           ].join(' '),
