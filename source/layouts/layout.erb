@@ -4,19 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><%= current_page.data.title || "Mike Rogers Site" %></title>
+    <title><%= current_page.data.title || 'Mike Rogers' %></title>
     <link rel="preload" href="<%= asset_path(:css, 'site') %>" as="style" />
     <link rel="preload" href="<%= image_path('mike-rogers.jpg') %>" as="image" />
     <link rel="preload" href="<%= image_path('assets/fonts/icomoon.ttf') %>" as="font" crossorigin="anonymous" />
 
-    <meta name="description" content="<%= current_page.data.meta.description %>">
+    <meta name="description" content="<%= html_escape current_page.data.meta.description %>">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@MikeRogers0" />
     <meta name="twitter:creator" content="@MikeRogers0" />
-    <meta name="twitter:description" content="<%= current_page.data.meta.description %>" />
-    <meta property="og:url" content="<%= current_url %>" />
-    <meta property="og:title" content="<%= current_page.data.title || "Mike Rogers Site" %>" />
-    <meta property="og:description" content="<%= current_page.data.meta.description %>" />
+    <meta name="twitter:description" content="<%= html_escape current_page.data.meta.description %>" />
 
     <%= stylesheet_link_tag :site %>
 

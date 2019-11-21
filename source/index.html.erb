@@ -45,7 +45,7 @@ meta:
       <div class="col-12 col-md-4">
         <h3 class="sr-only"><%= project.name %></h3>
         <figure class="figure text-center mb-4">
-          <%= link_to image_tag(project.image_path, class: 'figure-img portfolio-list__image img-fluid rounded img-thumbnail', alt: "Visit #{project.name}"), project.url, target: '_blank', 'rel': 'noopener' %>
+          <%= link_to image_tag(project.image_path, class: 'figure-img portfolio-list__image img-fluid rounded img-thumbnail shadow', alt: "Visit #{project.name}"), project.url, target: '_blank', 'rel': 'noopener' %>
           <figcaption class="figure-caption"><%= project.description %></figcaption>
         </figure>
       </div>
@@ -54,6 +54,7 @@ meta:
 
   <div class="text-center mt-3">
     <%= link_to 'See More Projects', 'portfolio.html', class: 'btn btn-primary' %>
+    <%= link_to 'View My Pull Requests', '/my-pull-requests', class: 'btn btn-outline-primary', target: '_blank' %>
   </div>
 </div>
 
