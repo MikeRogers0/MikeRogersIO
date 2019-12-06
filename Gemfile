@@ -5,7 +5,7 @@ ruby File.read('.ruby-version').chomp
 source 'https://rubygems.org' do
   gem 'dotenv'
 
-  gem 'puma', '~> 3.7'
+  gem 'puma', '~> 3.12'
   gem 'rack-contrib'
   gem 'rake'
 
