@@ -75,4 +75,16 @@ pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 plugin :tmp_restart
 ```
 
+# References
+
+https://github.com/puma/puma-heroku/blob/master/lib/puma/plugin/heroku.rb
+
+https://github.com/heroku/barnes
+
+https://github.com/rails/rails/blob/0ee449790b7bd499d26f79228d628af2839f03e3/railties/lib/rails/generators/rails/app/templates/config/puma.rb.tt
+
+https://github.com/puma/puma
+
+https://devcenter.heroku.com/articles/dyno-types
+
 
