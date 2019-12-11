@@ -16,7 +16,7 @@ namespace :deploy do
   task :invalidating_cdn do
     on roles(:web) do
       within release_path do
-        execute :bundle, 'exec middleman cdn'
+        execute :bundle, 'exec middleman cdn index.html index.html.gz rss.xml sitemap.txt posts.html'
       end
     end
   end
