@@ -17,7 +17,13 @@ I use the Ruby on Rails [default puma configuration](https://github.com/rails/ra
 
 Once I've reached a sweet spot, I scale up my small dynos to handle the traffic.
 
-## Find out about your server
+## The hard limit
+
+On the hobby tier, Heroku has a hard limit of [256 threads and processes combined](https://devcenter.heroku.com/articles/dynos#process-thread-limits), this means you could have up to 1 worker with 255 threads or 2 workers each with 127 threads.
+
+However, for maximum performance you'd want
+
+However, these are pretty ambitious 
 
 https://devcenter.heroku.com/articles/dynos#process-thread-limits - 256 total processes + threads max. So 1 worker could have 255 threads, but 2 workers at most can have 127 threads.
 
