@@ -225,7 +225,7 @@ GEM
     parallel (1.17.0)
     progress (3.5.2)
     public_suffix (4.0.1)
-    puma (3.12.1)
+    puma (3.12.2)
     rack (2.0.7)
     rack-contrib (2.1.0)
       rack (~> 2.0)
@@ -331,7 +331,7 @@ DEPENDENCIES
   middleman-sitemap-ping!
   middleman-sprockets!
   middleman-syntax!
-  puma (~> 3.7)!
+  puma (~> 3.12)!
   rack-contrib!
   rake!
   redcarpet!
