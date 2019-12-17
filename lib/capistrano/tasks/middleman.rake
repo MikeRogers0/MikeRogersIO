@@ -20,7 +20,7 @@ namespace :deploy do
       end
     end
   end
-  after 'deploy:finished', 'deploy:invalidating_cdn'
+  # after 'deploy:finished', 'deploy:invalidating_cdn'
 
   desc 'Ping the various sitemap providers'
   task :sitemap_ping do
@@ -30,5 +30,5 @@ namespace :deploy do
       end
     end
   end
-  after 'deploy:finished', 'deploy:sitemap_ping'
+  # after 'deploy:finished', 'deploy:sitemap_ping'
 end
