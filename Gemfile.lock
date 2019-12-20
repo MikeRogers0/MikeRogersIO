@@ -226,7 +226,7 @@ GEM
     progress (3.5.2)
     public_suffix (4.0.1)
     puma (3.12.2)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-contrib (2.1.0)
       rack (~> 2.0)
     rack-test (0.6.3)
