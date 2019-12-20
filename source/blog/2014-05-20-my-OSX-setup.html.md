@@ -48,7 +48,7 @@ sudo defaults write /System/Library/LaunchAgents/com.apple.BezelUI Disabled --bo
 
 ## Homebrew and Homebrew Cask
 
-It's a super pain to go and install all the apps and scripts I need, so I install [Homebrew](http://brew.sh/) and [Homebrew Cask](http://caskroom.io/) to quickly install the stuff I want. Here are the essential libaries and apps I normally install:
+It's a super pain to go and install all the apps and scripts I need, so I install [Homebrew](https://brew.sh/) and [Homebrew Cask](https://formulae.brew.sh/cask/) to quickly install the stuff I want. Here are the essential libaries and apps I normally install:
 
 ```bash
 #!/usr/bin/env sh
