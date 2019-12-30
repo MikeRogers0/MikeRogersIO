@@ -1,19 +1,17 @@
-# frozen_string_literal: true
-
 ruby File.read('.ruby-version').chomp
 
 source 'https://rubygems.org' do
   gem 'dotenv'
 
-  gem 'puma', '~> 3.12'
+  gem 'puma'
   gem 'rack-contrib'
   gem 'rake'
 
-  gem 'middleman'
+  gem 'middleman', '~> 4.3.5'
   gem 'middleman-blog'
   gem 'middleman-cdn'
-  gem 'middleman-favicon-maker'
-  gem 'middleman-imageoptim'
+  # gem 'middleman-favicon-maker'
+  # gem 'middleman-imageoptim'
   gem 'middleman-minify-html'
   gem 'middleman-sitemap-ping'
   gem 'middleman-sprockets'
@@ -24,6 +22,7 @@ source 'https://rubygems.org' do
 
   gem 'sass'
   gem 'sassc-rails'
+  gem 'sprockets', '~> 3.7.2'
 
   # Cross platform compatibility.
   gem 'tzinfo-data', platforms: %i[mswin mingw jruby]
@@ -31,11 +30,11 @@ source 'https://rubygems.org' do
 
   group :development do
     gem 'capistrano', '~> 3.11'
-    gem 'capistrano-bundler', '~> 1.6'
+    gem 'capistrano-bundler'
     gem 'capistrano-logrotate'
-    gem 'capistrano-rbenv', '~> 2.1'
+    gem 'capistrano-rbenv'
     gem 'capistrano-yarn'
-    gem 'capistrano3-puma', '~> 3.1'
+    gem 'capistrano3-puma'
   end
 
   group :development, :test do
