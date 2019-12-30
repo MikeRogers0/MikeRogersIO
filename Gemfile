@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 ruby File.read('.ruby-version').chomp
 
 source 'https://rubygems.org' do
@@ -22,9 +20,9 @@ source 'https://rubygems.org' do
   gem 'liquid', require: false
   gem 'redcarpet'
 
-  gem 'sprockets', '~> 3.7.2'
   gem 'sass'
   gem 'sassc-rails'
+  gem 'sprockets', '~> 3.7.2'
 
   # Cross platform compatibility.
   gem 'tzinfo-data', platforms: %i[mswin mingw jruby]
