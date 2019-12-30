@@ -9,7 +9,7 @@ source 'https://rubygems.org' do
   gem 'rack-contrib'
   gem 'rake'
 
-  gem 'middleman'
+  gem 'middleman', '~> 4.3.5'
   gem 'middleman-blog'
   gem 'middleman-cdn'
   gem 'middleman-favicon-maker'
@@ -22,6 +22,7 @@ source 'https://rubygems.org' do
   gem 'liquid', require: false
   gem 'redcarpet'
 
+  gem 'sprockets', '~> 3.7.2'
   gem 'sass'
   gem 'sassc-rails'
 
@@ -31,9 +32,9 @@ source 'https://rubygems.org' do
 
   group :development do
     gem 'capistrano', '~> 3.11'
-    gem 'capistrano-bundler', '~> 1.6'
+    gem 'capistrano-bundler'
     gem 'capistrano-logrotate'
-    gem 'capistrano-rbenv', '~> 2.1'
+    gem 'capistrano-rbenv'
     gem 'capistrano-yarn'
     gem 'capistrano3-puma'
   end
