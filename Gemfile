@@ -5,7 +5,7 @@ ruby File.read('.ruby-version').chomp
 source 'https://rubygems.org' do
   gem 'dotenv'
 
-  gem 'puma', '~> 3.12'
+  gem 'puma'
   gem 'rack-contrib'
   gem 'rake'
 
@@ -35,7 +35,7 @@ source 'https://rubygems.org' do
     gem 'capistrano-logrotate'
     gem 'capistrano-rbenv', '~> 2.1'
     gem 'capistrano-yarn'
-    gem 'capistrano3-puma', '~> 3.1'
+    gem 'capistrano3-puma'
   end
 
   group :development, :test do
