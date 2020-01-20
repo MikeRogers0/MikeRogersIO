@@ -1,0 +1,4 @@
+/wp-login.php / 301
+/wp-admin / 301
+/sitemap.html /posts.html 301
+/my-pull-requests https://github.com/search?q=is%3Aclosed+is%3Apr+author%3AMikeRogers0+archived%3Afalse+repo%3Athepracticaldev%2Fdev.to+repo%3Arubygems%2Frubygems.org+repo%3Aactiveadmin%2Factiveadmin+repo%3AMindscapeHQ%2Fraygun4ruby+repo%3Athoughtbot%2Fgriddler-sendgrid+repo%3Aicoretech%2Fomniauth-spotify+repo%3Aleighmcculloch%2Fmiddleman-cdn+repo%3AMiniProfiler%2Frack-mini-profiler+repo%3Aplataformatec%2Fdevise+repo%3Arebelidealist%2Fstripe-ruby-mock+repo%3Adevnacho%2Fmountain_view+repo%3Aalphagov%2Ffrontend+repo%3Aalphagov%2Fwhitehall+repo%3Aalphagov%2Fgovuk_template+repo%3Aphatworx%2Fdevise_security_extension+repo%3Amileszs%2Fwicked_pdf+author%3AMikeRogers0+state%3Aclosed&ref=advsearch&s=created&type=Issues 302
