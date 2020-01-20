@@ -145,23 +145,3 @@ configure :build do
   end
   activate :gzip
 end
-
-activate :cdn do |cdn|
-  cdn.cloudfront = {
-    access_key_id: ENV['AWS_ACCESS_KEY_ID'],
-    secret_access_key: ENV['AWS_SECRET_ACCESS_KEY'],
-    distribution_id: ENV['AWS_CLOUDFRONT_DISTRIBUTION_ID']
-  }
-
-  # Only invalidate HTML, txt & RSS files.
-  cdn.filter = /\.(html|rss|txt|xml)/i
-
-  # We only run this during the release task.
-  cdn.after_build = false
-end
-
-activate :sitemap_ping do |config|
-  config.host         = ENV['URL']
-  config.sitemap_file = 'sitemap.txt'
-  config.after_build  = false
-end

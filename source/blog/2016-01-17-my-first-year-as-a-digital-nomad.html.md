@@ -39,7 +39,7 @@ I had visited Berlin before while Interrailing in 2013, I remembered leaving the
 
 Working from Berlin (Instead of solely doing touristy stuff) offered a totally different perspective of the city. I was able to work and talk to local Berliners, which made exploring Berlin that bit more fun as they recommended things I'd never even thought of looking for, such as the Chaos Computing Club.
 
-I stayed in Kreuzberg (Near [Kottbusser Tor](https://www.youtube.com/watch?v=6ILpaR_I9pw&feature=youtu.be&t=39s)), which was near the co-working space [co.up](http://co-up.de/). I really liked co.up because they hosted a bunch of events during the week in their office (Such as [Berlin.JS](http://berlinjs.org/) & [CodingAmigos](http://www.meetup.com/CodingAmigos/)). Having something to go to in the evening really helped when I was initially feeling on my own in a new city.
+I stayed in Kreuzberg (Near [Kottbusser Tor](https://www.youtube.com/watch?v=6ILpaR_I9pw&feature=youtu.be&t=39s)), which was near the co-working space [co.up](https://co-up.de/). I really liked co.up because they hosted a bunch of events during the week in their office (Such as [Berlin.JS](https://berlinjs.org/) & [CodingAmigos](https://www.meetup.com/CodingAmigos/)). Having something to go to in the evening really helped when I was initially feeling on my own in a new city.
 
 ### Stockholm
 
@@ -47,20 +47,20 @@ I stayed in Kreuzberg (Near [Kottbusser Tor](https://www.youtube.com/watch?v=6IL
 
 I didn't know what to expect from Stockholm. I was told before leaving that Stockholm was an dull, unfriendly & expensive city. I think these were just a [stereotype](https://www.youtube.com/watch?v=2OSLXjsqmXg) spread by people who don't want Stockholm to become overcrowded.
 
-Stockholm had a lot of interesting things to see and do (Like [the Vasa](https://en.wikipedia.org/wiki/Vasa_(ship)) & [Abba The Museum](http://www.abbathemuseum.com/)), but as a city they've also embraced [Meetup](http://www.meetup.com/find/?allMeetups=true&radius=5&userFreeform=Stockholm%2C+Sweden). Most days I'd be able to find something different to do and as a result I met a bunch of really interesting people.
+Stockholm had a lot of interesting things to see and do (Like [the Vasa](https://en.wikipedia.org/wiki/Vasa_(ship)) & [Abba The Museum](https://www.abbathemuseum.com/)), but as a city they've also embraced [Meetup](https://www.meetup.com/find/?allMeetups=true&radius=5&userFreeform=Stockholm%2C+Sweden). Most days I'd be able to find something different to do and as a result I met a bunch of really interesting people.
 
 I settled into the co-working spaces in Stockholm really quickly. One of the main contributors to this was the concept of ["Fika"](https://en.wikipedia.org/wiki/Fika_(Sweden)), a Swedish cultural quirk, where you sit down and have cinnamon buns with coffee while talking to each other. This helped break the ice & made for a really warm & welcoming atmosphere where ever I went.
 
 Stockholm (like most of the nordic countries) is a tad on the expensive side, however generally the quality of everything is much higher. In my eyes paying the little bit extra was always a reasonable trade off.
 
-My two favourite co-working spaces were, [The Castle](https://www.facebook.com/thecastlesthlm) (Where the photo above was taken) & [Guerilla Office](http://www.meetup.com/Guerilla-Office/) (A popup co-working group who meet in cafes).
+My two favourite co-working spaces were, [The Castle](https://www.facebook.com/thecastlesthlm) (Where the photo above was taken) & [Guerilla Office](https://www.meetup.com/Guerilla-Office/) (A popup co-working group who meet in cafes).
 
 ### Prague
 
 Prague is the perfect city for remote working in my opinion, it has a low cost of living and offers a very good quality of life for what you're paying. Also the metro system makes travel around the city super easy.
 
 I didn't manage to try all the co-working spaces in Prague (There are far too many to choose from), I did manage to try a few though. 
-My favourite (That also happened to be a 5 minute walk from my accommodation) was [Locus Workspace](http://en.locusworkspace.cz/). It was a nice mix of members, and the staff organised lots of small events such as after work talks, shared biscuit & coffee breaks etc.
+My favourite (That also happened to be a 5 minute walk from my accommodation) was [Locus Workspace](https://en.locusworkspace.cz/). It was a nice mix of members, and the staff organised lots of small events such as after work talks, shared biscuit & coffee breaks etc.
 
 Prague was also full of surprises, one of my favourites was when a really loud announcement in Czech came from outside, and was then followed by a really loud Siren. Everyone in the office just ignored it and kept working and I was quietly wondering if this would be my last commit before I start playing fallout in real life. Turns out there is a [Siren Test](https://www.youtube.com/watch?v=UbrmSrlEwtk) the first Wednesday of every month.
 

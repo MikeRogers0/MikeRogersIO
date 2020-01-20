@@ -1,0 +1,40 @@
+[build]
+  command = "middleman build --verbose"
+  publish = "build"
+
+[[headers]]
+  for = "*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Content-Security-Policy = "default-src 'self' https: blob:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; worker-src 'self' blob: ; script-src 'self' https: 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; upgrade-insecure-requests"
+    Strict-Transport-Security = "max-age=15552000; includeSubDomains"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=604800, s-max-age=604800"
+
+[[headers]]
+  for = "/*.(png|jpg|js|css|svg|woff|ttf|eot|ico)"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, s-max-age=31536000"
+
+[[redirects]]
+  from = "/wp-login.php"
+  to = "/new-path"
+  status = 301
+
+[[redirects]]
+  from = "/wp-admin"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/sitemap.html"
+  to = "/posts.html"
+  status = 301
+
+[[redirects]]
+  from = "/my-pull-requests"
+  to = "https://github.com/search?q=is%3Aclosed+is%3Apr+author%3AMikeRogers0+archived%3Afalse+repo%3Athepracticaldev%2Fdev.to+repo%3Arubygems%2Frubygems.org+repo%3Aactiveadmin%2Factiveadmin+repo%3AMindscapeHQ%2Fraygun4ruby+repo%3Athoughtbot%2Fgriddler-sendgrid+repo%3Aicoretech%2Fomniauth-spotify+repo%3Aleighmcculloch%2Fmiddleman-cdn+repo%3AMiniProfiler%2Frack-mini-profiler+repo%3Aplataformatec%2Fdevise+repo%3Arebelidealist%2Fstripe-ruby-mock+repo%3Adevnacho%2Fmountain_view+repo%3Aalphagov%2Ffrontend+repo%3Aalphagov%2Fwhitehall+repo%3Aalphagov%2Fgovuk_template+repo%3Aphatworx%2Fdevise_security_extension+repo%3Amileszs%2Fwicked_pdf+author%3AMikeRogers0+state%3Aclosed&ref=advsearch&s=created&type=Issues"
+  status = 302

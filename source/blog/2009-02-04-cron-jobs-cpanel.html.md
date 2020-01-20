@@ -46,6 +46,6 @@ php <file> [args...]
 If you are interested in learning more about crons, please check out the following sources:
 
 * [Newbie: Intro to cron](http://www.unixgeeks.org/security/newbie/unix/cron-1.html)
-* [cron - Wikipedia](http://en.wikipedia.org/wiki/Cron)
+* [cron - Wikipedia](https://en.wikipedia.org/wiki/Cron)
 * [cPanel Tutorial: Cron Jobs](http://www.siteground.com/tutorials/cpanel/cron_jobs.htm)
 * [Cron Jobs - Cron Jobs In Cpanel](http://www.trap17.com/index.php/cron-jobs-cron-jobs-cpanel_t6321.html)

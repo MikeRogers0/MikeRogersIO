@@ -9,7 +9,7 @@ meta:
   index: true
 ---
 
-Rails has a really neat [UJS](http://guides.rubyonrails.org/working_with_javascript_in_rails.html#unobtrusive-javascript) feature that'll disable a forms submit buttons after the user has clicked it. It's a very handy to solve the age old problem of "User is clicking submit multiple times". Similarly Cloudinary has a [fantastic API](https://cloudinary.com/documentation/jquery_image_and_video_upload) that allows users to upload images directly to them, without the data having to make a stop your your server.
+Rails has a really neat [UJS](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#unobtrusive-javascript) feature that'll disable a forms submit buttons after the user has clicked it. It's a very handy to solve the age old problem of "User is clicking submit multiple times". Similarly Cloudinary has a [fantastic API](https://cloudinary.com/documentation/jquery_image_and_video_upload) that allows users to upload images directly to them, without the data having to make a stop your your server.
 
 However, out of the box, UJS won't wait for uploads to finish uploading to 3rd party servers. Luckily a bit of JavaScript magic solves this! I've setup a [repo on GitHub](https://github.com/MikeRogers0/CloudinaryHerokuDemo/) which demos this script along with a Cloudinary + CarrierWave configuration example.
 
