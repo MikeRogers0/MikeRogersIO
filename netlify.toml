@@ -12,16 +12,12 @@
     Strict-Transport-Security = "max-age=15552000; includeSubDomains"
     Referrer-Policy = "no-referrer-when-downgrade"
     Access-Control-Allow-Origin = "*"
-    cache-control = "public"
-    cache-control = "max-age=604800"
-    cache-control = "s-max-age=604800"
+    Cache-Control = "public, max-age=604800, s-max-age=604800"
 
 [[headers]]
   for = "/*.(png|jpg|js|css|svg|woff|ttf|eot|ico)"
   [headers.values]
-    cache-control = "public"
-    cache-control = "max-age=31536000"
-    cache-control = "s-max-age=31536000"
+    Cache-Control = "public, max-age=31536000, s-max-age=31536000"
 
 [[redirects]]
   from = "/wp-login.php"
