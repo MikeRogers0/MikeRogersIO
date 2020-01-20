@@ -12,7 +12,7 @@
     Strict-Transport-Security = "max-age=15552000; includeSubDomains"
     Referrer-Policy = "no-referrer-when-downgrade"
     Access-Control-Allow-Origin = "*"
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=604800, s-max-age=604800"
 
 [[headers]]
   for = "/*.(png|jpg|js|css|svg|woff|ttf|eot|ico)"
