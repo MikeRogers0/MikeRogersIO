@@ -41,6 +41,10 @@ class User::EnrichmentJob < ApplicationJob
 end
 ```
 
+## Example
+
+TODO: Take a class and rename it.
+
 ## Who else does this?
 
 I started doing this after I noticed [Rails ActiveStorage](https://guides.rubyonrails.org/configuring.html#configuring-active-storage) uses the queue names `active_storage_analysis` & `active_storage_purge`.
