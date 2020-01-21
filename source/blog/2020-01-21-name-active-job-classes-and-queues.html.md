@@ -36,7 +36,7 @@ class User::EnrichmentJob < ApplicationJob
   # Group them by the folder name
   queue_as :user
 
-  # Be more specifc if I want to run it in a dedicated worker.
+  # Be more specific if I want to run it in a dedicated worker.
   # queue_as :user_enrichment
 end
 ```
