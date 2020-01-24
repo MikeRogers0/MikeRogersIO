@@ -52,3 +52,22 @@ config/locales/views/simple_form/user.en.yml
 ## Some samples
 
 TODO: Do a form of some kind & a controller.
+
+```
+class SamplesController < ApplicationController
+  def create
+    # Look will up flash from:
+    # en.flashes.samples.create.notice
+    # Which I'd store in the file: config/locales/flashes/samples.en.yml
+    redirect_to({ action: :index }, { flash: { notice: t('.notice', scope: :flashes) } })
+  end
+end
+```
+
+```
+en:
+  flashes:
+    samples:
+      create:
+        notice: 'Sample was created successfully'
+```
