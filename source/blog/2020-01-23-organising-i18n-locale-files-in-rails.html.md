@@ -21,11 +21,13 @@ Here are some solutions to that.
 
 ## Outputting i18n lookups to logs
 
-Add the gem `i18n-debug`, then tag your logs.
+Add the gem [`i18n-debug`](https://github.com/fphilipe/i18n-debug) to your project, restart Rails and then tail your logs:
 
 ```
 tail -f log/development.log | grep "i18n-debug"
 ```
+
+As you navigate around your application you'll see Rails looking up values in the I18n. It's awesome!
 
 ## Putting locales into subfolders
 
