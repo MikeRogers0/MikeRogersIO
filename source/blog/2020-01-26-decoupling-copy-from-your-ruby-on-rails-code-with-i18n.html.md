@@ -67,9 +67,33 @@ I usually organise my files by the I18n key path, e.g. if the key is `en.activer
 
 I try to use I18n where I can in most my Rails projects, here are a few samples based on code I shipped to production which should help you get started.
 
-### Controllers
+### Views
 
 You can use the [`t` helper method](https://guides.rubyonrails.org/i18n.html#lazy-lookup) in views & controllers. It'll lookup an I18n value with a scope of your current controller & action.
+
+```erb
+<!-- app/views/samples/index.html.erb -->
+<!-- This will look for the I18n in: en.samples.index.introduction -->
+<p><%= t('.introduction') %></p>
+
+<!-- This will look for the I18n in: en.samples.index.call_to_action_html -->
+<!-- Because it ends with _html, this will have `html_safe` run against it -->
+<%= t('.call_to_action_html') %>
+```
+
+```yaml
+# config/locales/samples/index.en.yml
+en:
+  samples:
+    index:
+      call_to_action_html: |
+        <p>My <strong>call</strong> to action here</p>
+      introduction: "Sample introduction"
+```
+
+### Flashes
+
+You can also override the default scoping set by the `t` method by passing the `scope` argument.
 
 ```ruby
 class SamplesController < ApplicationController
@@ -82,7 +106,7 @@ class SamplesController < ApplicationController
 end
 ```
 
-For the above example, I scoped it to "flashes", this way I can happily store all my controller flashes within a nice scoped folder, with a file structure like:
+For the above example I scoped it to "flashes", this way I can happily store all my controller flashes within a nice scoped folder, with a file structure like:
 
 ```yaml
 # config/locales/flashes/samples.en.yml
@@ -95,7 +119,7 @@ en:
 
 ### Forms
 
-Lots of forms have shortcuts built into them to look to I18n for their copy. Error messages, labels, placeholders & even submit buttons text values can be controlled via I18n.
+Lots of form builders have shortcuts built into them to use I18n for their copy. Error messages, labels, placeholders & even submit buttons values can be controlled via I18n.
 
 ```erb
 <%= form_with model: @user do |f| %>
@@ -135,7 +159,7 @@ end
 
 ```
 
-### Plain old ruby classes
+### Plain old ruby objects
 
 I like to try to avoid hard coding text into my ruby classes by calling the `I18n.t` method with a scope. This is especially handy if you'd like to avoid a switch statement for returning different copy.
 
