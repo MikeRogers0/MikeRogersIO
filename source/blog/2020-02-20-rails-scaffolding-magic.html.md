@@ -25,3 +25,7 @@ One of the less documented aspects of Ruby on Rails is how to speed up your deve
 lib/templates/erb/controller/view.html.erb.tt
 lib/templates/erb/scaffold/_form.html.erb
 ```
+
+## References
+
+https://github.com/rails/rails/tree/b2eb1d1c55a59fee1e6c4cba7030d8ceb524267c/railties/lib/rails/generators - Where all the generators live
