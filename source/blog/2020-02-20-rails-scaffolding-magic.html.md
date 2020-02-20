@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to override the Rails default Scaffolding
+title: How to override the Ruby on Rails default scaffolding
 categories:
  – blog
 published: true
@@ -11,11 +11,7 @@ meta:
 
 One under documented aspects of Ruby on Rails is how to improve your development process by overriding the scaffolding templates.
 
-Doing this allows you to have greater control over the files that are created when you run `rails generate scaffold`, which is helpful for if you're regularly adding the same changes to a new module or you'd add some extra boilerplate to an app.
-
-## Why would you want to override the templates?
-
-The base scaffolding is great, but you may want to enforce a more bespoke aspect of your layout which requires some extra code to be present by default. For example wrapping things in an extra div, or a different way of displaying validation errors.
+Doing this allows you to have greater control over the files that are created when you run `rails generate scaffold`. While this is fairly unusual to see this in a project, it's an interesting approach for if you have a design which requires views to include extra markup to look consistent.
 
 ## A different index page
 
@@ -55,25 +51,14 @@ To do this, create a file in within your app in the location `lib/templates/erb/
 </table>
 ```
 
-## Creating a better form
+Now when you run `rails generate scaffold` it'll use the above file for the template for the `index.html.erb` file.
 
+## Other file template you can override
 
+There a bunch of other files you can override, here is a list of where to find them in the rails core:
 
-## A different model
-
-https://github.com/rails/rails/blob/98a57aa5f610bc66af31af409c72173cdeeb3c9e/activerecord/lib/rails/generators/active_record/model/templates/model.rb.tt
-
-## Where are things from
-
-One of the less documented aspects of Ruby on Rails is how to speed up your development process by overriding the scaffolding templates. By this I mean the files which are created when you run `rails generate scaffold`.
-
-
-
-```
-lib/templates/erb/controller/view.html.erb.tt
-lib/templates/erb/scaffold/_form.html.erb
-```
-
-## References
-
-https://github.com/rails/rails/tree/b2eb1d1c55a59fee1e6c4cba7030d8ceb524267c/railties/lib/rails/generators - Where all the generators live
+ - Forms - https://github.com/rails/rails/blob/b2eb1d1c55a59fee1e6c4cba7030d8ceb524267c/railties/lib/rails/generators/erb/scaffold/templates/_form.html.erb.tt
+ - Show pages - https://github.com/rails/rails/blob/b2eb1d1c55a59fee1e6c4cba7030d8ceb524267c/railties/lib/rails/generators/erb/scaffold/templates/show.html.erb.tt
+ - Controllers - https://github.com/rails/rails/blob/b2eb1d1c55a59fee1e6c4cba7030d8ceb524267c/railties/lib/rails/generators/rails/controller/templates/controller.rb.tt
+ - Models - https://github.com/rails/rails/blob/98a57aa5f610bc66af31af409c72173cdeeb3c9e/activerecord/lib/rails/generators/active_record/model/templates/model.rb.tt
+ - ActiveJob Tests - https://github.com/rails/rails/blob/b2eb1d1c55a59fee1e6c4cba7030d8ceb524267c/railties/lib/rails/generators/test_unit/job/templates/unit_test.rb.tt
