@@ -1,23 +1,17 @@
 ---
 layout: post
-title: ActiveJob first enqueued at
+title: How to get the time an ActiveJob was enqueued at
 categories:
  – blog
 published: true
 meta:
-  description: 
+  description: Knowing the exact time you queued up a background job is handy, here is how to get it in Ruby on Rails ActiveJob.
   index: true
 ---
 
-I had a really cool Ruby on Rails ActiveJob task recently where I needed to know the Time when the job was originally enqueued at (e.g. when `perform_later` was called).
+I had a really cool Ruby on Rails ActiveJob task recently where I needed to know the exact time when the job was originally enqueued at (i.e. when `perform_later` was called).
 
-Initially I had the idea of passing an additional argument into my job with the Time, e.g:
-
-```ruby
-SpecialJob.perform_later(initially_enqueued_at: Time.zone.now)
-```
-
-That solution felt distinctly terrible as for now every time I want queue that job I had to pass an identical argument to it.
+Initially I passed an argument with the current time when I call `perform_later`. That solution proved really messy, as every time I queued up the job I had to pass the additional time argument. It also wasn't very easy to quickly implement onto other projects & jobs.
 
 After a bit of documentation exploration, I then came across a [`enqueued_at`](https://api.rubyonrails.org/classes/ActiveJob/Core.html) method which is available out of the box with ActiveJob. However, as I experimented with this method I noticed in the event of a job retried due to an exception the `enqueued_at` value would be updated.
 
