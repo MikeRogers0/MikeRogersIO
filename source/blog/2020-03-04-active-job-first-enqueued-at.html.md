@@ -34,7 +34,7 @@ class ApplicationJob < ActiveJob::Base
 
   def deserialize(job_data)
     super
-    self.initially_enqueued_at = job_data['initially_enqueued_at']
+    self.initially_enqueued_at = Time.parse(job_data['initially_enqueued_at'])
   end
 end
 ```
