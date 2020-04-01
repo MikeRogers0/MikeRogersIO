@@ -49,13 +49,15 @@ I really wanted to recommend when I first started using it, but I think it needs
 
 I've had a few side projects that I had running on AWS Lightsail which I deployed with Capistrano in the past. It's super nice to run when you only want to run a Rails app for less than $5 a month. There are even [GitHub Actions](https://github.com/marketplace/actions/capistrano-deploy) to automate deployments.
 
-I don't use Capistrano to often any more as it requires setting up & _maintaining_ of servers. I really discourage developers from burdening themselves with server maintenance, as it's a large time sink which can be avoided by using a platform which removes this need.
+I don't use Capistrano to often any more as it requires setting up & _maintaining_ of servers. I really discourage developers from burdening themselves with server administration, as it's a large time sink which can be avoided by using a platform which removes this need.
 
 ## Cloud 66
 
 I used Cloud 66 in the past (Both their Maestro & classic Ruby on Rails offerings). It's a nice service & being able to connect a codebase, the just deploy it out to your AWS account is enjoyable.
 
-I did find getting metrics of my application a little tricky and as the cost scales with the amount of server, it can feel very expensive if you're running a few small servers.
+Their classic Ruby on Rails offerings is pretty quick to get going with, but as you scale up in servers will start to feel expensive. I'm also a little sceptical what they do to maintain servers.
+
+I'd suggest only using their Maestro product, as it's a bit like Convox, where they simplify Kubernetes into a single configuration file.
 
 ## Google App Engine
 
