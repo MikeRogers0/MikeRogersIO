@@ -24,7 +24,7 @@ I decided to experiment all the popular approaches over the last week & see what
 
 If they didn't offer a GitHub integration for deployment, I attempted to automated the deploy via Github Actions instead.
 
-## Heroku
+## Heroku
 
 I've used Heroku as my go to solution for the last few years. For a while it had a repetition as being quite expensive, but now they have a tier which starts as $7 a month, which makes them very affordable.
 
@@ -38,7 +38,7 @@ Every time I used Kubernetes on my local machine I had to give up 50% of my reso
 
 Still trying this one out.
 
-## Dokku
+## Dokku
 
 Dokku is kind of like Heroku, but if you wanted to run your app on a single server. It's pretty nice over using Capistrano on a single server as it handles a good amount of the extra configuration for you.
 
@@ -60,7 +60,7 @@ Their classic Ruby on Rails offerings is pretty quick to get going with, but as 
 
 I'd suggest only using their Maestro product, as it's a bit like Convox, where they simplify Kubernetes into a single configuration file.
 
-## Convox
+## Convox
 
 Convox is a really nice concept. You connect your AWS, Digital Ocean, Google Cloud or Azure account & they'll manage a Kubernetes stack for you. Then you connect your GitHub Repository and they'll handle deployments, all configured via a simple [`convox.yml`](https://docs.convox.com/configuration/convox-yml) file.
 
