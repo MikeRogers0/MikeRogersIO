@@ -20,6 +20,7 @@ I decided to experiment all the popular approaches over the last week & see what
 * Database migrations to be run as part of deployment
 * Easily scaleable
 * Deployment can be automated after tests pass.
+* Databases, Redis & file uploads are managed on an external service like AWS RDS & S3.
 
 If they didn't offer a GitHub integration for deployment, I attempted to automated the deploy via Github Actions instead.
 
@@ -36,6 +37,14 @@ I liked that the pricing is fairly obvious. I could easily see how much I was sp
 Every time I used Kubernetes on my local machine I had to give up 50% of my resources to get it running, so I've always been a little put off by it. However, it is a very popular choice for managing application resources on production servers.
 
 Still trying this one out.
+
+## Dokku
+
+Dokku is kind of like Heroku, but if you wanted to run your app on a single server. It's pretty nice over using Capistrano on a single server as it handles a good amount of the extra configuration for you.
+
+I liked how simple the [GitHub Action for Dokku Deploying](https://github.com/marketplace/actions/dokku-to-deploy) looked, you're pretty much just pushing your code via git to your server & letting it do the rest.
+
+It's a little unclear how Dokku will scale once you reach the limitation of your server (Other then increasing your single servers resources), but it does seem quite suitable for solo side projects.
 
 ## Convox
 
