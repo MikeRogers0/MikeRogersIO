@@ -23,9 +23,7 @@ I decided to experiment all the popular approaches over the last week & see what
 
 If they didn't offer a GitHub integration for deployment, I attempted to automated the deploy via Github Actions instead.
 
-## Heroku 👍
-
-Cost per a month: $14
+## Heroku
 
 I've used Heroku as my go to solution for the last few years. For a while it had a repetition as being quite expensive, but now they have a tier which starts as $7 a month, which makes them very affordable.
 
@@ -33,9 +31,27 @@ Setting up my app was just a matter of connecting my account to the GitHub Repos
 
 I liked that the pricing is fairly obvious. I could easily see how much I was spending & scale easily. The only drawback I've found is that Autoscaling is only available for the higher end tiers.
 
-## Google App Engine 👍
+## Kubernetes on Digital Ocean
 
-Cost per a month: $50
+Every time I used Kubernetes on my local machine I had to give up 50% of my resources to get it running, so I've always been a little put off by it. However, it is a very popular choice for managing application resources on production servers.
+
+Still trying this one out.
+
+## Convox
+
+Convox is a really nice concept. You connect your AWS, Digital Ocean, Google Cloud or Azure account & they'll manage a Kubernetes stack for you. Then you connect your GitHub Repository and they'll handle deployments, all configured via a simple [`convox.yml`](https://docs.convox.com/configuration/convox-yml) file.
+
+It didn't take me to long to get an app up and running on AWS which was nice, however deploying the same app to Digital Ocean didn't quite work as smoothly. When I emailed their support enquiring what was wrong I didn't get a response.
+
+I really wanted to recommend when I first started using it, but I think it needs more polish for me to recommend it as a solution for everyone.
+
+## Capistrano + Virtual Private Server
+
+I've had a few side projects that I had running on AWS Lightsail which I deployed with Capistrano in the past. It's super nice to run when you only want to run a Rails app for less than $5 a month. There are even [GitHub Actions](https://github.com/marketplace/actions/capistrano-deploy) to automate deployments.
+
+I don't use Capistrano to often any more as it requires setting up & _maintaining_ of servers. I really discourage developers from burdening themselves with server maintenance, as it's a large time sink which can be avoided by using a platform which removes this need.
+
+## Google App Engine
 
 Getting up and going was pretty straight forward. They had a fairly [clear guide](https://cloud.google.com/ruby/rails/using-cloudsql-postgres) to get going from my local terminal, which looked fairly easily to translate to a GitHub Action if I wanted to deploy in an automated fashion.
 
@@ -43,18 +59,15 @@ Out of the box the pricing was a little unclear (I had to use the [Google Cloud 
 
 One disappointing drawback was managing Environment Variables. If I wanted to store any API keys, I had to commit them to version control or [inject them while deploying](https://dev.to/mungell/google-cloud-app-engine-environment-variables-5990). I only scratched the surface, so there might be a better solution out there, but I couldn't find it.
 
-## Kubernetes on Digital Ocean 👍
+## AWS Elastic Beanstalk
 
-Still trying this one out.
+I've deployed a few apps via Beanstalk is the past & it's not to bad, though the UI does feel very "AWS" in the sense of it throws a wall of information at you & if you're not familiar with AWS it can feel a little overwhelming.
 
-## Convox 👎
+One aspected I struggled to setup easily was the background worker. It kind of feels like it's not made for running background services like Sidekiq. I'm sure it's possible, but when it's so easy on other services this was a little disappointing.
 
-Convox is a really nice concept. You connect your AWS, Digital Ocean, Google Cloud or Azure account & they'll setup a Kubernetes stack for you. Then you connect your GitHub Repository and they'll handle deployments, all configured via a simple `convox.yml` file.
+## Azure App Service
 
-It didn't take me to long to get an app up and running on AWS which was nice, however deploying the same app to Digital Ocean didn't quite work as smoothly. When I emailed their support enquiring what was wrong, I didn't get a response.
+I was quite impressed by Azure, it had a UI which made getting setting fairly easy. Out of the box it didn't support Ruby, but if you're using Docker this isn't an issue. I also found a [Github Actions template](https://github.com/Azure/actions-workflow-samples/blob/master/AppService/docker-webapp-container-on-azure.yml) for deploying which was nice.
 
-I really wanted to recommend when I first started using it, but it felt a bit of a 
+Like Google App Engine running migrations around the deploy process wasn't the most obvious thing to setup. When searching for the best way to solve this issue, I kept finding results for the "App Service Migration Assistant" which made finding information about database migrations somewhat tricky.
 
-## RedHat OpenShift 👎
-
-I couldn't figure out the [pricing](https://www.openshift.com/products/pricing/) on their pricing page. So I skipped over this option.
