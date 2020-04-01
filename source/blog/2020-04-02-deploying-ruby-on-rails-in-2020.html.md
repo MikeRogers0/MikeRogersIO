@@ -51,6 +51,12 @@ I've had a few side projects that I had running on AWS Lightsail which I deploye
 
 I don't use Capistrano to often any more as it requires setting up & _maintaining_ of servers. I really discourage developers from burdening themselves with server maintenance, as it's a large time sink which can be avoided by using a platform which removes this need.
 
+## Cloud 66
+
+I used Cloud 66 in the past (Both their Maestro & classic Ruby on Rails offerings). It's a nice service & being able to connect a codebase, the just deploy it out to your AWS account is enjoyable.
+
+I did find getting metrics of my application a little tricky and as the cost scales with the amount of server, it can feel very expensive if you're running a few small servers.
+
 ## Google App Engine
 
 Getting up and going was pretty straight forward. They had a fairly [clear guide](https://cloud.google.com/ruby/rails/using-cloudsql-postgres) to get going from my local terminal, which looked fairly easily to translate to a GitHub Action if I wanted to deploy in an automated fashion.
@@ -70,4 +76,3 @@ One aspected I struggled to setup easily was the background worker. It kind of f
 I was quite impressed by Azure, it had a UI which made getting setting fairly easy. Out of the box it didn't support Ruby, but if you're using Docker this isn't an issue. I also found a [Github Actions template](https://github.com/Azure/actions-workflow-samples/blob/master/AppService/docker-webapp-container-on-azure.yml) for deploying which was nice.
 
 Like Google App Engine running migrations around the deploy process wasn't the most obvious thing to setup. When searching for the best way to solve this issue, I kept finding results for the "App Service Migration Assistant" which made finding information about database migrations somewhat tricky.
-
