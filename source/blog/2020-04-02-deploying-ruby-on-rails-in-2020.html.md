@@ -46,14 +46,6 @@ I liked how simple the [GitHub Action for Dokku Deploying](https://github.com/ma
 
 It's a little unclear how Dokku will scale once you reach the limitation of your server (Other then increasing your single servers resources), but it does seem quite suitable for solo side projects.
 
-## Convox
-
-Convox is a really nice concept. You connect your AWS, Digital Ocean, Google Cloud or Azure account & they'll manage a Kubernetes stack for you. Then you connect your GitHub Repository and they'll handle deployments, all configured via a simple [`convox.yml`](https://docs.convox.com/configuration/convox-yml) file.
-
-It didn't take me to long to get an app up and running on AWS which was nice, however deploying the same app to Digital Ocean didn't quite work as smoothly. When I emailed their support enquiring what was wrong I didn't get a response.
-
-I really wanted to recommend when I first started using it, but I think it needs more polish for me to recommend it as a solution for everyone.
-
 ## Capistrano + Virtual Private Server
 
 I've had a few side projects that I had running on AWS Lightsail which I deployed with Capistrano in the past. It's super nice to run when you only want to run a Rails app for less than $5 a month. There are even [GitHub Actions](https://github.com/marketplace/actions/capistrano-deploy) to automate deployments.
@@ -67,6 +59,14 @@ I used Cloud 66 in the past (Both their Maestro & classic Ruby on Rails offering
 Their classic Ruby on Rails offerings is pretty quick to get going with, but as you scale up in servers will start to feel expensive. I'm also a little sceptical what they do to maintain servers.
 
 I'd suggest only using their Maestro product, as it's a bit like Convox, where they simplify Kubernetes into a single configuration file.
+
+## Convox
+
+Convox is a really nice concept. You connect your AWS, Digital Ocean, Google Cloud or Azure account & they'll manage a Kubernetes stack for you. Then you connect your GitHub Repository and they'll handle deployments, all configured via a simple [`convox.yml`](https://docs.convox.com/configuration/convox-yml) file.
+
+It didn't take me to long to get an app up and running on AWS which was nice, however deploying the same app to Digital Ocean didn't quite work as smoothly. When I emailed their support enquiring what was wrong I didn't get a response.
+
+I really wanted to recommend when I first started using it, but I think it needs more polish for me to recommend it as a solution for everyone.
 
 ## Google App Engine
 
