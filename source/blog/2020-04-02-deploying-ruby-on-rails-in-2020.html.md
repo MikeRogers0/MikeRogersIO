@@ -34,6 +34,18 @@ Setting up my app was just a matter of connecting my account to the GitHub Repos
 
 I liked that the pricing is fairly obvious. I could easily see how much I was spending & scale easily. The only drawback I've found is that Autoscaling is only available for the higher end tiers.
 
+### AWS Elastic Beanstalk
+
+AWS Elastic Beanstalk has been around a while and I've deployed to it in the past. It's definitely one of the easier methods for getting application online within the AWS environment (but not as easy as Heroku!).
+
+When I used beanstalk I did like how it was fairly cheap to run & autoscaling wasn't to hard to setup. Though if you're inexperienced with AWS it could feel a little overwhelming.
+
+Setting up a simple CI system was pretty straight forward. Historically I was able to deploy via terminal, but I found a nice  [GitHub Action](https://github.com/marketplace/actions/beanstalk-deploy) which saved a lot of headaches.
+
+One aspect I found was initially somewhat of a struggle was setting up sidekiq. Their default configuration makes this unbelievably fiddly, which is super disappointing. To work around this I found a great post on [StackOverflow](https://stackoverflow.com/a/43312614/445724). which suggested I use [container-transform](https://github.com/micahhausler/container-transform) to generate a `Dockerrun.aws.json` from my `docker-compose.yml`, it worked great & is what I'd suggest.
+
+Finally setting up release tasks was also a little tricky, but 
+
 ### Google App Engine
 
 Getting up and going was pretty straight forward. They had a fairly [clear guide](https://cloud.google.com/ruby/rails/using-cloudsql-postgres) to get going from my local terminal, which looked fairly easily to translate to a GitHub Action if I wanted to deploy in an automated fashion.
@@ -41,12 +53,6 @@ Getting up and going was pretty straight forward. They had a fairly [clear guide
 Out of the box the pricing was a little unclear (I had to use the [Google Cloud Platform Pricing Calculator](https://cloud.google.com/products/calculator/) to figure out the monthly cost). But once I started running some numbers it felt like it could very easily become quite expensive if I wasn't actively monitoring my application.
 
 One disappointing drawback was managing Environment Variables. If I wanted to store any API keys, I had to commit them to version control or [inject them while deploying](https://dev.to/mungell/google-cloud-app-engine-environment-variables-5990). I only scratched the surface, so there might be a better solution out there, but I couldn't find it.
-
-### AWS Elastic Beanstalk
-
-I've deployed a few apps via Beanstalk is the past & it's not to bad, though the UI does feel very "AWS" in the sense of it throws a wall of information at you & if you're not familiar with AWS it can feel a little overwhelming.
-
-One aspected I struggled to setup easily was the background worker. It kind of feels like it's not made for running background services like Sidekiq. I'm sure it's possible, but when it's so easy on other services this was a little disappointing.
 
 ### Azure App Service
 
