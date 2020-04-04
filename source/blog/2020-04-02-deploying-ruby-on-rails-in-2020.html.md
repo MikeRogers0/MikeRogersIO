@@ -9,42 +9,48 @@ meta:
   index: true
 ---
 
-_TL;DR: Heroku is still hands downs my preferred choice for Rails hosting in 2020. Digital Ocean is my other preferred option._
+_TL;DR: Heroku is still hands downs my preferred choice for hosting & deployment in 2020. Digital Ocean is my other preferred option._
 
-Deploying modern web applications is one of the constant learning curves I've encountered over the last few years. Every solution is subtly different & it always feels like an ever evolving world.
+Hosting & deploying a modern Ruby on Rails application is an adventure! The options available are constantly evolving & a lot of it feels like magic.
 
-I decided to experiment all the popular approaches over the last week & see what state of deployment was in 2020. For this I setup a simple Rails app which had the following fairly common requirements:
+I decided to experiment a few the popular approaches over the last week & see what state of Ruby on Rails deployment was in 2020.
+
+I setup a simple Rails app which had the following fairly common requirements:
 
 * Assets imported via Yarn
 * Background jobs being performed via Sidekiq
 * Database migrations to be run as part of deployment
 * Easily scaleable
-* Deployment can be automated after tests pass.
+* Deployment can be automated after a test suite passes
 * Databases, Redis & file uploads are managed on an external service like AWS RDS & S3.
 
-If they didn't offer a GitHub integration for deployment, I attempted to automated the deploy via Github Actions instead.
+For automated deployments I'd use what integrations they offered, if they didn't offer an easy integration I setup a script via a Github Action to perform the deployment.
 
 ## PaaS
 
+Platform as a Service has been my preferred hosting choice for most my professional career. They normally handle patching of the server software, so I just have to provide my apps code & they do the rest, it's awesome.
+
 ### Heroku
 
-I've used Heroku as my go to solution for the last few years. For a while it had a repetition as being quite expensive, but now they have a tier which starts as $7 a month, which makes them very affordable.
+I've used Heroku as my go to solution for the last few years. For a while it had a repetition as being quite expensive, but now that they have a tier which starts as $7 a month they are very affordable.
 
 Setting up my app was just a matter of connecting my account to the GitHub Repository & clicking "Deploy". Automating deploys was pretty painless as I just had a to check a box in their very clear web UI.
 
-I liked that the pricing is fairly obvious. I could easily see how much I was spending & scale easily. The only drawback I've found is that Autoscaling is only available for the higher end tiers.
+I liked that the pricing is fairly obvious. I could easily see how much I was spending & scale easily. The only drawback I've found is that autoscaling is only available for the higher end tiers.
 
 ### AWS Elastic Beanstalk
 
-AWS Elastic Beanstalk has been around a while and I've deployed to it in the past. It's definitely one of the easier methods for getting application online within the AWS environment (but not as easy as Heroku!).
+I really want to rip Beanstalk for being classily AWS "Here is a product...good luck". But annoyingly it's one of the best products for getting a Ruby on Rails online within the AWS Environment.
 
-When I used beanstalk I did like how it was fairly cheap to run & autoscaling wasn't to hard to setup. Though if you're inexperienced with AWS it could feel a little overwhelming.
+Beanstalk is pretty cheap & you have a lot of options for what kind of severs you'd like, which is nice. You can also setup autoscaling without to much kerfuffle via their Web UI, though if you're unfamiliar with AWS it might feel a little intimidating at first.
 
-Setting up a simple CI system was pretty straight forward. Historically I was able to deploy via terminal, but I found a nice  [GitHub Action](https://github.com/marketplace/actions/beanstalk-deploy) which saved a lot of headaches.
+To be able to run both Rails & Sidekiq comfortably within my Beanstalk setup, I used their ["Multicontainer Docker environments"](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_docker_ecs.html). I pretty much just setup a `Dockerrun.aws.json` (which feels a lot like `docker-compose.yml`), then was good to go.
 
-One aspect I found was initially somewhat of a struggle was setting up sidekiq. Their default configuration makes this unbelievably fiddly, which is super disappointing. To work around this I found a great post on [StackOverflow](https://stackoverflow.com/a/43312614/445724). which suggested I use [container-transform](https://github.com/micahhausler/container-transform) to generate a `Dockerrun.aws.json` from my `docker-compose.yml`, it worked great & is what I'd suggest.
+Setting up a simple CI system was pretty straight forward. Historically I was able to deploy via terminal, but I found a nice [GitHub Action](https://github.com/marketplace/actions/beanstalk-deploy) which saved a lot of headaches.
 
-Finally setting up release tasks was also a little tricky, but 
+Figuring out the pricing of Beanstalk is a little tricky, like all AWS products they don't show you an estimate of cost at the point of sale.
+
+I need to do a full write-up about getting online with AWS Elastic Beanstalk, I think it's a great tool but it takes a bit of googling to get your initial setup feeling correct.
 
 ### Google App Engine
 
@@ -62,13 +68,13 @@ Like Google App Engine running migrations around the deploy process wasn't the m
 
 ## Kubernetes
 
-### Kubernetes on Digital Ocean
+Every time I've historically used Kubernetes on my local machine, I found it would drain my battery super fast, so I've always been a little put off by it. However, I'm seeing it appear in job descriptions so I thought I should give it a try.
 
-Every time I used Kubernetes on my local machine I had to give up 50% of my resources to get it running, so I've always been a little put off by it. However, it is a very popular choice for managing application resources on production servers.
+Most cloud providers (AWS, Azure, Google & Digital Ocean) each provide a Kubernetes product. I ended up doing most of my experimenting with Digital Ocean as they had the most clear pricing.
 
-When I first started with Kubernetes, I found the initial learning curve quite steep. Luckily I found [Kompose](https://kompose.io/) which is a tool that makes moving from docker-compose to Kubernetes a little easier. I also found a nice [sample setup with a GitHub Action](https://github.com/do-community/example-doctl-action) for deploying to Digital Ocean, which made deploying quite nice.
+I found the initial learning curve of Kubernetes quite steep. Luckily I found [Kompose](https://kompose.io/) which is a tool that makes moving from docker-compose to Kubernetes a little easier. I also found a nice [sample setup with a GitHub Action](https://github.com/do-community/example-doctl-action) for deploying to Digital Ocean, which made deploying more approachable.
 
-After getting going on Digital Ocean, I then tried AWS, Azure & Google's Kubernetes offerings. I massively preferred Digital Ocean as it was super transparent as to how much everything was all costing.
+Overall I felt Kubernetes was a nice solution for apps that required lots of services to operate correctly. 
 
 Overall Kubernetes seemed like a good solution for once your project out grows Heroku (e.g. you're spending more then the cost of a Devops specialist per a month on servers). I'd recommend using it via Convox or Cloud 66 Maestro initially as it can be a little fiddly to configure.
 
