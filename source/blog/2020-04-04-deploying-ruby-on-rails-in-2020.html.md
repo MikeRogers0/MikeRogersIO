@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Deploying your Ruby on Rails in 2020
+title: Hosting your Ruby on Rails aoo in 2020
 categories:
  – blog
 published: true
 meta:
-  description: So many options?! But which is the best all round.
+  description: So many options?! But which is the best all round for hosting & ease of deployment?
   index: true
 ---
 
