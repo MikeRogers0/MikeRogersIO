@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hosting your Ruby on Rails aoo in 2020
+title: Where to host your Ruby on Rails App in 2020
 categories:
  – blog
 published: true
@@ -120,4 +120,4 @@ I don't use Capistrano to often any more as it requires setting up & _maintainin
 
 ## Conclusion
 
-Heroku still remains my favourite service for Ruby on Rails, though I was also fairly impressed with AWS Elastic Beakstalk. If I was required to maintain a server I'd consider going down the Kubernetes on Digital Ocean route.
+Heroku still remains my favourite service for Ruby on Rails, though I was also fairly impressed with AWS Elastic Beanstalk. If I was required to maintain a server I'd consider going down the Kubernetes on Digital Ocean route.
