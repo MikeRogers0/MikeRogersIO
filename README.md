@@ -7,21 +7,12 @@
 
 My personal website which shows off bits of my portfolio and ramblings from my blog.
 
+## Setup
+
+1. `git clone git@github.com:MikeRogers0/MikeRogersIO.git`
+2. `bundle && yarn`
+3. `bundle exec middleman s`
+
 ## Deploying
 
-```bash
-cap production deploy
-```
-
-### Deploy Setup
-
-```bash
-cap production puma:config
-cap production puma:nginx_config
-```
-
-## Running the specs
-
-```bash
-bundle exec rspec
-```
+This is hosted on https://www.netlify.com/ - It'll automatically deploy everything that is merged into master.
