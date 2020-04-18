@@ -1,0 +1,22 @@
+# Docker Compose 2.4 is for local development
+# https://www.heroku.com/podcasts/codeish/57-discussing-docker-containers-and-kubernetes-with-a-docker-captain - Source on that.
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/usr/src/app
+      - rails_cache:/usr/src/app/tmp/cache
+      - bundle:/usr/local/bundle
+      - node_modules:/usr/src/app/node_modules
+    command: bash -c "rm -rf /usr/src/app/tmp/pids/server.pid && bundle exec puma -C config/puma.rb -p 3000"
+    ports:
+      - "${PORT:-3001}:3000"
+
+volumes:
+  rails_cache:
+  bundle:
+  node_modules:
