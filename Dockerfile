@@ -26,6 +26,7 @@ COPY .ruby-version /usr/src/app
 
 # Install latest bundler
 RUN gem update --system && gem install bundler:2.0.2
+# RUN bundle config path /usr/local/bundle
 RUN bundle config --global silence_root_warning 1 && echo -e 'gem: --no-document' >> /etc/gemrc
 
 # Install gems which regularly take a while to install
