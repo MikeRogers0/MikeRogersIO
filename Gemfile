@@ -3,10 +3,6 @@ ruby File.read('.ruby-version').chomp
 source 'https://rubygems.org' do
   gem 'dotenv'
 
-  gem 'puma'
-  gem 'rack-contrib'
-  gem 'rake'
-
   gem 'middleman', '~> 4.3.5'
   gem 'middleman-blog'
   gem 'middleman-minify-html'

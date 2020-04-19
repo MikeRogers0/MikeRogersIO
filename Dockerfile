@@ -3,7 +3,7 @@ FROM ruby:2.7.1-alpine AS development
 LABEL maintainer="Mike Rogers <me@mikerogers.io>"
 
 # Install the Essentials
-ENV BUILD_DEPS="curl tar wget linux-headers" \
+ENV BUILD_DEPS="curl tar wget linux-headers bash" \
     DEV_DEPS="ruby-dev build-base postgresql-dev zlib-dev libxml2-dev libxslt-dev readline-dev tzdata git nodejs"
 
 RUN apk add --update --upgrade $BUILD_DEPS $DEV_DEPS
@@ -34,20 +34,14 @@ RUN gem install sassc -v 2.2.1 && gem install nokogiri -v 1.10.8
 # Install Ruby Gems
 COPY Gemfile /usr/src/app
 COPY Gemfile.lock /usr/src/app
-RUN bundle check || bundle install --jobs=$(nproc)
+# RUN bundle check || bundle install --jobs=$(nproc)
 
 # Install Yarn Libraries
 COPY package.json /user/src/app
-RUN yarn install --check-files
+# RUN yarn install --check-files
 
 # Copy the rest of the app
 COPY . /usr/src/app
-
-# Clean up APT when done.
-RUN apk del $BUILD_DEPS \
-  && rm -rf /var/cache/apk/* \
-  && rm -rf /usr/lib/ruby/gems/*/cache/* \
-  && rm -rf /tmp/* /var/tmp/*;
 
 EXPOSE 3001
 CMD ["bundle", "exec", "middleman", "server", "-p", "3001"]
