@@ -1,4 +1,4 @@
-FROM ruby:2.6-slim AS development
+FROM ruby:2.6.6-slim AS development
 
 LABEL maintainer="Mike Rogers <me@mikerogers.io>"
 
@@ -38,16 +38,17 @@ COPY Gemfile /usr/src/app
 COPY Gemfile.lock /usr/src/app
 RUN bundle check || bundle install --jobs=$(nproc)
 
+# Install Yarn Libraries
+COPY package.json /user/src/app
+RUN yarn install --check-files
+
 # Copy the rest of the app
 COPY . /usr/src/app
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-EXPOSE 3000
-CMD ["puma", "-C", "config/puma.rb", "-p", "3000"]
+EXPOSE 3001
+CMD ["bundle", "exec", "middleman", "server", "-p", "3001"]
 
 FROM development
-
-# Install Yarn Libraries
-RUN yarn install --check-files
