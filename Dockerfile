@@ -1,23 +1,15 @@
-FROM ruby:2.6.6-slim AS development
+FROM ruby:2.7.1-alpine AS development
 
 LABEL maintainer="Mike Rogers <me@mikerogers.io>"
 
 # Install the Essentials
-RUN apt-get update -qq && apt-get install -y build-essential apt-transport-https ca-certificates gnupg2 netcat curl openssl tzdata
+ENV BUILD_DEPS="curl tar wget linux-headers" \
+    DEV_DEPS="ruby-dev build-base postgresql-dev zlib-dev libxml2-dev libxslt-dev readline-dev tzdata git nodejs"
 
-# Install the PostgreSQL packages
- #RUN apt-get install -y libpq-dev
-
-# Install the nokogiri packages
-RUN apt-get install -y libxml2-dev libxslt1-dev
-
-# Add NodeJS to sources list
-RUN curl -sL https://deb.nodesource.com/setup_13.x | bash -
+RUN apk add --update --upgrade $BUILD_DEPS $DEV_DEPS
 
 # Install Yarn
-RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
-RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
-RUN apt-get update -qq && apt-get install -y nodejs yarn
+RUN apk add --update yarn
 
 # Add the current apps files into docker image
 RUN mkdir -p /usr/src/app
@@ -25,15 +17,21 @@ WORKDIR /usr/src/app
 
 # Install any extra dependencies via Aptfile
 # COPY Aptfile /usr/src/app/Aptfile
-# RUN apt-get install -y $(cat /usr/src/app/Aptfile | xargs)
+# RUN apk add --update $(cat /usr/src/app/Aptfile | xargs)
 
 ENV PATH /usr/src/app/bin:$PATH
 
+# Set ruby version
+COPY .ruby-version /usr/src/app
+
 # Install latest bundler
 RUN gem update --system && gem install bundler:2.0.2
+RUN bundle config --global silence_root_warning 1 && echo -e 'gem: --no-document' >> /etc/gemrc
+
+# Install gems which regularly take a while to install
+RUN gem install sassc -v 2.2.1 && gem install nokogiri -v 1.10.8
 
 # Install Ruby Gems
-COPY .ruby-version /usr/src/app
 COPY Gemfile /usr/src/app
 COPY Gemfile.lock /usr/src/app
 RUN bundle check || bundle install --jobs=$(nproc)
@@ -46,7 +44,10 @@ RUN yarn install --check-files
 COPY . /usr/src/app
 
 # Clean up APT when done.
-RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN apk del $BUILD_DEPS \
+  && rm -rf /var/cache/apk/* \
+  && rm -rf /usr/lib/ruby/gems/*/cache/* \
+  && rm -rf /tmp/* /var/tmp/*;
 
 EXPOSE 3001
 CMD ["bundle", "exec", "middleman", "server", "-p", "3001"]
