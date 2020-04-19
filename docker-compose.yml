@@ -1,0 +1,27 @@
+# Docker Compose 2.4 is for local development
+# https://www.heroku.com/podcasts/codeish/57-discussing-docker-containers-and-kubernetes-with-a-docker-captain - Source on that.
+version: '2.4'
+
+services:
+  web:
+    image: mikerogers_io:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/usr/src/app
+      - rails_cache:/usr/src/app/tmp/cache
+      - bundle:/usr/local/bundle
+      - middleman_build:/usr/src/app/build
+    command: >
+      bash -c "bundle check || bundle install &&
+      yarn install --check-files &&
+      rm -rf /usr/src/app/tmp/pids/server.pid &&
+      bundle exec middleman server -p 3001"
+    ports:
+      - "${PORT:-3001}:3001"
+
+volumes:
+  rails_cache:
+  bundle:
+  middleman_build:

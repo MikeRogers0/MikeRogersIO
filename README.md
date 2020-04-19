@@ -10,8 +10,14 @@ My personal website which shows off bits of my portfolio and ramblings from my b
 ## Setup
 
 1. `git clone git@github.com:MikeRogers0/MikeRogersIO.git`
-2. `bundle && yarn`
-3. `bundle exec middleman s`
+2. `docker-compose up`
+3. `open http://127.0.0.1:3001/`
+
+## Testing
+
+This has automated test to make sure it can build (WOO!), run them like:
+
+`docker-compose run --rm web bundle exec rspec`
 
 ## Deploying
 
