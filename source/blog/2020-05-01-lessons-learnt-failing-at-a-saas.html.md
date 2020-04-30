@@ -9,15 +9,9 @@ meta:
   index: true
 ---
 
-## Stats:
-
-Hosting Cost: $23 a month
-First Commit: 28th Aug 2018
-Shutdown Date: 1st May 2020
-
-## Article
-
 In March 2020 I decided it was time to shutdown my PigCI side project. It was a small piece of software that you'd attach to your Rails RSpec test suite that warn you if you had an unexpected increase in memory or database requests.
+
+The [Ruby Gem](https://github.com/PigCI/pig-ci-rails) is was updated to work independently, and I've open sourced the [Ruby on Rails App](https://github.com/PigCI/App), which was used to update pull requests on GitHub.
 
 I made a lot of mistakes attempting to convert this into a SaaS, here are some of my notes over the last month as to what went wrong.
 
@@ -35,7 +29,17 @@ Promotion is hard! It took me almost a month to have a user sign up & use the pr
 - *Twitter*: I had a few clicks, but no conversions.
 - $50 for Beers in Person: This was a real winner! I brought a few developers a beer & was able to talk them through the product, along with hearing their feedback.
 
-While AdWords was a great way to get users, the feedback I gained by talking to people face to face while 10x more valuable. 
+While AdWords was a great way to get a few initial users, the feedback I gained by talking to people face to face while 10x more valuable. If you can, sit down with your potential users & hear them out do it!
+
+## The GitHub Marketplace...
+
+I used the GitHub Marketplace as a way for users to connect their GitHub account to my SaaS App. It seemed like a great deal, GitHub would list me in their marketplace (which drove installs) while taking a 30% cut of the paid tier subscriptions.
+
+The catch with GitHub, was I had to be verified before I could start charging for usage. I was _ok_ with having to reach a threshold of users before I could start changing, however *GitHub paused verifying applications in January*. This really screwed me as the  marketplace guidelines say I'm not allowed to be listed on the GitHub marketplace if I offer a paid service outside of GitHub Marketplace.
+
+This meant for the last 4 months I had zero chance of earning a penny if I was in their Marketplace unless I was verified (which was not possible). It really killed my motivation as I had built my product around the marketplace. When I tried to contact their support regarding the status of the pause, they've taken up to a month to respond.
+
+Hindsight being 20/20, the GitHub Marketplace was a poor choice, I would have been better off using Gumroad or Stripe to handle monetizing the product.
 
 ## Automated deploys make life a joy
 
@@ -45,17 +49,11 @@ One of the big advantages of Heroku was it allowed me to easily Automate deploys
 
 One of the best moments I had which validated this setup, was when I was able to quickly tweak some of the app by making a Pull Request from my iPhone while on a train.
 
-## Support
+## Breakup your app via subdomains
 
-Email is ok.
+Ever wondered why lots of apps are often on a subdomain like `app.company-name.com`? I copied that a little as my API & Webhook endpoints were on subdomains, but not my main app.
 
-## Breakup app via subdomains
-
-
-
-## Target Adverts as much as you can
-
-I wasted some cash learning Adwords
+Having my app split up over different subdomains was great, mostly because it made filtering my logs easier. I really wish I had put my marketing site on a different subdomain to my app, as I'm growing really fond of having a blazing fast middleman site for marketing and have the user facing web app running Rails somewhere else.
 
 ## Generic naming is better
 
