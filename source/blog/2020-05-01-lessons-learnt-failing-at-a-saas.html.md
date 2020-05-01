@@ -9,9 +9,9 @@ meta:
   index: true
 ---
 
-In March 2020 I decided it was time to shutdown my PigCI side project. It was a small piece of software that you'd attach to your Rails RSpec test suite that warn you if you had an unexpected increase in memory or database requests.
+In March 2020 I decided it was time to shutdown my [PigCI](https://pigci.com/) side project. It was a small piece of software that you'd attach to your Rails RSpec test suite that warn you on GitHub if you had an unexpected increase in memory usage or database requests.
 
-The [Ruby Gem](https://github.com/PigCI/pig-ci-rails) is was updated to work independently, and I've open sourced the [Ruby on Rails App](https://github.com/PigCI/App), which was used to update pull requests on GitHub.
+The [Ruby Gem](https://github.com/PigCI/pig-ci-rails) has been update so it can run more independently, and I've open sourced the [Ruby on Rails App](https://github.com/PigCI/App) which was used to pass/fail pull requests on GitHub.
 
 I made a lot of mistakes attempting to convert this into a SaaS, here are some of my notes over the last month as to what went wrong.
 
