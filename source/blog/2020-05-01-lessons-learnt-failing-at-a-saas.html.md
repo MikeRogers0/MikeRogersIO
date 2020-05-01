@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lessons Learnt Failing at a SaaS
+title: Lessons Learnt Failing to monetize a Ruby Gem.
 categories:
  – blog
 published: true
@@ -9,17 +9,19 @@ meta:
   index: true
 ---
 
-In March 2020 I decided it was time to shutdown my [PigCI](https://pigci.com/) side project. It was a small piece of software that you'd attach to your Rails RSpec test suite that warn you on GitHub if you had an unexpected increase in memory usage or database requests.
+My side project [PigCI](https://pigci.com/) is a small piece of software that you'd attach to your RSpec test suite, and would warn you on GitHub if you had an unexpected increase in memory usage or database requests. It achieved just over 9,000 downloads & earned me a total of $0.
 
-The [Ruby Gem](https://github.com/PigCI/pig-ci-rails) has been update so it can run more independently, and I've open sourced the [Ruby on Rails App](https://github.com/PigCI/App) which was used to pass/fail pull requests on GitHub.
+I decided in March 2020, it was a good time to shutdown the GitHub App side of it & free myself up to focus on other projects. I've open sourced the [Ruby on Rails App](https://github.com/PigCI/App) (It might be helpful to anyone curious about setting up a GitHub App), and I've also updated the [Ruby Gem](https://github.com/PigCI/pig-ci-rails) so it doesn't require a GitHub App to pass/fail pull requests.
 
-I made a lot of mistakes attempting to convert this into a SaaS, here are some of my notes over the last month as to what went wrong.
+I learnt a lot while attempting to monetize PigCI (It was a lot of fun!), but I also made a bunch of mistakes.
 
-## Product first, SaaS later
+## Build a little, learn a little & repeat
 
 I launched PigCI as a full singing and dancing SaaS from day one. This was a terrible approach, I had zero idea if people would even use the product let alone pay for it. Further more, because I had spent so much time setting up the SaaS it made me unwilling to pivot to a better monetisation model.
 
 Had I done it again, I would have just launched the library & talked to people who actually used it. From there I could decided if it would have been worth going to route of [heya](https://github.com/honeybadger-io/heya) (who charge via Gumroad) or creating a full blown app to support it.
+
+It really friggin limited options as I got a bit laser focused focused.
 
 ## Promote in person
 
@@ -31,6 +33,15 @@ Promotion is hard! It took me almost a month to have a user sign up & use the pr
 
 While AdWords was a great way to get a few initial users, the feedback I gained by talking to people face to face while 10x more valuable. If you can, sit down with your potential users & hear them out do it!
 
+## Download Stats are unreliable
+
+Rubygems.org - Every download counts, even those in CI.
+
+## App Standups in Slack
+
+One thing which really motivated me was my app post a little standup in slack every morning. Seeing that new people had joined, or lots of commits had been processed really spurred me on!
+
+
 ## The GitHub Marketplace...
 
 I used the GitHub Marketplace as a way for users to connect their GitHub account to my SaaS App. It seemed like a great deal, GitHub would list me in their marketplace (which drove installs) while taking a 30% cut of the paid tier subscriptions.
@@ -40,6 +51,8 @@ The catch with GitHub, was I had to be verified before I could start charging fo
 This meant for the last 4 months I had zero chance of earning a penny if I was in their Marketplace unless I was verified (which was not possible). It really killed my motivation as I had built my product around the marketplace. When I tried to contact their support regarding the status of the pause, they've taken up to a month to respond.
 
 Hindsight being 20/20, the GitHub Marketplace was a poor choice, I would have been better off using Gumroad or Stripe to handle monetizing the product.
+
+## Ask for money
 
 ## Automated deploys make life a joy
 
