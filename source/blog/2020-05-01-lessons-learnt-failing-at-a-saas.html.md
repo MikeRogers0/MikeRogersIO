@@ -9,23 +9,23 @@ meta:
   index: true
 ---
 
-My side project [PigCI](https://pigci.com/) is a small piece of software that you'd attach to your RSpec test suite, and would warn you on GitHub if you had an unexpected increase in memory usage or database requests. It achieved just over 9,000 downloads & earned me a total of $0.
+My side project [PigCI](https://pigci.com/) is a small piece of software that you'd attach to your RSpec test suite, and it'll warn you on GitHub (Via a small GitHub App I wrote) if you had an unexpected increase in memory usage or database requests. It achieved just over 9,000 downloads & had some wonderful feedback from users. I intended to monetize this library via the GitHub Marketplace, unfortunately it earned a total of $0.
 
-I decided in March 2020, it was a good time to shutdown the GitHub App side of it & free myself up to focus on other projects. I've open sourced the [Ruby on Rails App](https://github.com/PigCI/App) (It might be helpful to anyone curious about setting up a GitHub App), and I've also updated the [Ruby Gem](https://github.com/PigCI/pig-ci-rails) so it doesn't require a GitHub App to pass/fail pull requests.
+I decided in March 2020, it was a good time to shutdown the GitHub App side of it & free myself up to focus on other projects. I've open sourced the [GitHub App](https://github.com/PigCI/App) (It might be helpful to anyone curious about setting up a GitHub App with Ruby on Rails), and I've also updated the [Ruby Gem](https://github.com/PigCI/pig-ci-rails) so it doesn't require a GitHub App to pass/fail pull requests.
 
-I learnt a lot while attempting to monetize PigCI (It was a lot of fun!), but I also made a bunch of mistakes.
+I learnt a lot while attempting to monetize PigCI (It was a lot of fun!), but I also made a bunch of mistakes which I hope others might find useful to hear about.
 
 ## Build a little, learn a little & repeat
 
-I launched PigCI as a full singing and dancing SaaS from day one. This was a terrible approach, I had zero idea if people would even use the product let alone pay for it. Further more, because I had spent so much time setting up the SaaS it made me unwilling to pivot to a better monetisation model.
+I launched PigCI as a full singing and dancing SaaS from day one. This was a terrible approach, I had zero idea if people would even use the product let alone if they'd pay for it. It gets worse though, because I had sunk a lot of time into a subscription model which relied heavily on GitHub, I disregard potentially considering a better monetisation approach. 
 
-Had I done it again, I would have just launched the library & talked to people who actually used it. From there I could decided if it would have been worth going to route of [heya](https://github.com/honeybadger-io/heya) (who charge via Gumroad) or creating a full blown app to support it.
+I think it's fairly normal to see want to launch a polished product & only charge customers in a single way. But it's the worst way to earn money. It took me seeing the [heya](https://github.com/honeybadger-io/heya) gem charging via Gumroad to really realise how much I had screwed up. I had wasted a bunch of time building the parts to support a subscription model, when I should have been promoting & improving the darn thing!
 
-It really friggin limited options as I got a bit laser focused focused.
+If I was to do it all again, I'll just build a little bit of the product with a small "hey buy a licence" request in the README. Enough to let people see it working, but with a little push to get people to validate it's a good product with their money.
 
 ## Promote in person
 
-Promotion is hard! It took me almost a month to have a user sign up & use the product for more then a month. I put aside $150 & split it between various platforms, here is the results:
+Promotion is tricky and it's 100% not within my skill set. I put aside $150 & split it between various platforms, here is the results:
 
 - *AdWords*: I screwed up & $50 was gone in less than 5 minutes. Turns out I targeted the keywords "rails", "memory" & "usage" to appeared anywhere in a search query instead of as an exact phrase. So I had just sent people looking for "national rail usage" to a pig themed website. I tried again with Typo CI a few months later ($50, this time with very specific targeting) & it worked out about $5 per an install.
 - *Twitter*: I had a few clicks, but no conversions.
