@@ -68,6 +68,12 @@ Being able to filter my logs by subdomain made it super easy to see what was goi
 
 I really wish I had put my marketing site on a different subdomain to my app. I'm growing really fond of having a blazing fast middleman site for marketing and have the user facing web app running Rails somewhere else.
 
+## Talking to other people running side projects
+
+One of my friends runs both [PR Scheduler](https://github.com/marketplace/pr-scheduler) & [CommitCheck](https://github.com/marketplace/commitcheck). Having someone to compare experiences with was really enjoyable, plus we're a little competitive on who has the most users.
+
+I'd totally recommend joining some of the IndieHacker groups out there, it makes working a lot more fun.
+
 ## Generic naming is better
 
 I named the project "PigCI". You know what no one is searching for? Pig themed CI services.
