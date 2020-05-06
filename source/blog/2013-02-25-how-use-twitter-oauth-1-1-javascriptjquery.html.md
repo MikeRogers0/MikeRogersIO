@@ -23,7 +23,7 @@ Create a file called twitter-proxy.php and place it somewhere publicly accessibl
 
 /**
  *  Usage:
- *  Send the url you want to access url encoded in the url paramater, for example (This is with JS): 
+ *  Send the URL you want to access URL encoded in the URL parameter, for example (This is with JS): 
  *  /twitter-proxy.php?url='+encodeURIComponent('statuses/user_timeline.json?screen_name=MikeRogers0&count=2')
 */
 
@@ -67,7 +67,7 @@ $base_url = $config['base_url'].$url_parts['path']; // Url without the query.
 
 /**
 * Code below from http://stackoverflow.com/questions/12916539/simplest-php-example-retrieving-user-timeline-with-twitter-api-version-1-1 by Rivers 
-* with a few modfications by Mike Rogers to support variables in the URL nicely
+* with a few modifications by Mike Rogers to support variables in the URL nicely
 */
 
 function buildBaseString($baseURI, $method, $params) {

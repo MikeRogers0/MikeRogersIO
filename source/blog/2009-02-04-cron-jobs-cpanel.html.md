@@ -14,7 +14,7 @@ meta:
 ---
 A cron is a program which allows users to execute scripts at a specified time and date. In the web development world they are normally used to update caches or run complex pieces of code (this in theory should improve the user experience).
 
-In this short video I will explain the basics of crons & how to run a PHP at a regular interval.
+In this short video I will explain the basics of Cron Jobs & how to run a PHP at a regular interval.
 
 {% youtube L5_5NxP83LE %}
 
@@ -43,7 +43,7 @@ php <file> [args...]
 
 ## Related Links
 
-If you are interested in learning more about crons, please check out the following sources:
+If you are interested in learning more about Cron Jobs, please check out the following sources:
 
 * [Newbie: Intro to cron](http://www.unixgeeks.org/security/newbie/unix/cron-1.html)
 * [cron - Wikipedia](https://en.wikipedia.org/wiki/Cron)

@@ -31,7 +31,7 @@ I also want to improve the extension, I can do some of the things myself, howeve
 
 ## Why not sell it outright?
 
-Every other month or so, I receive a request to sell LivePage outright (Normally offering $0.10 per WAU). A quick search normally suggests the buyer simply wants to [inject adware into the extension](https://www.labnol.org/internet/sold-chrome-extension/28377/). I am 100% against exposing users who have trusted me to that level of douchebaggery.
+Every other month or so, I receive a request to sell LivePage outright (Normally offering $0.10 per WAU). A quick search normally suggests the buyer simply wants to [inject adware into the extension](https://www.labnol.org/internet/sold-chrome-extension/28377/). I am 100% against exposing users who have trusted me to that level of risk.
 
 ## What is happen next?
 

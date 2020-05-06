@@ -22,7 +22,7 @@ After running Bens script, I run a few extra configuration settings to make OSX 
 #
 # Make OSX feel a little snappier, I normally run this after running https://gist.github.com/BenNunney/7219538
 
-# Speed up window tranisations
+# Speed up window transitions
 defaults write NSGlobalDomain NSWindowResizeTime 0.01;
 
 # Speed up mission control transition (F3)
@@ -32,7 +32,7 @@ defaults write com.apple.dock expose-animation-duration -float 0.1;
 defaults write com.apple.dock springboard-show-duration -float 0.1;
 defaults write com.apple.dock springboard-hide-duration -float 0.1;
 
-# Stop dock item jumping when they want my attension
+# Stop dock item jumping when they want my attention
 defaults write com.apple.dock no-bouncing -bool TRUE;
 
 # Set preview to default screenshots to jpg.
@@ -48,7 +48,7 @@ sudo defaults write /System/Library/LaunchAgents/com.apple.BezelUI Disabled --bo
 
 ## Homebrew and Homebrew Cask
 
-It's a super pain to go and install all the apps and scripts I need, so I install [Homebrew](https://brew.sh/) and [Homebrew Cask](https://formulae.brew.sh/cask/) to quickly install the stuff I want. Here are the essential libaries and apps I normally install:
+It's a super pain to go and install all the apps and scripts I need, so I install [Homebrew](https://brew.sh/) and [Homebrew Cask](https://formulae.brew.sh/cask/) to quickly install the stuff I want. Here are the essential libraries and apps I normally install:
 
 ```bash
 #!/usr/bin/env sh

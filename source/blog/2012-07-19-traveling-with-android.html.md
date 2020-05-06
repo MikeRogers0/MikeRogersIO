@@ -26,7 +26,7 @@ I was fairly paranoid about losing my phone, or my data while I was away. Her
 
 ### Prey
 
-[Prey](http://preyproject.com/) lets you keep track of your stolen device via a web interface & in some cases you can take pictures of the people who have taken it. It's also free, so this seemed like a no brainer.
+[Prey](http://preyproject.com/) lets you keep track of your stolen device via a web interface & in some cases you can take pictures of the people who have taken it. It's also free, so this seemed like a no-brainer.
 
 ### SugarSync
 
@@ -64,4 +64,4 @@ In most cities the signal was pretty awesome, I could download at about 100kb/s.
 
 ## 5. Making calls on the cheap
 
-Calling & texting while traveling looked friggin expensive! However with the data SIM I had & jumping onto free wifi, I used [Viber](http://www.viber.com/) (It's like Skype, but not a bloated OTT POS) to make calls & message people.
+Calling & texting while traveling looked rather expensive! However with the data SIM I had & jumping onto free wifi, I used [Viber](http://www.viber.com/) (It's like Skype, but not a bloated OTT POS) to make calls & message people.

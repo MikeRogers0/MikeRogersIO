@@ -41,7 +41,7 @@ I tweaked and tinkered when I had spare time, but nothing felt like a good solut
 
 {% img src: /uploads/2017/12/05/chrome-audit-panel.png width: 720 alt: "The chrome audit panel" %}
 
-Then I using the audit panel in Chrome, it was really obvious as to the value clicking the button would do and really clean. I wanted my extension to feel like that! I very quickly put together a mockup using the `chrome.panels` API and it felt so much better!
+Then I using the audit panel in Chrome, it was really obvious as to the value clicking the button would do and really clean. I wanted my extension to feel like that! I very quickly put together a mock-up using the `chrome.panels` API and it felt so much better!
 
 ## The final product
 

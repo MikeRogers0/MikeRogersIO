@@ -64,7 +64,7 @@ MySQLDetails[2]='yourstrongpassword' # Password
 
 ## The expiry dates of the backups
 ### Only store 0 days of backups on the server.
-### Changed to 0 days to not fill the server with unneccessary backups
+### Changed to 0 days to not fill the server with unnecessary backups
 Expiry[0]=`date --date="today" +%y-%m-%d`
 
 ### Only store 2 weeks worth of backups on S3 
@@ -73,7 +73,7 @@ Expiry[1]=`date --date="2 weeks ago" +%y-%m-%d`
 ### Using ExpiryDayOfMonth to skip first day of the month when deleting so monthly backups are kept on s3
 ExpiryDayOfMonth=`date --date="2 weeks ago" +%d`
 
-### Todays date.
+### Today's date.
 TodayDate=`date --date="today" +%y-%m-%d`
 
 ## Finally, setup the today specific variables.

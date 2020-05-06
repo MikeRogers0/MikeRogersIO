@@ -18,9 +18,9 @@ The mixing of travel and work made a lot of sense to me, as it allowed me to kee
 {% img src: /uploads/2016/01/17/george-bailey.jpg width: 245 alt: "George Bailey from It's a Wonderful Life" %}
 
 Before I packed my bags & said farewell forever to everyone I knew, I lurked online, reading up on the best places to go and what I'd need. 
-I started with [#nomads](https://hashtagnomads.com/), a slack community of other digital nomads. Then I followed other nomads on Twitter like [James Seymour-Lock](https://twitter.com/JamesSLock) and [Pieter Levels](https://twitter.com/levelsio). Lastely found a bunch of [Facebook groups](https://www.facebook.com/search/top/?q=Digital%20Nomad), these were all great sources of information.
+I started with [#nomads](https://hashtagnomads.com/), a slack community of other digital nomads. Then I followed other nomads on Twitter like [James Seymour-Lock](https://twitter.com/JamesSLock) and [Pieter Levels](https://twitter.com/levelsio). Lastly found a bunch of [Facebook groups](https://www.facebook.com/search/top/?q=Digital%20Nomad), these were all great sources of information.
 
-One of the big take aways I learnt from current nomads is to not just get up and leave [without anything to come back to](https://twitter.com/levelsio/status/683106214536962048). Instead I should start with small trips and find out the way I like to remote work. Everyone seems to have a different approach and remote working does not have a "one size fits all" solution.
+One of the big take always I learnt from current nomads is to not just get up and leave [without anything to come back to](https://twitter.com/levelsio/status/683106214536962048). Instead I should start with small trips and find out the way I like to remote work. Everyone seems to have a different approach and remote working does not have a "one size fits all" solution.
 
 Finally I attended a bunch of meetups in London, to find out what Digital Nomad folks are actually like. Truth be told, it's one of the friendliest meetup groups I've ever attended. It had a very "first week at university" feeling where everyone just wants to be helpful to each other. 
 

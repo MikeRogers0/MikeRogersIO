@@ -59,7 +59,7 @@ The `querySelectorAll()` method will return a StaticNodeList (Like an array) of
     classExample[i].style.fontSize = "1.2em"; // Change the fontSize.
   }
 
-  // Add an click listner to the element #myElem1 and #myElem2
+  // Add an click listener to the element #myElem1 and #myElem2
   var idExample = document.querySelectorAll('input[type=checkbox]');
   for(i=0; i<idExample.length; i++) {// Cycle through them
     idExample[i].addEventListener('click', function(e){alert("You Clicked me!");}); // Add the alert.

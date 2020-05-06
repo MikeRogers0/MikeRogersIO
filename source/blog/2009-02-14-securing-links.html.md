@@ -21,16 +21,16 @@ Have you ever wanted to secure links on your website (for example hide the real 
 ## The Code
 
 ```php
-<?php # File created on 11th February 2009 by Mike Rogers (http://www.fullondesign.co.uk/). 
+<?php # File created on 11th February 2009 by Mike Rogers (http://mikerogers.io/). 
 
 ## Start defining constants ## 
 define(RUN_ERRORS, TRUE); // Do you want the script to display errors? TRUE = yes you do.
-define(redirect_or_echo, 'redirect'); // Do you want to redirect the user to another website, or just echo the other other webpages' content. 'rediect' will redirect, 'echo' will return the web pages constents. I recommend redirect.
+define(redirect_or_echo, 'redirect'); // Do you want to redirect the user to another website, or just echo the other other webpages' content. 'redirect' will redirect, 'echo' will return the web pages content. I recommend redirect.
 ## End defining constants ##
 
-/* Start the link codes. The code is the ?code=123 part of the URL. The array should be fotmatted like:
+/* Start the link codes. The code is the ?code=123 part of the URL. The array should be formatted like:
 $link['code'] = 'http://URL';
-You may find it easier to do this with MySQL or including this as a seperate file. Too many links could lower performance, but for a small website just trying to cloak a few links this is good :)
+You may find it easier to do this with MySQL or including this as a separate file. Too many links could lower performance, but for a small website just trying to cloak a few links this is good :)
 */
 $link['1'] = 'http://www.site.com/';
 
@@ -64,7 +64,7 @@ if(is_numeric($_GET['code']) && is_array($link)){
 			echo external_url($link[$_GET['code']]);
 		}else{
 			if(RUN_ERRORS === TRUE){
-				echo 'Sorry, an internal error has occoured.';	
+				echo 'Sorry, an internal error has occurred.';	
 			}
 		}
 	} else {
@@ -78,7 +78,7 @@ if(is_numeric($_GET['code']) && is_array($link)){
 	}
 }
 /*
-You are free to share, modify and use this code for commerical uses. Please give a link back (to http://www.fullondesign.co.uk/ ) if you can, but you don't have you.
+You are free to share, modify and use this code for commercial uses. Please give a link back (to https://mikerogers.io/ ) if you can, but you don't have you.
 
 I claim no liability in this code, you use it at your own risk.
 */

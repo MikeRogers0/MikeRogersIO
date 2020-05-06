@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-feature 'Visting Pages' do
+feature 'Visiting Pages' do
   [
     '/',
     '/portfolio.html',

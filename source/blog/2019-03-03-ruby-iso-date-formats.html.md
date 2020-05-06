@@ -13,7 +13,7 @@ Ruby and Ruby on Rails come with a bunch of time saving libraries, which can sav
 
 ## Pure Ruby
 
-These are the methods which ship with Ruby's [DateTime class](https://ruby-doc.org/stdlib-2.6.1/libdoc/date/rdoc/DateTime.html), with their associated [strftime format](http://strftimer.com/). Where possible you should use these when storing times, or outputing data in some machine readable way (Like an API).
+These are the methods which ship with Ruby's [DateTime class](https://ruby-doc.org/stdlib-2.6.1/libdoc/date/rdoc/DateTime.html), with their associated [strftime format](http://strftimer.com/). Where possible you should use these when storing times, or outputting data in some machine readable way (Like an API).
 
 | Method   |      strftime  Format     |  Output |
 |----------|:--------------------------:|--------|
