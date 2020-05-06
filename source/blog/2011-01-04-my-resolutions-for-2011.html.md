@@ -9,7 +9,7 @@ published: true
 categories:
  – blog
 meta:
-  description: 'New years resolutions ofr 2011'
+  description: 'New years resolutions for 2011'
   index: true
 ---
 Here are a few of my resolutions for 2011, hopefully if I remember I'll try to tick them off throughout the year.

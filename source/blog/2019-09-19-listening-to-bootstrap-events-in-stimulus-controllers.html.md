@@ -35,7 +35,7 @@ export default class extends Controller {
     let openCounterController = this;
     this.openCount = 0;
 
-    // The listner for the Bootstrap event via jQuery
+    // The listener for the Bootstrap event via jQuery
     $(this.element).on('show.bs.modal', (event) => {
       openCounterController.incrementCount();
     })
