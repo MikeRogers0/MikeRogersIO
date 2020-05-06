@@ -40,7 +40,7 @@ I provision my Vagrant VM's with Puppet. I've been meaning to look into [Ansible
 
 ### SCSS
 
-Keeping CSS organised can be a big task. I started using SCSS over LESS a few months ago and really liked it, plus I can configure my server to compile the SCSS using a post-recieve hook.
+Keeping CSS organised can be a big task. I started using SCSS over LESS a few months ago and really liked it, plus I can configure my server to compile the SCSS using a post-receive hook.
 
 ## Staging / Live Server
 
@@ -62,4 +62,4 @@ MySQL is fine, but I would rather put my eggs in a more open source basket. I fo
 
 ### Git
 
-I use Git for version control and deployment. I've been meaning to learn Capastrino, but as I've really only deployed to a single server it's still on my todo.
+I use Git for version control and deployment. I've been meaning to learn Capistrano, but as I've really only deployed to a single server it's still on my todo.

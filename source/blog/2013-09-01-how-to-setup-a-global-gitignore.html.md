@@ -5,7 +5,7 @@ published: true
 categories:
  – blog
 meta:
-  description: How to setup a global gitignore which will help ignore annoying system files accorss all your git projects.
+  description: How to setup a global gitignore which will help ignore annoying system files across all your git projects.
   index: true
 ---
 

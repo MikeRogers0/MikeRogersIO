@@ -9,7 +9,7 @@ meta:
   index: true
 ---
 
-As of Rails 4.1, you can use [Enums](http://api.rubyonrails.org/v4.1/classes/ActiveRecord/Enum.html) to sensibly store a set of fixed constants against a field. These are handy as upon declaring your enum attributes, Rails will define a bunch of methods and scopes that follow Rubys naming conventions.
+As of Rails 4.1, you can use [Enums](http://api.rubyonrails.org/v4.1/classes/ActiveRecord/Enum.html) to sensibly store a set of fixed constants against a field. These are handy as upon declaring your enum attributes, Rails will define a bunch of methods and scopes that follow Ruby's naming conventions.
 
 One of the areas I felt they didn't totally satisfy my needs, was when it came to displaying the enum fields value to the end user in a view. 
 

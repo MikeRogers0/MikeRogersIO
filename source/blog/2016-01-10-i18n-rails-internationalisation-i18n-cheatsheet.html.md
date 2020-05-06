@@ -136,7 +136,7 @@ en:
 ```
 
 
-### Adhocly in controllers
+### Casually in controllers
 
 One of my favourite places to use the i18n is in my controller for the notices and alerts:
 
@@ -160,7 +160,7 @@ en:
       alert: "Unable to update message."
 ```
 
-### Adhocly in views (With arguments)
+### Casually in views (With arguments)
 
 You can also pass arguments into the i18n translate method, like so:
 

@@ -19,7 +19,7 @@ I had a few websites I really liked the look of that I used for inspiration, her
 
 * [Clara Labs](https://claralabs.com) - I really like the initial "Hi there! I'm Clara" then the fading in of the rest of the homepage copy. 
 * [No Divide](http://nodivide.us/) - If there is someone who knows how to design a site, it's Dan Edwards. I really like how simple and clear the site is to use. 
-* [Ed Poole](http://edpoole.me/articles/pubhack2/) - The way Ed has layed out his blog post is super content focused with little to distract the user, it works really well. 
+* [Ed Poole](http://edpoole.me/articles/pubhack2/) - The way Ed has laid out his blog post is super content focused with little to distract the user, it works really well. 
 * [Tom Kentell](http://tomkentell.me/) - I love the overall homepage layout & Toms use of responsive is awesome.
 * [Meeet](http://meeet.co/) - A lovely clean design that looks good and has little clutter that'll distract the user.
 * [Jonathan Atkinson](http://themeforest.net/user/jonathan01/portfolio) - I always like Jonathan's work.
@@ -47,7 +47,7 @@ This worked great until I opened the site in Safari (The above screenshot) and n
 
 I really wanted to mess around with a few of the new tools and frameworks that are out there to make front end a bit easier.
 
-First off I tried [bower](http://bower.io/), a fontend package manager tool. It seemed pretty nice, though I ended up feeling it was more faff then it was worth considering my site only uses a little JS on the homepage. 
+First off I tried [bower](http://bower.io/), a front-end package manager tool. It seemed pretty nice, though I ended up feeling it was more faff then it was worth considering my site only uses a little JS on the homepage. 
 
 I also considered a CSS framework such as Bootstrap or Foundation to help get the layout kick started, but then I read [A Complete Guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/) and decided I'd be better off just using flex where I needed it instead of bogging myself down with CSS I'll never use.
 

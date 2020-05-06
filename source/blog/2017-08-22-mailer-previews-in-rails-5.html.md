@@ -17,7 +17,7 @@ To achieve this I use the following snippet of code in `config/environments/prod
 
 ```ruby
 # Enable preview mailers
-# Add the ENABLE_MAILER_PREVIEWS to your enviroment to enable.
+# Add the ENABLE_MAILER_PREVIEWS to your environment to enable.
 if ENV['ENABLE_MAILER_PREVIEWS'].present?
   config.action_mailer.show_previews = true
 

@@ -12,7 +12,7 @@ meta:
 Building a search for your rails app can become a touch complicated when you need to order by relevancy. 
 Solr reduces this complexity by moving the heavy lifting off to it's own service. It's fairly quick & the rails wrapper has keeps things very tidy, however with a handful of small tweaks you can make it a touch more reliable and a little quicker.
 
-For this article, I'm assuming you've already setup [sunspot_rails](https://github.com/sunspot/sunspot) on your rails app and you just want to know a few tweaks I found worthwhile in my Heroku enviroment. 
+For this article, I'm assuming you've already setup [sunspot_rails](https://github.com/sunspot/sunspot) on your rails app and you just want to know a few tweaks I found worthwhile in my Heroku environment. 
 
 ## Reindex with a worker 
 
@@ -61,7 +61,7 @@ class Post < ActiveRecord::Base
 end
 ```
 
-In this case, if the post isn't published it will be omitted from the search index completly.
+In this case, if the post isn't published it will be omitted from the search index completely.
 
 
 ## Improving indexing speed with includes
