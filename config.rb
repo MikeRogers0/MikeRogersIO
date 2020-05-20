@@ -93,8 +93,6 @@ set :fonts_dir, 'fonts'
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
 configure :build do
-  activate :minify_css
-  activate :minify_javascript
   activate :asset_hash, ignore: %r{^(images|uploads)/.*}
   # activate :imageoptim do |options|
   #    # Use a build manifest to prevent re-compressing images between builds
@@ -143,5 +141,4 @@ configure :build do
     html.simple_boolean_attributes  = true   # Use simple boolean attributes
     html.preserve_patterns          = nil    # Patterns to preserve
   end
-  activate :gzip
 end
