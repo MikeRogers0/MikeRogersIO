@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/MikeRogers0/MikeRogersIO.svg?branch=master)](https://travis-ci.org/MikeRogers0/MikeRogersIO)
+![RSpec](https://github.com/MikeRogers0/MikeRogersIO/workflows/RSpec/badge.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/df7d23ccf98c47179b1eec1d72568785)](https://app.codacy.com/app/MikeRogers0/MikeRogersIO?utm_source=github.com&utm_medium=referral&utm_content=MikeRogers0/MikeRogersIO&utm_campaign=Badge_Grade_Dashboard)
 [![Maintainability](https://api.codeclimate.com/v1/badges/6f1ddb38ace46bf6ff07/maintainability)](https://codeclimate.com/github/MikeRogers0/MikeRogersIO/maintainability)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bc2d5d84-4f62-4255-ae1f-7d7ff445ed3b/deploy-status)](https://app.netlify.com/sites/mikerogers-io/deploys)
