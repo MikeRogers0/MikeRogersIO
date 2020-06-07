@@ -1,17 +1,13 @@
-FROM ruby:2.6.6-alpine AS development
+FROM ruby:2.7.1-alpine AS development
 
 LABEL maintainer="Mike Rogers <me@mikerogers.io>"
 
 # Install the Essentials
 ENV BUILD_DEPS="curl tar wget linux-headers bash" \
-    DEV_DEPS="ruby-dev build-base postgresql-dev zlib-dev libxml2-dev libxslt-dev readline-dev tzdata git nodejs vim"
+    DEV_DEPS="ruby-dev build-base postgresql-dev zlib-dev libxml2-dev libxslt-dev readline-dev tzdata git nodejs vim yarn libsass"
 
-RUN apk update && apk upgrade
-
-RUN apk add --no-cache $BUILD_DEPS $DEV_DEPS
-
-# Install Yarn
-RUN apk add --no-cache yarn
+RUN apk add --update --upgrade $BUILD_DEPS $DEV_DEPS
+RUN rm -rf /var/cache/apk/*
 
 # Add the current apps files into docker image
 RUN mkdir -p /usr/src/app
@@ -26,15 +22,9 @@ RUN echo 'alias bx="bundle exec"' >> ~/.bashrc
 # Set ruby version
 COPY .ruby-version /usr/src/app
 
-# Install latest bundler
-RUN gem update --system && gem install bundler:2.1.4
-RUN bundle config --global silence_root_warning 1 && echo -e 'gem: --no-document' >> /etc/gemrc
-
-RUN mkdir -p /usr/src/bundler
-RUN bundle config path /usr/src/bundler
-
-# Clean up caches we won't need anymore.
-RUN rm -fr /var/cache/apk/* && rm -fr /tmp/*
+# Configure Bundler
+RUN gem update --system
+RUN bundle config --global silence_root_warning 1
 
 EXPOSE 3001
 CMD ["bundle", "exec", "middleman", "server", "-p", "3001"]
@@ -44,7 +34,7 @@ FROM development AS production
 # Install Ruby Gems
 COPY Gemfile /usr/src/app
 COPY Gemfile.lock /usr/src/app
-RUN "bundle check || bundle install --jobs=$(nproc)"
+RUN bundle check || bundle install --jobs=$(nproc)
 
 # Install Yarn Libraries
 COPY package.json /user/src/app
