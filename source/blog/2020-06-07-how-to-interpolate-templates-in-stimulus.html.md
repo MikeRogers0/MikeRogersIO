@@ -5,11 +5,11 @@ categories:
  – blog
 published: true
 meta:
-  description: "TL;DR: Use Lodash, it has a great template function that saved manually coding a templating system."
+  description: "TL;DR: Use Lodash, it has a great template function that saved me manually coding a templating system."
   index: true
 ---
 
-I needed to display a set of JSON search results as HTML within a Stimulus project recently. Stimulus doesn't offer to much guidance on how to solve this out the box, so I had a little dive.
+I needed to display a set of JSON search results as HTML within a Stimulus project recently. Stimulus doesn't offer much guidance on how to solve this out the box, so I had a little dive.
 
 I ended up finding that lodash had a built in [`template`](https://lodash.com/docs/4.17.15#template) function which supported interpolation. Here is the code I ended up with:
 
