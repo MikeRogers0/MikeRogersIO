@@ -1,15 +1,17 @@
 ---
 layout: post
-title: How to use interpolatable Templates in Stimulus
+title: How To Use Interpolatable Templates in Stimulus
 categories:
  – blog
 published: true
 meta:
-  description: Use Lodash, it has a great template helper which saved manually coding a templating system.
+  description: Use Lodash, it has a great template function that saved manually coding a templating system.
   index: true
 ---
 
-https://lodash.com/
+I needed to display a set of JSON search results as HTML on a Stimulus project recently. Stimulus doesn't offer to much guidance on how to solve this out the box, so I had a little dive.
+
+I ended up finding that lodash had a built in [`template`](https://lodash.com/docs/4.17.15#template) function which supported interpolation. Here is the code I ended up with:
 
 ```html
 <div data-controller="search">
@@ -27,6 +29,7 @@ https://lodash.com/
 ```
 
 ```javascript
+// controllers/search_controller.js
 import { Controller } from "stimulus"
 import { template } from "lodash"
 
@@ -45,6 +48,7 @@ export default class extends Controller {
 
   _renderResults() {
     // Setup some sample data to interpolate into the template.
+    // In my real app, this was loaded via AJAX.
     this.itemData = {
       title: 'Sample Title',
       description: 'Sample Description'
