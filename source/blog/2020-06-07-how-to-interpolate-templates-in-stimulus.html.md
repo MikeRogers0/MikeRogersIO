@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How To Interpolatable Templates in Stimulus
+title: How To Interpolate Templates in Stimulus
 categories:
  – blog
 published: true
