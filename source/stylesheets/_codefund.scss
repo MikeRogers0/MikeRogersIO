@@ -1,3 +1,10 @@
 .codefund {
   margin-bottom: map-get($spacers, 3);
+  padding: map-get($spacers, 0) map-get($spacers, 3);
+  text-align: center;
+  color: #6c757e;
+  line-height: 1.7;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
