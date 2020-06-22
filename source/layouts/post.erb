@@ -1,11 +1,11 @@
 <% wrap_layout :layout do %>
-  <article role="article">
+  <article>
     <header>
       <h1 class="mb-3 text-center"><%= current_article.title %></h1>
 
-      <section class="text-muted text-center small">
+      <div class="text-muted text-center small">
         <p>Posted on <time datetime="<%= current_article.date.strftime('%Y-%m-%d') %>"><%= current_article.date.strftime('%A %b %e, %Y') %></time></p>
-      </section>
+      </div>
     </header>
 
     <div class="codefund">
@@ -16,11 +16,11 @@
       <!-- END COPY CODEFUND EMBED -->
     </div>
 
-    <section>
+    <div>
       <%= yield %>
-    </section>
+    </div>
 
-    <footer class="text-muted text-center small mt-5 mb-3" role="contentinfo">
+    <footer class="text-muted text-center small mt-5 mb-3">
       <p>This was written by Mike Rogers, a freelance Ruby on Rails developer based in London.</p>
       <p>Share the ♥ by sharing this!</p>
 
