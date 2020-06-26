@@ -33,7 +33,7 @@ Both Resque & Sidekiq are both good choices for handing background tasks, both h
 
 While I've only really used Sidekiq in production, I think it could be a good time to invest in Resque as if Basecamp are using it, it'll probably gain in popularity.
 
-### resque-scheduler & resque-web
+### resque-scheduler & resque-web
 
 Like Sidekiq, Resque has gems which allows for setting up a Web UI & storing scheduled tasks in your codebase via a YAML file.
 
