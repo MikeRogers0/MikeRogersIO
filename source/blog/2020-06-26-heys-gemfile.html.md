@@ -57,7 +57,7 @@ It looks like we might have a super-low effort way of making webpages feel realt
 
 ## Security
 
-### pwned - Better password security
+### pwned - Better password security
 
 This was one coolest gems I'm planning to start using right away! [pwned](https://github.com/philnash/pwned) let's you check if a password is in the [Have I Been Pwned: Pwned Passwords Database](https://haveibeenpwned.com/Passwords), this means you can check if a user is using an unsecure password.
 
