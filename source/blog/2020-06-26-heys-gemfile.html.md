@@ -63,7 +63,7 @@ This was one coolest gems I'm planning to start using right away! [pwned](https:
 
 This means we can nicely encourage users to use better passwords within our apps. Awesome stuff!
 
-### No Devise?
+### No Devise?
 
 When I was digging through their login screen, I was pretty convinced I was looking at something powered by [Devise](https://github.com/heartcombo/devise).
 
