@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Reviewing HEYs Gemfile
+title: Reviewing The HEY Gemfile
 categories:
  – blog
 published: true
 meta:
-  description: DHH posted HEY's Gemfile, here are some notes I made about it.
+  description: DHH posted the HEY Gemfile, here are some notes I made about it.
   index: true
 ---
 
