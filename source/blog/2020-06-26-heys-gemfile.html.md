@@ -15,33 +15,34 @@ DHH [tweeted about they HEY stack](https://twitter.com/dhh/status/12759019559953
 
 Jumping in, here are my thoughts on the various gems they used :D
 
-### MySQL over PostgreSQL
+## MySQL Database & Elasticsearch
 
-This surprised the most, I've not encountered a Rails project that doesn't use PostgreSQL for years. I'm not alone, in 2018 [85% of Rails developers](https://rails-hosting.com/2018/) preferred PostgreSQL.
+This surprised the most, I've not encountered a Rails project that doesn't use PostgreSQL for years. I'm not alone, in 2018 [85% of Rails developers](https://rails-hosting.com/2018/) preferred PostgreSQL, more recently [on /r/rails](https://www.reddit.com/r/rails/comments/h9tsrj/mysql_vs_postgresql_for_production/) I couldn't see anyone recommending MySQL.
 
-DHH does mention they use [Vitess](https://vitess.io/) for sharding, so this choice could have been because it's easier to move between Clouds & plays nicely with Kubernetes.
+From what I gather, this choice was influenced by two main choices:
 
-### Haybales
+1. Basecamp uses MySQL on all their other products, so the team is familiar with it.
+2. DHH mentioned they use [Vitess](https://vitess.io/) for sharding MySQL. So they have an approach for scaling it.
 
-I'm excited about this, in April Basecamp blogged about [how they use Kubernetes](https://m.signalvnoise.com/seamless-branch-deploys-with-kubernetes/), which reminded me a lot of my Heroku Pipeline setup.
+Hopefully they'll release some more information about this choice & how it compares at scale.
 
-I'm speculating a lot, but I suspect the `haybales` gem is a replacement for `capistrano` or at least some guidance in how to deploy to Kubernetes.
+It's very cool to see that they've used [Elasticsearch](https://github.com/elastic/elasticsearch-rails) for search. On my projects I normally lean on [pg_search](https://github.com/Casecommons/pg_search) & [ransack](https://github.com/activerecord-hackery/ransack) for as long as I can, then make the move to Elasticsearch when I need a better full text search.
 
-### Resque over Sidekiq
+## Resque for Active Job & Scheduled Tasks
 
-Both Resque & Sidekiq are both good choices for handing background tasks, both have wrappers within the Rails core for ActiveJob. That said, [historically Sidekiq](https://rails-hosting.com/2018/) has had greater market share.
+Historically Sidekiq has had [greater market share](https://rails-hosting.com/2018/) and I've read [that developers are moving from Resque to Sidekiq](https://dev.to/molly_struve/switching-from-resque-to-sidekiq-3b04). As a result, I've always thought that Sidekiq was the preferred choice for running background tasks, so seeing HEY is using Resque is neat.
 
-While I've only really used Sidekiq in production, I think it could be a good time to invest in Resque as if Basecamp are using it, it'll probably gain in popularity.
+I've not used Resque on a project yet, but I'm curious to give it a try. I can imagine if Basecamp are using it, it could gain in popularity. Plus grand scheme of things because Active Job makes it so easy to switch between worker gems, it's really like comparing apples & oranges at this point.
 
-### resque-scheduler & resque-web
+It is kind of cool to see they're using [resque-scheduler](https://github.com/resque/resque-scheduler), which means they're storing scheduled jobs in a YAML file. I've used [sidekiq-cron](https://github.com/ondrejbartas/sidekiq-cron) on my projects, so it's pretty easy to switch between the two gems.
 
-Like Sidekiq, Resque has gems which allows for setting up a Web UI & storing scheduled tasks in your codebase via a YAML file.
+## AWS/K8S
 
-### Elasticsearch
+I've become a huge fan of using containers for my Rails app this year.
 
-There are a bunch of ways to make searching your database in (Solr, [pg_search](https://github.com/Casecommons/pg_search) & [ransack](https://github.com/activerecord-hackery/ransack) come to mind).
+I'm excited about seeing the `haybales` gem, in April Basecamp blogged about [how they use Kubernetes](https://m.signalvnoise.com/seamless-branch-deploys-with-kubernetes/), which reminded me a lot of my Heroku Pipeline setup.
 
-I'd imagine they've used Elasticsearch because it's better at full text search then a complex SQL query.
+I'm speculating a lot, but I suspect the `haybales` gem is a replacement for `capistrano` or at least some guidance in how to deploy to Kubernetes or AWS. I'd really like to see some advances to the "getting your app online" side of Rails, I feel like it's one of the aspects without clear guidance as a result developers end up doing some really odd things.
 
 ## Frontend
 
