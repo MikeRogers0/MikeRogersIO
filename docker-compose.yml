@@ -12,11 +12,15 @@ services:
       dockerfile: Dockerfile
       target: development
     volumes:
-      - .:/usr/src/app
+      - .:/usr/src/app:cached
       - ~/.docker-data/ruby/2.7.1/bundler:/usr/local/bundle:delegated
+      - node_modules:/usr/src/app/node_modules:delegated
     command: >
       bash -c "bundle check || bundle install &&
       yarn install --check-files &&
       bundle exec middleman server -p 3001"
     ports:
       - "${PORT:-3001}:3001"
+
+volumes:
+  node_modules:
