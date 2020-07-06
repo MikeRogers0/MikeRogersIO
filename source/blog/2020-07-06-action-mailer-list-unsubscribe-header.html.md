@@ -9,7 +9,7 @@ meta:
   index: true
 ---
 
-Have youe ever opened an email & saw there is an "Unsubscribe" link outside of the email contents? I was curious about this recently, and decided to have a little dive into how it works.
+Have you ever opened an email & saw there is an "Unsubscribe" link outside of the email contents? I was curious about this recently, and decided to have a little dive into how it works.
 
 ![Ruby Weekly has an unsubscribe link in Gmail](/2020/07/ruby-weekly-unsubscribe.png)
 
