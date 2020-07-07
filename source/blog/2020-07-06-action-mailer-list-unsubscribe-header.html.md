@@ -15,6 +15,16 @@ Have you ever opened an email & saw there is an "Unsubscribe" link outside of th
 
 Turns out, it was actually pretty straight forward to add via Action Mailer in Rails. It just requires adding a [`List-Unsubscribe`](https://blog.mailtrap.io/list-unsubscribe-header/) header to your mailers.
 
+## The `List-Unsubscribe` header
+
+This header tells emails clients that "This is where to go to unsubscribe from this list", when the user clicks the link they'll either be taken to a URL or the email client will attempt to click it for them.
+
+For best results it's recommended you use both a `mailto` link (Which you could listen to with Action Mailbox) & a HTTP link, e.g:
+
+```
+List-Unsubscribe: <mailto: unsubscribe@example.com?subject=unsubscribe>, <http://www.example.com/unsubscribe.html>
+```
+
 ## Example
 
 ```ruby
