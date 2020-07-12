@@ -1,6 +1,6 @@
 [build]
   command = "webpack --mode production && bundle exec bridgetown build"
-  publish = "output"
+  publish = "build"
 
 [build.processing]
   skip_processing = false
