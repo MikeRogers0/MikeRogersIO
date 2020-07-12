@@ -11,7 +11,7 @@ My personal website which shows off bits of my portfolio and ramblings from my b
 
 1. `git clone git@github.com:MikeRogers0/MikeRogersIO.git`
 2. `docker-compose up`
-3. `open http://127.0.0.1:3001/`
+3. `open http://127.0.0.1:4000/`
 
 ## Testing
 
