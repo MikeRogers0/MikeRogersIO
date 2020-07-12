@@ -3,5 +3,8 @@
 
 @import "tailwindcss/components";
 
+@import "pygments-css/default";
+@import "pygments-css/zenburn";
+
 @import "tailwindcss/utilities";
 @import "tailwindcss/custom_utilities";

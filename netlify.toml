@@ -2,6 +2,9 @@
   command = "webpack --mode production && bundle exec bridgetown build"
   publish = "build"
 
+[build.environment]
+  NODE_ENV = "Production"
+
 [build.processing]
   skip_processing = false
 [build.processing.css]
