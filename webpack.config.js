@@ -13,7 +13,7 @@ module.exports = {
     children: false,
   },
   output: {
-    path: path.resolve(__dirname, "output", "_bridgetown", "static", "js"),
+    path: path.resolve(__dirname, "build", "_bridgetown", "static", "js"),
     filename: "all.[contenthash].js",
   },
   resolve: {
