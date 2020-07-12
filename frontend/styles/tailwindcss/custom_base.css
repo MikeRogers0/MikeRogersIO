@@ -1,0 +1,27 @@
+body {
+  @apply bg-gray-100 text-gray-800;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  @apply text-blue-600 underline;
+
+  &:hover {
+    @apply no-underline;
+  }
+}
+
+h1, h2, h3, h4 {
+  @apply text-gray-900 font-bold;
+}
+
+h1, .h1 {
+  @apply text-2xl;
+}
+h2, .h2 {
+  @apply text-xl;
+}
+h3, .h3 {
+  @apply text-lg;
+}

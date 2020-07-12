@@ -1,26 +1,34 @@
+---
 # Docker Compose 2.4 is for local development
 # https://www.heroku.com/podcasts/codeish/57-discussing-docker-containers-and-kubernetes-with-a-docker-captain - Source on that.
 version: '2.4'
 
-services:
+x-app: &app
+  image: bridgetown:latest
+  mem_limit: 512m
+  build:
+    context: .
+    dockerfile: Dockerfile
+    target: development
+  env_file:
+    - .env
+  volumes:
+    - .:/usr/src/app:cached
+    - bundler:/usr/local/bundle:delegated
+    - node_modules:/usr/src/app/node_modules:delegated
 
+services:
   web:
-    image: mikerogers_io:latest
-    mem_limit: 512m
-    build:
-      context: .
-      dockerfile: Dockerfile
-      target: development
-    volumes:
-      - .:/usr/src/app:cached
-      - ~/.docker-data/ruby/2.7.1/bundler:/usr/local/bundle:delegated
-      - node_modules:/usr/src/app/node_modules:delegated
+    <<: *app
     command: >
       bash -c "bundle check || bundle install &&
       yarn install --check-files &&
-      bundle exec middleman server -p 3001"
+      yarn start --host '0.0.0.0'"
     ports:
-      - "${PORT:-3001}:3001"
+      - "${PORT:-4000}:4000"
+      - "4001:4001"
+      - "4002:4002"
 
 volumes:
-  node_modules:
+  bundler:
+  node_modules: 

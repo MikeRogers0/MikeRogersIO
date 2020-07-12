@@ -1,7 +1,0 @@
-<%= root_url %>
-<%= URI.join(root_url, 'posts.html') %>
-<%= URI.join(root_url, 'portfolio.html') %>
-
-<% blog.articles.each do |article| %>
-<%= URI.join(root_url, article.url) %>
-<% end %>

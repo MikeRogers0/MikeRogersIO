@@ -1,9 +1,9 @@
 [build]
-  command = "middleman build --verbose"
-  publish = "build"
+  command = "webpack --mode production && bundle exec bridgetown build"
+  publish = "output"
 
 [build.processing]
-  skip_processing = false
+  skip_processing = true
 [build.processing.css]
   bundle = true
   minify = true
