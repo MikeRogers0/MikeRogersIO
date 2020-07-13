@@ -2,19 +2,27 @@
 layout: default
 ---
 
-<article class="container mx-auto">
-  <header class="text-center">
+<article class="container mx-auto md:max-w-4xl">
+  <header class="text-center mb-6">
     <h1>{{ page.title }}</h1>
     <p class="text-sm text-gray-700">
-      Posted on Monday Jul 6, 2020
+      Posted on
+      {% assign d = page.date | date: "%-d" %}
+      {{ page.date | date: "%B" }} 
+      {% case d %}
+        {% when '1' or '21' or '31' %}{{ d }}st,
+        {% when '2' or '22' %}{{ d }}nd,
+        {% when '3' or '23' %}{{ d }}rd,
+        {% else %}{{ d }}th,
+      {% endcase %}
+      {{ page.date | date: "%Y" }}
     </p>
   </header>
 
   {{ content }}
 
-  <footer class="text-center">
-    <p class="text-sm text-gray-700">
-      Posted on Monday Jul 6, 2020
-    </p>
+  <footer class="text-center text-sm text-gray-700 mt-8">
+    <p>Any code samples unless stated otherwise are licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">The MIT License (MIT)</a>.<br/>
+    Share the ♥ by <a href="https://www.buymeacoffee.com/MikeRogers0" target="_blank" rel="noopener noreferrer">buying me a coffee</a>.</p>
   </footer>
 </article>

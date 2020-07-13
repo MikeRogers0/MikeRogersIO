@@ -17,19 +17,19 @@ h1, h2, h3, h4 {
 }
 
 h1, .h1 {
-  @apply text-4xl mt-2 mb-3;
+  @apply text-4xl mt-3 mb-3;
 }
 
 h2, .h2 {
-  @apply text-2xl mt-2 mb-3;
+  @apply text-2xl mt-3 mb-3;
 }
 
 h3, .h3 {
-  @apply text-lg mt-2 mb-3;
+  @apply text-lg mt-3 mb-3;
 }
 
 h4, .h4 {
-  @apply text-lg mt-2 mb-3;
+  @apply text-lg mt-3 mb-3;
 }
 
 p {
