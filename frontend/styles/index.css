@@ -3,8 +3,13 @@
 
 @import "tailwindcss/components";
 
+@import "tailwindcss/components/container";
+
+/* Code Highlighting */
 @import "pygments-css/default";
-@import "pygments-css/zenburn";
+@import "pygments-css/monokai";
+@import "tailwindcss/components/highlighter-rouge";
+
 
 @import "tailwindcss/utilities";
 @import "tailwindcss/custom_utilities";

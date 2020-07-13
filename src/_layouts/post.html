@@ -2,8 +2,19 @@
 layout: default
 ---
 
-<div class="container mx-auto">
-  <h1>{{ page.title }}</h1>
+<article class="container mx-auto">
+  <header class="text-center">
+    <h1>{{ page.title }}</h1>
+    <p class="text-sm text-gray-700">
+      Posted on Monday Jul 6, 2020
+    </p>
+  </header>
 
   {{ content }}
-</div>
+
+  <footer class="text-center">
+    <p class="text-sm text-gray-700">
+      Posted on Monday Jul 6, 2020
+    </p>
+  </footer>
+</article>

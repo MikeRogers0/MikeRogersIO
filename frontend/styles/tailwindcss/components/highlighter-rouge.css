@@ -1,0 +1,7 @@
+.highlighter-rouge {
+  pre.highlight {
+    @apply p-4 break-normal overflow-x-scroll;
+  }
+
+  @apply mb-4;
+}
