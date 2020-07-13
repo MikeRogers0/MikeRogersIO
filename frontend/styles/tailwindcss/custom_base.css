@@ -1,5 +1,10 @@
+html {
+  @apply bg-white;
+}
+
 body {
   @apply bg-gray-100 text-gray-800;
+
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
 }
