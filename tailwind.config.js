@@ -7,7 +7,23 @@ module.exports = {
       './src/**/*.liquid',
     ]
   },
-  theme: {},
-  variants: {},
+  theme: {
+
+    extend: { // Lock in the colours/fonts we want to define as our colour palette.
+      fontWeight: {
+        light: '300',
+        normal: '400',
+        bold: '700',
+      },
+
+      colors: { // These are the colours we should aim to stick to.
+      },
+      screens: {
+        dark: { raw: "(prefers-color-scheme: dark)" }
+      }
+    }
+  },
+  variants: {
+  },
   plugins: [],
 }

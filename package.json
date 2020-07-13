@@ -27,6 +27,7 @@
     "node-sass": "^4.13.1",
     "postcss-custom-properties": "^9.1.1",
     "postcss-import": "^12.0.1",
+    "postcss-inline-svg": "^4.1.0",
     "postcss-loader": "^3.0.0",
     "postcss-nested": "^4.2.3",
     "sass-loader": "^8.0.2",
