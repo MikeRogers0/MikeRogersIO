@@ -7,10 +7,12 @@
 
 class ImgTag < SiteBuilder
   def build
-    liquid_tag "img", :img
+    liquid_tag "img", :render
   end
 
-  def img(attributes, tag)
+  def render(_markup, _tag)
+    super
+    
     html = '<figure class="figure d-block">'
     html << '<a href="' + (attributes['href'] || attributes['src']) + '" target="_blank">'
     html << '<img src="' + attributes['src'] + '" class="figure-img img-fluid rounded mx-auto d-block" alt="' + attributes['alt'] + '" width="' + attributes['width'] + '"/>'
