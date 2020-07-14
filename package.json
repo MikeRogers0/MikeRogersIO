@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "bundle exec bridgetown build",
+    "build": "bundle exec bridgetown build --trace",
     "serve": "bundle exec bridgetown serve",
     "webpack-build": "webpack --mode production",
     "webpack-dev": "webpack --mode development -w",

@@ -22,12 +22,18 @@ services:
     <<: *app
     command: >
       bash -c "bundle check || bundle install &&
-      yarn install --check-files &&
-      yarn start --host '0.0.0.0'"
+      yarn install --check-files && 
+      yarn start --host 0.0.0.0"
     ports:
-      - "${PORT:-4000}:4000"
+      - "${port:-4000}:4000"
       - "4001:4001"
       - "4002:4002"
+
+  webpack:
+    <<: *app
+    mem_limit: 256m
+    command: >
+      bash -c "yarn install --check-files && yarn webpack-dev"
 
 volumes:
   bundler:

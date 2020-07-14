@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {% render "head" %}
+    {% render "head" site: site %}
   </head>
   <body>
-    {% render "navbar" %}
+    {% render "navbar" site: site %}
 
     {{ content }}
 
-    {% render "footer" %}
+    {% render "footer" site: site %}
   </body>
 </html>
