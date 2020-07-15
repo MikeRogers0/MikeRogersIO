@@ -1,9 +1,9 @@
-<div class="mb-3 border-b border-gray-200 pb-3">
-  <a href="{{ post.url }}" class="block no-underline">
-    <h2 class="mb-1 hover:underline text-gray-900">
+<div class="mb-3 pb-3 mb-3 border-b border-gray-200">
+  <h2 class="mb-1">
+    <a href="{{ post.url }}">
       {{ post.title }}
-    </h2>
-  </a>
+    </a>
+  </h2>
 
   <p class="text-sm text-gray-600">
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">
@@ -21,11 +21,5 @@
 
   <p>
     {{ post.meta.description }}
-  </p>
-
-  <p>
-    <a href="{{ post.url }}" class="block">
-      Read More
-    </a>
   </p>
 </div>

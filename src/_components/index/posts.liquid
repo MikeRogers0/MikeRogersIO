@@ -1,0 +1,13 @@
+<div class="container my-12">
+  <h2 class="h1 text-center">
+    Recent Posts
+  </h2>
+
+  {% for post in posts %}
+    {% render "posts/_post" post: post %}
+  {% endfor %}
+
+  <div class="text-center mt-6">
+    <a href="/posts">See More Posts</a>
+  </div>
+</div>
