@@ -1,0 +1,31 @@
+<div class="mb-3 border-b border-gray-200 pb-3">
+  <a href="{{ post.url }}" class="block no-underline">
+    <h2 class="mb-1 hover:underline text-gray-900">
+      {{ post.title }}
+    </h2>
+  </a>
+
+  <p class="text-sm text-gray-600">
+    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">
+      {% assign d = post.date | date: "%-d" %}
+      {{ post.date | date: "%B" }} 
+      {% case d %}
+      {% when '1' or '21' or '31' %}{{ d }}st,
+      {% when '2' or '22' %}{{ d }}nd,
+      {% when '3' or '23' %}{{ d }}rd,
+      {% else %}{{ d }}th,
+      {% endcase %}
+      {{ post.date | date: "%Y" }}
+    </time>
+  </p>
+
+  <p>
+    {{ post.meta.description }}
+  </p>
+
+  <p>
+    <a href="{{ post.url }}" class="block">
+      Read More
+    </a>
+  </p>
+</div>

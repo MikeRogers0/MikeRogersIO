@@ -9,8 +9,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  @apply text-blue-600 underline;
+a, .text-link {
+  @apply text-blue-700 underline;
 
   &:hover {
     @apply no-underline;

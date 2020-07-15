@@ -1,0 +1,35 @@
+---
+layout: page
+title: Posts
+permalink: /posts/
+pagination:
+  enabled: true
+---
+
+{% for post in paginator.documents %}
+  {% render "posts/_post" post: post %}
+{% endfor %}
+
+<nav class="flex items-center justify-between">
+  <div class="w-0 flex-1 flex">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="pt-4 pr-1 inline-flex items-center text-sm text-link">
+        Previous Page
+      </a>
+    {% endif %}
+  </div>
+
+  <div class="hidden md:flex">
+    <div class="pt-4 px-4 inline-flex items-center text-sm text-gray-800">
+     Page {{ paginator.page }} of {{ paginator.total_pages }}
+    </div>
+  </div>
+
+  <div class="w-0 flex-1 flex justify-end">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="pt-4 pl-1 inline-flex items-center text-sm text-link">
+        Next Page
+      </a>
+    {% endif %}
+  </div>
+</nav>
