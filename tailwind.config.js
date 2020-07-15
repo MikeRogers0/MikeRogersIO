@@ -17,6 +17,13 @@ module.exports = {
         lg: '4rem',
         xl: '5rem',
       },
+      maxWidth: {
+        default: '100%',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1024px',
+      }
     },
 
     extend: { // Lock in the colours/fonts we want to define as our colour palette.
