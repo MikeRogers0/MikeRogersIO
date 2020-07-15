@@ -2,11 +2,23 @@ html {
   @apply bg-white;
 }
 
+@screen dark {
+  html {
+    @apply bg-cool-gray-900;
+  }
+}
+
 body {
   @apply bg-gray-50 text-gray-900;
 
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@screen dark {
+  body {
+    @apply bg-gray-900 text-gray-50;
+  }
 }
 
 a, .text-link {
@@ -19,6 +31,12 @@ a, .text-link {
 
 h1, h2, h3, h4 {
   @apply text-gray-900 font-semibold;
+}
+
+@screen dark {
+  h1, h2, h3, h4 {
+    @apply text-gray-100;
+  }
 }
 
 h1, .h1 {
