@@ -4,7 +4,7 @@ title: Mike Rogers - Ruby Developer
 ---
 
 <div class="container text-center my-24">
-  <img src="/images/mike-rogers.jpg" alt="Mike Rogers" class="rounded-full mx-auto shadow-md mb-12" width="100" height="100">
+  <img src="/images/mike-rogers.jpg" alt="Mike Rogers" class="rounded-full mx-auto shadow-md mb-12" width="100" height="100" loading="lazy">
 
 
   <h1>I'm <em class="bg-blue-900 text-white rounded px-1 not-italic">Mike Rogers</em>, a Web Developer from London</h1>
