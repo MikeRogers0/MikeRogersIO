@@ -36,7 +36,8 @@ module.exports = {
       colors: { // These are the colours we should aim to stick to.
       },
       screens: {
-        dark: { raw: "(prefers-color-scheme: dark)" }
+        dark: { raw: "(prefers-color-scheme: dark)" },
+        dark: { raw: "(prefers-color-scheme: light)" },
       }
     }
   },

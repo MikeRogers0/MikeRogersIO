@@ -59,10 +59,6 @@ p {
   @apply mb-3;
 }
 
-code {
-  @apply text-pink-600 font-normal;
-}
-
 a > code {
   color: inherit;
 }

@@ -1,0 +1,13 @@
+.article {
+  img {
+    @apply mx-auto shadow my-4;
+  }
+
+  p > code {
+    @apply text-pink-600 font-normal;
+  }
+
+  div.highlight {
+    @apply bg-gray-100;
+  }
+}
