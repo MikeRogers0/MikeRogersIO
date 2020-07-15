@@ -9,6 +9,16 @@ module.exports = {
   },
   theme: {
 
+    container: {
+      center: true,
+      padding: {
+        default: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+      },
+    },
+
     extend: { // Lock in the colours/fonts we want to define as our colour palette.
       fontWeight: {
         light: '300',

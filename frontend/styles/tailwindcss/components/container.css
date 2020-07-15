@@ -1,3 +1,12 @@
 .container {
   @apply px-4;
 }
+
+.container--tight {
+}
+
+@screen md {
+  .container--tight {
+    @apply max-w-4xl;
+  }
+}

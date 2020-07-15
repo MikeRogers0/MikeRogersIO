@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "bundle exec bridgetown build --trace",
-    "serve": "bundle exec bridgetown serve",
+    "serve": "bundle exec bridgetown serve --trace",
     "webpack-build": "webpack --mode production",
     "webpack-dev": "webpack --mode development -w",
     "deploy": "yarn webpack-build && yarn build",
