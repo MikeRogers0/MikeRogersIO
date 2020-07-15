@@ -27,6 +27,9 @@ permalink: /:year/:month/:day/:slug
 
 timezone: Other/UTC
 
+pagination:
+  enabled: true
+
 svg:
   optimize: true
 
