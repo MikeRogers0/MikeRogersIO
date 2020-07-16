@@ -5,6 +5,7 @@
 
 @import "tailwindcss/components/container";
 @import "tailwindcss/components/article";
+@import "tailwindcss/components/embed-responsive";
 
 /* Code Highlighting */
 @import "pygments-css/default";
