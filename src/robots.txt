@@ -1,4 +1,7 @@
-Sitemap: {% base_url %} <%= URI.join(root_url, 'sitemap.txt') %>
+---
+layout: none
+---
+Sitemap: {% site.base_url %}/sitemap.txt
 
 User-agent: *
 Allow: /
