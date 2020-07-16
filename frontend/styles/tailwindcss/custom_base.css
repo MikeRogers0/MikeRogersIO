@@ -62,3 +62,13 @@ p {
 a > code {
   color: inherit;
 }
+
+.text-gray-muted {
+  @apply text-gray-600;
+}
+
+@screen dark {
+  .text-gray-muted {
+    @apply text-gray-300;
+  }
+}
