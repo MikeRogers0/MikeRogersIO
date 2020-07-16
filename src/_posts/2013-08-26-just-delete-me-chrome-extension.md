@@ -1,12 +1,7 @@
 ---
 layout: post
 title: JustDelete.Me Chrome Extension
-published: true
-categories:
- – blog
-meta:
-  description: 'JustDelete.me chrome extension blog post giving a elevator pitch on its functionality with a screenshot.'
-  index: true
+description: JustDelete.me chrome extension blog post giving a elevator pitch on its functionality with a screenshot.
 ---
 
 Yesterday I pushed my new chrome extension [JustDelete.me to the Chrome Store](https://chrome.google.com/webstore/detail/justdeleteme/hfpofkfbabpbbmchmiekfnlcgaedbgcf). It's pretty exciting as it managed to achieve a fairly decent amount of installs on its first day.

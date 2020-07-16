@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Reviewing The HEY Gemfile
-categories:
- – blog
-published: true
-meta:
-  description: DHH posted the HEY Gemfile, here are some notes I made about it.
-  index: true
+description: DHH posted the HEY Gemfile, here are some notes I made about it.
 ---
 
 I love digging through other peoples Ruby on Rails apps, seeing how other people approach their code is very insightful.

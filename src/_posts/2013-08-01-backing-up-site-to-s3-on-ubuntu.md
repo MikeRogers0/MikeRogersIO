@@ -1,12 +1,7 @@
 ---
 layout: post
 title: How to backup a website to S3 on Ubuntu Server
-published: true
-categories:
- – blog
-meta:
-  description: 'A script breakdown of how to move backup your website (files and database) to Amazon S3 on Ubuntu Server'
-  index: true
+description: A script breakdown of how to move backup your website (files and database) to Amazon S3 on Ubuntu Server
 ---
 Regular backups of your website are super important. Below is the script I wrote to backup my site (files and databases) to S3.
 

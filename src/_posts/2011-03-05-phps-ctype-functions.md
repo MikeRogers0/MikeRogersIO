@@ -1,16 +1,7 @@
 ---
 layout: post
 title: PHP's Ctype Functions
-tags:
-- PHP
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'PHPs Ctype functions which validate strings quickly without regex.'
-  index: true
+description: PHPs Ctype functions which validate strings quickly without regex.
 ---
 A few days ago I was researching methods of validating alphanumeric strings and I was shown PHPs [Ctype Functions](http://www.php.net/manual/en/ref.ctype.php) by [Sebastian Roming](http://www.sebastianroming.de/).
 

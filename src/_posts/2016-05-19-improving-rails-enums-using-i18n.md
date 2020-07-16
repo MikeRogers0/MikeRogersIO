@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Improving Rails Enums using i18n
-categories:
- – blog
-published: true
-meta:
-  description: A helper method I wrote to make Enum in Rails more user presentable using i18n.
-  index: true
+description: A helper method I wrote to make Enum in Rails more user presentable using i18n.
 ---
 
 As of Rails 4.1, you can use [Enums](http://api.rubyonrails.org/v4.1/classes/ActiveRecord/Enum.html) to sensibly store a set of fixed constants against a field. These are handy as upon declaring your enum attributes, Rails will define a bunch of methods and scopes that follow Ruby's naming conventions.

@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Some thoughts on making a jQuery plugin
-categories:
- – blog
-published: true
-meta:
-  description: I wrote a jQuery Plugin. Here are notes on the parts of used.
-  index: true
+description: I wrote a jQuery Plugin. Here are notes on the parts of used.
 ---
 
 I recently got around to finishing off [show-when-this](https://github.com/MikeRogers0/show-when-this), a jQuery plugin that had been knocking around in the back of my head for a while now. This was the first jQuery plugin I had written with tests and decided to published to the world, in this post I've put down a few of my thoughts.

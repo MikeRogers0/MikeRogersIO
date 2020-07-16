@@ -1,16 +1,7 @@
 ---
 layout: post
 title: How to use Google Web Fonts on Wufoo forms
-tags:
-- XHTML &amp; CSS
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'How to embed custom fonts from google web fonts into Wufoo forms.'
-  index: true
+description: How to embed custom fonts from google web fonts into Wufoo forms.
 ---
 [Wufoo](http://wufoo.com/) is a great service which makes managing forms on a website pretty simple, unfortunately their font selection is fairly limited. Luckily there is a really quick way to get better fonts on Wufoo.
 

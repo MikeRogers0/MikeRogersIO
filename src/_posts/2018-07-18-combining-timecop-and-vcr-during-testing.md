@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Combining timecop and VCR during testing
-categories:
- – blog
-published: true
-meta:
-  description: Speed up your tests and make them more replayable.
-  index: true
+description: Speed up your tests and make them more replayable.
 ---
 
 On almost every ruby project I work on, I always include the following two gems to make writing tests a dash easier:

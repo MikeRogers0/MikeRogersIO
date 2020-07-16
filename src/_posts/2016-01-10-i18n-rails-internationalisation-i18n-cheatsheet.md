@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Rails internationalisation (i18n) cheatsheet
-categories:
- – blog
-published: true
-meta:
-  description: A collection of examples of how to use the rails internationalisation (i18n) and a few quick start tools.
-  index: true
+description: A collection of examples of how to use the rails internationalisation (i18n) and a few quick start tools.
 ---
 
 For a long time I had never fully embraced how simple internationalisation (i18n) in Rails is, but once I started using it by default I felt like a silly pickle for not embracing it before.

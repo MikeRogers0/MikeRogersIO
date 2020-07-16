@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Elegant Rails 5 Scopes
-categories:
- – blog
-published: true
-meta:
-  description: Stop writing raw SQL, instead let Active Record handle that for you.
-  index: true
+description: Stop writing raw SQL, instead let Active Record handle that for you.
 ---
 
 Rails is great, with each update it's making working with it even more enjoyable. Active Record in particular has added a bunch of little improvements that help avoid writing raw SQL (Which can be risky when combined them with the [joins](https://apidock.com/rails/ActiveRecord/QueryMethods/joins) & [includes](https://apidock.com/rails/ActiveRecord/QueryMethods/includes) methods). Here are a few of my favourites:

@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Listening to Bootstrap Events in Stimulus Controllers
-categories:
- – blog
-published: true
-meta:
-  description: Bootstrap fires events via jQuery, which doesn't play to nicely with Stimulus. Here is how to make them play nicely.
-  index: true
+description: Bootstrap fires events via jQuery, which doesn't play to nicely with Stimulus. Here is how to make them play nicely.
 ---
 
 I love [Bootstrap 4](https://getbootstrap.com) & [Stimulus](https://stimulusjs.org), both are fantastic libraries that allow me to develop at a good pace without making a mess. However they require a bit of setup to help them play nicely together.

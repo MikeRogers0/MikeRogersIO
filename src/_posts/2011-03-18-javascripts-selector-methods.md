@@ -1,16 +1,7 @@
 ---
 layout: post
 title: JavaScript Selector Methods (Use CSS selectors in JS)
-tags:
-- JavaScript
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'How to use querySelector in JS to make CSS style selections in JS'
-  index: true
+description: 'How to use querySelector in JS to make CSS style selections in JS'
 ---
 I was recently introduced a group of really funky new HTML5 JavaScript methods, which make me seriously think we can avoid having to include the jQuery library in lots of small websites. These methods are querySelectorAll() and querySelector().
 

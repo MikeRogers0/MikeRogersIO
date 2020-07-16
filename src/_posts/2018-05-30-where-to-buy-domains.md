@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Where to buy your domains
-categories:
- – blog
-published: true
-meta:
-  description: Domain registrars is hard get right, here are the ones I like.
-  index: true
+description: Domain registrars is hard get right, here are the ones I like.
 ---
 
 Where you buy your domain will have a small, but noticeable impact on the long term scalability of your web app.

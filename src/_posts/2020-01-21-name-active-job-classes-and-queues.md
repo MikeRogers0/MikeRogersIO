@@ -1,12 +1,7 @@
 ---
 layout: post
 title: How to name Active Job Classes and Queues
-categories:
- – blog
-published: true
-meta:
-  description: Strategies for name spacing Active Job queues & class names.
-  index: true
+description: Strategies for name spacing Active Job queues & class names.
 ---
 
 TL;DR: Name your class after it's arguments, and the queue by the class name.

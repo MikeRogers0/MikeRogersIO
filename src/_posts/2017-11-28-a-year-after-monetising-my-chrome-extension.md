@@ -1,12 +1,7 @@
 ---
 layout: post
 title: A year after monetising my Chrome Extension
-categories:
- – blog
-published: true
-meta:
-  description: I learnt a lot in the last year, I had to share what I learnt!
-  index: true
+description: I learnt a lot in the last year, I had to share what I learnt!
 ---
 
 Just over a year ago, I wrote [a post](/2016/10/29/lessons-learnt-from-monetising-my-chrome-extension.html) detailing my experiences monetising my Google Chrome Extension  [LivePage](https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh/details) via a subscription model. It has been a pretty exciting year since I wrote that, and I wanted to write a follow up post.

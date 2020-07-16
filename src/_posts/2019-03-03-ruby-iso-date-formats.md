@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Easier DateTime Localisation with Rails 
-categories:
- – blog
-published: true
-meta:
-  description: Rails ships with a bunch ISO date formats (and a few localised ones), here is how to use them
-  index: true
+description: Rails ships with a bunch ISO date formats (and a few localised ones), here is how to use them
 ---
 
 Ruby and Ruby on Rails come with a bunch of time saving libraries, which can save you a lot of time coding for specific scenarios.

@@ -1,12 +1,7 @@
 ---
 layout: post
 title: How to Lint FactoryBot Factories with RSpec
-categories:
- – blog
-published: true
-meta:
-  description: Invalid factories are the worst. Here is a script I normally drop into my rails projects to help spot them.
-  index: true
+description: Invalid factories are the worst. Here is a script I normally drop into my rails projects to help spot them.
 ---
 
 

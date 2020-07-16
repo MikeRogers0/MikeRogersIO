@@ -1,16 +1,7 @@
 ---
 layout: post
 title: How to do a timed shutdown on your PC
-tags:
-- Bits &amp; bytes
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'How to do a timed shutdown on Windows 7 and 8'
-  index: true
+description: How to do a timed shutdown on Windows 7 and 8
 ---
 Recently I've stumbled upon a really neat technique to listening to [Spotify](http://www.spotify.com/) while I'm heading off to bed, then not have to get up to turn my music off once I'm dropping off.
 

@@ -1,12 +1,7 @@
 ---
 layout: post
 title: How to setup a global .gitignore
-published: true
-categories:
- – blog
-meta:
-  description: How to setup a global gitignore which will help ignore annoying system files across all your git projects.
-  index: true
+description: How to setup a global gitignore which will help ignore annoying system files across all your git projects.
 ---
 
 The .gitignore file is really handy for stopping silly system files (like that pesky .DS_Store fella) from entering your git repository.  However, did you know you can setup a global .gitignore that'll apply across your system? 

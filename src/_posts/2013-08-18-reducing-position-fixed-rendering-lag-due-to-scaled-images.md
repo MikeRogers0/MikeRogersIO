@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Reducing position:fixed; rendering lag due to scaled images
-published: true
-categories:
- – blog
-meta:
-  description: 'Using position:fixed; causes the page to lag when your scrolling, scaled images make this issues worse. Here is a fix to make it less noticeable.'
-  index: true
+description: Using position:fixed; causes the page to lag when your scrolling, scaled images make this issues worse. Here is a fix to make it less noticeable.
 ---
 I'm currently working on a project that uses a variable amount of images which are scaled into 120px by 120px elements (The images are 3rd party). On lower end devices I noticed a lag when scrolling the page, upon further inspection the issue was also noticeable on my desktop machine. [Here is a demonstration of the issue](/2013/08/18/fixed-position-scroll-lag.html).
 

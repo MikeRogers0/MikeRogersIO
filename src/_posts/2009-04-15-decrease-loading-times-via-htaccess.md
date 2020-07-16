@@ -1,15 +1,7 @@
 ---
 layout: post
 title: Decrease loading times via .htaccess
-tags:
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'A trick to reduce load times with .htaccess (gzipping)'
-  index: true
+description: A trick to reduce load times with .htaccess (gzipping)
 ---
 Here is a really nifty trick I've been using for a while to decrease the time a page takes to load. Add the following lines of code to your .htaccess file:
 

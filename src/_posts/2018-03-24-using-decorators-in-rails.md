@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Using Decorators in Rails
-categories:
- – blog
-published: true
-meta:
-  description: Avoid adding if/else logic inside view, instead use Decorators.
-  index: true
+description: Avoid adding if/else logic inside view, instead use Decorators.
 ---
 
 Have you ever opened a view in your Ruby on Rails app and seen something like this:

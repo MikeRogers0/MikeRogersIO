@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Naming colours in SCSS
-categories:
- – blog
-published: true
-meta:
-  description: Naming is tricky, here is how I do it.
-  index: true
+description: Naming is tricky, here is how I do it.
 ---
 
 TL;DR: Name them after the object or action they describe. So `danger` over `red`, or `create` instead of `green`.

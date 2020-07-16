@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Mailer Previews in Rails 5
-categories:
- – blog
-published: true
-meta:
-  description: How to share Rails 5 mailer previews in a staging environment
-  index: true
+description: How to share Rails 5 mailer previews in a staging environment
 ---
 
 One of the best features of Ruby on Rails when developing locally is the [Preview Email](http://guides.rubyonrails.org/action_mailer_basics.html#previewing-emails) feature, along with [premailer](https://github.com/fphilipe/premailer-rails) it really makes building out mailers super easy.

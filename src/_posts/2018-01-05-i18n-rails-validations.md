@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Using I18n in Rails Validations
-categories:
- – blog
-published: true
-meta:
-  description: Don't hard code strings into your models, put them in your locales!
-  index: true
+description: Don't hard code strings into your models, put them in your locales!
 ---
 
 Rails model validations are one of the most expressive and powerful aspects which makes Rails one of my favourite frameworks.

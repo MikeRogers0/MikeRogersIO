@@ -1,12 +1,7 @@
 ---
 layout: post
 title: How To Use List-Unsubscribe Headers In Action Mailer
-categories:
- – blog
-published: true
-meta:
-  description: Ever seen "Unsubscribe" links in your email client? Here's how to add them in Rails Action Mailer
-  index: true
+description: Ever seen "Unsubscribe" links in your email client? Here's how to add them in Rails Action Mailer.
 ---
 
 Have you ever opened an email & saw there is an "Unsubscribe" link outside of the email contents? I was curious about this recently, and decided to have a little dive into how it works.

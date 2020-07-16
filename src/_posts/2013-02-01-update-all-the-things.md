@@ -1,17 +1,7 @@
 ---
 layout: post
 title: Update all the things!
-tags:
-- Socialize This
-- WP HTML5 Category Selector
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'I updated a few of my Wordpress plugins, this is the summary.'
-  index: true
+description: I updated a few of my Wordpress plugins, this is the summary.
 ---
 I finally found a bit of time to update a few of my Wordpress plugins, here is a quick summary of the changes.
 

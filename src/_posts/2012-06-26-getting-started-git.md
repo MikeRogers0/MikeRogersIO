@@ -1,16 +1,7 @@
 ---
 layout: post
 title: Getting started with Git
-tags:
-- Git
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'A video of the talk I gave in April on getting started with Git'
-  index: true
+description: A video of the talk I gave in April on getting started with Git
 ---
 Git is a really powerful piece of version control software. Here is a short crash course on how to get started  on it, I presented at the University of Portsmouth in April 2012.
 

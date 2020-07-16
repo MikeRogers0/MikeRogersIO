@@ -1,12 +1,7 @@
 ---
 layout: post
 title: How to set "Cache-Control" headers for Rails Webpacker & Sprockets Assets
-categories:
- – blog
-published: true
-meta:
-  description: Fix that pesky "Serving static assets with an efficient cache policy" PageSpeed suggestion.
-  index: true
+description: Fix that pesky "Serving static assets with an efficient cache policy" PageSpeed suggestion.
 ---
 
 If you've ever run a fairly bog standard Ruby on Rails application through a Page Speed testing service (like [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)), you'll most likely see a suggestion like:

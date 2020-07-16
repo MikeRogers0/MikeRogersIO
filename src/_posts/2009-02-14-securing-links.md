@@ -1,20 +1,7 @@
 ---
 layout: post
 title: Securing Links
-tags:
-- click tracker
-- Coding
-- PHP
-- secure links
-- Security
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'A simple link cloaker example with PHP'
-  index: true
+description: A simple link cloaker example with PHP
 ---
 Have you ever wanted to secure links on your website (for example hide the real source of a file)? Here is a quick and easy way to do this.
 

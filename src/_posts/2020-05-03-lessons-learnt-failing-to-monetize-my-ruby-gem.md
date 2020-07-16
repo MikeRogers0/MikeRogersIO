@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Lessons Learnt Failing to monetize my Ruby Gem
-categories:
- – blog
-published: true
-meta:
-  description: I closed down my PigCI app. Here are some of the things I learnt along the way.
-  index: true
+description: I closed down my PigCI app. Here are some of the things I learnt along the way.
 ---
 
 My side project ([PigCI](https://pigci.com/)) was a ruby gem that you'd attach to your RSpec test suite, and it'll warn you via a GitHub App if you had an unexpected increase in memory usage or database requests.

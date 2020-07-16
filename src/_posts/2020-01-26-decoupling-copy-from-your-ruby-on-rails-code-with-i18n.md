@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Decoupling copy from your Ruby on Rails code with I18n
-categories:
- – blog
-published: true
-meta:
-  description: I18n is a great way to quickly translate your app, but it's also a great way to tidy up your code.
-  index: true
+description: I18n is a great way to quickly translate your app, but it's also a great way to tidy up your code.
 ---
 
 One feature that's really underutilised by Ruby on Rails developers is the [Internationalization (I18n) API](https://guides.rubyonrails.org/i18n.html). This API lets you easily translate your application into lots of different languages without any extra code. But more importantly, it's a fantastic way to decouple copy from your code.

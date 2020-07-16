@@ -1,12 +1,7 @@
 ---
 layout: post
 title: My OSX setup
-categories:
- – blog
-published: true
-meta:
-  description: The brews I normally have to run to get setup
-  index: true
+description: The brews I normally have to run to get setup
 ---
 
 I have a really simple setup for my Mac, the idea being I can quickly get setup and start working on a new machine without to much kerfuffle. Here is a quick overview of the code I normally use to get going quickly.

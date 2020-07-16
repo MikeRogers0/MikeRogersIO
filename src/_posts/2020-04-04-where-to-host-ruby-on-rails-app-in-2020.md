@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Where to host your Ruby on Rails App in 2020
-categories:
- – blog
-published: true
-meta:
-  description: So many options?! But which is the best all round for hosting & ease of deployment?
-  index: true
+description: So many options?! But which is the best all round for hosting & ease of deployment?
 ---
 
 _TL;DR: Heroku is still hands down my preferred choice for hosting & deployment in 2020. Digital Ocean has super clear pricing & AWS Elastic Beanstalk is pretty cost effective._

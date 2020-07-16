@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Rails 6 Sidekiq Queues
-categories:
- – blog
-published: true
-meta:
-  description: Rails 6 has new queues for ActiveStorage & ActionMailbox.
-  index: true
+description: Rails 6 has new queues for ActiveStorage & ActionMailbox.
 ---
 
 If you're using Sidekiq with Rails 6 you may find that Rails 6 ships with non-default queue names for things like ActiveStorage and ActiveMailbox.

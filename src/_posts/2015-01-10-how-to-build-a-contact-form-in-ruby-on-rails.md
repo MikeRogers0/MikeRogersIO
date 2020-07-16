@@ -1,15 +1,7 @@
 ---
 layout: post
 title: How to make a contact form
-categories:
- – blog
-published: true
-meta:
-  description: How to make a contact form in Rails with a BDD approach
-  index: true
-tags:
-  - Rails
-video_length: 49
+description: How to make a contact form in Rails with a BDD approach
 ---
 
 {% youtube_playlist PLsqSLeo9DZwSq6KzOW66dhNCxn0AVBhkV %}

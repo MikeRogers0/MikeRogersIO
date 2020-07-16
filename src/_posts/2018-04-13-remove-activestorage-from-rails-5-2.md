@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Removing Active Storage Routes from Rails 5.2
-categories:
- – blog
-published: true
-meta:
-  description: Active Storage is pretty cool, but it added new routes to my old rails apps.
-  index: true
+description: Active Storage is pretty cool, but it added new routes to my old rails apps.
 ---
 
 Rails 5.2 has [landed](http://weblog.rubyonrails.org/2018/4/9/Rails-5-2-0-final/) and it brings some pretty cool new additions to the Rails stack.

@@ -1,14 +1,8 @@
 ---
 layout: post
 title: Why I'm charging for LivePage
-categories:
- – blog
-published: true
-meta:
-  description: I made LivePage (my Chrome Extension) £2.99 a year, here is the explanation of why, and my future plans.
-  index: true
-  skip_monetization: true
-  image: /uploads/2016/07/02/1400x560_marquee-halfsize.jpg
+description: I made LivePage (my Chrome Extension) £2.99 a year, here is the explanation of why, and my future plans.
+image: /uploads/2016/07/02/1400x560_marquee-halfsize.jpg
 ---
 
 {% img src: /uploads/2016/07/02/1400x560_marquee-halfsize.jpg width: 1400 alt: "LivePage marquee image with it's new logo on a code background" href: https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en %}

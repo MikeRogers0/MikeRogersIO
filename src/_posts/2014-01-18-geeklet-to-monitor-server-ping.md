@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Geeklet for monitoring server ping
-published: true
-categories:
- – blog
-meta:
-  description: A geektool geeklet code sample that shows server status and ping.
-  index: true
+description: A geektool geeklet code sample that shows server status and ping.
 ---
 
 I've been using [Geektool](http://projects.tynsoe.org/en/geektool/) for a while now, it's a super handy way to display useful information on my desktop. One geeklet I've found to be useful displays the status and ping of my VPS.

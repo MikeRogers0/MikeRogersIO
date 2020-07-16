@@ -1,12 +1,7 @@
 ---
 layout: post
 title: How to use Yard for offline documentation
-categories:
- – blog
-published: true
-meta:
-  description: I like to work offline, this documents my current setup & how I'm using puma-dev to make it effortless.
-  index: true
+description: I like to work offline, this documents my current setup & how I'm using puma-dev to make it effortless.
 ---
 
 I like being able to work offline, there is something quite reassuring about being able to sit on a train and still get on with my daily tasks without being dependent on a solid internet connection.

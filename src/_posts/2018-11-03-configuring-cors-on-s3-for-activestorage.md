@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Configuring CORS on S3 for ActiveStorage
-categories:
- – blog
-published: true
-meta:
-  description: The AWS S3 CORS configuration to allow Direct Upload for ActiveStorage.
-  index: true
+description: The AWS S3 CORS configuration to allow Direct Upload for ActiveStorage.
 ---
 
 If you haven't tried Rails new ActiveStorage feature, do it! It's bloody lovely to work with! However, recently I ran into a "OMFG why isn't this working" moment while uploading files with Direct Upload to AWS S3 via ActiveStorage in Ruby On Rails.

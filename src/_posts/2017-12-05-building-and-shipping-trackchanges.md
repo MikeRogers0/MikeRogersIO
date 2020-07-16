@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Building and shipping TrackChanges
-categories:
- – blog
-published: true
-meta:
-  description: I shipped a Chrome extension, it was an adventure.
-  index: true
+description: I shipped a Chrome extension, it was an adventure.
 ---
 
 Last week I released [TrackChanges](https://trackchanges.mikerogers.io/) to the public, and it was fairly niche extension, but I felt like it launched pretty nicely. I wanted to share the journey from initial idea to shipping to the Chrome Store.

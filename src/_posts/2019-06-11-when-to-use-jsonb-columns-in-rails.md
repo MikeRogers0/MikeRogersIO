@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Patterns to avoid when using JSON columns in Rails
-categories:
- – blog
-published: true
-meta:
-  description: Rails supporting JSON field type is a great, but can screw you right over. 
-  index: true
+description: Rails supporting JSON field type is a great, but can screw you right over. 
 ---
 
 Rails 5.2 introduced support for [JSON field types](https://edgeguides.rubyonrails.org/active_record_postgresql.html#json-and-jsonb), which is super awesome. It allows a really nice way of storing blobs of JSON against an object in your database. But while they're convenient, they can end up being a double edged sword and can lead to a headache if you aren't careful.

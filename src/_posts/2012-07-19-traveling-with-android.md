@@ -1,16 +1,7 @@
 ---
 layout: post
 title: 5 tips for traveling with Android smartphones
-tags:
-- Bits &amp; bytes
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'A few tips for traveling with an Android phone'
-  index: true
+description: A few tips for traveling with an Android phone
 ---
 I recently spent a month backpacking around western Europe. I didn't want to take my MacBook Pro with me (The kerfuffle with insurance if it was stolen outweighed my need for it), so my main source of information was my [HTC Desire S](http://en.wikipedia.org/wiki/HTC_Desire_S). Here are a few notes on stuff I found was useful.
 

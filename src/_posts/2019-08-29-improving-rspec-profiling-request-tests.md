@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Improving RSpec's Profiling by compiling assets
-categories:
- – blog
-published: true
-meta:
-  description: Compiling my test assets before running specs saved a few seconds.
-  index: true
+description: Compiling my test assets before running specs saved a few seconds.
 ---
 
 I've recently started profiling a lot of my RSpec tests (Mostly due to my work on [PigCI](https://pigci.com)) to help identify the tests that are weirdly slow.

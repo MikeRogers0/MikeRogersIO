@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Stop resizing images with Ruby
-categories:
- – blog
-published: true
-meta:
-  description: Ruby shouldn't be used to resize images, instead do it in the cloud.
-  index: true
+description: Ruby shouldn't be used to resize images, instead do it in the cloud.
 ---
 
 Back in the day, I used [CarrierWave](https://github.com/carrierwaveuploader/carrierwave) and [MiniMagick](https://github.com/minimagick/minimagick) to handle my image upload and resizing needs, and for the most part it did a swell job. I even had a pretty decent setup where the users would upload their images directly to S3, then a Heroku Worker Dyno would do the handle the actual image manipulation, all cached by CloudFront.

@@ -1,12 +1,7 @@
 ---
 layout: post
 title: How to use Rails.ajax in Stimulus Controllers
-categories:
- – blog
-published: true
-meta:
-  description: Make AJAX calls using Rails.ajax by including UJS into your Stimulus controller files.
-  index: true
+description: Make AJAX calls using Rails.ajax by including UJS into your Stimulus controller files.
 ---
 
 I'm a big fan of using [Rails UJS](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#unobtrusive-javascript), it's a really nice way to handle 90% of the things I need to do by sprinkling a little bit of extra markup into my HTML.

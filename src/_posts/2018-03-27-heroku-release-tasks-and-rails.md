@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Setting up Heroku release tasks for Ruby on Rails
-categories:
- – blog
-published: true
-meta:
-  description: Run migrations, clear caches and other things without downtime when deploying.
-  index: true
+description: Run migrations, clear caches and other things without downtime when deploying.
 ---
 
 When I first started deploying my sites to Heroku, I'd have to run migrations. After a bit of code hammering, I was pretty happy to push my code, then run migrations in a one off dyno (`heroku run rails db:migrate`), then maybe restart my dynos (`heroku restart`).

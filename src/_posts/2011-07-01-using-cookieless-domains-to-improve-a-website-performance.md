@@ -1,15 +1,7 @@
 ---
 layout: post
 title: Using cookieless domains to improve a website performance
-tags:
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'A demo of how to set up a cookieless domain'
-  index: true
+description: A demo of how to set up a cookieless domain
 ---
 Fast loading times are a really important factor when it comes to website ranking, so it's important to remove as much unnecessary data as possible. A good method to do this is via cookieless domains.
 

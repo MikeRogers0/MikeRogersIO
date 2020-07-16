@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Additional Ruby Solr Sunspot setup tweaks
-categories:
- – blog
-published: true
-meta:
-  description: A few tweaks I made to my searchable blocks to make Solr Sunspot better.
-  index: true
+description: A few tweaks I made to my searchable blocks to make Solr Sunspot better.
 ---
 
 Building a search for your rails app can become a touch complicated when you need to order by relevancy. 

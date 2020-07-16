@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Monitor Rails memory usage during acceptance tests
-categories:
- – blog
-published: true
-meta:
-  description: I had a memory leak in my Rails app and tracked it down using Oink.
-  index: true
+description: I had a memory leak in my Rails app and tracked it down using Oink.
 ---
 
 Receiving an alert that your web app has exceeded its memory usage is no fun, but a few weeks ago I was lucky enough to be woken up to such alerts after a late deploy. The TL;DR: was I had added a bunch of new gems into my rails app and not adjusted the amount of unicorn workers to reflect the extra memory usage. A classic schoolboy error.

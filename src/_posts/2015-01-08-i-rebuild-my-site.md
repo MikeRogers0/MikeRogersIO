@@ -1,12 +1,7 @@
 ---
 layout: post
 title: I finally rebuilt my site :D
-categories:
- – blog
-published: true
-meta:
-  description: A overview of some of the techniques I used to quickly rebuild my site
-  index: true
+description: A overview of some of the techniques I used to quickly rebuild my site
 ---
 
 I built the old design of my site with two goals in mind, "Make it load fast" and "Make it 100% your work". I ended up nailing both goals by making a fairly plain and simple website, as a result it was dull as a white wall.

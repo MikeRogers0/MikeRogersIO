@@ -1,16 +1,7 @@
 ---
 layout: post
 title: My Resolutions for 2011
-tags:
-- Bits &amp; bytes
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'New years resolutions for 2011'
-  index: true
+description: New years resolutions for 2011
 ---
 Here are a few of my resolutions for 2011, hopefully if I remember I'll try to tick them off throughout the year.
 

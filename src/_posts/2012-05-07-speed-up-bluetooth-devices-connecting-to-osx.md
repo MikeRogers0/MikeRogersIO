@@ -1,16 +1,7 @@
 ---
 layout: post
 title: Speed up bluetooth devices connecting to OSX
-tags:
-- Bits &amp; bytes
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'An OSX trick to make bluetooth devices connect faster.'
-  index: true
+description: An OSX trick to make bluetooth devices connect faster.
 ---
 If you use bluetooth mice or keyboards on OSX you may have noticed they take a little while to connect. Here is a neat little trick I found to make them connect faster.
 

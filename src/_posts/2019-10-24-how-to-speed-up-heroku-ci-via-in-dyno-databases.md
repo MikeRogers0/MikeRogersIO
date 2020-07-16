@@ -1,12 +1,7 @@
 ---
 layout: post
 title: How to Speed Up Heroku CI via In Dyno Databases
-categories:
- – blog
-published: true
-meta:
-  description: My tests were feeling very slow in Heroku CI, I got a 2x speedup by changing one line of code.
-  index: true
+description: My tests were feeling very slow in Heroku CI, I got a 2x speedup by changing one line of code.
 ---
 
 Heroku is a fantastic service if you're looking for a place to put your Ruby on Rails apps. In 2017 they release a CI service which I've found to be pretty low cost.

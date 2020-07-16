@@ -1,16 +1,7 @@
 ---
 layout: post
 title: Seeding with Seedbank
-categories:
- – blog
-published: true
-meta:
-  description: A video explaining how to use Seedbank in a rails project.
-  index: true
-tags: 
- - Rails
- - Seedbank
-video_length: 13
+description: A video explaining how to use Seedbank in a rails project.
 ---
 
 {% youtube_playlist PLsqSLeo9DZwQaX4N64YIYtYzF_4sPkuRw %}

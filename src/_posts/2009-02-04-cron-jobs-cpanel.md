@@ -1,16 +1,7 @@
 ---
 layout: post
 title: Cron Jobs and cPanel
-tags:
-- Coding
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'How to set up and cron job in cPanel'
-  index: true
+description: How to set up and cron job in cPanel
 ---
 A cron is a program which allows users to execute scripts at a specified time and date. In the web development world they are normally used to update caches or run complex pieces of code (this in theory should improve the user experience).
 

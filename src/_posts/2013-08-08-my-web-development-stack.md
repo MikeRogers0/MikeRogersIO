@@ -1,12 +1,7 @@
 ---
 layout: post
 title: My Web Development Stack
-published: true
-categories:
- – blog
-meta:
-  description: 'A few details about my local development environment and software I use.'
-  index: true
+description: A few details about my local development environment and software I use.
 ---
 I've been building websites for a while now, I'm by no means a seasoned web developer but I think my current stack is a fairly effective setup. Here is some details about the setup.
 

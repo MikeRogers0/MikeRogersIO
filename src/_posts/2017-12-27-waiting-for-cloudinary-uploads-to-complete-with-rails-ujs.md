@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Waiting for Cloudinary uploads to finish with Rails UJS
-categories:
- – blog
-published: true
-meta:
-  description: How to nicely disable a form to let uploads finish before submitting to the server.
-  index: true
+description: How to nicely disable a form to let uploads finish before submitting to the server.
 ---
 
 Rails has a really neat [UJS](https://guides.rubyonrails.org/working_with_javascript_in_rails.html#unobtrusive-javascript) feature that'll disable a forms submit buttons after the user has clicked it. It's a very handy to solve the age old problem of "User is clicking submit multiple times". Similarly Cloudinary has a [fantastic API](https://cloudinary.com/documentation/jquery_image_and_video_upload) that allows users to upload images directly to them, without the data having to make a stop your your server.

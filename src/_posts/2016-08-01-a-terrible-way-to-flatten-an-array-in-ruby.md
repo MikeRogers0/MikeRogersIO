@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Flattening an array with Regex in Ruby (Interview Question)
-categories:
- – blog
-published: true
-meta:
-  description: I was asked to flatten an array in Ruby, without using the flatten method. Here is the terrible answer I came up with.
-  index: true
+description: I was asked to flatten an array in Ruby, without using the flatten method. Here is the terrible answer I came up with.
 ---
 
 I was recently shown how to solve [Fizz Buzz in Tensorflow](http://joelgrus.com/2016/05/23/fizz-buzz-in-tensorflow/) ( thanks [Sandy](https://twitter.com/partysandy_) btw! ) which was pretty neat, segwaying from that, this one time during an interview I used regex to flatten an array in Ruby. 

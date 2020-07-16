@@ -1,16 +1,7 @@
 ---
 layout: post
 title: How to use the Filter Functions in PHP
-tags:
-- PHP
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'An example of how to use PHP filter functions to validate and sanitise strings.'
-  index: true
+description: An example of how to use PHP filter functions to validate and sanitise strings.
 ---
 When I started learning PHP (Back in the PHP4 days) validating data was always a pain (for me at least). Most of the resources available cited the [POSIX functions](http://uk3.php.net/manual/en/ref.regex.php) as the most effective way of validating an email address or URL.
 

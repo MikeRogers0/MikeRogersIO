@@ -1,12 +1,7 @@
 ---
 layout: post
 title: How to limit the size of Rails Logs
-categories:
- – blog
-published: true
-meta:
-  description: Rails log files growing to massive sizes? Limit them!
-  index: true
+description: Rails log files growing to massive sizes? Limit them!
 ---
 
 This week one of my colleagues opened a Ruby on Rails project they'd been working on for a while & noticed the `/log` folder had grown to over 60GB, which was causing some pretty funky performance problems.

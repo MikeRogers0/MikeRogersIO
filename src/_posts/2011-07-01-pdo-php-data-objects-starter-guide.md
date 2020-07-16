@@ -1,16 +1,7 @@
 ---
 layout: post
 title: PDO (PHP Data Objects) - Starter Guide
-tags:
-- PHP
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'How to move off the deprecated mysql_* and start using PDO in PHP'
-  index: true
+description: How to move off the deprecated mysql_* and start using PDO in PHP
 ---
 It may surprise you to hear, that using the [mysql_connect()](http://php.net/manual/en/function.mysql-connect.php) function in PHP has recently be marked as "old hat" coding because it's slow in comparison with newer methods. A better alternative is [PDO (PHP Data Objects)](http://php.net/manual/en/book.pdo.php), a lightweight method for accessing databases. Here is a quick overview to help you get started with PDO.
 

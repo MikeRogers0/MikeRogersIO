@@ -1,16 +1,7 @@
 ---
 layout: post
 title: Getting the Weather in PHP
-tags:
-- PHP
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'How to use a secret google API to get the weather.'
-  index: true
+description: 'How to use a secret google API to get the weather.'
 ---
 A few months ago I made a small PHP class which can get the weather based on latitude and longitude.
 

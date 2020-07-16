@@ -1,12 +1,7 @@
 ---
 layout: post
 title: How to get the time an ActiveJob was enqueued at
-categories:
- – blog
-published: true
-meta:
-  description: Knowing the exact time you queued up a background job is handy, here is how to get it in Ruby on Rails ActiveJob.
-  index: true
+description: Knowing the exact time you queued up a background job is handy, here is how to get it in Ruby on Rails ActiveJob.
 ---
 
 I recently had a Ruby on Rails ActiveJob task where I needed to know the exact time when the job was originally enqueued at (i.e. when `perform_later` was called).

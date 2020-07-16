@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Storing a String in ActiveStorage
-categories:
- – blog
-published: true
-meta:
-  description: Rails ActiveStorage is a great way of saving files, but you can also store blobs of text.
-  index: true
+description: Rails ActiveStorage is a great way of saving files, but you can also store blobs of text.
 ---
 
 Recently, I came across a useful way to use ActiveStorage. I had a text field on my model, that stored about 200 kB of data that was only being read a handful of times. A quick estimate suggested this single column contained about 90% of the databases content.

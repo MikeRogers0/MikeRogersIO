@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Stuff I'm going to use more in 2013
-published: true
-categories:
- – blog
-meta:
-  description: '6 new year resolutions for 2013.'
-  index: true
+description: 6 new year resolutions for 2013.
 ---
 ## Bootstrap
 

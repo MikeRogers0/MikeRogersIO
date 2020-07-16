@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Don't just [FILTER] passwords by default, filter tokens and keys!
-categories:
- – blog
-published: true
-meta:
-  description: Update your config.filter_parameters to have sensible defaults, so logs don't have sensitive information in them.
-  index: true
+description: Update your config.filter_parameters to have sensible defaults, so logs don't have sensitive information in them.
 ---
 
 I've picked up a lot of Rails projects while being a contractor. Almost always, I can grantee that the `config/initializers/filter_parameter_logging.rb` will be pretty much untouched, and probably will have the commit message of "Initial commit".

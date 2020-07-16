@@ -1,12 +1,7 @@
 ---
 layout: post
 title: How To Interpolate Templates in Stimulus
-categories:
- – blog
-published: true
-meta:
-  description: "TL;DR: Use Lodash, it has a great template function that saved me manually coding a templating system."
-  index: true
+description: TL;DR: Use Lodash, it has a great template function that saved me manually coding a templating system.
 ---
 
 I needed to display a set of JSON search results as HTML within a Stimulus project recently. Stimulus doesn't offer much guidance on how to solve this out the box, so I had a little dive.

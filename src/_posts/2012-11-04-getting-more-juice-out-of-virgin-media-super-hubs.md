@@ -1,16 +1,7 @@
 ---
 layout: post
 title: How to get better signal from the Virgin Media Super Hub
-tags:
-- Bits &amp; bytes
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'A method to improve the signal of the Virgin Media SuperHub'
-  index: true
+description: A method to improve the signal of the Virgin Media SuperHub
 ---
 
 I've recently moved to my ISP over to Virgin Media, the download speed is pretty decent but the no-so-super hub they provide is pants. The super hub has terrible signal strength (standing 8m away from it lead to a 50% drop in download speed) & it regularly dropped out.

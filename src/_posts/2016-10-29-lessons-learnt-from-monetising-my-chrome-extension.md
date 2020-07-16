@@ -1,14 +1,8 @@
 ---
 layout: post
 title: Lessons learnt from monetising my Chrome Extension
-categories:
- – blog
-published: true
-meta:
-  description: I made £170.35 over 3 months, and I made a bunch of mistakes along the way!
-  index: true
-  skip_monetization: true
-  image: /uploads/2016/07/02/1400x560_marquee-halfsize.jpg
+description: I made £170.35 over 3 months, and I made a bunch of mistakes along the way!
+image: /uploads/2016/07/02/1400x560_marquee-halfsize.jpg
 ---
 
 {% img src: /uploads/2016/07/02/1400x560_marquee-halfsize.jpg width: 1400 alt: "LivePage marquee image with it's new logo on a code background" href: https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en?utm_source=blog&utm_medium=web&utm_campaign=followup %}

@@ -1,13 +1,7 @@
 ---
 layout: post
 title: Making Remote Working Actually Work
-categories:
- – blog
-published: true
-meta:
-  description: The video of the talk I done at PHPHants on Making Remote Working Actually Work
-  index: true
-video_length: 8
+description: The video of the talk I done at PHPHants on Making Remote Working Actually Work
 ---
 
 Back in April 2016 I done a talk on Making Remote Working Actually Work at [PHPHants](https://phphants.co.uk/), here is the video:

@@ -1,16 +1,7 @@
 ---
 layout: post
 title: How to use Twitter OAuth v1.1 with JavaScript/jQuery
-tags:
-- Coding
-status: publish
-type: post
-published: true
-categories:
- – blog
-meta:
-  description: 'A simple JavaScript patch for twitter API V1 retirement issue.'
-  index: true
+description: A simple JavaScript patch for twitter API V1 retirement issue.
 ---
 In March 2013 [Twitter plans to retire version 1](https://dev.twitter.com/blog/planning-for-api-v1-retirement) of their REST API, however it's replacement requires all requests to use OAuth signed headers. As a result if you're using JavaScript to pull in a twitter feed to show on your website, you might be  in for a spot of bother. However I've put together a little script which will allow you to remain using your JavaScript implementation, until you have time to move to the Twitter API 1.1 completely.
 

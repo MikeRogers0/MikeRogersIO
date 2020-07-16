@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Using ActionCable & Stimulus to remotely update partials in Rails 6
-categories:
- – blog
-published: true
-meta:
-  description: How to provide real-time updates to a user in Rails 6, without having to reload the page.
-  index: true
+description: How to provide real-time updates to a user in Rails 6, without having to reload the page.
 ---
 
 Displaying the most up-to-date information to users is one of the main challenges facing modern web applications. A common use case would be a change to the contents of the page, which could change the actions the user can perform.

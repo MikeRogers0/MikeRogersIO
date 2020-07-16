@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Building internet safe addresses for ActionMailer using Mail::Address
-categories:
- – blog
-published: true
-meta:
-  description: Sometimes you need to pass in some funky characters to your mail parameters, use Mail::Address to do it safely.
-  index: true
+description: Sometimes you need to pass in some funky characters to your mail parameters, use Mail::Address to do it safely.
 ---
 
 Recently I needed to send emails on behalf of my users, using their full name and email.

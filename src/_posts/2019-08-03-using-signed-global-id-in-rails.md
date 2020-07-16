@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Using Signed Global ID in Rails
-categories:
- – blog
-published: true
-meta:
-  description: Lookup objects from a string of text, way better then passing ID references around.
-  index: true
+description: Lookup objects from a string of text, way better then passing ID references around.
 ---
 
 Passing objects between external services & Rails is fun. Historically I've used an ID or slug to reference an object when making calls to external API, however this puts a lot of trust into a 3rd party. This could easily become an attack vector that goes unnoticed.

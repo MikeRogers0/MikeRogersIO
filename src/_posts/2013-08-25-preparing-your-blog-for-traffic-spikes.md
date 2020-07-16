@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Preparing your blog for traffic spikes
-published: true
-categories:
- – blog
-meta:
-  description: 'A collection of benchmarking tools and caching solutions which should help keep a small site online during traffic spikes.'
-  index: true
+description: A collection of benchmarking tools and caching solutions which should help keep a small site online during traffic spikes.
 ---
 It seems like every few days I click a link on HN or Reddit to find that the page returns an error due to the high level of traffic hitting the server. Here is a short guide on how to prepare your blog for a traffic spike.
 
