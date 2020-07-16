@@ -17,7 +17,7 @@ body {
 
 @screen dark {
   body {
-    @apply bg-gray-900 text-gray-50;
+    @apply bg-gray-900 text-gray-100;
   }
 }
 
@@ -29,13 +29,19 @@ a, .text-link {
   }
 }
 
+@screen dark {
+  a, .text-link {
+    @apply text-blue-400;
+  }
+}
+
 h1, h2, h3, h4 {
-  @apply text-gray-900 font-semibold;
+  @apply text-gray-800 font-semibold;
 }
 
 @screen dark {
   h1, h2, h3, h4 {
-    @apply text-gray-100;
+    @apply text-gray-200;
   }
 }
 
@@ -70,5 +76,15 @@ a > code {
 @screen dark {
   .text-gray-muted {
     @apply text-gray-300;
+  }
+}
+
+.border-gray-subtle {
+  @apply border-gray-200;
+}
+
+@screen dark {
+  .border-gray-subtle {
+    @apply border-gray-800;
   }
 }
