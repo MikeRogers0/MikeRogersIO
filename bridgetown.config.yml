@@ -17,7 +17,6 @@
 
 baseurl: "" # OPTIONAL: the subpath of your site, e.g. /blog
 url: "https://mikerogers.io" # the base hostname & protocol for your site, e.g. https://example.com
-lang: en_GB
 
 
 # Default is "output", I kept auto completing "git push o" to "git push output", so renaming this.

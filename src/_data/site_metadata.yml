@@ -7,8 +7,11 @@
 title: Mike Rogers
 tagline: Ruby Developer
 email: me@mikerogers.io
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Blog & Portfolio for Mike Rogers, a Ruby Developer from London UK
 
-author:
-  twitter: MikeRogers0
+author: Mike Rogers
+
+lang: en_GB
+twitter:
+  username: MikeRogers0
