@@ -7,6 +7,7 @@ module.exports = {
       './src/**/*.liquid',
     ]
   },
+
   theme: {
 
     container: {

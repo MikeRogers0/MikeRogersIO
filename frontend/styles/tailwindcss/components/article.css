@@ -10,4 +10,20 @@
   div.highlight {
     @apply bg-gray-100;
   }
+
+  ul, ol {
+    @apply pl-3 ml-6 mb-4;
+
+    li {
+      @apply pl-1 mb-1;
+    }
+  }
+
+  ul {
+    @apply list-disc;
+  }
+
+  ol {
+    @apply list-decimal;
+  }
 }

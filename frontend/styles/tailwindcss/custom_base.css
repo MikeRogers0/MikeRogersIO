@@ -36,7 +36,7 @@ a, .text-link {
 }
 
 h1, h2, h3, h4 {
-  @apply text-gray-800 font-semibold;
+  @apply text-gray-800 font-semibold mt-6 mb-2;
 }
 
 @screen dark {
@@ -46,27 +46,40 @@ h1, h2, h3, h4 {
 }
 
 h1, .h1 {
-  @apply text-4xl mt-3 mb-3;
+  @apply text-4xl mt-6 mb-4;
 }
 
 h2, .h2 {
-  @apply text-2xl mt-3 mb-3;
+  @apply text-2xl;
 }
 
 h3, .h3 {
-  @apply text-lg mt-3 mb-3;
+  @apply text-xl;
+}
+
+h2 + h3,
+h3 + h4 {
+  @apply mt-0;
 }
 
 h4, .h4 {
-  @apply text-lg mt-3 mb-3;
+  @apply text-lg;
 }
 
 p {
-  @apply mb-3;
+  @apply mb-4;
 }
 
 a > code {
   color: inherit;
+}
+
+strong {
+  @apply font-bold;
+}
+
+em {
+  @apply italic;
 }
 
 .text-gray-muted {
