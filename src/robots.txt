@@ -1,7 +1,7 @@
 ---
-layout: none
+layout: nil
 ---
-Sitemap: {% site.base_url %}/sitemap.txt
+Sitemap: {{ site.url }}/sitemap.txt
 
 User-agent: *
 Allow: /

@@ -1,9 +1,6 @@
 ---
 layout: default
 title: Mike Rogers - Ruby Developer
-pagination:
-  enabled: true
-  per_page: 3
 ---
 
 <div class="container text-center my-24">
@@ -17,4 +14,4 @@ pagination:
 
 {% render "index/projects" site: site %}
 {% render "index/skills" %}
-{% render "index/posts" posts: paginator.documents %}
+{% render "index/posts" posts: site.posts %}

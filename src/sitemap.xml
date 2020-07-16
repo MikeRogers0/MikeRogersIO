@@ -1,21 +1,32 @@
-xml.instruct!
-xml.urlset 'xmlns' => 'http://www.sitemaps.org/schemas/sitemap/0.9' do
-  ['/', '/posts.html', '/portfolio.html'].each do |resource|
-    xml.url do
-      xml.loc URI.join(root_url, resource)
-      xml.lastmod Time.now.iso8601
-    end
-  end
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  blog.articles.each do |resource|
-    xml.url do
-      xml.loc URI.join(root_url, resource.url)
-      last_mod = if resource.path.start_with?('20')
-                   File.mtime(resource.source_file).to_time
-                 else
-                   Time.now
-                 end
-      xml.lastmod last_mod.iso8601
-    end
-  end
-end
+  <url>
+    <loc>{{ site.url }}</loc>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  {% for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  {% endfor %}
+
+  {% for page in site.html_pages %}{% if page.url != "/" and page.url != "/404.html" %}
+  <url>
+    <loc>{{ site.url }}{{ page.url | replace: "/index.html", "" }}</loc>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+    {% if page.changefreq %}<changefreq>{{ page.changefreq }}</changefreq>{% endif %}
+    {% if page.priority %}<priority>{{ page.priority }}</priority>{% endif %}
+  </url>
+  {% endif %}{% endfor %}
+</urlset>
