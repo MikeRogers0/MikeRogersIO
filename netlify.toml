@@ -37,7 +37,7 @@
 
 [[redirects]]
   from = "/wp-login.php"
-  to = "/new-path"
+  to = "/"
   status = 301
 
 [[redirects]]
@@ -47,7 +47,7 @@
 
 [[redirects]]
   from = "/sitemap.html"
-  to = "/posts.html"
+  to = "/posts/"
   status = 301
 
 [[redirects]]
