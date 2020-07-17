@@ -1,0 +1,92 @@
+html {
+  @apply bg-white;
+
+  @screen dark {
+    @apply bg-cool-gray-900;
+  }
+}
+
+
+body {
+  @apply bg-gray-50 text-gray-900;
+
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+
+  @screen dark {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+a, .text-link {
+  @apply text-blue-700 underline;
+
+  &:hover {
+    @apply no-underline;
+  }
+
+  @screen dark {
+    @apply text-blue-400;
+  }
+}
+
+h1, h2, h3, h4 {
+  @apply text-gray-800 font-semibold mt-6 mb-2;
+
+  @screen dark {
+    @apply text-gray-200;
+  }
+}
+
+h1, .h1 {
+  @apply text-4xl mt-6 mb-4;
+}
+
+h2, .h2 {
+  @apply text-2xl;
+}
+
+h3, .h3 {
+  @apply text-xl;
+}
+
+h2 + h3,
+h3 + h4 {
+  @apply mt-0;
+}
+
+h4, .h4 {
+  @apply text-lg;
+}
+
+p {
+  @apply mb-4;
+}
+
+a > code {
+  color: inherit;
+}
+
+strong {
+  @apply font-bold;
+}
+
+em {
+  @apply italic;
+}
+
+.text-gray-muted {
+  @apply text-gray-600;
+
+  @screen dark {
+    @apply text-gray-300;
+  }
+}
+
+.border-gray-subtle {
+  @apply border-gray-200;
+
+  @screen dark {
+    @apply border-gray-800;
+  }
+}

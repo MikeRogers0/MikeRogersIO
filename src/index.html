@@ -1,0 +1,45 @@
+---
+layout: default
+title: Mike Rogers - Ruby Developer
+---
+
+<div class="container text-center my-24">
+  <a href="/" rel="me" class="block">
+    <img src="/images/mike-rogers.jpg" alt="Mike Rogers" class="rounded-full mx-auto shadow-lg hover:shadow-md mb-12" width="100" height="100" loading="lazy">
+  </a>
+
+  <h1>I'm <em class="bg-blue-900 text-white rounded px-1 not-italic">Mike Rogers</em>, a Web Developer from London</h1>
+
+  <p class="text-xl">I've specialised in making performant Ruby on Rails applications since 2012.</p>
+
+  <div class="text-center">
+    <a href="mailto:me+site@mikerogers.io?subject=Work%20with%20You" class="btn btn--primary">Contact Me via Email</a>
+  </div>
+</div>
+
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Berkshire, UK"
+  },
+  "email": "mailto:me@mikerogers.io",
+  "image": "https://mikerogers.io/images/mike-rogers.jpg",
+  "jobTitle": "Ruby on Rails Developer",
+  "name": "Mike Rogers",
+  "url": "https://mikerogers.io",
+  "sameAs" : [
+    "https://twitter.com/MikeRogers0",
+    "https://github.com/mikerogers0",
+    "https://teamtreehouse.com/rmikerogers0",
+    "https://www.reddit.com/user/Rogem002",
+    "https://stackoverflow.com/users/445724/mikerogers0"
+  ]
+}
+</script>
+
+{% render "index/projects" site: site %}
+{% render "index/skills" %}
+{% render "index/posts" posts: site.posts %}

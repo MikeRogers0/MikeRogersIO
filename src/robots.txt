@@ -1,0 +1,6 @@
+---
+---
+Sitemap: {{ site.url }}/sitemap.txt
+
+User-agent: *
+Allow: /

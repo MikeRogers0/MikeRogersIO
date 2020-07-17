@@ -1,0 +1,40 @@
+.btn {
+  @apply inline-block px-4 py-2 border rounded no-underline;
+
+  &:hover {
+    @apply shadow underline;
+  }
+  &:focus {
+    @apply shadow-md;
+  }
+}
+
+.btn--primary {
+  @apply bg-blue-800 border-blue-900 text-white;
+
+  &:focus {
+    @apply bg-blue-700;
+  }
+
+  @screen dark {
+    &:focus {
+      @apply bg-blue-900;
+    }
+  }
+}
+
+.btn--secondary {
+  @apply bg-gray-50 border-gray-300 text-gray-800;
+
+  &:focus {
+    @apply bg-gray-100;
+  }
+
+  @screen dark {
+    @apply bg-gray-800 border-gray-700 text-gray-100;
+
+    &:focus {
+      @apply bg-gray-900;
+    }
+  }
+}

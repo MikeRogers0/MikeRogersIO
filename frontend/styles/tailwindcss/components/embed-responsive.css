@@ -1,0 +1,19 @@
+.embed-responsive {
+}
+
+.embed-responsive--16by9 {
+  @apply w-full my-4;
+}
+
+.embed-responsive--item {
+  width: 360px;
+  height: 200px;
+  @apply max-w-full mx-auto;
+}
+
+@screen md {
+  .embed-responsive--item {
+    width: 720px;
+    height: 400px;
+  }
+}

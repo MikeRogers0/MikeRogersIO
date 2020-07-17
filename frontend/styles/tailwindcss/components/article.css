@@ -1,0 +1,38 @@
+.article {
+  img {
+    @apply mx-auto shadow my-4 px-6;
+  }
+
+  p > code {
+    @apply text-pink-600 font-normal;
+  }
+
+  div.highlight {
+    @apply bg-gray-100;
+  }
+
+  ul, ol {
+    @apply pl-3 ml-6 mb-4;
+
+    li {
+      @apply pl-1 mb-1;
+    }
+  }
+
+  ul {
+    @apply list-disc;
+  }
+
+  ol {
+    @apply list-decimal;
+  }
+
+  table {
+    @apply mb-4 w-full;
+
+    th, td {
+      @apply px-4 py-2;
+      @apply border;
+    }
+  }
+}

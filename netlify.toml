@@ -1,6 +1,9 @@
 [build]
-  command = "middleman build --verbose"
+  command = "webpack --mode production && bundle exec bridgetown build"
   publish = "build"
+
+[build.environment]
+  NODE_ENV = "production"
 
 [build.processing]
   skip_processing = false
@@ -34,7 +37,7 @@
 
 [[redirects]]
   from = "/wp-login.php"
-  to = "/new-path"
+  to = "/"
   status = 301
 
 [[redirects]]
@@ -44,10 +47,10 @@
 
 [[redirects]]
   from = "/sitemap.html"
-  to = "/posts.html"
+  to = "/posts/"
   status = 301
 
 [[redirects]]
   from = "/my-pull-requests"
-  to = "https://github.com/search?q=is%3Aclosed+is%3Apr+author%3AMikeRogers0+archived%3Afalse+repo%3Athepracticaldev%2Fdev.to+repo%3Arubygems%2Frubygems.org+repo%3Aactiveadmin%2Factiveadmin+repo%3AMindscapeHQ%2Fraygun4ruby+repo%3Athoughtbot%2Fgriddler-sendgrid+repo%3Aicoretech%2Fomniauth-spotify+repo%3Aleighmcculloch%2Fmiddleman-cdn+repo%3AMiniProfiler%2Frack-mini-profiler+repo%3Aplataformatec%2Fdevise+repo%3Arebelidealist%2Fstripe-ruby-mock+repo%3Adevnacho%2Fmountain_view+repo%3Aalphagov%2Ffrontend+repo%3Aalphagov%2Fwhitehall+repo%3Aalphagov%2Fgovuk_template+repo%3Aphatworx%2Fdevise_security_extension+repo%3Amileszs%2Fwicked_pdf+author%3AMikeRogers0+state%3Aclosed&ref=advsearch&s=created&type=Issues"
+  to = "https://github.com/search?q=is%3Amerged+is%3Apr+author%3AMikeRogers0+archived%3Afalse+state%3Aclosed&type=Issues&ref=advsearch&l=&l="
   status = 302

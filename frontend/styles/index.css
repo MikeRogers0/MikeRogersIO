@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+@import "tailwindcss/custom_base";
+
+@import "tailwindcss/components";
+
+/* My custom components */
+@import "tailwindcss/components/article";
+@import "tailwindcss/components/btn";
+@import "tailwindcss/components/container";
+@import "tailwindcss/components/embed-responsive";
+
+/* Code Highlighting */
+@import "pygments-css/default";
+@import "pygments-css/monokai";
+@import "tailwindcss/components/highlighter-rouge";
+
+
+@import "tailwindcss/utilities";
+@import "tailwindcss/custom_utilities";

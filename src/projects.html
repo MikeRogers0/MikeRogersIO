@@ -1,0 +1,12 @@
+---
+layout: page
+title: Projects
+---
+
+<div class="mt-6 grid gap-12 lg:col-gap-32 lg:grid-cols-2">
+
+  {% for project in site.data.projects %}
+    {% render "projects/_project" project: project %}
+  {% endfor %}
+
+</div>

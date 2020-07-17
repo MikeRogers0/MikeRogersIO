@@ -1,0 +1,48 @@
+---
+layout: demo
+title: Lag demonstration when using position:fixed;
+---
+
+<style type="text/css">
+#sillyFixedElement{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #fff;
+}
+
+body{
+	padding-top: 100px;
+}
+	li{
+		list-style: none;
+		float:left;
+		width: 150px;
+		height: 150px;
+		margin: 10px;
+		background: center no-repeat;
+		background-size: cover;
+	}
+</style>
+
+<div id="sillyFixedElement">
+	<p>This is a demonstration of how using position:fixed; can cause browser lag while scrolling a web page &amp; how the lag is more noticeable with scaled images. More information and a solution to reducing the lag can be found <a href="/2013/08/18/reducing-position-fixed-rendering-lag-due-to-scaled-images.html">in the blog post I wrote</a>.</p>
+	<p>To see the issue, open timeline in chrome dev tools and press record.</p>
+</div>
+
+<ul id="imagesList">
+</ul>
+
+<script>
+// A list of images from imgur.com
+var images = ['u0s09PV','bdRlP3o','o7lwgZo','wvOjdUJ','D0lsDQz','sB46sHZ','nvRcyJM','3aPbhSD','oN6094g','sB09P8Q','uUAHAVS','WLkQXxR','njwWz9A','wqXWulo','OEtRTbd','XwDTHAj','4RxJtw7','u0aaaVU','Sf2FilY','6pxZaCU','H6Veq2V','xqyS3aD'],
+imagesList = document.getElementById('imagesList');
+
+// Loop through the images setting them as background images.
+for(i in images){
+	imagesList.innerHTML += '<li style="background-image: url(http://i.imgur.com/'+images[i]+'.jpg);">'
+		+'<!-- Some element. -->'
+	+'</li>';
+}
+</script>

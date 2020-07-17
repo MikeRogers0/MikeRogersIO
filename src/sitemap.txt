@@ -1,0 +1,11 @@
+---
+---
+{{ site.url }}
+
+{% for page in site.html_pages %}{% if page.url != "/" and page.url != "/404.html" %}
+{{ site.url }}{{ page.url | replace: "/index.html", "" }}
+{% endif %}{% endfor %}
+
+{% for post in site.posts %}
+{{ site.url }}{{ post.url }}
+{% endfor %}

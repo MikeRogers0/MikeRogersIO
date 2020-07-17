@@ -1,0 +1,15 @@
+.container {
+  @apply px-4;
+}
+
+@screen lg {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@screen xl {
+  .container {
+    max-width: 1024px;
+  }
+}

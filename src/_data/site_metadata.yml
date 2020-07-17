@@ -1,0 +1,17 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.metadata.title }}, {{ site.metadata.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.metadata.myvariable }}.
+
+title: Mike Rogers
+tagline: Ruby Developer
+email: me@mikerogers.io
+description: >-
+  Blog & Portfolio for Mike Rogers, a Ruby Developer from London UK
+
+author: Mike Rogers
+
+lang: en_GB
+twitter:
+  username: MikeRogers0
