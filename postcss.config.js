@@ -8,7 +8,7 @@ let environment = {
     require('postcss-nested'),
 
     // https://github.com/postcss/postcss-custom-properties
-    // Add fallsbacks when we use CSS variables
+    // Add fallbacks when we use CSS variables
     require('postcss-custom-properties'),
     
   ]
