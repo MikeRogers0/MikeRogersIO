@@ -3,8 +3,10 @@
 
 @import "tailwindcss/components";
 
-@import "tailwindcss/components/container";
+/* My custom components */
 @import "tailwindcss/components/article";
+@import "tailwindcss/components/btn";
+@import "tailwindcss/components/container";
 @import "tailwindcss/components/embed-responsive";
 
 /* Code Highlighting */
