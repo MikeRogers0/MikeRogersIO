@@ -1,22 +1,19 @@
 html {
   @apply bg-white;
-}
 
-@screen dark {
-  html {
+  @screen dark {
     @apply bg-cool-gray-900;
   }
 }
+
 
 body {
   @apply bg-gray-50 text-gray-900;
 
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
-}
 
-@screen dark {
-  body {
+  @screen dark {
     @apply bg-gray-900 text-gray-100;
   }
 }
@@ -27,20 +24,16 @@ a, .text-link {
   &:hover {
     @apply no-underline;
   }
-}
 
-@screen dark {
-  a, .text-link {
+  @screen dark {
     @apply text-blue-400;
   }
 }
 
 h1, h2, h3, h4 {
   @apply text-gray-800 font-semibold mt-6 mb-2;
-}
 
-@screen dark {
-  h1, h2, h3, h4 {
+  @screen dark {
     @apply text-gray-200;
   }
 }
@@ -84,20 +77,16 @@ em {
 
 .text-gray-muted {
   @apply text-gray-600;
-}
 
-@screen dark {
-  .text-gray-muted {
+  @screen dark {
     @apply text-gray-300;
   }
 }
 
 .border-gray-subtle {
   @apply border-gray-200;
-}
 
-@screen dark {
-  .border-gray-subtle {
+  @screen dark {
     @apply border-gray-800;
   }
 }
