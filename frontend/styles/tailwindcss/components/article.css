@@ -26,4 +26,13 @@
   ol {
     @apply list-decimal;
   }
+
+  table {
+    @apply mb-4 w-full;
+
+    th, td {
+      @apply px-4 py-2;
+      @apply border;
+    }
+  }
 }
