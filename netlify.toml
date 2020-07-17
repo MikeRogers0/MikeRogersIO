@@ -9,7 +9,7 @@
   skip_processing = false
 [build.processing.css]
   bundle = true
-  minify = false
+  minify = true
 [build.processing.js]
   bundle = true
   minify = true

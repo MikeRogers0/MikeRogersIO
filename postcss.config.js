@@ -20,8 +20,11 @@ if (process.env.NODE_ENV === "production") {
     // https://github.com/TrySound/postcss-inline-svg
     // Inline SVGs:
     // background: svg-load('img/arrow-up.svg', fill=#000, stroke=#fff);
-    require('postcss-inline-svg'),
-    require('postcss-svgo')
+    // require('postcss-inline-svg'),
+    //require('postcss-svgo')
+
+    require('cssnano')({ preset: 'default' }),
+    
   )
 };
 
