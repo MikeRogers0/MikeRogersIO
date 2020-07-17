@@ -23,7 +23,7 @@ The above command will shutdown your PC in 900 seconds. Let me quickly break dow
 
 Once this is command has been run you should see an information bubble (Like below) stating when the shutdown will occur.
 
-{% img src: /uploads/2011/03/information_bubble.png width: 317 alt: "An information bubble on windows 7 showing the computer is about to shutdown." %}
+![An information bubble on windows 7 showing the computer is about to shutdown](/uploads/2011/03/information_bubble.png)
 
 ## How to abort
 

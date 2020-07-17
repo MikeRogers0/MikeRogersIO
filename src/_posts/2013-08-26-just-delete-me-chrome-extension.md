@@ -6,7 +6,7 @@ description: JustDelete.me chrome extension blog post giving a elevator pitch on
 
 Yesterday I pushed my new chrome extension [JustDelete.me to the Chrome Store](https://chrome.google.com/webstore/detail/justdeleteme/hfpofkfbabpbbmchmiekfnlcgaedbgcf). It's pretty exciting as it managed to achieve a fairly decent amount of installs on its first day.
 
-{% img src: /uploads/2013/08/26/just-delete-me-chrome-extension.jpg width: 440 alt: "The different traffic lights shown in the omnibus" %}
+![The different traffic lights shown in the omnibus](/uploads/2013/08/26/just-delete-me-chrome-extension.jpg)
 
 ## What It Does
 

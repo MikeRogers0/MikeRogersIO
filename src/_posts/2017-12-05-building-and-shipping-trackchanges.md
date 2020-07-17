@@ -34,7 +34,7 @@ Solving those three problems was tricky.
 
 I tweaked and tinkered when I had spare time, but nothing felt like a good solution. I tried making the popup prettier, made the comparison more concise and the processes more informative, but nothing felt like an improvement. I spent about 3 months just changing things and getting nowhere. Then I pretty much just shelved it. 
 
-{% img src: /uploads/2017/12/05/chrome-audit-panel.png width: 720 alt: "The chrome audit panel" %}
+![The chrome audit panel](/uploads/2017/12/05/chrome-audit-panel.png)
 
 Then I using the audit panel in Chrome, it was really obvious as to the value clicking the button would do and really clean. I wanted my extension to feel like that! I very quickly put together a mock-up using the `chrome.panels` API and it felt so much better!
 
@@ -46,7 +46,7 @@ It was looking pretty good. I ran it past a few friends and potential users, and
 
 A friend of mine ([Sarah Ball](https://sarahb.co/)) helped me put together an awesome [landing page](https://trackchanges.mikerogers.io/). I was ready to launch!
 
-{% img src: /uploads/2017/12/05/first-user-week-stats.png width: 720 alt: "The stats for the first week" title: "I launched on the 25th of November and had a nice spike in users" %}
+![The stats for the first week" title: "I launched on the 25th of November and had a nice spike in users](/uploads/2017/12/05/first-user-week-stats.png)
 
 I [shared the link](https://twitter.com/MikeRogers0/status/935824204225810433) on twitter and the users started trying it out. In the first week I gained 210 users, with most the installations on the first day.
 

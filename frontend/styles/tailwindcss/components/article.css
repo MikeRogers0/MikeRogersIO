@@ -1,6 +1,6 @@
 .article {
   img {
-    @apply mx-auto shadow my-4;
+    @apply mx-auto shadow my-4 px-6;
   }
 
   p > code {

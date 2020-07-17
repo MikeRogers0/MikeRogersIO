@@ -6,7 +6,7 @@ description: A geektool geeklet code sample that shows server status and ping.
 
 I've been using [Geektool](http://projects.tynsoe.org/en/geektool/) for a while now, it's a super handy way to display useful information on my desktop. One geeklet I've found to be useful displays the status and ping of my VPS.
 
-{% img src: /uploads/2014/01/18/uptime-monitor-geeklet.png width: 168 alt: "Server name and its ping" %}
+![Server name and its ping](/uploads/2014/01/18/uptime-monitor-geeklet.png)
 
 ## Geeklet code
 Here is the code you need to stick in the command box.

@@ -8,4 +8,4 @@ I've recently moved to my ISP over to Virgin Media, the download speed is pretty
 
 The only solution I could find online to get decent signal was to change the super hub into Modem Mode than attach a decent router. I decided on the [TP-Link TL-WR1043ND](https://www.amazon.co.uk/gp/product/B002YETVTQ/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B002YETVTQ&linkCode=as2&tag=fulondes-21) from Amazon (It's was £43 or so) & now my signal is almost 95% at the other side of my house with very little noticeable speed loss. If your on Virgin Media & have a spare £40 you should give it a try. Below is a picture of my setup.
 
-{% img src: /uploads/2012/11/superhub-with-better-router.jpg width: 500 alt: "My virgin media box setup" %}
+![My virgin media box setup](/uploads/2012/11/superhub-with-better-router.jpg)

@@ -15,7 +15,7 @@ Additionally you'll receive a small performance boost as the browser is [downloa
 
 ## Views should be logic-free
 
-{% img src: /uploads/2015/08/16/logic-in-views2.jpg width: 597 alt: "If you put logic in your views, you're going to have a bad time - South Park Ski Instructor" %}
+![If you put logic in your views, you're going to have a bad time - South Park Ski Instructor](/uploads/2015/08/16/logic-in-views2.jpg)
 
 I stumbled across [mustache](https://github.com/mustache/mustache) just over a year ago, at the time I felt the concept of logic-free views was an unnecessary limitation (If I remember correctly I thought the idea was batshit crazy). However in the last year I've really warmed to the idea as it makes managing views much more simpler, as forces you to move logic to either a helper, or the model (Which is easier to test).
 

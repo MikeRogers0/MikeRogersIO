@@ -5,7 +5,7 @@ description: I made LivePage (my Chrome Extension) £2.99 a year, here is the ex
 image: /uploads/2016/07/02/1400x560_marquee-halfsize.jpg
 ---
 
-{% img src: /uploads/2016/07/02/1400x560_marquee-halfsize.jpg width: 1400 alt: "LivePage marquee image with it's new logo on a code background" href: https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en %}
+[![LivePage marquee image with it's new logo on a code background](/uploads/2016/07/02/1400x560_marquee-halfsize.jpg)](https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en)
 
 *TL;DR: A lot of my personal time is going into supporting LivePage. To keep the quality up all new users will be asked to pay a subscription of £2.99 a year. I'll do a [follow up post in 3 months](/2016/10/29/lessons-learnt-from-monetising-my-chrome-extension.html) time.*
 

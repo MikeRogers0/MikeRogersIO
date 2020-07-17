@@ -34,7 +34,7 @@ Material palette was super handy and even generated a nice [Sass file](https://g
 
 I wanted to show off the tools and frameworks I'm familiar with on the homepage, but I didn't want to dick around with making CSS sprites. Instead I converted the logos on the homepage into vectors then stacked them into a single SVG file. The result was 12 logos being served in a single http request without to much loss in quality. 
 
-{% img src: /uploads/2015/01/08/stacked_svgs_in_safari.jpg width: 820 alt: "Stacked SVGs rendering incorrectly in Safari" %}
+![Stacked SVGs rendering incorrectly in Safari](/uploads/2015/01/08/stacked_svgs_in_safari.jpg)
 
 This worked great until I opened the site in Safari (The above screenshot) and noticed they looked a bit off, so I opted just to put the SVG inline into the HTML instead.
 

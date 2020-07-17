@@ -10,7 +10,7 @@ The mixing of travel and work made a lot of sense to me, as it allowed me to kee
 
 ## Getting Started
 
-{% img src: /uploads/2016/01/17/george-bailey.jpg width: 245 alt: "George Bailey from It's a Wonderful Life" %}
+![George Bailey from It's a Wonderful Life](/uploads/2016/01/17/george-bailey.jpg)
 
 Before I packed my bags & said farewell forever to everyone I knew, I lurked online, reading up on the best places to go and what I'd need. 
 I started with [#nomads](https://hashtagnomads.com/), a slack community of other digital nomads. Then I followed other nomads on Twitter like [James Seymour-Lock](https://twitter.com/JamesSLock) and [Pieter Levels](https://twitter.com/levelsio). Lastly found a bunch of [Facebook groups](https://www.facebook.com/search/top/?q=Digital%20Nomad), these were all great sources of information.
@@ -21,14 +21,14 @@ Finally I attended a bunch of meetups in London, to find out what Digital Nomad 
 
 ## Hitting the road
 
-{% img src: /uploads/2016/01/17/christopher-mccandless.jpg width: 600 alt: "Christopher McCandless from Into the Wild" %}
+![Christopher McCandless from Into the Wild](/uploads/2016/01/17/christopher-mccandless.jpg)
 
 My bag was packed and I had a MacBook Pro under my arm, I was set to go. In my mind I was venturing into the unknown on a amazing new adventure. 
 In reality I was just going to other city (A 1 hour flight away, still within the EU) for two and a bit weeks with a lovely AirBnB booked. I think starting off almost as a holiday where I worked for a few days during the week was a really nice way to ease into working remotely.
 
 ### Berlin
 
-{% img src: /uploads/2016/01/17/chaos-computer-club.jpg width: 600 alt: "The Chaos Computer Club entrance" title: "I found the Chaos Computer Club" %}
+![The Chaos Computer Club entrance](/uploads/2016/01/17/chaos-computer-club.jpg)
 
 I had visited Berlin before while Interrailing in 2013, I remembered leaving the city feeling like I had only scratched the surface of what it had to offer. I was totally right!
 
@@ -38,7 +38,7 @@ I stayed in Kreuzberg (Near [Kottbusser Tor](https://www.youtube.com/watch?v=6IL
 
 ### Stockholm
 
-{% img src: /uploads/2016/01/17/inside-the-castle.jpg width: 576 alt: "Co-working from inside a castle" %}
+![Co-working from inside a castle](/uploads/2016/01/17/inside-the-castle.jpg)
 
 I didn't know what to expect from Stockholm. I was told before leaving that Stockholm was an dull, unfriendly & expensive city. I think these were just a [stereotype](https://www.youtube.com/watch?v=2OSLXjsqmXg) spread by people who don't want Stockholm to become overcrowded.
 
@@ -66,7 +66,7 @@ Unfortunately Meetup isn't very popular in Prague, but I attended a few really w
 
 ### Tarifa
 
-{% img src: /uploads/2016/01/17/working-at-beach.jpg width: 600 alt: "Working from a cafe next to a beach" %}
+![Working from a cafe next to a beach](/uploads/2016/01/17/working-at-beach.jpg)
 
 Tarifa is a small town at the southern tip of Spain, it's mostly known as one of the [most popular kite surfing locations](https://en.wikipedia.org/wiki/Kitesurfing_locations#Spain) in the world. This was my first time working outside of a big city, so it was a fairly special experience. Being able to work from a Cafe with an amazing beach view, and then the next day learning how to Kite Surf as a very unforgettable experience (and I made sure to let friends stuck in an office know about it). 
 
@@ -77,7 +77,7 @@ As a result I met a bunch of other remote workers, who really opened my eyes to 
 
 ### Gibraltar
 
-{% img src: /uploads/2016/01/17/yacht.jpg width: 599 alt: "The yacht I was staying on" title: "Growing a beard seemed like a great idea" %}
+![The yacht I was staying on" title: "Growing a beard seemed like a great idea](/uploads/2016/01/17/yacht.jpg)
 
 I was only in Gibraltar for a few days but it was such a weird, but worth visiting place, especially if you're a British. It's best described as a small exaggerated version of the UK, with monkeys. I was only staying for a few days, but the history and setup of the country was enough to keep me interested. 
 

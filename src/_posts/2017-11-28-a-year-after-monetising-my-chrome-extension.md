@@ -8,7 +8,7 @@ Just over a year ago, I wrote [a post](/2016/10/29/lessons-learnt-from-monetisin
 
 ## Subscriptions were a terrible idea
 
-{% img src: /uploads/2017/11/28/livepage-income.png width: 720 alt: "The last three months of income status, a very up and down line between £0 and £15" title: "Most days I earn about £8 from LivePage via one off payments." %}
+![The last three months of income status, a very up and down line between £0 and £15](/uploads/2017/11/28/livepage-income.png)
 
 A year ago I was pretty confident that asking for $2 or so a year was the right way to go. I couldn't have been more wrong.
 
@@ -45,7 +45,7 @@ Small things like being made aware of and responding to reviews where a user is 
 
 ## What's next?
 
-{% img src: /uploads/2017/11/28/livepage-weekly-users.png width: 720 alt: "The last three months of weekly users is a slow decline with a 90,000 blip one week" title: "One week I had 90,000 users, but generally weekly users are declining." %}
+![The last three months of weekly users is a slow decline with a 90,000 blip one week](/uploads/2017/11/28/livepage-weekly-users.png)
 
 The weekly active users has dropped from ~49k users to ~21k over the last year, I want to do everything I can to improve that number. I've recently started using Firefox more often, so I'm looking into ways to make a Firefox version which is also monetised.
 

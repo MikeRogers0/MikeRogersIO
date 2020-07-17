@@ -5,7 +5,7 @@ description: I made £170.35 over 3 months, and I made a bunch of mistakes along
 image: /uploads/2016/07/02/1400x560_marquee-halfsize.jpg
 ---
 
-{% img src: /uploads/2016/07/02/1400x560_marquee-halfsize.jpg width: 1400 alt: "LivePage marquee image with it's new logo on a code background" href: https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en?utm_source=blog&utm_medium=web&utm_campaign=followup %}
+[![LivePage marquee image with it's new logo on a code background](/uploads/2016/07/02/1400x560_marquee-halfsize.jpg)](https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en?utm_source=blog&utm_medium=web&utm_campaign=followup)
 
 In July 2016 I [started charging for my Chrome Extension](/2016/07/03/why-im-charging-for-livepage.html) [LivePage](https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh?hl=en?utm_source=blog&utm_medium=web&utm_campaign=followup), a simple development tool that I had built back in 2011 to reload web pages as I was building them. 
 
@@ -29,7 +29,7 @@ If sales continue at roughly the same rate (~£100 a month), potentially I can s
 
 As LivePage was initially open source, I've never been worried about people sharing the paid copies (it's super easy to do with chrome extensions!). In fact, on the [LivePage GitHub repo](https://github.com/MikeRogers0/LivePage#running-development-version-in-chrome) I even included instructions on getting the development version running.
 
-{% img src: /uploads/2016/09/livepage-users.jpg width: 1015 alt: "Screenshot of chrome web store showing 90k users" title: "On 4th October 2016 I had a spike of 90k weekly active users" %}
+![Screenshot of chrome web store showing 90k users](/uploads/2016/09/livepage-users.jpg)
 
 To give an idea of the amount of unpaid installs, for most of 2016 when LivePage was free it had an average of 25,000 weekly users. After the first month of being a Annual Subscription (With trial), it had grown to ~30,000 weekly users while only achieving 95 sales.
 
@@ -39,7 +39,7 @@ It's crazy that adding a small price has increased the weekly users so much! I'm
 
 When LivePage was free I ranked somewhere in the middle of the [Developer Tools](https://chrome.google.com/webstore/category/ext/11-web-development?_feature=4stars) Chrome Web Store category. After switching to a free trial, the rankings dropped suddenly. 
 
-{% img src: /uploads/2016/09/livepage-chrome-store-rankings.jpg width: 967 alt: "Falling to the bottom makes investing in the promotional images so worth it." %}
+![Falling to the bottom makes investing in the promotional images so worth it](/uploads/2016/09/livepage-chrome-store-rankings.jpg)
 
 A quick search online suggested adding translations to the extension would help remedy the drop in ranking. After investing in human translations via the Chrome Web Store tools, I noticed no change in the ranking. I did start getting a few more international (non English) sales.
 
@@ -57,7 +57,7 @@ I'd still be wary about developing a paid for product in an open source environm
 
 Overall support requests (the main reason I switched to a paid model) have decreased to a sustainable level. I still receive emails from users requesting free copies, asking for help with their bat shit crazy development environments (Ask me about it over a beer!) or just submitting shitty reviews in the chrome web store (e.g. "The extension is great, but if it drove my car I'd give it 5 stars. So just 4 stars!"). Luckily they are few and far between now.
 
-{% img src: /uploads/2016/09/livepage-support.jpg width: 991 alt: "The only way I know if a user has requested support was if (1) was added to the link" %}
+![The only way I know if a user has requested support was if (1) was added to the link](/uploads/2016/09/livepage-support.jpg)
 
 I did experiment with the Chrome Web Stores built in support system (as pictured above), but it felt so lacking in functionality I opted to disable it. 
 My main annoyance with the Chrome Web Store, is that it does not send a notification for when a user submits a ticket or review. The only way I could see if a user had submitted a ticket was by logging into the Chrome Web Stores developer panel and seeing the "(1)" in the "User Feedback" link. I decided to disable this feature as I could totally see myself forgetting to check the dashboard & inadvertently annoying a user.
