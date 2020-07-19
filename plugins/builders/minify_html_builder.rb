@@ -15,7 +15,7 @@ class MinifyHtmlBuilder < SiteBuilder
     html_files.each do |file_path|
       minify_file(file_path)
     end
-    Bridgetown.logger.info 'Minify HTML', "Complete, Processed #{html_files.count} file(s)"
+    Bridgetown.logger.info 'Minify HTML:', "Complete, Processed #{html_files.count} file(s)"
   end
 
   def minify_file(file_path)

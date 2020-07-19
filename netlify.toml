@@ -8,8 +8,8 @@
 [build.processing]
   skip_processing = false
 [build.processing.css]
-  bundle = true
-  minify = true
+  bundle = false
+  minify = false
 [build.processing.js]
   bundle = true
   minify = true
@@ -30,9 +30,9 @@
     Access-Control-Allow-Origin = "*"
     Cache-Control = "public, max-age=604800, s-max-age=604800"
     Link = '''
+    </CSS_PATH>; rel=prefetch,
     <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=preconnect,
     <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=dns-prefetch,
-    <https://NETLIFY_IMAGES_CDN_DOMAIN/css/SITE_ID/CSS_PATH>; rel=prefetch,
     </favicon.ico>; rel=prefetch'''
 
 [[headers]]
