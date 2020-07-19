@@ -30,7 +30,7 @@
     Access-Control-Allow-Origin = "*"
     Cache-Control = "public, max-age=604800, s-max-age=604800"
     Link = '''
-    <CSS_PATH>; rel=prefetch,
+    <CSS_PATH>; rel=preload,
     <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=preconnect,
     <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=dns-prefetch,
     </favicon.ico>; rel=prefetch'''
