@@ -1,5 +1,5 @@
 [build]
-  command = "webpack --mode production && bundle exec bridgetown build"
+  command = "webpack --mode production && bundle exec bridgetown build && ./bin/netlify.sh"
   publish = "build"
 
 [build.environment]
@@ -8,8 +8,8 @@
 [build.processing]
   skip_processing = false
 [build.processing.css]
-  bundle = true
-  minify = true
+  bundle = false
+  minify = false
 [build.processing.js]
   bundle = true
   minify = true
@@ -29,6 +29,11 @@
     Referrer-Policy = "no-referrer-when-downgrade"
     Access-Control-Allow-Origin = "*"
     Cache-Control = "public, max-age=604800, s-max-age=604800"
+    Link = '''
+    <CSS_PATH>; rel=preload; as=style,
+    <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=preconnect,
+    <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=dns-prefetch,
+    </favicon.ico>; rel=prefetch'''
 
 [[headers]]
   for = "/*.(png|jpg|js|css|svg|woff|ttf|eot|ico)"
