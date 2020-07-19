@@ -31,7 +31,7 @@ a, .text-link {
 }
 
 h1, h2, h3, h4 {
-  @apply text-gray-800 font-semibold mt-6 mb-2;
+  @apply text-gray-800 font-semibold mt-8 mb-2;
 
   @screen dark {
     @apply text-gray-200;
@@ -39,7 +39,7 @@ h1, h2, h3, h4 {
 }
 
 h1, .h1 {
-  @apply text-4xl mt-6 mb-4;
+  @apply text-4xl;
 }
 
 h2, .h2 {
@@ -47,9 +47,10 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  @apply text-xl;
+  @apply text-xl mt-6 mb-4;
 }
 
+h1 + h2,
 h2 + h3,
 h3 + h4 {
   @apply mt-0;

@@ -38,13 +38,14 @@ module.exports = {
       },
       screens: {
         dark: { raw: "(prefers-color-scheme: dark)" },
-        //dark: { raw: "(prefers-color-scheme: light)" }, // Uncomment this to switch between dark and light.
+        // dark: { raw: "(prefers-color-scheme: light)" }, // Uncomment this to switch between dark and light.
       }
     }
   },
   variants: {
   },
   plugins: [
-    require('@tailwindcss/ui')
+    require('@tailwindcss/ui'),
+    require('tailwindcss-accessibility')
   ],
 }

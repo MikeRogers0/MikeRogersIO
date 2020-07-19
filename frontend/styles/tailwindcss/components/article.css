@@ -1,6 +1,6 @@
 .article {
   img {
-    @apply mx-auto shadow my-4 px-6;
+    @apply mx-auto shadow my-4;
   }
 
   p > code {
@@ -28,11 +28,27 @@
   }
 
   table {
-    @apply mb-4 w-full;
+    @apply mb-6 w-full text-sm;
 
-    th, td {
-      @apply px-4 py-2;
-      @apply border;
+    td, th {
+      @apply px-4 py-2 text-left;
+      @apply border-b;
+
+      &:first-child {
+        @apply pl-1;
+      }
+
+      &:last-child {
+        @apply pr-1;
+      }
     }
+
+    td {
+      @apply border-gray-300;
+    }
+  }
+
+  code {
+    @apply text-sm;
   }
 }
