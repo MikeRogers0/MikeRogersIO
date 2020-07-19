@@ -1,5 +1,5 @@
 [build]
-  command = "webpack --mode production && bundle exec bridgetown build"
+  command = "webpack --mode production && bundle exec bridgetown build && ./bin/netlify.sh"
   publish = "build"
 
 [build.environment]
@@ -30,8 +30,9 @@
     Access-Control-Allow-Origin = "*"
     Cache-Control = "public, max-age=604800, s-max-age=604800"
     Link = '''
-    <https://d33wubrfki0l68.cloudfront.net>; rel=preconnect,
-    <https://d33wubrfki0l68.cloudfront.net>; rel=dns-prefetch,
+    <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=preconnect,
+    <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=dns-prefetch,
+    <https://NETLIFY_IMAGES_CDN_DOMAIN/css/SITE_ID/CSS_PATH>; rel=prefetch,
     </favicon.ico>; rel=prefetch'''
 
 [[headers]]
