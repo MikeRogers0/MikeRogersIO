@@ -50,6 +50,7 @@ h3, .h3 {
   @apply text-xl mt-6 mb-4;
 }
 
+h1 + h2,
 h2 + h3,
 h3 + h4 {
   @apply mt-0;

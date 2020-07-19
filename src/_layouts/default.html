@@ -4,9 +4,15 @@
     {% render "head" site: site %}
   </head>
   <body>
+    <a class="sr-only sr-only-focusable" href="#content" tabindex="1">
+      Skip to main content
+    </a>
+
     {% render "navbar" site: site %}
 
-    {{ content }}
+    <div id="content">
+      {{ content }}
+    </div>
 
     {% render "footer" site: site %}
   </body>
