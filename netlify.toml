@@ -29,7 +29,8 @@
     Referrer-Policy = "no-referrer-when-downgrade"
     Access-Control-Allow-Origin = "*"
     Cache-Control = "public, max-age=604800, s-max-age=604800"
-    Link = "</favicon.ico>; rel=prefetch"
+    Link = "</favicon.ico>; rel=prefetch;"
+    Link = "<//d33wubrfki0l68.cloudfront.net>; rel=dns-prefetch preconnect;"
 
 [[headers]]
   for = "/*.(png|jpg|js|css|svg|woff|ttf|eot|ico)"
