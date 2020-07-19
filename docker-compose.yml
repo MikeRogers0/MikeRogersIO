@@ -28,6 +28,8 @@ services:
       - "${port:-4000}:4000"
       - "4001:4001"
       - "4002:4002"
+    depends_on:
+      - webpack
 
   webpack:
     <<: *app
