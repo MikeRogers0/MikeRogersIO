@@ -4,7 +4,7 @@ const ManifestPlugin = require("webpack-manifest-plugin");
 
 module.exports = {
   entry: "./frontend/javascript/index.js",
-  devtool: "source-map",
+  devtool: (process.env.NODE_ENV === 'production' ? false : "source-map"),
   // Set some or all of these to true if you want more verbose logging:
   stats: {
     modules: false,
