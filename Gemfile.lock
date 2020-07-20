@@ -38,6 +38,9 @@ GEM
       thor (~> 1.0)
     bridgetown-feed (1.1.2)
       bridgetown (>= 0.6, < 2.0)
+    bridgetown-minify-html (0.1.0)
+      bridgetown (>= 0.15, < 2.0)
+      htmlcompressor (>= 0.4, < 1.0)
     bridgetown-paginate (0.15.0)
       bridgetown-core (= 0.15.0)
     bridgetown-seo-tag (3.0.5)
@@ -108,8 +111,8 @@ PLATFORMS
 DEPENDENCIES
   bridgetown
   bridgetown-feed
+  bridgetown-minify-html
   bridgetown-seo-tag
-  htmlcompressor
   rubocop
 
 BUNDLED WITH
