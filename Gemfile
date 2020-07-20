@@ -18,12 +18,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem "bridgetown"#, github: "bridgetownrb/bridgetown", branch: "main"
 
-gem "htmlcompressor"
-
 gem "rubocop"
 
 group :bridgetown_plugins do
-  # gem "bridgetown-inline-svg" # Breaks a bunch right now.
   gem "bridgetown-feed"
   gem "bridgetown-seo-tag"
+  gem "bridgetown-minify-html"
 end
