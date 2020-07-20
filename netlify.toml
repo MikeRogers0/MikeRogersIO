@@ -59,15 +59,3 @@
   from = "/my-pull-requests"
   to = "https://github.com/search?q=is%3Amerged+is%3Apr+author%3AMikeRogers0+archived%3Afalse+state%3Aclosed&type=Issues&ref=advsearch&l=&l="
   status = 302
-
-
-[[plugins]]
-  package = "netlify-plugin-submit-sitemap"
-	[plugins.inputs]
-	baseUrl = "https://mikerogers.io"
-	sitemapPath = "/sitemap.xml"
-	providers = [
-		"google",
-		"bing",
-		"yandex"
-	]
