@@ -36,7 +36,7 @@
     <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=preconnect,
     <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=dns-prefetch,
     </apple-touch-icon.png>; rel=prefetch,
-    </favicon-32x32.png>; rel=prefetch'''
+    </favicon-16x16.png>; rel=prefetch'''
 
 [[headers]]
   for = "/*.(png|jpg|js|css|svg|woff|ttf|eot|ico)"
