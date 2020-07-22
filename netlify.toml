@@ -1,9 +1,11 @@
 [build]
-  command = "webpack --mode production && bundle exec bridgetown build && ./bin/netlify.sh"
+  command = "yarn deploy && ./bin/netlify.sh"
   publish = "build"
 
 [build.environment]
   NODE_ENV = "production"
+  NODE_VERSION = "12"
+  BRIDGETOWN_ENV = "production"
 
 [build.processing]
   skip_processing = false
