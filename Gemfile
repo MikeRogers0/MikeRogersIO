@@ -23,5 +23,5 @@ gem "rubocop"
 group :bridgetown_plugins do
   gem "bridgetown-feed"
   gem "bridgetown-seo-tag"
-  gem "bridgetown-minify-html"
+  gem "bridgetown-minify-html" #, github: 'MikeRogers0/bridgetown-minify-html'
 end
