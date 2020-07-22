@@ -1,5 +1,5 @@
 [build]
-  command = "yarn deploy && ./bin/netlify.sh"
+  command = "yarn deploy"
   publish = "build"
 
 [build.environment]
@@ -19,14 +19,6 @@
   pretty_urls = true
 [build.processing.images]
   compress = true
-
-[[headers]]
-  for = "/"
-  [headers.values]
-    Link = [
-      "<CSS_PATH>; rel=preload; as=style",
-      "<https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=preconnect"
-    ]
 
 [[headers]]
   for = "*"
