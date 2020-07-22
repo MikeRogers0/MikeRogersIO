@@ -26,24 +26,14 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'self' https: blob:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; worker-src 'self' blob: ; script-src 'self' https: 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; upgrade-insecure-requests"
+    Content-Security-Policy = "default-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; worker-src 'none': ; script-src 'self' https:; style-src 'self' https:; upgrade-insecure-requests"
     Strict-Transport-Security = "max-age=15552000; includeSubDomains"
     Referrer-Policy = "no-referrer-when-downgrade"
-    Access-Control-Allow-Origin = "*"
     Cache-Control = "public, max-age=604800, s-max-age=604800"
 
 [[headers]]
-  for = "/"
-  [headers.values]
-    Link = '''
-    <CSS_PATH>; rel="preload"; as="style",
-    <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel="preconnect",
-    <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel="dns-prefetch",
-    </apple-touch-icon.png>; rel="prefetch",
-    </favicon-16x16.png>; rel="prefetch"'''
-
-[[headers]]
-  for = "/*/"
+  for = "*"
+  forMediaType = "text/html"
   [headers.values]
     Link = '''
     <CSS_PATH>; rel="preload"; as="style",
