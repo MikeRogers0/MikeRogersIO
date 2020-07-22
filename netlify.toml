@@ -31,18 +31,31 @@
     Referrer-Policy = "no-referrer-when-downgrade"
     Access-Control-Allow-Origin = "*"
     Cache-Control = "public, max-age=604800, s-max-age=604800"
+
+[[headers]]
+  for = "/"
+  [headers.values]
     Link = '''
-    <https://mikerogers.ioCSS_PATH>; rel=preload; as=style,
-    <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=preconnect,
-    <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=dns-prefetch,
-    <https://mikerogers.io/apple-touch-icon.png>; rel=prefetch,
-    <https://mikerogers.io/favicon-16x16.png>; rel=prefetch'''
+    <CSS_PATH>; rel="preload"; as="style",
+    <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel="preconnect",
+    <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel="dns-prefetch",
+    </apple-touch-icon.png>; rel="prefetch",
+    </favicon-16x16.png>; rel="prefetch"'''
+
+[[headers]]
+  for = "/*/"
+  [headers.values]
+    Link = '''
+    <CSS_PATH>; rel="preload"; as="style",
+    <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel="preconnect",
+    <https://NETLIFY_IMAGES_CDN_DOMAIN>; rel="dns-prefetch",
+    </apple-touch-icon.png>; rel="prefetch",
+    </favicon-16x16.png>; rel="prefetch"'''
 
 [[headers]]
   for = "/*.(png|jpg|js|css|svg|woff|ttf|eot|ico)"
   [headers.values]
     Cache-Control = "public, max-age=31536000, s-max-age=31536000"
-    Link = ""
 
 [[redirects]]
   from = "/wp-login.php"
