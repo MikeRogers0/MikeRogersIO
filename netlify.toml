@@ -26,7 +26,7 @@
     Link = [
       "<SITE_URLCSS_PATH>; rel=preload; as=style",
       "<SITE_URL/apple-touch-icon.png>; rel=prefetch; as=image",
-      "<SITE_URL/sitemap.txt>; rel=preload; as=style",
+      "</sitemap.txt>; rel=preload; as=style",
       "<https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=preconnect"
     ]
     X-Frame-Options = "DENY"
