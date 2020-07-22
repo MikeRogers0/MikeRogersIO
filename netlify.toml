@@ -24,9 +24,8 @@
   for = "*"
   [headers.values]
     Link = [
-      "<SITE_URLCSS_PATH>; rel=preload; as=style",
-      "<SITE_URL/apple-touch-icon.png>; rel=prefetch; as=image",
-      "</sitemap.txt>; rel=preload; as=style",
+      "<CSS_PATH>; rel=preload; as=style",
+      "</apple-touch-icon.png>; rel=prefetch; as=image",
       "<https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=preconnect"
     ]
     X-Frame-Options = "DENY"
