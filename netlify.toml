@@ -3,6 +3,7 @@
   publish = "build"
 
 [build.environment]
+  NODE_ENV = "production"
   NODE_VERSION = "12"
 [context.production.environment]
   BRIDGETOWN_ENV = "production"
