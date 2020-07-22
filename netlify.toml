@@ -45,13 +45,13 @@
 [[headers]]
   for = "/*.(txt|xml|json)"
   [headers.values]
-    Link = []
+    Link = ""
 
 [[headers]]
   for = "/*.(png|jpg|js|css|svg|woff|ttf|eot|ico)"
   [headers.values]
     Cache-Control = "public, max-age=31536000, s-max-age=31536000"
-    Link = []
+    Link = ""
 
 [[redirects]]
   from = "/wp-login.php"
