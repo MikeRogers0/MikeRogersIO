@@ -1,0 +1,11 @@
+<h2 class="h1 text-center">
+  Recent Contributions
+</h2>
+
+{% for pull_request in pull_requests limit: 5 %}
+  {% render "pull_requests/_pull_request" pull_request: pull_request %}
+{% endfor %}
+
+<div class="text-center mt-6">
+  <a href="/my-pull-requests" class="btn btn--primary">See More Pull Requests</a>
+</div>

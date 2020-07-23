@@ -1,0 +1,477 @@
+---
+- title: Updating early hints to work more effectively.
+  number: 119
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/119
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-07-22 22:19:10 UTC
+  created_on: '2020-07-22'
+- title: 'bug: undefined local variable or method extension'
+  number: 8
+  url: https://github.com/MikeRogers0/bridgetown-minify-html/pull/8
+  repository_url: https://www.github.com/MikeRogers0/bridgetown-minify-html
+  repository: MikeRogers0/bridgetown-minify-html
+  created_at: 2020-07-22 20:35:44 UTC
+  created_on: '2020-07-22'
+- title: 'feat: Lazy loading iframes & adding title attribute to them'
+  number: 108
+  url: https://github.com/bridgetownrb/bridgetown/pull/108
+  repository_url: https://www.github.com/bridgetownrb/bridgetown
+  repository: bridgetownrb/bridgetown
+  created_at: 2020-07-22 18:53:34 UTC
+  created_on: '2020-07-22'
+- title: 'bug: Allow svg in partial without passing "site: site" explicitly'
+  number: 4
+  url: https://github.com/andrewmcodes/bridgetown-inline-svg/pull/4
+  repository_url: https://www.github.com/andrewmcodes/bridgetown-inline-svg
+  repository: andrewmcodes/bridgetown-inline-svg
+  created_at: 2020-07-20 14:35:49 UTC
+  created_on: '2020-07-20'
+- title: Using rsync to copy hidden files
+  number: 2
+  url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Installer/pull/2
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Installer
+  repository: Ruby-Starter-Kits/Docker-Middleman-Installer
+  created_at: 2020-07-19 15:51:54 UTC
+  created_on: '2020-07-19'
+- title: Using rsync to copy hidden files from App-Template
+  number: 13
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Installer/pull/13
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Installer
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Installer
+  created_at: 2020-07-19 15:33:32 UTC
+  created_on: '2020-07-19'
+- title: Using rsync to copy hidden files
+  number: 9
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Installer/pull/9
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Installer
+  repository: Ruby-Starter-Kits/Docker-Rails-Installer
+  created_at: 2020-07-19 15:02:41 UTC
+  created_on: '2020-07-19'
+- title: Adding Dependabot config via file
+  number: 41
+  url: https://github.com/MikeRogers0/RailsTimberFrame/pull/41
+  repository_url: https://www.github.com/MikeRogers0/RailsTimberFrame
+  repository: MikeRogers0/RailsTimberFrame
+  created_at: 2020-06-22 13:52:16 UTC
+  created_on: '2020-06-22'
+- title: Bump all gems to latest
+  number: 12
+  url: https://github.com/TypoCI/Marketing/pull/12
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2020-06-01 13:17:16 UTC
+  created_on: '2020-06-01'
+- title: Updating badges to reference GitHub Actions
+  number: 42
+  url: https://github.com/PigCI/pig-ci-rails/pull/42
+  repository_url: https://www.github.com/PigCI/pig-ci-rails
+  repository: PigCI/pig-ci-rails
+  created_at: 2020-05-20 12:42:04 UTC
+  created_on: '2020-05-20'
+- title: Porting changes from Typo CI over
+  number: 14
+  url: https://github.com/PigCI/Marketing/pull/14
+  repository_url: https://www.github.com/PigCI/Marketing
+  repository: PigCI/Marketing
+  created_at: 2020-05-20 12:19:36 UTC
+  created_on: '2020-05-20'
+- title: Updating funding on GitHub to mention me
+  number: 21
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/21
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-05-14 11:13:15 UTC
+  created_on: '2020-05-14'
+- title: Adding in Docker
+  number: 38
+  url: https://github.com/PigCI/Sample-Rails-PigCI-Setup-App/pull/38
+  repository_url: https://www.github.com/PigCI/Sample-Rails-PigCI-Setup-App
+  repository: PigCI/Sample-Rails-PigCI-Setup-App
+  created_at: 2020-05-10 12:45:30 UTC
+  created_on: '2020-05-10'
+- title: 2020 update - More Defaults & ZSH
+  number: 2
+  url: https://github.com/MikeRogers0/dotfiles/pull/2
+  repository_url: https://www.github.com/MikeRogers0/dotfiles
+  repository: MikeRogers0/dotfiles
+  created_at: 2020-04-29 14:27:11 UTC
+  created_on: '2020-04-29'
+- title: Correcting 7 typos
+  number: 1033
+  url: https://github.com/hanami/hanami/pull/1033
+  repository_url: https://www.github.com/hanami/hanami
+  repository: hanami/hanami
+  created_at: 2020-03-10 20:03:32 UTC
+  created_on: '2020-03-10'
+- title: Fix 2 typos within comments
+  number: 52181
+  url: https://github.com/flutter/flutter/pull/52181
+  repository_url: https://www.github.com/flutter/flutter
+  repository: flutter/flutter
+  created_at: 2020-03-07 22:12:44 UTC
+  created_on: '2020-03-07'
+- title: Fixing 5 typos
+  number: 2217
+  url: https://github.com/elixirschool/elixirschool/pull/2217
+  repository_url: https://www.github.com/elixirschool/elixirschool
+  repository: elixirschool/elixirschool
+  created_at: 2020-03-07 21:44:35 UTC
+  created_on: '2020-03-07'
+- title: Correcting 3 typos
+  number: 1189
+  url: https://github.com/alphagov/govuk-design-system/pull/1189
+  repository_url: https://www.github.com/alphagov/govuk-design-system
+  repository: alphagov/govuk-design-system
+  created_at: 2020-03-07 21:13:16 UTC
+  created_on: '2020-03-07'
+- title: Correcting 7 typos
+  number: 760
+  url: https://github.com/alphagov/e-petitions/pull/760
+  repository_url: https://www.github.com/alphagov/e-petitions
+  repository: alphagov/e-petitions
+  created_at: 2020-03-07 21:04:39 UTC
+  created_on: '2020-03-07'
+- title: Fixing 2 typos
+  number: 614
+  url: https://github.com/cli/cli/pull/614
+  repository_url: https://www.github.com/cli/cli
+  repository: cli/cli
+  created_at: 2020-03-07 20:47:59 UTC
+  created_on: '2020-03-07'
+- title: Correcting 3 spelling mistakes
+  number: 6121
+  url: https://github.com/activeadmin/activeadmin/pull/6121
+  repository_url: https://www.github.com/activeadmin/activeadmin
+  repository: activeadmin/activeadmin
+  created_at: 2020-03-07 20:40:43 UTC
+  created_on: '2020-03-07'
+- title: 'refactor: correcting spelling mistakes'
+  number: 1026
+  url: https://github.com/streamich/react-use/pull/1026
+  repository_url: https://www.github.com/streamich/react-use
+  repository: streamich/react-use
+  created_at: 2020-03-05 11:39:11 UTC
+  created_on: '2020-03-05'
+- title: 'refactor: correcting a few spelling mistakes'
+  number: 6596
+  url: https://github.com/aws/aws-cdk/pull/6596
+  repository_url: https://www.github.com/aws/aws-cdk
+  repository: aws/aws-cdk
+  created_at: 2020-03-05 11:14:44 UTC
+  created_on: '2020-03-05'
+- title: 'Refactor: correcting a few spelling errors in changelog'
+  number: 1385
+  url: https://github.com/swimlane/ngx-charts/pull/1385
+  repository_url: https://www.github.com/swimlane/ngx-charts
+  repository: swimlane/ngx-charts
+  created_at: 2020-03-05 10:58:19 UTC
+  created_on: '2020-03-05'
+- title: 'fix typo: correcting spelling ''Supress'' > ''Suppress'''
+  number: 7731
+  url: https://github.com/react-navigation/react-navigation/pull/7731
+  repository_url: https://www.github.com/react-navigation/react-navigation
+  repository: react-navigation/react-navigation
+  created_at: 2020-03-05 10:41:14 UTC
+  created_on: '2020-03-05'
+- title: Adding version number to documentation `<title>`
+  number: 30090
+  url: https://github.com/twbs/bootstrap/pull/30090
+  repository_url: https://www.github.com/twbs/bootstrap
+  repository: twbs/bootstrap
+  created_at: 2020-01-26 17:21:21 UTC
+  created_on: '2020-01-26'
+- title: Adding portuguese to .typo-ci.yml file
+  number: 110
+  url: https://github.com/v-community/v_by_example/pull/110
+  repository_url: https://www.github.com/v-community/v_by_example
+  repository: v-community/v_by_example
+  created_at: 2019-12-08 12:10:19 UTC
+  created_on: '2019-12-08'
+- title: Adding Typo CI - Spellchecker for GitHub
+  number: 1327
+  url: https://github.com/ripienaar/free-for-dev/pull/1327
+  repository_url: https://www.github.com/ripienaar/free-for-dev
+  repository: ripienaar/free-for-dev
+  created_at: 2019-11-26 10:26:02 UTC
+  created_on: '2019-11-26'
+- title: 'Listings Page: Adding spaces around the words in the listings message form'
+  number: 4732
+  url: https://github.com/forem/forem/pull/4732
+  repository_url: https://www.github.com/forem/forem
+  repository: forem/forem
+  created_at: 2019-11-06 13:44:35 UTC
+  created_on: '2019-11-06'
+- title: Bumping ruby version to 2.6.5
+  number: 2149
+  url: https://github.com/rubygems/rubygems.org/pull/2149
+  repository_url: https://www.github.com/rubygems/rubygems.org
+  repository: rubygems/rubygems.org
+  created_at: 2019-10-21 19:33:05 UTC
+  created_on: '2019-10-21'
+- title: Replacing sass-rails with sassc-rails
+  number: 3156
+  url: https://github.com/sferik/rails_admin/pull/3156
+  repository_url: https://www.github.com/sferik/rails_admin
+  repository: sferik/rails_admin
+  created_at: 2019-06-19 12:44:49 UTC
+  created_on: '2019-06-19'
+- title: Adding breakpoints and such
+  number: 1
+  url: https://github.com/mattmarc44/MattsPage/pull/1
+  repository_url: https://www.github.com/mattmarc44/MattsPage
+  repository: mattmarc44/MattsPage
+  created_at: 2019-06-01 12:47:30 UTC
+  created_on: '2019-06-01'
+- title: Adding latest drift code
+  number: 1
+  url: https://github.com/LinuxLowell/chat-annoyances/pull/1
+  repository_url: https://www.github.com/LinuxLowell/chat-annoyances
+  repository: LinuxLowell/chat-annoyances
+  created_at: 2019-03-10 11:16:49 UTC
+  created_on: '2019-03-10'
+- title: Setting up yarn
+  number: 1
+  url: https://github.com/mattmarc44/sass-site/pull/1
+  repository_url: https://www.github.com/mattmarc44/sass-site
+  repository: mattmarc44/sass-site
+  created_at: 2019-01-12 16:22:23 UTC
+  created_on: '2019-01-12'
+- title: Updated spelling in the README
+  number: 787
+  url: https://github.com/mileszs/wicked_pdf/pull/787
+  repository_url: https://www.github.com/mileszs/wicked_pdf
+  repository: mileszs/wicked_pdf
+  created_at: 2018-12-26 21:42:49 UTC
+  created_on: '2018-12-26'
+- title: Bugfix for sendgird malformed emails
+  number: 1
+  url: https://github.com/AreaHQ/griddler-sendgrid/pull/1
+  repository_url: https://www.github.com/AreaHQ/griddler-sendgrid
+  repository: AreaHQ/griddler-sendgrid
+  created_at: 2018-10-19 08:54:36 UTC
+  created_on: '2018-10-19'
+- title: Updating Sendgrid API link (I missed the one in the top of the readme)
+  number: 33
+  url: https://github.com/thoughtbot/griddler-sendgrid/pull/33
+  repository_url: https://www.github.com/thoughtbot/griddler-sendgrid
+  repository: thoughtbot/griddler-sendgrid
+  created_at: 2018-09-14 16:34:55 UTC
+  created_on: '2018-09-14'
+- title: Static attributes will be removed in FactoryBot 5.0 - Updating the Readme
+  number: 303
+  url: https://github.com/thoughtbot/griddler/pull/303
+  repository_url: https://www.github.com/thoughtbot/griddler
+  repository: thoughtbot/griddler
+  created_at: 2018-09-12 11:20:59 UTC
+  created_on: '2018-09-12'
+- title: Audit Trails
+  number: 52
+  url: https://github.com/sarahball/upon-arrival/pull/52
+  repository_url: https://www.github.com/sarahball/upon-arrival
+  repository: sarahball/upon-arrival
+  created_at: 2018-08-03 14:56:54 UTC
+  created_on: '2018-08-03'
+- title: Adding MikeRogers.io to sites list
+  number: 767
+  url: https://github.com/middleman/middlemanapp.com/pull/767
+  repository_url: https://www.github.com/middleman/middlemanapp.com
+  repository: middleman/middlemanapp.com
+  created_at: 2018-07-29 15:40:03 UTC
+  created_on: '2018-07-29'
+- title: Replacing Rails secrets with Rails credentials
+  number: 17
+  url: https://github.com/icoretech/omniauth-spotify/pull/17
+  repository_url: https://www.github.com/icoretech/omniauth-spotify
+  repository: icoretech/omniauth-spotify
+  created_at: 2018-07-09 16:22:04 UTC
+  created_on: '2018-07-09'
+- title: Adding notes on overriding the render method for components
+  number: 68
+  url: https://github.com/devnacho/mountain_view/pull/68
+  repository_url: https://www.github.com/devnacho/mountain_view
+  repository: devnacho/mountain_view
+  created_at: 2018-07-05 21:14:42 UTC
+  created_on: '2018-07-05'
+- title: Invalidate directories without trailing slashes (Such as /blog)
+  number: 16
+  url: https://github.com/leighmcculloch/middleman-cdn/pull/16
+  repository_url: https://www.github.com/leighmcculloch/middleman-cdn
+  repository: leighmcculloch/middleman-cdn
+  created_at: 2018-05-05 16:38:32 UTC
+  created_on: '2018-05-05'
+- title: Using the Web Performance API to collect stats about paint time
+  number: 335
+  url: https://github.com/MiniProfiler/rack-mini-profiler/pull/335
+  repository_url: https://www.github.com/MiniProfiler/rack-mini-profiler
+  repository: MiniProfiler/rack-mini-profiler
+  created_at: 2018-02-14 12:03:58 UTC
+  created_on: '2018-02-14'
+- title: JustDelete.me is no longer an accurate name - going to something more…
+  number: 7
+  url: https://github.com/jdm-contrib/justdelete.me-chrome-extension/pull/7
+  repository_url: https://www.github.com/jdm-contrib/justdelete.me-chrome-extension
+  repository: jdm-contrib/justdelete.me-chrome-extension
+  created_at: 2017-12-06 14:28:22 UTC
+  created_on: '2017-12-06'
+- title: Adding `autocomplete="email"` to email fields
+  number: 4643
+  url: https://github.com/heartcombo/devise/pull/4643
+  repository_url: https://www.github.com/heartcombo/devise
+  repository: heartcombo/devise
+  created_at: 2017-09-13 18:08:46 UTC
+  created_on: '2017-09-13'
+- title: Stripe WebHooks no longer passes `user_id` param, instead it passes `…
+  number: 444
+  url: https://github.com/stripe-ruby-mock/stripe-ruby-mock/pull/444
+  repository_url: https://www.github.com/stripe-ruby-mock/stripe-ruby-mock
+  repository: stripe-ruby-mock/stripe-ruby-mock
+  created_at: 2017-06-27 14:25:47 UTC
+  created_on: '2017-06-27'
+- title: Converting double quotes link to single quoted
+  number: 548
+  url: https://github.com/codebar/planner/pull/548
+  repository_url: https://www.github.com/codebar/planner
+  repository: codebar/planner
+  created_at: 2017-05-16 20:48:59 UTC
+  created_on: '2017-05-16'
+- title: Make remember_device account specific (Fixed specs)
+  number: 67
+  url: https://github.com/twilio/authy-devise/pull/67
+  repository_url: https://www.github.com/twilio/authy-devise
+  repository: twilio/authy-devise
+  created_at: 2016-10-06 21:38:52 UTC
+  created_on: '2016-10-06'
+- title: Correcting .current-appointee links in Firefox on focus
+  number: 2751
+  url: https://github.com/alphagov/whitehall/pull/2751
+  repository_url: https://www.github.com/alphagov/whitehall
+  repository: alphagov/whitehall
+  created_at: 2016-09-13 11:46:53 UTC
+  created_on: '2016-09-13'
+- title: Correcting weird focus style in firefox
+  number: 1001
+  url: https://github.com/alphagov/frontend/pull/1001
+  repository_url: https://www.github.com/alphagov/frontend
+  repository: alphagov/frontend
+  created_at: 2016-08-30 12:59:34 UTC
+  created_on: '2016-08-30'
+- title: Moving captcha and security_question into before_action
+  number: 166
+  url: https://github.com/phatworx/devise_security_extension/pull/166
+  repository_url: https://www.github.com/phatworx/devise_security_extension
+  repository: phatworx/devise_security_extension
+  created_at: 2016-03-20 22:58:29 UTC
+  created_on: '2016-03-20'
+- title: Adds Support for Safari Pinned tabs
+  number: 194
+  url: https://github.com/alphagov/govuk_template/pull/194
+  repository_url: https://www.github.com/alphagov/govuk_template
+  repository: alphagov/govuk_template
+  created_at: 2016-02-02 23:12:48 UTC
+  created_on: '2016-02-02'
+- title: Adding february 2016 event link to site
+  number: 22
+  url: https://github.com/phpsurrey/phpsurrey.uk/pull/22
+  repository_url: https://www.github.com/phpsurrey/phpsurrey.uk
+  repository: phpsurrey/phpsurrey.uk
+  created_at: 2016-02-01 18:36:06 UTC
+  created_on: '2016-02-01'
+- title: Outputting tweets in slim template style
+  number: 1
+  url: https://github.com/KeithLang/antipodecenter/pull/1
+  repository_url: https://www.github.com/KeithLang/antipodecenter
+  repository: KeithLang/antipodecenter
+  created_at: 2015-10-08 18:58:36 UTC
+  created_on: '2015-10-08'
+- title: Moving class method off into a scope
+  number: 2
+  url: https://github.com/ninabreznik/CodingAmigos/pull/2
+  repository_url: https://www.github.com/ninabreznik/CodingAmigos
+  repository: ninabreznik/CodingAmigos
+  created_at: 2015-08-21 08:55:34 UTC
+  created_on: '2015-08-21'
+- title: Adding .env and faster rails c
+  number: 47
+  url: https://github.com/ninabreznik/ZweiDesign/pull/47
+  repository_url: https://www.github.com/ninabreznik/ZweiDesign
+  repository: ninabreznik/ZweiDesign
+  created_at: 2015-05-22 19:02:42 UTC
+  created_on: '2015-05-22'
+- title: Adding pins to Budapest guide map
+  number: 4
+  url: https://github.com/JSConfBp/2015.jsconfbp.com/pull/4
+  repository_url: https://www.github.com/JSConfBp/2015.jsconfbp.com
+  repository: JSConfBp/2015.jsconfbp.com
+  created_at: 2015-02-07 22:59:30 UTC
+  created_on: '2015-02-07'
+- title: Have fun OSX
+  number: 128
+  url: https://github.com/tomekw/whatever/pull/128
+  repository_url: https://www.github.com/tomekw/whatever
+  repository: tomekw/whatever
+  created_at: 2014-10-10 23:09:42 UTC
+  created_on: '2014-10-10'
+- title: Info on how to set max imagine size
+  number: 119
+  url: https://github.com/SammyLin/redactor-rails/pull/119
+  repository_url: https://www.github.com/SammyLin/redactor-rails
+  repository: SammyLin/redactor-rails
+  created_at: 2014-07-28 09:05:25 UTC
+  created_on: '2014-07-28'
+- title: Updating the Gemfile reference
+  number: 63
+  url: https://github.com/stefanpenner/country_select/pull/63
+  repository_url: https://www.github.com/stefanpenner/country_select
+  repository: stefanpenner/country_select
+  created_at: 2014-06-16 15:54:00 UTC
+  created_on: '2014-06-16'
+- title: Adding example of how to use methods
+  number: 37
+  url: https://github.com/james2m/seedbank/pull/37
+  repository_url: https://www.github.com/james2m/seedbank
+  repository: james2m/seedbank
+  created_at: 2014-05-12 19:49:14 UTC
+  created_on: '2014-05-12'
+- title: Remove www. from sites and fixes vine.co domain.
+  number: 376
+  url: https://github.com/justdeleteme/justdelete.me/pull/376
+  repository_url: https://www.github.com/justdeleteme/justdelete.me
+  repository: justdeleteme/justdelete.me
+  created_at: 2014-04-21 17:30:09 UTC
+  created_on: '2014-04-21'
+- title: Images load synchronously and fixes memory leak
+  number: 503
+  url: https://github.com/honestbleeps/Reddit-Enhancement-Suite/pull/503
+  repository_url: https://www.github.com/honestbleeps/Reddit-Enhancement-Suite
+  repository: honestbleeps/Reddit-Enhancement-Suite
+  created_at: 2013-08-08 17:12:33 UTC
+  created_on: '2013-08-08'
+- title: Making song play via html5 audio.
+  number: 1
+  url: https://github.com/joemckie/make-it-pop/pull/1
+  repository_url: https://www.github.com/joemckie/make-it-pop
+  repository: joemckie/make-it-pop
+  created_at: 2013-08-02 19:34:11 UTC
+  created_on: '2013-08-02'
+- title: Adding in constructor and some PHPDoc bits.
+  number: 1
+  url: https://github.com/dannynimmo/phpclass-Cachebuster/pull/1
+  repository_url: https://www.github.com/dannynimmo/phpclass-Cachebuster
+  repository: dannynimmo/phpclass-Cachebuster
+  created_at: 2013-07-01 15:30:26 UTC
+  created_on: '2013-07-01'
+- title: Adding in Integrity app cask.
+  number: 433
+  url: https://github.com/Homebrew/homebrew-cask/pull/433
+  repository_url: https://www.github.com/Homebrew/homebrew-cask
+  repository: Homebrew/homebrew-cask
+  created_at: 2013-06-01 14:12:49 UTC
+  created_on: '2013-06-01'
+- title: Changed the hover stuff
+  number: 1
+  url: https://github.com/ear1grey/viddybg/pull/1
+  repository_url: https://www.github.com/ear1grey/viddybg
+  repository: ear1grey/viddybg
+  created_at: 2013-03-26 18:17:09 UTC
+  created_on: '2013-03-26'
