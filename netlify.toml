@@ -38,7 +38,7 @@
     Cache-Control = "public, max-age=604800, s-max-age=604800"
 
 [[headers]]
-  for = "/*.html"
+  for = "*.html"
   [headers.values]
     Link = [
       "<CSS_PATH>; rel=preload; as=style",
