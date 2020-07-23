@@ -23,11 +23,6 @@
 [[headers]]
   for = "*"
   [headers.values]
-    Link = [
-      "<CSS_PATH>; rel=preload; as=style",
-      "</apple-touch-icon.png>; rel=prefetch; as=image",
-      "<https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=preconnect"
-    ]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
@@ -43,19 +38,17 @@
     Cache-Control = "public, max-age=604800, s-max-age=604800"
 
 [[headers]]
-  for = "/*.(txt|xml|json)"
+  for = "/"
   [headers.values]
     Link = [
-      "</>; rel=dns-prefetch;"
+      "<CSS_PATH>; rel=preload; as=style",
+      "<https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=dns-prefetch"
     ]
 
 [[headers]]
-  for = "/*.(png|jpg|js|css|svg|woff|ttf|eot|ico)"
+  for = "/*.(png|jpg|js|css|svg|woff|ttf|eot|ico|woff2)"
   [headers.values]
     Cache-Control = "public, max-age=31536000, s-max-age=31536000"
-    Link = [
-      "</>; rel=dns-prefetch;"
-    ]
 
 [[redirects]]
   from = "/wp-login.php"
