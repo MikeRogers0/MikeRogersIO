@@ -18,7 +18,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem "bridgetown"#, github: "bridgetownrb/bridgetown", branch: "main"
 
+gem "rake"
 gem "rubocop"
+gem "octokit"
 
 group :bridgetown_plugins do
   gem "bridgetown-feed"
