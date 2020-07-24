@@ -11,7 +11,7 @@ module Source
     end
 
     def client
-      @client ||= Octokit::Client.new(auto_paginate: true)
+      @client ||= Octokit::Client.new(auto_paginate: false)
     end
 
     def filename
