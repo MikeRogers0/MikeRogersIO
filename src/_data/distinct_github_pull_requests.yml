@@ -1,24 +1,24 @@
 ---
-- title: Updating early hints to work more effectively.
-  number: 119
-  url: https://github.com/MikeRogers0/MikeRogersIO/pull/119
+- title: Adding loading="lazy" to images near footer
+  number: 113
+  url: https://github.com/bridgetownrb/bridgetown/pull/113
+  repository_url: https://www.github.com/bridgetownrb/bridgetown
+  repository: bridgetownrb/bridgetown
+  created_at: 2020-07-23 20:17:08 UTC
+  created_on: '2020-07-23'
+- title: Only prehinting assets on homepage
+  number: 121
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/121
   repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
   repository: MikeRogers0/MikeRogersIO
-  created_at: 2020-07-22 22:19:10 UTC
-  created_on: '2020-07-22'
+  created_at: 2020-07-23 18:57:58 UTC
+  created_on: '2020-07-23'
 - title: 'bug: undefined local variable or method extension'
   number: 8
   url: https://github.com/MikeRogers0/bridgetown-minify-html/pull/8
   repository_url: https://www.github.com/MikeRogers0/bridgetown-minify-html
   repository: MikeRogers0/bridgetown-minify-html
   created_at: 2020-07-22 20:35:44 UTC
-  created_on: '2020-07-22'
-- title: 'feat: Lazy loading iframes & adding title attribute to them'
-  number: 108
-  url: https://github.com/bridgetownrb/bridgetown/pull/108
-  repository_url: https://www.github.com/bridgetownrb/bridgetown
-  repository: bridgetownrb/bridgetown
-  created_at: 2020-07-22 18:53:34 UTC
   created_on: '2020-07-22'
 - title: 'bug: Allow svg in partial without passing "site: site" explicitly'
   number: 4
