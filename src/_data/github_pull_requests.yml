@@ -1,4 +1,46 @@
 ---
+- title: Use organisation funding file
+  number: 15
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Installer/pull/15
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Installer
+  repository: Ruby-Starter-Kits/Docker-Rails-Installer
+  created_at: 2020-07-28 13:05:22 UTC
+  created_on: '2020-07-28'
+- title: Increase Postgres version to 12.3
+  number: 13
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Installer/pull/13
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Installer
+  repository: Ruby-Starter-Kits/Docker-Rails-Installer
+  created_at: 2020-07-28 11:46:01 UTC
+  created_on: '2020-07-28'
+- title: Fixing ActiveRecord::ConnectionTimeoutError exceptions post
+  number: 123
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/123
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-07-28 10:45:02 UTC
+  created_on: '2020-07-28'
+- title: Ditch GitHub sponsors
+  number: 122
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/122
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-07-27 13:47:37 UTC
+  created_on: '2020-07-27'
+- title: 'bug: Don''t try to copy now removed database.sample file'
+  number: 12
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Installer/pull/12
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Installer
+  repository: Ruby-Starter-Kits/Docker-Rails-Installer
+  created_at: 2020-07-27 09:10:05 UTC
+  created_on: '2020-07-27'
+- title: Setup custom database.yml
+  number: 11
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Installer/pull/11
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Installer
+  repository: Ruby-Starter-Kits/Docker-Rails-Installer
+  created_at: 2020-07-27 08:49:54 UTC
+  created_on: '2020-07-27'
 - title: Run bundle & yarn on template app builder
   number: 3
   url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Installer/pull/3
