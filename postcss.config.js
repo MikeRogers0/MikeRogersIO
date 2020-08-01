@@ -23,7 +23,7 @@ if (process.env.BRIDGETOWN_ENV === "production") {
     // require('postcss-inline-svg'),
     //require('postcss-svgo')
 
-    //require('cssnano')({ preset: 'default' }),
+    require('cssnano')({ preset: 'default' }),
     
   )
 };
