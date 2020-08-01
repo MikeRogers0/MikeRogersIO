@@ -30,7 +30,7 @@ pagination:
   enabled: true
 
 svg:
-  optimize: true
+  optimize: false
 
 feed:
   path: rss.xml
