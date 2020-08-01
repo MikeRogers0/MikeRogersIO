@@ -4,7 +4,7 @@ const ManifestPlugin = require("webpack-manifest-plugin");
 
 module.exports = {
   entry: "./frontend/javascript/index.js",
-  devtool: (process.env.NODE_ENV === 'production' ? false : "source-map"),
+  devtool: (process.env.BRIDGETOWN_ENV === 'production' ? false : "source-map"),
   // Set some or all of these to true if you want more verbose logging:
   stats: {
     modules: false,
@@ -14,14 +14,14 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, "build", "_bridgetown", "static", "js"),
-    filename: (process.env.NODE_ENV === 'production' ? "all.[contenthash].js" : "all.js" ),
+    filename: (process.env.BRIDGETOWN_ENV === 'production' ? "all.[contenthash].js" : "all.js" ),
   },
   resolve: {
     extensions: [".js", ".jsx"],
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: (process.env.NODE_ENV === 'production' ? "../css/all.[contenthash].css" : "../css/all.css" ),
+      filename: (process.env.BRIDGETOWN_ENV === 'production' ? "../css/all.[contenthash].css" : "../css/all.css" ),
     }),
     new ManifestPlugin({
       fileName: path.resolve(__dirname, ".bridgetown-webpack", "manifest.json"),
