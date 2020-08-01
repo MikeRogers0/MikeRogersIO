@@ -15,7 +15,7 @@ let environment = {
 }
 
 // Only add these in production as they slow down the dev build time a bunch.
-if (process.env.NODE_ENV === "production") {
+if (process.env.BRIDGETOWN_ENV === "production") {
   environment.plugins.push(
     // https://github.com/TrySound/postcss-inline-svg
     // Inline SVGs:
