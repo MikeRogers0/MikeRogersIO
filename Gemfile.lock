@@ -38,6 +38,9 @@ GEM
       thor (~> 1.0)
     bridgetown-feed (1.1.2)
       bridgetown (>= 0.6, < 2.0)
+    bridgetown-inline-svg (1.1.1)
+      bridgetown (>= 0.15, < 2.0)
+      svg_optimizer (~> 0.2.5)
     bridgetown-minify-html (0.2.0)
       bridgetown (>= 0.15, < 2.0)
       htmlcompressor (>= 0.4, < 1.0)
@@ -68,8 +71,11 @@ GEM
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    mini_portile2 (2.4.0)
     minitest (5.14.1)
     multipart-post (2.1.1)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
     octokit (4.18.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -103,6 +109,8 @@ GEM
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
+    svg_optimizer (0.2.5)
+      nokogiri
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thor (1.0.1)
@@ -118,6 +126,7 @@ PLATFORMS
 DEPENDENCIES
   bridgetown
   bridgetown-feed
+  bridgetown-inline-svg
   bridgetown-minify-html
   bridgetown-seo-tag
   octokit

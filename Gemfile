@@ -26,4 +26,5 @@ group :bridgetown_plugins do
   gem "bridgetown-feed"
   gem "bridgetown-seo-tag"
   gem "bridgetown-minify-html" #, github: 'MikeRogers0/bridgetown-minify-html'
+  gem "bridgetown-inline-svg"
 end
