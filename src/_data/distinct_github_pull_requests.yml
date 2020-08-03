@@ -1,31 +1,38 @@
 ---
-- title: Use organisation funding file
-  number: 15
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Installer/pull/15
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Installer
-  repository: Ruby-Starter-Kits/Docker-Rails-Installer
-  created_at: 2020-07-28 13:05:22 UTC
-  created_on: '2020-07-28'
-- title: Fixing ActiveRecord::ConnectionTimeoutError exceptions post
-  number: 123
-  url: https://github.com/MikeRogers0/MikeRogersIO/pull/123
+- title: Not relying on NODE_ENV when BRIDGETOWN_ENV is more correct
+  number: 125
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/125
   repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
   repository: MikeRogers0/MikeRogersIO
-  created_at: 2020-07-28 10:45:02 UTC
-  created_on: '2020-07-28'
+  created_at: 2020-08-01 20:52:08 UTC
+  created_on: '2020-08-01'
+- title: Use default netlify deploy command from Bridgetown
+  number: 16
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Installer/pull/16
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Installer
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Installer
+  created_at: 2020-08-01 20:43:42 UTC
+  created_on: '2020-08-01'
+- title: Convert to bridgetown
+  number: 17
+  url: https://github.com/TypoCI/Marketing/pull/17
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2020-08-01 16:54:52 UTC
+  created_on: '2020-08-01'
+- title: Adding storage as volume to docker-compose
+  number: 16
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Installer/pull/16
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Installer
+  repository: Ruby-Starter-Kits/Docker-Rails-Installer
+  created_at: 2020-07-31 10:30:52 UTC
+  created_on: '2020-07-31'
 - title: Run bundle & yarn on template app builder
   number: 3
   url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Installer/pull/3
   repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Installer
   repository: Ruby-Starter-Kits/Docker-Middleman-Installer
   created_at: 2020-07-24 20:33:39 UTC
-  created_on: '2020-07-24'
-- title: Running Bundle & Yarn when building template app
-  number: 15
-  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Installer/pull/15
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Installer
-  repository: Ruby-Starter-Kits/Docker-Bridgetown-Installer
-  created_at: 2020-07-24 19:24:36 UTC
   created_on: '2020-07-24'
 - title: Adding loading="lazy" to images near footer
   number: 113
@@ -41,13 +48,13 @@
   repository: MikeRogers0/bridgetown-minify-html
   created_at: 2020-07-22 20:35:44 UTC
   created_on: '2020-07-22'
-- title: 'bug: Allow svg in partial without passing "site: site" explicitly'
-  number: 4
-  url: https://github.com/andrewmcodes/bridgetown-inline-svg/pull/4
+- title: 'feat: Extend Bridgetown::Builder over extending liquid'
+  number: 6
+  url: https://github.com/andrewmcodes/bridgetown-inline-svg/pull/6
   repository_url: https://www.github.com/andrewmcodes/bridgetown-inline-svg
   repository: andrewmcodes/bridgetown-inline-svg
-  created_at: 2020-07-20 14:35:49 UTC
-  created_on: '2020-07-20'
+  created_at: 2020-07-22 17:34:21 UTC
+  created_on: '2020-07-22'
 - title: Adding Dependabot config via file
   number: 41
   url: https://github.com/MikeRogers0/RailsTimberFrame/pull/41
@@ -55,13 +62,6 @@
   repository: MikeRogers0/RailsTimberFrame
   created_at: 2020-06-22 13:52:16 UTC
   created_on: '2020-06-22'
-- title: Bump all gems to latest
-  number: 12
-  url: https://github.com/TypoCI/Marketing/pull/12
-  repository_url: https://www.github.com/TypoCI/Marketing
-  repository: TypoCI/Marketing
-  created_at: 2020-06-01 13:17:16 UTC
-  created_on: '2020-06-01'
 - title: Updating badges to reference GitHub Actions
   number: 42
   url: https://github.com/PigCI/pig-ci-rails/pull/42
