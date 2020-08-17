@@ -1,4 +1,74 @@
 ---
+- title: Renaming repo to Docker-Middleman-Generator
+  number: 5
+  url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/5
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Generator
+  repository: Ruby-Starter-Kits/Docker-Middleman-Generator
+  created_at: 2020-08-14 16:27:50 UTC
+  created_on: '2020-08-14'
+- title: 'bug: Mentioned rails when I meant bridgetown'
+  number: 20
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/20
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-08-14 16:17:03 UTC
+  created_on: '2020-08-14'
+- title: 'feat: Encouraging using template app over docker to install'
+  number: 4
+  url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/4
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Generator
+  repository: Ruby-Starter-Kits/Docker-Middleman-Generator
+  created_at: 2020-08-14 16:06:56 UTC
+  created_on: '2020-08-14'
+- title: Rename repo to Docker-Bridgetown-Generator
+  number: 19
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/19
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-08-14 15:49:00 UTC
+  created_on: '2020-08-14'
+- title: Making it clearer this is Rails + Docker :D
+  number: 21
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/21
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-08-14 15:45:14 UTC
+  created_on: '2020-08-14'
+- title: 'feat: Encourage using the template repo'
+  number: 18
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/18
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-08-14 15:34:35 UTC
+  created_on: '2020-08-14'
+- title: Renaming repo to Docker-Rails-Generator
+  number: 20
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/20
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-08-14 15:23:00 UTC
+  created_on: '2020-08-14'
+- title: Build using production image to speed up build
+  number: 19
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/19
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-08-14 13:57:51 UTC
+  created_on: '2020-08-14'
+- title: Include gitignore in template repo
+  number: 18
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/18
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-08-14 13:30:54 UTC
+  created_on: '2020-08-14'
+- title: Switching to just generating a template repo
+  number: 17
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/17
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-08-14 12:48:37 UTC
+  created_on: '2020-08-14'
 - title: Adding logos back into Readme
   number: 19
   url: https://github.com/TypoCI/Marketing/pull/19
@@ -11,6 +81,13 @@
   url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Installer/pull/17
   repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Installer
   repository: Ruby-Starter-Kits/Docker-Bridgetown-Installer
+  created_at: 2020-08-06 09:18:12 UTC
+  created_on: '2020-08-06'
+- title: Explictly set NODE_ENV on Netlify
+  number: 17
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/17
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
   created_at: 2020-08-06 09:18:12 UTC
   created_on: '2020-08-06'
 - title: 'fix: JSON-D product image link was ERB'
@@ -34,6 +111,13 @@
   repository: Ruby-Starter-Kits/Docker-Bridgetown-Installer
   created_at: 2020-08-01 20:43:42 UTC
   created_on: '2020-08-01'
+- title: Use default netlify deploy command from Bridgetown
+  number: 16
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/16
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-08-01 20:43:42 UTC
+  created_on: '2020-08-01'
 - title: Convert to bridgetown
   number: 17
   url: https://github.com/TypoCI/Marketing/pull/17
@@ -55,6 +139,13 @@
   repository: Ruby-Starter-Kits/Docker-Rails-Installer
   created_at: 2020-07-31 10:30:52 UTC
   created_on: '2020-07-31'
+- title: Adding storage as volume to docker-compose
+  number: 16
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/16
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-07-31 10:30:52 UTC
+  created_on: '2020-07-31'
 - title: Use organisation funding file
   number: 15
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Installer/pull/15
@@ -62,11 +153,25 @@
   repository: Ruby-Starter-Kits/Docker-Rails-Installer
   created_at: 2020-07-28 13:05:22 UTC
   created_on: '2020-07-28'
+- title: Use organisation funding file
+  number: 15
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/15
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-07-28 13:05:22 UTC
+  created_on: '2020-07-28'
 - title: Increase Postgres version to 12.3
   number: 13
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Installer/pull/13
   repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Installer
   repository: Ruby-Starter-Kits/Docker-Rails-Installer
+  created_at: 2020-07-28 11:46:01 UTC
+  created_on: '2020-07-28'
+- title: Increase Postgres version to 12.3
+  number: 13
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/13
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
   created_at: 2020-07-28 11:46:01 UTC
   created_on: '2020-07-28'
 - title: Fixing ActiveRecord::ConnectionTimeoutError exceptions post
@@ -90,11 +195,25 @@
   repository: Ruby-Starter-Kits/Docker-Rails-Installer
   created_at: 2020-07-27 09:10:05 UTC
   created_on: '2020-07-27'
+- title: 'bug: Don''t try to copy now removed database.sample file'
+  number: 12
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/12
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-07-27 09:10:05 UTC
+  created_on: '2020-07-27'
 - title: Setup custom database.yml
   number: 11
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Installer/pull/11
   repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Installer
   repository: Ruby-Starter-Kits/Docker-Rails-Installer
+  created_at: 2020-07-27 08:49:54 UTC
+  created_on: '2020-07-27'
+- title: Setup custom database.yml
+  number: 11
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/11
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
   created_at: 2020-07-27 08:49:54 UTC
   created_on: '2020-07-27'
 - title: Run bundle & yarn on template app builder
@@ -104,6 +223,13 @@
   repository: Ruby-Starter-Kits/Docker-Middleman-Installer
   created_at: 2020-07-24 20:33:39 UTC
   created_on: '2020-07-24'
+- title: Run bundle & yarn on template app builder
+  number: 3
+  url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/3
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Generator
+  repository: Ruby-Starter-Kits/Docker-Middleman-Generator
+  created_at: 2020-07-24 20:33:39 UTC
+  created_on: '2020-07-24'
 - title: Running Bundle & Yarn when building template app
   number: 15
   url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Installer/pull/15
@@ -111,11 +237,25 @@
   repository: Ruby-Starter-Kits/Docker-Bridgetown-Installer
   created_at: 2020-07-24 19:24:36 UTC
   created_on: '2020-07-24'
+- title: Running Bundle & Yarn when building template app
+  number: 15
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/15
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-07-24 19:24:36 UTC
+  created_on: '2020-07-24'
 - title: Running Bundle & Yarn after creating app
   number: 10
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Installer/pull/10
   repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Installer
   repository: Ruby-Starter-Kits/Docker-Rails-Installer
+  created_at: 2020-07-24 16:34:09 UTC
+  created_on: '2020-07-24'
+- title: Running Bundle & Yarn after creating app
+  number: 10
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/10
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
   created_at: 2020-07-24 16:34:09 UTC
   created_on: '2020-07-24'
 - title: Adding loading="lazy" to images near footer

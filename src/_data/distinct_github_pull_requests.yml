@@ -1,4 +1,25 @@
 ---
+- title: Renaming repo to Docker-Middleman-Generator
+  number: 5
+  url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/5
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Generator
+  repository: Ruby-Starter-Kits/Docker-Middleman-Generator
+  created_at: 2020-08-14 16:27:50 UTC
+  created_on: '2020-08-14'
+- title: 'bug: Mentioned rails when I meant bridgetown'
+  number: 20
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/20
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-08-14 16:17:03 UTC
+  created_on: '2020-08-14'
+- title: Making it clearer this is Rails + Docker :D
+  number: 21
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/21
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-08-14 15:45:14 UTC
+  created_on: '2020-08-14'
 - title: Adding logos back into Readme
   number: 19
   url: https://github.com/TypoCI/Marketing/pull/19
