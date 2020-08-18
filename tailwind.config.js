@@ -1,12 +1,5 @@
 module.exports = {
-  purge: {
-    enabled: (process.env.BRIDGETOWN_ENV === 'production'),
-    content: [
-      './src/**/*.html',
-      './src/**/*.md',
-      './src/**/*.liquid',
-    ],
-  },
+  purge: false, // Handled by plugins/purgecss_builder.rb
 
   theme: {
 
