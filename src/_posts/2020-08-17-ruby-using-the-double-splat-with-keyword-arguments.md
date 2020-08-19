@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruby: Using the Double Splat (**) with Keyword Arguments"
-description: The double splat operator (**) in Ruby is really powerful, here's some examples of how to use it with Keywords Arguments.
+description: The double splat operator (**) in Ruby is really powerful, here's some examples of how to use it with Keyword Arguments.
 ---
 
 The double splat in Ruby is a super powerful feature which in Ruby 2.7 allows a hash to be passed as arguments to a method.
