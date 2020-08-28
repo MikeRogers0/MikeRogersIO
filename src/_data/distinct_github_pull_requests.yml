@@ -1,4 +1,11 @@
 ---
+- title: Tidying up wording in readme
+  number: 17
+  url: https://github.com/TypoCI/spellcheck-action/pull/17
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-08-24 08:21:38 UTC
+  created_on: '2020-08-24'
 - title: 'Bug: Random images weren''t 0644'
   number: 130
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/130
@@ -13,13 +20,6 @@
   repository: Ruby-Starter-Kits/Docker-Hanami-Generator
   created_at: 2020-08-21 10:36:29 UTC
   created_on: '2020-08-21'
-- title: Running test suite from within container
-  number: 13
-  url: https://github.com/TypoCI/spellcheck-action/pull/13
-  repository_url: https://www.github.com/TypoCI/spellcheck-action
-  repository: TypoCI/spellcheck-action
-  created_at: 2020-08-20 14:25:53 UTC
-  created_on: '2020-08-20'
 - title: Changing references to integration to be the action
   number: 24
   url: https://github.com/TypoCI/Marketing/pull/24
