@@ -1,4 +1,11 @@
 ---
+- title: Removing 404'ing links from sidebar
+  number: 121
+  url: https://github.com/lrug/lrug.org/pull/121
+  repository_url: https://www.github.com/lrug/lrug.org
+  repository: lrug/lrug.org
+  created_at: 2020-08-27 19:18:10 UTC
+  created_on: '2020-08-27'
 - title: Tidying up wording in readme
   number: 17
   url: https://github.com/TypoCI/spellcheck-action/pull/17
