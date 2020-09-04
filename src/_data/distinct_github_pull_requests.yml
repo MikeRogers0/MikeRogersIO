@@ -1,4 +1,11 @@
 ---
+- title: Pushing Dockerfile to GitHub Container Registry
+  number: 22
+  url: https://github.com/TypoCI/spellcheck-action/pull/22
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-09-03 16:42:12 UTC
+  created_on: '2020-09-03'
 - title: Removing 404'ing links from sidebar
   number: 121
   url: https://github.com/lrug/lrug.org/pull/121
@@ -6,13 +13,6 @@
   repository: lrug/lrug.org
   created_at: 2020-08-27 19:18:10 UTC
   created_on: '2020-08-27'
-- title: Tidying up wording in readme
-  number: 17
-  url: https://github.com/TypoCI/spellcheck-action/pull/17
-  repository_url: https://www.github.com/TypoCI/spellcheck-action
-  repository: TypoCI/spellcheck-action
-  created_at: 2020-08-24 08:21:38 UTC
-  created_on: '2020-08-24'
 - title: 'Bug: Random images weren''t 0644'
   number: 130
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/130
