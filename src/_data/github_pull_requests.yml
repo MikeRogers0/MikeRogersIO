@@ -1,4 +1,11 @@
 ---
+- title: Adding source to templates Gemfile files
+  number: 32
+  url: https://github.com/algolia/frontman/pull/32
+  repository_url: https://www.github.com/algolia/frontman
+  repository: algolia/frontman
+  created_at: 2020-09-09 15:25:02 UTC
+  created_on: '2020-09-09'
 - title: 'Improving docker-compose default settings based on Evil Martians + schneems
     writings '
   number: 23
@@ -14,6 +21,13 @@
   repository: TypoCI/spellcheck-action
   created_at: 2020-09-03 16:42:12 UTC
   created_on: '2020-09-03'
+- title: Add support for --force flag on frontman init command
+  number: 29
+  url: https://github.com/algolia/frontman/pull/29
+  repository_url: https://www.github.com/algolia/frontman
+  repository: algolia/frontman
+  created_at: 2020-09-02 19:07:08 UTC
+  created_on: '2020-09-02'
 - title: Removing 404'ing links from sidebar
   number: 121
   url: https://github.com/lrug/lrug.org/pull/121
