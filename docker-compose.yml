@@ -10,8 +10,12 @@ x-app: &app
     context: .
     dockerfile: Dockerfile
     target: development
+  tmpfs:
+    - /tmp
   env_file:
     - .env
+  stdin_open: true
+  tty: true
   volumes:
     - .:/usr/src/app:cached
     - bundler:/usr/local/bundle:delegated
