@@ -1,4 +1,11 @@
 ---
+- title: Updating sidebar to be the latest LRUG eventbrite group
+  number: 124
+  url: https://github.com/lrug/lrug.org/pull/124
+  repository_url: https://www.github.com/lrug/lrug.org
+  repository: lrug/lrug.org
+  created_at: 2020-09-10 19:29:23 UTC
+  created_on: '2020-09-10'
 - title: Adding source to templates Gemfile files
   number: 32
   url: https://github.com/algolia/frontman/pull/32
@@ -14,6 +21,13 @@
   repository: Ruby-Starter-Kits/Docker-Rails-Generator
   created_at: 2020-09-06 14:40:05 UTC
   created_on: '2020-09-06'
+- title: Update design to be responsive
+  number: 123
+  url: https://github.com/lrug/lrug.org/pull/123
+  repository_url: https://www.github.com/lrug/lrug.org
+  repository: lrug/lrug.org
+  created_at: 2020-09-04 13:28:31 UTC
+  created_on: '2020-09-04'
 - title: Pushing Dockerfile to GitHub Container Registry
   number: 22
   url: https://github.com/TypoCI/spellcheck-action/pull/22
