@@ -12,7 +12,6 @@ I discovered this neat trick within Rails Routes which allows you to reference e
 
 ```ruby
 # config/routes.rb
-
 Rails.application.routes.draw do
   # Define your route with the to, host & protocol set
   get 'contact',
