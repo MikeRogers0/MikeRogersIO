@@ -6,20 +6,6 @@
   </h2>
 
   <div class="text-sm text-gray-muted mb-4">
-    <time datetime="{{ pull_request.created_on | date: "%Y-%m-%d" }}">
-      {% assign d = pull_request.created_on | date: "%-d" %}
-      {{ pull_request.created_on | date: "%B" }} 
-      {% case d %}
-      {% when '1' or '21' or '31' %}{{ d }}st,
-      {% when '2' or '22' %}{{ d }}nd,
-      {% when '3' or '23' %}{{ d }}rd,
-      {% else %}{{ d }}th,
-      {% endcase %}
-      {{ pull_request.created_on | date: "%Y" }}
-    </time>
-
-    <div class="float-right">
-      {{ pull_request.repository }}
-    </div>
+    {{ pull_request.repository }}
   </div>
 </div>
