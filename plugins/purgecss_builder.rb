@@ -12,6 +12,7 @@ class PurgeCSS < SiteBuilder
           PURGE
           File.write(purgecss_file, config_js.strip)
         end
+
         manifest_file = site.in_root_dir('.bridgetown-webpack', 'manifest.json')
         if File.exist?(manifest_file)
           manifest = JSON.parse(File.read(manifest_file))
@@ -20,7 +21,7 @@ class PurgeCSS < SiteBuilder
 
           Bridgetown.logger.info 'PurgeCSS', "Purging #{css_file}"
           oldsize = File.stat(css_path).size / 1000
-          system "./node_modules/.bin/purgecss -c purgecss.config.js -css #{css_path}"
+          system "./node_modules/.bin/purgecss -c purgecss.config.js -css #{css_path} --output #{css_path}"
           newsize = File.stat(css_path).size / 1000
           if newsize < oldsize
             Bridgetown.logger.info 'PurgeCSS', "Done! File size reduced from #{oldsize}kB to #{newsize}kB"
