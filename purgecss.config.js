@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['frontend/javascript/*.js','./build/**/*.html'],
+  content: ["frontend/javascript/*.js", "./build/**/*.html"],
   build: "./build/_bridgetown/static/css",
   defaultExtractor: content => {
     // Capture as liberally as possible, including things like `h-(screen-1.5)`
@@ -10,4 +10,4 @@ module.exports = {
 
     return broadMatches.concat(innerMatches)
   }
-}
+};
