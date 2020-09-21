@@ -1,4 +1,18 @@
 ---
+- title: Fixing PurgeCSS - it was quietly failing
+  number: 133
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/133
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-09-18 14:22:16 UTC
+  created_on: '2020-09-18'
+- title: Correcting build step so it actually purges CSS
+  number: 25
+  url: https://github.com/TypoCI/Marketing/pull/25
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2020-09-18 14:18:03 UTC
+  created_on: '2020-09-18'
 - title: Updating sidebar to be the latest LRUG eventbrite group
   number: 124
   url: https://github.com/lrug/lrug.org/pull/124
@@ -28,13 +42,6 @@
   repository: TypoCI/spellcheck-action
   created_at: 2020-09-03 16:42:12 UTC
   created_on: '2020-09-03'
-- title: 'Bug: Random images weren''t 0644'
-  number: 130
-  url: https://github.com/MikeRogers0/MikeRogersIO/pull/130
-  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
-  repository: MikeRogers0/MikeRogersIO
-  created_at: 2020-08-23 15:01:16 UTC
-  created_on: '2020-08-23'
 - title: Setting Ports & Host correctly for local dev
   number: 1
   url: https://github.com/Ruby-Starter-Kits/Docker-Hanami-Generator/pull/1
@@ -42,13 +49,6 @@
   repository: Ruby-Starter-Kits/Docker-Hanami-Generator
   created_at: 2020-08-21 10:36:29 UTC
   created_on: '2020-08-21'
-- title: Changing references to integration to be the action
-  number: 24
-  url: https://github.com/TypoCI/Marketing/pull/24
-  repository_url: https://www.github.com/TypoCI/Marketing
-  repository: TypoCI/Marketing
-  created_at: 2020-08-20 11:13:41 UTC
-  created_on: '2020-08-20'
 - title: Renaming repo to Docker-Middleman-Generator
   number: 5
   url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/5

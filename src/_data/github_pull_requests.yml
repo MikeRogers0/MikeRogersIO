@@ -1,4 +1,32 @@
 ---
+- title: Fixing PurgeCSS - it was quietly failing
+  number: 133
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/133
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-09-18 14:22:16 UTC
+  created_on: '2020-09-18'
+- title: Correcting build step so it actually purges CSS
+  number: 25
+  url: https://github.com/TypoCI/Marketing/pull/25
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2020-09-18 14:18:03 UTC
+  created_on: '2020-09-18'
+- title: 'Post: External links in Rails Routes'
+  number: 132
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/132
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-09-18 10:24:40 UTC
+  created_on: '2020-09-18'
+- title: Remove Pull Request dates from homepage
+  number: 131
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/131
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-09-18 09:10:55 UTC
+  created_on: '2020-09-18'
 - title: Updating sidebar to be the latest LRUG eventbrite group
   number: 124
   url: https://github.com/lrug/lrug.org/pull/124
