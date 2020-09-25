@@ -1,0 +1,11 @@
+---
+layout: page
+title: Books I've Read
+permalink: /books-ive-read/
+---
+
+<div class="my-6 grid gap-12 lg:grid-cols-3 mt-8">
+  {% for book in site.data.books %}
+    {% render "books/_book" book: book %}
+  {% endfor %}
+</div>
