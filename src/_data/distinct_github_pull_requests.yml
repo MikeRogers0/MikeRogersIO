@@ -1,4 +1,11 @@
 ---
+- title: Performing Lighthouse SEO recommendations
+  number: 125
+  url: https://github.com/lrug/lrug.org/pull/125
+  repository_url: https://www.github.com/lrug/lrug.org
+  repository: lrug/lrug.org
+  created_at: 2020-09-20 11:02:00 UTC
+  created_on: '2020-09-20'
 - title: Fixing PurgeCSS - it was quietly failing
   number: 133
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/133
@@ -13,13 +20,6 @@
   repository: TypoCI/Marketing
   created_at: 2020-09-18 14:18:03 UTC
   created_on: '2020-09-18'
-- title: Updating sidebar to be the latest LRUG eventbrite group
-  number: 124
-  url: https://github.com/lrug/lrug.org/pull/124
-  repository_url: https://www.github.com/lrug/lrug.org
-  repository: lrug/lrug.org
-  created_at: 2020-09-10 19:29:23 UTC
-  created_on: '2020-09-10'
 - title: Adding source to templates Gemfile files
   number: 32
   url: https://github.com/algolia/frontman/pull/32
