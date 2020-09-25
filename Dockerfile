@@ -16,6 +16,11 @@ RUN apk add --no-cache \
 
 FROM builder as development
 
+# add non-root user and group with alpine first available uid, 1000
+RUN addgroup -g 1000 -S appgroup \
+&& adduser -u 1000 -S appuser -G appgroup
+
+
 # Add the current apps files into docker image
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
@@ -25,6 +30,7 @@ ENV PATH /usr/src/app/bin:$PATH
 # Install latest bundler
 RUN bundle config --global silence_root_warning 1
 
+USER 1000
 EXPOSE 4000
 CMD ["yarn", "start", "--host", "0.0.0.0"]
 
