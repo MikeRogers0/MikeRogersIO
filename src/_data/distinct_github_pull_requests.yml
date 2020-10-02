@@ -1,4 +1,25 @@
 ---
+- title: Adding follow link for @MikeRogers0
+  number: 33
+  url: https://github.com/TypoCI/spellcheck-action/pull/33
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-10-01 13:20:58 UTC
+  created_on: '2020-10-01'
+- title: Updating Readme to include references to lisense & author
+  number: 26
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/26
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-10-01 13:08:55 UTC
+  created_on: '2020-10-01'
+- title: Allowing access to Redis/Postgres/Web ports on localhost
+  number: 24
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/24
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-09-28 10:42:20 UTC
+  created_on: '2020-09-28'
 - title: Removing title tags from svgs
   number: 136
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/136
@@ -27,21 +48,6 @@
   repository: algolia/frontman
   created_at: 2020-09-09 15:25:02 UTC
   created_on: '2020-09-09'
-- title: 'Improving docker-compose default settings based on Evil Martians + schneems
-    writings '
-  number: 23
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/23
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
-  repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2020-09-06 14:40:05 UTC
-  created_on: '2020-09-06'
-- title: Pushing Dockerfile to GitHub Container Registry
-  number: 22
-  url: https://github.com/TypoCI/spellcheck-action/pull/22
-  repository_url: https://www.github.com/TypoCI/spellcheck-action
-  repository: TypoCI/spellcheck-action
-  created_at: 2020-09-03 16:42:12 UTC
-  created_on: '2020-09-03'
 - title: Setting Ports & Host correctly for local dev
   number: 1
   url: https://github.com/Ruby-Starter-Kits/Docker-Hanami-Generator/pull/1
@@ -55,13 +61,6 @@
   repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Generator
   repository: Ruby-Starter-Kits/Docker-Middleman-Generator
   created_at: 2020-08-14 16:27:50 UTC
-  created_on: '2020-08-14'
-- title: 'bug: Mentioned rails when I meant bridgetown'
-  number: 20
-  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/20
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
-  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
-  created_at: 2020-08-14 16:17:03 UTC
   created_on: '2020-08-14'
 - title: Explictly set NODE_ENV on Netlify
   number: 17

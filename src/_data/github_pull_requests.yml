@@ -1,4 +1,46 @@
 ---
+- title: Adding follow link for @MikeRogers0
+  number: 33
+  url: https://github.com/TypoCI/spellcheck-action/pull/33
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-10-01 13:20:58 UTC
+  created_on: '2020-10-01'
+- title: Updating Readme to include references to lisense & author
+  number: 26
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/26
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-10-01 13:08:55 UTC
+  created_on: '2020-10-01'
+- title: Using Git Tag for version number for commit reference
+  number: 25
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/25
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-10-01 11:34:00 UTC
+  created_on: '2020-10-01'
+- title: Adding evil martins learnings to docker-compose.yml
+  number: 24
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/24
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-10-01 10:20:51 UTC
+  created_on: '2020-10-01'
+- title: Adding MIT License to generated repo
+  number: 23
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/23
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-10-01 09:55:08 UTC
+  created_on: '2020-10-01'
+- title: Allowing access to Redis/Postgres/Web ports on localhost
+  number: 24
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/24
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-09-28 10:42:20 UTC
+  created_on: '2020-09-28'
 - title: Removing title tags from svgs
   number: 136
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/136
