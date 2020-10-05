@@ -1,4 +1,53 @@
 ---
+- title: Running container as non-root user
+  number: 27
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/27
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-10-04 14:21:41 UTC
+  created_on: '2020-10-04'
+- title: Adding new badges to the readme
+  number: 12
+  url: https://github.com/MikeRogers0/bridgetown-minify-html/pull/12
+  repository_url: https://www.github.com/MikeRogers0/bridgetown-minify-html
+  repository: MikeRogers0/bridgetown-minify-html
+  created_at: 2020-10-02 15:24:09 UTC
+  created_on: '2020-10-02'
+- title: Cleaning up GitHub Actions
+  number: 11
+  url: https://github.com/MikeRogers0/bridgetown-minify-html/pull/11
+  repository_url: https://www.github.com/MikeRogers0/bridgetown-minify-html
+  repository: MikeRogers0/bridgetown-minify-html
+  created_at: 2020-10-02 15:14:05 UTC
+  created_on: '2020-10-02'
+- title: Updating to Ruby 2.7
+  number: 29
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/29
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-10-02 15:12:45 UTC
+  created_on: '2020-10-02'
+- title: Ditching docker
+  number: 10
+  url: https://github.com/MikeRogers0/bridgetown-minify-html/pull/10
+  repository_url: https://www.github.com/MikeRogers0/bridgetown-minify-html
+  repository: MikeRogers0/bridgetown-minify-html
+  created_at: 2020-10-02 15:01:51 UTC
+  created_on: '2020-10-02'
+- title: Cleaning up unnecessary files
+  number: 28
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/28
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-10-02 14:42:38 UTC
+  created_on: '2020-10-02'
+- title: Ditching docker for local dev
+  number: 27
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/27
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-10-02 14:30:17 UTC
+  created_on: '2020-10-02'
 - title: Adding follow link for @MikeRogers0
   number: 33
   url: https://github.com/TypoCI/spellcheck-action/pull/33
@@ -48,6 +97,13 @@
   repository: MikeRogers0/MikeRogersIO
   created_at: 2020-09-26 09:23:36 UTC
   created_on: '2020-09-26'
+- title: Overhauling GitHub Actions
+  number: 22
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/22
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-09-25 19:50:04 UTC
+  created_on: '2020-09-25'
 - title: Adding Books I've read page
   number: 135
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/135
