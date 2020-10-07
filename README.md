@@ -16,3 +16,7 @@ My personal website which shows off bits of my portfolio and ramblings from my b
 ## Deploying
 
 This is hosted on https://www.netlify.com/ - It'll automatically deploy everything that is merged into master.
+
+## Credits
+
+Icons are from [FeatherIcons.com](https://feathericons.com/)
