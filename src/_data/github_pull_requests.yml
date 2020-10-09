@@ -1,4 +1,32 @@
 ---
+- title: Adding link to YouTube
+  number: 140
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/140
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-10-07 16:28:03 UTC
+  created_on: '2020-10-07'
+- title: Revising setup instructions
+  number: 139
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/139
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-10-05 14:53:28 UTC
+  created_on: '2020-10-05'
+- title: Ditch docker
+  number: 138
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/138
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-10-05 14:47:28 UTC
+  created_on: '2020-10-05'
+- title: 'Post: Admin Panels In Rails 6'
+  number: 137
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/137
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-10-05 10:33:41 UTC
+  created_on: '2020-10-05'
 - title: Running container as non-root user
   number: 27
   url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/27
