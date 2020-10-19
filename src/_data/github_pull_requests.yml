@@ -1,4 +1,32 @@
 ---
+- title: Post on Managing Multiple Software Versions in Parallel
+  number: 141
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/141
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-10-17 16:21:54 UTC
+  created_on: '2020-10-17'
+- title: Updating gems & packages
+  number: 28
+  url: https://github.com/TypoCI/Marketing/pull/28
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2020-10-16 14:18:24 UTC
+  created_on: '2020-10-16'
+- title: Removing Docker
+  number: 27
+  url: https://github.com/TypoCI/Marketing/pull/27
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2020-10-16 14:10:03 UTC
+  created_on: '2020-10-16'
+- title: Pointing links back to marketplace app
+  number: 26
+  url: https://github.com/TypoCI/Marketing/pull/26
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2020-10-16 13:58:18 UTC
+  created_on: '2020-10-16'
 - title: Adding Mike to Members page
   number: 53
   url: https://github.com/Virtual-Coffee/virtualcoffee.io/pull/53
