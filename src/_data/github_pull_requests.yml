@@ -1,4 +1,151 @@
 ---
+- title: Adding destroy Assosication
+  number: 3
+  url: https://github.com/ameerrah9/Travelgram/pull/3
+  repository_url: https://www.github.com/ameerrah9/Travelgram
+  repository: ameerrah9/Travelgram
+  created_at: 2020-10-22 19:07:50 UTC
+  created_on: '2020-10-22'
+- title: Revamping Github Actions
+  number: 49
+  url: https://github.com/PigCI/pig-ci-rails/pull/49
+  repository_url: https://www.github.com/PigCI/pig-ci-rails
+  repository: PigCI/pig-ci-rails
+  created_at: 2020-10-22 14:42:12 UTC
+  created_on: '2020-10-22'
+- title: Adding Dependabot.yml
+  number: 45
+  url: https://github.com/PigCI/pig-ci-rails/pull/45
+  repository_url: https://www.github.com/PigCI/pig-ci-rails
+  repository: PigCI/pig-ci-rails
+  created_at: 2020-10-22 14:17:12 UTC
+  created_on: '2020-10-22'
+- title: Removing docker from Dependabot checks
+  number: 17
+  url: https://github.com/MikeRogers0/bridgetown-minify-html/pull/17
+  repository_url: https://www.github.com/MikeRogers0/bridgetown-minify-html
+  repository: MikeRogers0/bridgetown-minify-html
+  created_at: 2020-10-22 14:08:42 UTC
+  created_on: '2020-10-22'
+- title: Only use Dependabot to check for Ruby/GH Action updates
+  number: 39
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/39
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-10-22 14:07:02 UTC
+  created_on: '2020-10-22'
+- title: Ditching Docker Setup
+  number: 44
+  url: https://github.com/PigCI/pig-ci-rails/pull/44
+  repository_url: https://www.github.com/PigCI/pig-ci-rails
+  repository: PigCI/pig-ci-rails
+  created_at: 2020-10-22 14:02:11 UTC
+  created_on: '2020-10-22'
+- title: Bumping to 1.0.0
+  number: 16
+  url: https://github.com/MikeRogers0/bridgetown-minify-html/pull/16
+  repository_url: https://www.github.com/MikeRogers0/bridgetown-minify-html
+  repository: MikeRogers0/bridgetown-minify-html
+  created_at: 2020-10-22 13:53:22 UTC
+  created_on: '2020-10-22'
+- title: Using GitHub Action by @jstastny for gempush
+  number: 15
+  url: https://github.com/MikeRogers0/bridgetown-minify-html/pull/15
+  repository_url: https://www.github.com/MikeRogers0/bridgetown-minify-html
+  repository: MikeRogers0/bridgetown-minify-html
+  created_at: 2020-10-22 13:32:50 UTC
+  created_on: '2020-10-22'
+- title: Testing against multiple ruby versions
+  number: 14
+  url: https://github.com/MikeRogers0/bridgetown-minify-html/pull/14
+  repository_url: https://www.github.com/MikeRogers0/bridgetown-minify-html
+  repository: MikeRogers0/bridgetown-minify-html
+  created_at: 2020-10-22 13:28:58 UTC
+  created_on: '2020-10-22'
+- title: Updating manual setup instructions
+  number: 38
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/38
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-10-22 11:50:32 UTC
+  created_on: '2020-10-22'
+- title: GitHub package repo not pushing
+  number: 37
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/37
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-10-22 11:44:54 UTC
+  created_on: '2020-10-22'
+- title: Rebuild the Changelog when a release is made
+  number: 36
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/36
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-10-22 11:34:30 UTC
+  created_on: '2020-10-22'
+- title: Revising setup notes to include mention of the app:template
+  number: 35
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/35
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-10-22 11:23:52 UTC
+  created_on: '2020-10-22'
+- title: Preparing for 1.1.0 release
+  number: 34
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/34
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-10-22 10:35:15 UTC
+  created_on: '2020-10-22'
+- title: Testing against multiple Ruby versions
+  number: 33
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/33
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-10-22 10:24:36 UTC
+  created_on: '2020-10-22'
+- title: Adding funding_uri & metadata in
+  number: 13
+  url: https://github.com/MikeRogers0/bridgetown-minify-html/pull/13
+  repository_url: https://www.github.com/MikeRogers0/bridgetown-minify-html
+  repository: MikeRogers0/bridgetown-minify-html
+  created_at: 2020-10-21 17:40:37 UTC
+  created_on: '2020-10-21'
+- title: Adding funding_uri metadata to gemspec
+  number: 43
+  url: https://github.com/PigCI/pig-ci-rails/pull/43
+  repository_url: https://www.github.com/PigCI/pig-ci-rails
+  repository: PigCI/pig-ci-rails
+  created_at: 2020-10-21 17:38:20 UTC
+  created_on: '2020-10-21'
+- title: Adding funding_uri & other metadata
+  number: 31
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/31
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-10-21 17:33:36 UTC
+  created_on: '2020-10-21'
+- title: Adding in UJS & changing comment link
+  number: 2
+  url: https://github.com/ameerrah9/Travelgram/pull/2
+  repository_url: https://www.github.com/ameerrah9/Travelgram
+  repository: ameerrah9/Travelgram
+  created_at: 2020-10-21 14:42:00 UTC
+  created_on: '2020-10-21'
+- title: deploy_key > branch - Typo In Readme
+  number: 1
+  url: https://github.com/hatchboxio/github-hatchbox-deploy-action/pull/1
+  repository_url: https://www.github.com/hatchboxio/github-hatchbox-deploy-action
+  repository: hatchboxio/github-hatchbox-deploy-action
+  created_at: 2020-10-20 20:39:16 UTC
+  created_on: '2020-10-20'
+- title: Refactoring blog a little
+  number: 1
+  url: https://github.com/ameerrah9/Travelgram/pull/1
+  repository_url: https://www.github.com/ameerrah9/Travelgram
+  repository: ameerrah9/Travelgram
+  created_at: 2020-10-20 15:22:30 UTC
+  created_on: '2020-10-20'
 - title: Post on Managing Multiple Software Versions in Parallel
   number: 141
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/141
