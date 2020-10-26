@@ -1,4 +1,32 @@
 ---
+- title: Revert "Adding tmpfs config option"
+  number: 29
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/29
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-10-25 15:21:40 UTC
+  created_on: '2020-10-25'
+- title: Adding tmpfs reference
+  number: 8
+  url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/8
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Generator
+  repository: Ruby-Starter-Kits/Docker-Middleman-Generator
+  created_at: 2020-10-25 15:16:55 UTC
+  created_on: '2020-10-25'
+- title: Fixing up a few rubocop warnings
+  number: 25
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/25
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-10-25 12:58:59 UTC
+  created_on: '2020-10-25'
+- title: Removing Anchor links to marketplace
+  number: 29
+  url: https://github.com/TypoCI/Marketing/pull/29
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2020-10-23 11:46:08 UTC
+  created_on: '2020-10-23'
 - title: Adding destroy Assosication
   number: 3
   url: https://github.com/ameerrah9/Travelgram/pull/3
@@ -41,13 +69,6 @@
   repository: MikeRogers0/MikeRogersIO
   created_at: 2020-10-17 16:21:54 UTC
   created_on: '2020-10-17'
-- title: Updating gems & packages
-  number: 28
-  url: https://github.com/TypoCI/Marketing/pull/28
-  repository_url: https://www.github.com/TypoCI/Marketing
-  repository: TypoCI/Marketing
-  created_at: 2020-10-16 14:18:24 UTC
-  created_on: '2020-10-16'
 - title: Adding Mike to Members page
   number: 53
   url: https://github.com/Virtual-Coffee/virtualcoffee.io/pull/53
@@ -62,13 +83,6 @@
   repository: danieltalsky/TelephoneGame
   created_at: 2020-10-10 20:12:24 UTC
   created_on: '2020-10-10'
-- title: Running container as non-root user
-  number: 27
-  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/27
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
-  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
-  created_at: 2020-10-04 14:21:41 UTC
-  created_on: '2020-10-04'
 - title: Adding follow link for @MikeRogers0
   number: 33
   url: https://github.com/TypoCI/spellcheck-action/pull/33
@@ -76,13 +90,6 @@
   repository: TypoCI/spellcheck-action
   created_at: 2020-10-01 13:20:58 UTC
   created_on: '2020-10-01'
-- title: Allowing access to Redis/Postgres/Web ports on localhost
-  number: 24
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/24
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
-  repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2020-09-28 10:42:20 UTC
-  created_on: '2020-09-28'
 - title: Performing Lighthouse SEO recommendations
   number: 125
   url: https://github.com/lrug/lrug.org/pull/125
@@ -104,13 +111,6 @@
   repository: Ruby-Starter-Kits/Docker-Hanami-Generator
   created_at: 2020-08-21 10:36:29 UTC
   created_on: '2020-08-21'
-- title: Renaming repo to Docker-Middleman-Generator
-  number: 5
-  url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/5
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Generator
-  repository: Ruby-Starter-Kits/Docker-Middleman-Generator
-  created_at: 2020-08-14 16:27:50 UTC
-  created_on: '2020-08-14'
 - title: Explictly set NODE_ENV on Netlify
   number: 17
   url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Installer/pull/17

@@ -1,4 +1,46 @@
 ---
+- title: Revert "Adding tmpfs config option"
+  number: 29
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/29
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-10-25 15:21:40 UTC
+  created_on: '2020-10-25'
+- title: Adding tmpfs config option
+  number: 28
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/28
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-10-25 15:20:09 UTC
+  created_on: '2020-10-25'
+- title: Adding tmpfs reference
+  number: 8
+  url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/8
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Generator
+  repository: Ruby-Starter-Kits/Docker-Middleman-Generator
+  created_at: 2020-10-25 15:16:55 UTC
+  created_on: '2020-10-25'
+- title: Removing requirement for .env file
+  number: 7
+  url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/7
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Generator
+  repository: Ruby-Starter-Kits/Docker-Middleman-Generator
+  created_at: 2020-10-25 15:13:44 UTC
+  created_on: '2020-10-25'
+- title: Fixing up a few rubocop warnings
+  number: 25
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/25
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-10-25 12:58:59 UTC
+  created_on: '2020-10-25'
+- title: Removing Anchor links to marketplace
+  number: 29
+  url: https://github.com/TypoCI/Marketing/pull/29
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2020-10-23 11:46:08 UTC
+  created_on: '2020-10-23'
 - title: Adding destroy Assosication
   number: 3
   url: https://github.com/ameerrah9/Travelgram/pull/3
