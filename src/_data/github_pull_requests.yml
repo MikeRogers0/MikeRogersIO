@@ -1,4 +1,67 @@
 ---
+- title: Fixing GitHub Actions
+  number: 1
+  url: https://github.com/MikeRogers0/Virtual-Coffee-Bot/pull/1
+  repository_url: https://www.github.com/MikeRogers0/Virtual-Coffee-Bot
+  repository: MikeRogers0/Virtual-Coffee-Bot
+  created_at: 2020-10-29 21:36:44 UTC
+  created_on: '2020-10-29'
+- title: Updating all the gems to latest
+  number: 46
+  url: https://github.com/TypoCI/spellcheck-action/pull/46
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-10-28 18:10:04 UTC
+  created_on: '2020-10-28'
+- title: Update Rubocop GitHub Action
+  number: 45
+  url: https://github.com/TypoCI/spellcheck-action/pull/45
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-10-28 17:59:33 UTC
+  created_on: '2020-10-28'
+- title: Adjusting GH Actions to work more reliably
+  number: 27
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/27
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-10-28 16:39:08 UTC
+  created_on: '2020-10-28'
+- title: Tidying up cities index
+  number: 4
+  url: https://github.com/ameerrah9/Travelgram/pull/4
+  repository_url: https://www.github.com/ameerrah9/Travelgram
+  repository: ameerrah9/Travelgram
+  created_at: 2020-10-28 16:08:13 UTC
+  created_on: '2020-10-28'
+- title: Running PurgeCSS after build is complete
+  number: 2
+  url: https://github.com/leenyburger/sfu_landing_page_jekyll/pull/2
+  repository_url: https://www.github.com/leenyburger/sfu_landing_page_jekyll
+  repository: leenyburger/sfu_landing_page_jekyll
+  created_at: 2020-10-27 17:21:59 UTC
+  created_on: '2020-10-27'
+- title: Fixing merge conflicts in Seeding
+  number: 4
+  url: https://github.com/MoDaCoder/TournamentApp/pull/4
+  repository_url: https://www.github.com/MoDaCoder/TournamentApp
+  repository: MoDaCoder/TournamentApp
+  created_at: 2020-10-26 21:51:32 UTC
+  created_on: '2020-10-26'
+- title: Adding a splash of colour
+  number: 2
+  url: https://github.com/MoDaCoder/TournamentApp/pull/2
+  repository_url: https://www.github.com/MoDaCoder/TournamentApp
+  repository: MoDaCoder/TournamentApp
+  created_at: 2020-10-26 21:34:33 UTC
+  created_on: '2020-10-26'
+- title: Fixing small bits we noticed while pairing
+  number: 1
+  url: https://github.com/MoDaCoder/TournamentApp/pull/1
+  repository_url: https://www.github.com/MoDaCoder/TournamentApp
+  repository: MoDaCoder/TournamentApp
+  created_at: 2020-10-26 21:17:21 UTC
+  created_on: '2020-10-26'
 - title: Revert "Adding tmpfs config option"
   number: 29
   url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/29
