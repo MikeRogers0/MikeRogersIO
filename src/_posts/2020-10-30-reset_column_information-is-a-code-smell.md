@@ -13,7 +13,7 @@ Migrations should only concern themselves with changing the structure of the dat
 For example, let's say you create a model called `JobLevel` & populate some data e.g:
 
 ```ruby
-class CreateJobLevels < ActiveRecord::Migration[5.0]
+class CreateJobLevels < ActiveRecord::Migration[6.0]
   def up
     create_table :job_levels do |t|
       t.string :name
@@ -26,32 +26,73 @@ class CreateJobLevels < ActiveRecord::Migration[5.0]
 end
 ```
 
-This is terrible. You now require that migration to be ran to allow 
+The big "oh no" aspect of this, is you're now requiring every future developer to run this migration to populate the `job_levels` table in their database. This will encourage the bad habit of copies of a database being passed between developers to get the app working locally. Furthermore if the validation around the `name` field, it would not run as expected.
 
-If you were to ever rename the `JobLevel` model, this migration would be unable to run in the future. Plus
-
-Firstly if you renamed the model or changed the `name` field (e.g. added a new validation around is saying `manager` isn't a valid option), this
-
-Or alternatively, we were looking to add a new field:
+Here is another example which is quite common, but also problematic:
 
 ```ruby
-class AddEnabledToJobLevels < ActiveRecord::Migration[5.0]
+class AddEnabledToJobLevels < ActiveRecord::Migration[6.0]
   def up
-    add_column :job_levels, :enabled, :boolean
+    add_column :job_levels, :enabled, :boolean, default: false, null: false
     JobLevel.reset_column_information
     JobLevel.update_all(enabled: true)
   end
 end
 ```
 
-The problem is, if you wanted rename the model to be called `JobRole` the older migration would break because the `JobLevel` model doesn't exist any more.
+In both examples, if the `JobLevel` model was renamed the migration would be unable to run again.
 
 ## What are the better approaches?
 
-### Default values
+### SQL via `execute`
 
-A quick win is to just set a default value
+Using the `execute` method you can run arbitrary SQL during your migrations, e.g:
 
-### SQL
+```ruby
+class AddEnabledToJobLevels < ActiveRecord::Migration[6.0]
+  def up
+    add_column :job_levels, :enabled, :boolean, default: false, null: false
+    execute('UPDATE job_levels SET enabled = TRUE')
+  end
+end
+```
+
+I really like them as they run with the constraints of the database at the point of the migration, instead of the current to the state of the app. So if I was to delete the `JobLevel` model, I'd still be able to re-run this migration in the future.
 
 ### Seeds!
+
+One thing I've started to quite like doing is [during a release](https://github.com/Ruby-Starter-Kits/Docker-Rails-Template/blob/master/bin/release-tasks.sh) running migrations, then running the seeds. I'm quite liking it because it means my development & production can both have their required data be setup in the same way, which encourages writing decent seeds. e.g:
+
+```ruby
+# db/seeds.rb
+
+# Seed all the job levels
+JobLevel.find_or_create_by!(name: 'manager')
+```
+
+### Why put it in the database?
+
+To really get the [dev/prod parity](https://12factor.net/dev-prod-parity) down to zero, I've started thinking about if some bits of data belong in the database at all, e.g.
+
+```ruby
+JobLevel = Struct.new(:name, :enabled, keyword_init: true) do
+  alias enabled? enabled
+
+  def self.find(name)
+    all.find { |job_level| job_level.name == name }
+  end
+  
+  def self.all
+    @all ||= [
+      new(name: 'executive', enabled: true),
+      new(name: 'manager', enabled: true),
+    ]
+  end
+end
+```
+
+I like this approach because instead of querying the database with a piece of unchanging data, we can just store it in memory. Plus it comes with a strong grantee that it'll be the same across all environments.
+
+## So is reset_column_information a code smell?
+
+I think it is
