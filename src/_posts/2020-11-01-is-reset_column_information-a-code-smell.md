@@ -98,3 +98,5 @@ This approach is my favourite because instead of querying the database with a pi
 ## So is reset_column_information a code smell?
 
 I think so! I think it's an indicator of "The next few lines of code are going to bite you in the future", and in most cases there is a more reliable approach which can be taken.
+
+While I don't think a Rubocop warning is suitable, I am going to try to avoid using it going forward.
