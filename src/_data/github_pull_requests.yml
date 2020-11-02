@@ -1,4 +1,81 @@
 ---
+- title: Tidying up repo pre showing Dan
+  number: 6
+  url: https://github.com/MikeRogers0/Virtual-Coffee-Bot/pull/6
+  repository_url: https://www.github.com/MikeRogers0/Virtual-Coffee-Bot
+  repository: MikeRogers0/Virtual-Coffee-Bot
+  created_at: 2020-11-01 22:52:51 UTC
+  created_on: '2020-11-01'
+- title: Adding Monday Morning Standup
+  number: 5
+  url: https://github.com/MikeRogers0/Virtual-Coffee-Bot/pull/5
+  repository_url: https://www.github.com/MikeRogers0/Virtual-Coffee-Bot
+  repository: MikeRogers0/Virtual-Coffee-Bot
+  created_at: 2020-11-01 22:44:11 UTC
+  created_on: '2020-11-01'
+- title: Is reset_column_information a code smell?
+  number: 142
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/142
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-11-01 20:10:05 UTC
+  created_on: '2020-11-01'
+- title: Encourage running on "push" over "pull_request"
+  number: 53
+  url: https://github.com/TypoCI/spellcheck-action/pull/53
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-11-01 16:42:42 UTC
+  created_on: '2020-11-01'
+- title: Blocking bot users from trigger actions
+  number: 52
+  url: https://github.com/TypoCI/spellcheck-action/pull/52
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-11-01 16:34:26 UTC
+  created_on: '2020-11-01'
+- title: Updating Readme to include upsell about GitHub App
+  number: 51
+  url: https://github.com/TypoCI/spellcheck-action/pull/51
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-11-01 16:07:14 UTC
+  created_on: '2020-11-01'
+- title: Documenting the new Turkish language support
+  number: 30
+  url: https://github.com/TypoCI/Marketing/pull/30
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2020-11-01 15:55:38 UTC
+  created_on: '2020-11-01'
+- title: Adding support for Turkish
+  number: 50
+  url: https://github.com/TypoCI/spellcheck-action/pull/50
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-11-01 15:26:51 UTC
+  created_on: '2020-11-01'
+- title: Using standalone rubocop in GitHub Action
+  number: 40
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/40
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-10-31 16:35:01 UTC
+  created_on: '2020-10-31'
+- title: Fixing formatting for Table in Readme
+  number: 3
+  url: https://github.com/MikeRogers0/Virtual-Coffee-Bot/pull/3
+  repository_url: https://www.github.com/MikeRogers0/Virtual-Coffee-Bot
+  repository: MikeRogers0/Virtual-Coffee-Bot
+  created_at: 2020-10-30 16:35:48 UTC
+  created_on: '2020-10-30'
+- title: Using GitHub Action to run task over Heroku
+  number: 2
+  url: https://github.com/MikeRogers0/Virtual-Coffee-Bot/pull/2
+  repository_url: https://www.github.com/MikeRogers0/Virtual-Coffee-Bot
+  repository: MikeRogers0/Virtual-Coffee-Bot
+  created_at: 2020-10-30 16:27:13 UTC
+  created_on: '2020-10-30'
 - title: Fixing GitHub Actions
   number: 1
   url: https://github.com/MikeRogers0/Virtual-Coffee-Bot/pull/1
