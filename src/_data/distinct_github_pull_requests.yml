@@ -1,17 +1,31 @@
 ---
+- title: Adding in default routes file which includes Sidekiq UI
+  number: 29
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/29
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-11-03 20:56:54 UTC
+  created_on: '2020-11-03'
+- title: The 'direct' method is so much cleaner
+  number: 143
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/143
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-11-02 21:34:44 UTC
+  created_on: '2020-11-02'
+- title: Updating preview image in readme to be correct bot
+  number: 4
+  url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/4
+  repository_url: https://www.github.com/Virtual-Coffee/Virtual-Coffee-Bot
+  repository: Virtual-Coffee/Virtual-Coffee-Bot
+  created_at: 2020-11-02 15:19:04 UTC
+  created_on: '2020-11-02'
 - title: Tidying up repo pre showing Dan
   number: 6
   url: https://github.com/MikeRogers0/Virtual-Coffee-Bot/pull/6
   repository_url: https://www.github.com/MikeRogers0/Virtual-Coffee-Bot
   repository: MikeRogers0/Virtual-Coffee-Bot
   created_at: 2020-11-01 22:52:51 UTC
-  created_on: '2020-11-01'
-- title: Is reset_column_information a code smell?
-  number: 142
-  url: https://github.com/MikeRogers0/MikeRogersIO/pull/142
-  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
-  repository: MikeRogers0/MikeRogersIO
-  created_at: 2020-11-01 20:10:05 UTC
   created_on: '2020-11-01'
 - title: Encourage running on "push" over "pull_request"
   number: 53
@@ -34,13 +48,6 @@
   repository: MikeRogers0/puma-ngrok-tunnel
   created_at: 2020-10-31 16:35:01 UTC
   created_on: '2020-10-31'
-- title: Adjusting GH Actions to work more reliably
-  number: 27
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/27
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
-  repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2020-10-28 16:39:08 UTC
-  created_on: '2020-10-28'
 - title: Tidying up cities index
   number: 4
   url: https://github.com/ameerrah9/Travelgram/pull/4
