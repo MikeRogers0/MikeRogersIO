@@ -1,4 +1,46 @@
 ---
+- title: Adding premailer-rails to the default stack
+  number: 32
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/32
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-11-08 20:08:56 UTC
+  created_on: '2020-11-08'
+- title: Bumping gems where possible
+  number: 57
+  url: https://github.com/PigCI/Sample-Rails-PigCI-Setup-App/pull/57
+  repository_url: https://www.github.com/PigCI/Sample-Rails-PigCI-Setup-App
+  repository: PigCI/Sample-Rails-PigCI-Setup-App
+  created_at: 2020-11-07 14:52:56 UTC
+  created_on: '2020-11-07'
+- title: Actions cache to v2 from the over specific version
+  number: 56
+  url: https://github.com/PigCI/Sample-Rails-PigCI-Setup-App/pull/56
+  repository_url: https://www.github.com/PigCI/Sample-Rails-PigCI-Setup-App
+  repository: PigCI/Sample-Rails-PigCI-Setup-App
+  created_at: 2020-11-07 13:52:06 UTC
+  created_on: '2020-11-07'
+- title: Removing unused ENVs from app.json
+  number: 31
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/31
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-11-07 13:26:45 UTC
+  created_on: '2020-11-07'
+- title: Sorting gemfile with happy_gemfile
+  number: 30
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/30
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-11-07 12:51:18 UTC
+  created_on: '2020-11-07'
+- title: Update for Rails 6
+  number: 48
+  url: https://github.com/PigCI/Sample-Rails-PigCI-Setup-App/pull/48
+  repository_url: https://www.github.com/PigCI/Sample-Rails-PigCI-Setup-App
+  repository: PigCI/Sample-Rails-PigCI-Setup-App
+  created_at: 2020-11-07 11:29:06 UTC
+  created_on: '2020-11-07'
 - title: Adding in default routes file which includes Sidekiq UI
   number: 29
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/29

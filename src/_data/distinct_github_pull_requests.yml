@@ -1,11 +1,18 @@
 ---
-- title: Adding in default routes file which includes Sidekiq UI
-  number: 29
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/29
+- title: Adding premailer-rails to the default stack
+  number: 32
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/32
   repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
   repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2020-11-03 20:56:54 UTC
-  created_on: '2020-11-03'
+  created_at: 2020-11-08 20:08:56 UTC
+  created_on: '2020-11-08'
+- title: Bumping gems where possible
+  number: 57
+  url: https://github.com/PigCI/Sample-Rails-PigCI-Setup-App/pull/57
+  repository_url: https://www.github.com/PigCI/Sample-Rails-PigCI-Setup-App
+  repository: PigCI/Sample-Rails-PigCI-Setup-App
+  created_at: 2020-11-07 14:52:56 UTC
+  created_on: '2020-11-07'
 - title: The 'direct' method is so much cleaner
   number: 143
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/143
@@ -188,13 +195,6 @@
   repository: PigCI/Marketing
   created_at: 2020-05-20 12:19:36 UTC
   created_on: '2020-05-20'
-- title: Adding in Docker
-  number: 38
-  url: https://github.com/PigCI/Sample-Rails-PigCI-Setup-App/pull/38
-  repository_url: https://www.github.com/PigCI/Sample-Rails-PigCI-Setup-App
-  repository: PigCI/Sample-Rails-PigCI-Setup-App
-  created_at: 2020-05-10 12:45:30 UTC
-  created_on: '2020-05-10'
 - title: 2020 update - More Defaults & ZSH
   number: 2
   url: https://github.com/MikeRogers0/dotfiles/pull/2
