@@ -4,9 +4,9 @@ title: How To Be Serverless on Heroku
 description: Did you know you can do serverless on Heroku? Here is how I managed it.
 ---
 
-_TL;DR: I moved one of my sporadically run ActiveJob's into a rake task that's run in a one-off Dyno via the Platform API._
+_TL;DR: I moved one of my sporadically run ActiveJob's in to a rake task that's run in a one-off Dyno via the Platform API._
 
-On my [Typo CI](https://typoci.com/) project I analyse commits & PRs looking for spelling mistakes. The amount of commits in a given hour is quite irregular, on Monday mornings it can quite a lot, while on a weekend it can end up just being a handful.
+On my [Typo CI](https://typoci.com/) project I analyse commits & PRs looking for spelling mistakes. The amount of commits in a given hour is quite irregular, on Monday mornings it can be quite a lot, while on a weekend it can end up just being a handful.
 
 When I first started, I was processing all my Sidekiq jobs on a single worker instance. As the product grew, I experimented with moving the ActiveJob which processed the commits onto it's own dedicated worker instance. The end result was I had a web instance, a worker instance for processing small jobs & two instances for analysing commits.
 
@@ -22,7 +22,7 @@ This was an _ok_ setup, but I'd occasionally get a rush of commits that lead to 
 
 ## What options did I have?
 
-I've been messing around with AWS Lambda lately, which has a "Pay only when your code is running" approach. It's pretty decent for when you want to run tasks at sporadically. That said, I didn't want to have to recode a big chunk of my app to work on AWS Lambda.
+I've been messing around with AWS Lambda lately, which has a "Pay only when your code is running" approach. It's pretty decent for when you want to run tasks sporadically. That said, I didn't want to have to recode a big chunk of my app to work on AWS Lambda.
 
 After a bit of research I started thinking about using [Heroku's One-Off Dynos](https://devcenter.heroku.com/articles/one-off-dynos). They're prorated to the second (like AWS Lambda), but I could utilise my existing Rails codebase without to much work to start using it. It could also run up to 50 tasks concurrently, which gave me a lot of room to scale.
 
