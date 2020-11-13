@@ -1,4 +1,25 @@
 ---
+- title: Adding Mike's post to Monthly Challenge
+  number: 82
+  url: https://github.com/Virtual-Coffee/virtualcoffee.io/pull/82
+  repository_url: https://www.github.com/Virtual-Coffee/virtualcoffee.io
+  repository: Virtual-Coffee/virtualcoffee.io
+  created_at: 2020-11-12 17:28:35 UTC
+  created_on: '2020-11-12'
+- title: Fixing up grammar on serverless post
+  number: 145
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/145
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-11-11 16:19:19 UTC
+  created_on: '2020-11-11'
+- title: Making github actions version number less specific
+  number: 11
+  url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/11
+  repository_url: https://www.github.com/Virtual-Coffee/Virtual-Coffee-Bot
+  repository: Virtual-Coffee/Virtual-Coffee-Bot
+  created_at: 2020-11-10 14:59:01 UTC
+  created_on: '2020-11-10'
 - title: Adding premailer-rails to the default stack
   number: 32
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/32
@@ -13,20 +34,6 @@
   repository: PigCI/Sample-Rails-PigCI-Setup-App
   created_at: 2020-11-07 14:52:56 UTC
   created_on: '2020-11-07'
-- title: The 'direct' method is so much cleaner
-  number: 143
-  url: https://github.com/MikeRogers0/MikeRogersIO/pull/143
-  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
-  repository: MikeRogers0/MikeRogersIO
-  created_at: 2020-11-02 21:34:44 UTC
-  created_on: '2020-11-02'
-- title: Updating preview image in readme to be correct bot
-  number: 4
-  url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/4
-  repository_url: https://www.github.com/Virtual-Coffee/Virtual-Coffee-Bot
-  repository: Virtual-Coffee/Virtual-Coffee-Bot
-  created_at: 2020-11-02 15:19:04 UTC
-  created_on: '2020-11-02'
 - title: Tidying up repo pre showing Dan
   number: 6
   url: https://github.com/MikeRogers0/Virtual-Coffee-Bot/pull/6
@@ -111,13 +118,6 @@
   repository: hatchboxio/github-hatchbox-deploy-action
   created_at: 2020-10-20 20:39:16 UTC
   created_on: '2020-10-20'
-- title: Adding Mike to Members page
-  number: 53
-  url: https://github.com/Virtual-Coffee/virtualcoffee.io/pull/53
-  repository_url: https://www.github.com/Virtual-Coffee/virtualcoffee.io
-  repository: Virtual-Coffee/virtualcoffee.io
-  created_at: 2020-10-11 19:33:12 UTC
-  created_on: '2020-10-11'
 - title: Upgrading to Ruby 2.7.2
   number: 71
   url: https://github.com/danieltalsky/TelephoneGame/pull/71

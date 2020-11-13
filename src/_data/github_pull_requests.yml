@@ -1,4 +1,32 @@
 ---
+- title: Adding Mike's post to Monthly Challenge
+  number: 82
+  url: https://github.com/Virtual-Coffee/virtualcoffee.io/pull/82
+  repository_url: https://www.github.com/Virtual-Coffee/virtualcoffee.io
+  repository: Virtual-Coffee/virtualcoffee.io
+  created_at: 2020-11-12 17:28:35 UTC
+  created_on: '2020-11-12'
+- title: Fixing up grammar on serverless post
+  number: 145
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/145
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-11-11 16:19:19 UTC
+  created_on: '2020-11-11'
+- title: 'Post: How To Be Serverless on Heroku'
+  number: 144
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/144
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-11-11 14:26:41 UTC
+  created_on: '2020-11-11'
+- title: Making github actions version number less specific
+  number: 11
+  url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/11
+  repository_url: https://www.github.com/Virtual-Coffee/Virtual-Coffee-Bot
+  repository: Virtual-Coffee/Virtual-Coffee-Bot
+  created_at: 2020-11-10 14:59:01 UTC
+  created_on: '2020-11-10'
 - title: Adding premailer-rails to the default stack
   number: 32
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/32
