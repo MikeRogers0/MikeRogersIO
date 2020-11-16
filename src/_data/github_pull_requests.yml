@@ -1,4 +1,53 @@
 ---
+- title: Linking to my Link Archive & Talks projects
+  number: 146
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/146
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-11-15 21:17:08 UTC
+  created_on: '2020-11-15'
+- title: Trying the tree command for generating directory index listings
+  number: 2
+  url: https://github.com/MikeRogers0/Talks/pull/2
+  repository_url: https://www.github.com/MikeRogers0/Talks
+  repository: MikeRogers0/Talks
+  created_at: 2020-11-15 20:11:08 UTC
+  created_on: '2020-11-15'
+- title: Adding Code Of Conduct
+  number: 36
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/36
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-11-14 14:37:15 UTC
+  created_on: '2020-11-14'
+- title: Simplifying rubocop setup a bit more
+  number: 35
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/35
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-11-14 14:32:09 UTC
+  created_on: '2020-11-14'
+- title: Updating to Ruby 2.7.2
+  number: 34
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/34
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-11-14 14:21:56 UTC
+  created_on: '2020-11-14'
+- title: Caching Gems & node_modules between tests - it's so much faster
+  number: 33
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/33
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-11-14 14:17:57 UTC
+  created_on: '2020-11-14'
+- title: Adding a Netlify build step
+  number: 1
+  url: https://github.com/MikeRogers0/Talks/pull/1
+  repository_url: https://www.github.com/MikeRogers0/Talks
+  repository: MikeRogers0/Talks
+  created_at: 2020-11-13 12:10:21 UTC
+  created_on: '2020-11-13'
 - title: Adding Mike's post to Monthly Challenge
   number: 82
   url: https://github.com/Virtual-Coffee/virtualcoffee.io/pull/82
