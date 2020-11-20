@@ -1,4 +1,11 @@
 ---
+- title: Adding rubocop-performance
+  number: 37
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/37
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-11-18 15:31:30 UTC
+  created_on: '2020-11-18'
 - title: Linking to my Link Archive & Talks projects
   number: 146
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/146
