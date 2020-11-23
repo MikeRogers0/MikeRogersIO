@@ -1,4 +1,18 @@
 ---
+- title: Setup for netlify
+  number: 13
+  url: https://github.com/MikeRogers0/Appleipsum/pull/13
+  repository_url: https://www.github.com/MikeRogers0/Appleipsum
+  repository: MikeRogers0/Appleipsum
+  created_at: 2020-11-20 20:53:08 UTC
+  created_on: '2020-11-20'
+- title: Bumping to 2.7.2 & bumping libaries with it
+  number: 147
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/147
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-11-20 10:55:21 UTC
+  created_on: '2020-11-20'
 - title: Adding rubocop-performance
   number: 37
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/37
@@ -6,13 +20,6 @@
   repository: Ruby-Starter-Kits/Docker-Rails-Generator
   created_at: 2020-11-18 15:31:30 UTC
   created_on: '2020-11-18'
-- title: Linking to my Link Archive & Talks projects
-  number: 146
-  url: https://github.com/MikeRogers0/MikeRogersIO/pull/146
-  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
-  repository: MikeRogers0/MikeRogersIO
-  created_at: 2020-11-15 21:17:08 UTC
-  created_on: '2020-11-15'
 - title: Trying the tree command for generating directory index listings
   number: 2
   url: https://github.com/MikeRogers0/Talks/pull/2
