@@ -1,17 +1,38 @@
 ---
+- title: Updating to ruby 2.7.2
+  number: 144
+  url: https://github.com/lrug/lrug.org/pull/144
+  repository_url: https://www.github.com/lrug/lrug.org
+  repository: lrug/lrug.org
+  created_at: 2020-11-26 10:47:37 UTC
+  created_on: '2020-11-26'
+- title: Adding Monthly Challenge Post (341 Words by Mike)
+  number: 107
+  url: https://github.com/Virtual-Coffee/virtualcoffee.io/pull/107
+  repository_url: https://www.github.com/Virtual-Coffee/virtualcoffee.io
+  repository: Virtual-Coffee/virtualcoffee.io
+  created_at: 2020-11-24 20:14:50 UTC
+  created_on: '2020-11-24'
+- title: Writing RSpec Specs
+  number: 148
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/148
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-11-24 18:11:47 UTC
+  created_on: '2020-11-24'
+- title: Adding symlinkable config files
+  number: 3
+  url: https://github.com/MikeRogers0/dotfiles/pull/3
+  repository_url: https://www.github.com/MikeRogers0/dotfiles
+  repository: MikeRogers0/dotfiles
+  created_at: 2020-11-23 11:59:08 UTC
+  created_on: '2020-11-23'
 - title: Setup for netlify
   number: 13
   url: https://github.com/MikeRogers0/Appleipsum/pull/13
   repository_url: https://www.github.com/MikeRogers0/Appleipsum
   repository: MikeRogers0/Appleipsum
   created_at: 2020-11-20 20:53:08 UTC
-  created_on: '2020-11-20'
-- title: Bumping to 2.7.2 & bumping libaries with it
-  number: 147
-  url: https://github.com/MikeRogers0/MikeRogersIO/pull/147
-  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
-  repository: MikeRogers0/MikeRogersIO
-  created_at: 2020-11-20 10:55:21 UTC
   created_on: '2020-11-20'
 - title: Adding rubocop-performance
   number: 37
@@ -27,13 +48,6 @@
   repository: MikeRogers0/Talks
   created_at: 2020-11-15 20:11:08 UTC
   created_on: '2020-11-15'
-- title: Adding Mike's post to Monthly Challenge
-  number: 82
-  url: https://github.com/Virtual-Coffee/virtualcoffee.io/pull/82
-  repository_url: https://www.github.com/Virtual-Coffee/virtualcoffee.io
-  repository: Virtual-Coffee/virtualcoffee.io
-  created_at: 2020-11-12 17:28:35 UTC
-  created_on: '2020-11-12'
 - title: Making github actions version number less specific
   number: 11
   url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/11
@@ -139,13 +153,6 @@
   repository: danieltalsky/TelephoneGame
   created_at: 2020-10-10 20:12:24 UTC
   created_on: '2020-10-10'
-- title: Performing Lighthouse SEO recommendations
-  number: 125
-  url: https://github.com/lrug/lrug.org/pull/125
-  repository_url: https://www.github.com/lrug/lrug.org
-  repository: lrug/lrug.org
-  created_at: 2020-09-20 11:02:00 UTC
-  created_on: '2020-09-20'
 - title: Adding source to templates Gemfile files
   number: 32
   url: https://github.com/algolia/frontman/pull/32
@@ -209,13 +216,6 @@
   repository: PigCI/Marketing
   created_at: 2020-05-20 12:19:36 UTC
   created_on: '2020-05-20'
-- title: 2020 update - More Defaults & ZSH
-  number: 2
-  url: https://github.com/MikeRogers0/dotfiles/pull/2
-  repository_url: https://www.github.com/MikeRogers0/dotfiles
-  repository: MikeRogers0/dotfiles
-  created_at: 2020-04-29 14:27:11 UTC
-  created_on: '2020-04-29'
 - title: Correcting 7 typos
   number: 1033
   url: https://github.com/hanami/hanami/pull/1033
