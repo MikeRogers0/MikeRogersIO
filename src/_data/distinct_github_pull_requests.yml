@@ -1,4 +1,25 @@
 ---
+- title: Updating owner references
+  number: 18
+  url: https://github.com/bt-rb/bridgetown-minify-html/pull/18
+  repository_url: https://www.github.com/bt-rb/bridgetown-minify-html
+  repository: bt-rb/bridgetown-minify-html
+  created_at: 2020-12-02 21:01:07 UTC
+  created_on: '2020-12-02'
+- title: Adding happy_gemfile post
+  number: 50
+  url: https://github.com/planetruby/gems/pull/50
+  repository_url: https://www.github.com/planetruby/gems
+  repository: planetruby/gems
+  created_at: 2020-12-01 18:23:36 UTC
+  created_on: '2020-12-01'
+- title: Bumping libaries to latest
+  number: 150
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/150
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-11-30 12:41:43 UTC
+  created_on: '2020-11-30'
 - title: Pushing back reminders by 5 minutes
   number: 13
   url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/13
@@ -19,13 +40,6 @@
   repository_url: https://www.github.com/Virtual-Coffee/virtualcoffee.io
   repository: Virtual-Coffee/virtualcoffee.io
   created_at: 2020-11-24 20:14:50 UTC
-  created_on: '2020-11-24'
-- title: Writing RSpec Specs
-  number: 148
-  url: https://github.com/MikeRogers0/MikeRogersIO/pull/148
-  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
-  repository: MikeRogers0/MikeRogersIO
-  created_at: 2020-11-24 18:11:47 UTC
   created_on: '2020-11-24'
 - title: Adding symlinkable config files
   number: 3

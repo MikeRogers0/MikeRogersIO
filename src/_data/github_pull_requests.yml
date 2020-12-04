@@ -1,4 +1,32 @@
 ---
+- title: Updating owner references
+  number: 18
+  url: https://github.com/bt-rb/bridgetown-minify-html/pull/18
+  repository_url: https://www.github.com/bt-rb/bridgetown-minify-html
+  repository: bt-rb/bridgetown-minify-html
+  created_at: 2020-12-02 21:01:07 UTC
+  created_on: '2020-12-02'
+- title: Adding happy_gemfile post
+  number: 50
+  url: https://github.com/planetruby/gems/pull/50
+  repository_url: https://www.github.com/planetruby/gems
+  repository: planetruby/gems
+  created_at: 2020-12-01 18:23:36 UTC
+  created_on: '2020-12-01'
+- title: Bumping libaries to latest
+  number: 150
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/150
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-11-30 12:41:43 UTC
+  created_on: '2020-11-30'
+- title: Updating favicons for 2020
+  number: 149
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/149
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-11-30 12:34:49 UTC
+  created_on: '2020-11-30'
 - title: Pushing back reminders by 5 minutes
   number: 13
   url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/13
