@@ -1,4 +1,18 @@
 ---
+- title: Adding session for Mike & Laura
+  number: 137
+  url: https://github.com/Virtual-Coffee/virtualcoffee.io/pull/137
+  repository_url: https://www.github.com/Virtual-Coffee/virtualcoffee.io
+  repository: Virtual-Coffee/virtualcoffee.io
+  created_at: 2020-12-09 19:43:28 UTC
+  created_on: '2020-12-09'
+- title: Formatting code & making JS pull error messages from HTML
+  number: 1
+  url: https://github.com/Lor1138/TreehouseProject3/pull/1
+  repository_url: https://www.github.com/Lor1138/TreehouseProject3
+  repository: Lor1138/TreehouseProject3
+  created_at: 2020-12-09 18:45:04 UTC
+  created_on: '2020-12-09'
 - title: Adding rubocop-performance to default workflows
   number: 39
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/39
@@ -41,13 +55,6 @@
   repository: lrug/lrug.org
   created_at: 2020-11-26 10:47:37 UTC
   created_on: '2020-11-26'
-- title: Adding Monthly Challenge Post (341 Words by Mike)
-  number: 107
-  url: https://github.com/Virtual-Coffee/virtualcoffee.io/pull/107
-  repository_url: https://www.github.com/Virtual-Coffee/virtualcoffee.io
-  repository: Virtual-Coffee/virtualcoffee.io
-  created_at: 2020-11-24 20:14:50 UTC
-  created_on: '2020-11-24'
 - title: Adding symlinkable config files
   number: 3
   url: https://github.com/MikeRogers0/dotfiles/pull/3
