@@ -1,16 +1,16 @@
 ---
 layout: post
 title: How to Make Rails Work Offline (PWA)
-description: I've been experimenting with Progressive Web Apps
+description: I've been experimenting with Progressive Web Apps to allow Rails to fallback to a read-only mode when the server is unreachable.
 ---
 
-I've been experimenting a lot lately with allowing Ruby on Rails to work offline, by this I mean having a sensible fallback for when the network unexpectedly drops out (e.g. the user is underground).
+I've been experimenting a lot lately with allowing Ruby on Rails to work offline, by this I mean having a sensible fallback for when the network unexpectedly drops out (e.g. the user is underground on a train).
 
-The main way to achieve this via by making our app a Progressive Web App (PWA) via a Service Worker. This allow us to create a pretty nice user experience, without having to rewrite our Rails App to a non-traditional approach (e.g. server side rendering & Turbolinks).
+The main way to achieve this is by making our app a Progressive Web App (PWA) via a Service Worker. In the past I've always associated PWA's with Single Page Applications and having to have a very JavaScript heavy codebase. However with tools such as Webpacker, we can add a Service Worker while keeping a traditional Ruby on Rails application approach (i.e. server side rendering & Turbolinks).
 
 ## Screencasts
 
-I've put together a few screencasts so you can see everything in action :D
+I've put together a few screencasts so you can see everything in action.
 
 - [The serviceworker-rails gem](https://www.youtube.com/watch?v=EKa6IOBRnHI)
 - [webpacker-pwa & Workbox](https://www.youtube.com/watch?v=c9slVBXsXyo)
@@ -80,15 +80,15 @@ A Service Worker is a JavaScript file you serve to the browser, which will inter
 
 ### Service Worker Limitations
 
-When researching this topic, I found Server Workers aren't a perfect solution.
+When researching this topic, I found Service Workers do have some drawbacks you should be aware of:
 
-- URL of service worker must stay the same, e.g. `/service-worker.js`
-- If you're using webpacker-dev-server, it will give you a hard time.
-- ~25MB limit ( https://stackoverflow.com/a/35696506/445724 )
+- The URL of your service worker must stay the same (e.g. `/service-worker.js`), so it can be tricky to get it working with the Asset Pipeline & Webpacker.
+- If you serve your service worker from a different port (i.e. via `bin/webpacker-dev-server`) it won't intercept HTTP requests as you'd expect.
+- The amount of data you can cache is pretty varied between browsers & devices. I'd recommend keeping your usage under 25MB.
 
 ## Libraries
 
-Service Workers awesome & because they've been around a few years there is quite a few libraries which make it a lot easier to work with.
+Service Workers have been around a few years, as a result there is quite a few libraries which make them a lot easier to work with. Here is a quick summary of the main ones to know about.
 
 ### The serviceworker-rails Gem
 
@@ -100,13 +100,13 @@ The only downside of this approach is because it's using the Asset Pipeline, it 
 
 One of the biggest drawbacks with webpack is it's quite tricky to configure if you're not working with it regularly. The [webpacker-pwa](https://github.com/coorasse/webpacker-pwa) library makes adding the extra configuration a lot easier.
 
-The awesome result of this, is you can write the your service workers JavaScript in modern JS, then it'll be served without the asset hash.
+The awesome result of this library, is you can write your service workers JavaScript in modern JS, then it'll be served from your `/public` directory from a file that doesn't have a content hash.
 
 ### Workbox
 
-The vanilla Service Worker JavaScript is [pretty verbose](https://developers.google.com/web/fundamentals/primers/service-workers). While I was initially exploring approach to allowing Rails to work offline, I was finding the JavaScript was getting pretty hard to explain.
+The vanilla Service Worker JavaScript is [pretty verbose](https://developers.google.com/web/fundamentals/primers/service-workers). While I was initially exploring approaches to allowing Rails to work offline, I was finding the JavaScript was getting pretty hard to explain.
 
-Then I was shown [Workbox](https://developers.google.com/web/tools/workbox/), which allows the Service Worker JavaScript to be boiled down to something more like:
+Then I was shown [Workbox](https://developers.google.com/web/tools/workbox/), which allows the Service Worker JavaScript to be boiled down to something more concise:
 
 ```javascript
 // app/javascript/service_workers/service-worker.js
@@ -155,7 +155,7 @@ registerRoute(
 );
 ```
 
-I think that's much more approachable.
+I think this JavaScript is very approachable compared to the library free approach.
 
 ## Strategies
 
@@ -165,13 +165,13 @@ There are 3 main approach for caching and serving content which I settled on usi
 
 This is kind of the best default choice for any page which _might_ change between page loads.
 
-As the name hints, it'll try to request the resource from the webserver caching it if it's successful, or falling back to its cached copy if the server is unreachable.
+As the name hints, it'll try to request the resource from the webserver (caching it if it's successful), or falling back to its cached copy if the server is unreachable.
 
 ### CacheFirst
 
 This is the best choice for assets such a CSS, JavaScript & Images.
 
-This approach will initially request the file, then cache the response. For subsequent requests it'll use the cached file.
+This approach will initially request the file, then cache the response. For subsequent requests it'll serve the cached file.
 
 ### StaleWhileRevalidate
 
@@ -179,7 +179,7 @@ This is the quirky option! It serves the cached content, but then in the backgro
 
 ## Eager-Caching Assets
 
-It's possible to preload assets into your cache. You can do this from within your `service-worker.js`, however I found I'd reach for mixing ERB & JavaScript when I took this approach. Instead I eager-cached my assets by parsing my DOM when the service worker was registered.
+It's possible to preload assets into your cache. You can do this from within your `service-worker.js`, however I found I'd reach for mixing ERB & JavaScript when I took this approach. Instead I eager-cached my assets by parsing my DOM when the service worker was registered:
 
 ```javascript
 // app/javascript/service_workers/index.js
@@ -219,4 +219,8 @@ I didn't make a video on this approach as I wasn't able to validate anyone else 
 
 ## Conclusions
 
+After I added a Service Worker to my Rails app, it was able to fallback to a read-only view when the network was down, _This was pretty awesome_! Especially as I didn't have to change any of my standard "Rails rendering the HTML" & Turbolinks making things feel a bit snappier approach.
 
+I think most apps could benefit from a Service Worker being added for the small performance win it can offer, plus I think having a read-only fallback for if your server is unreachable a pretty cool trick.
+
+One thing I didn't figure out, is how to detect if a response was returned from the cache on the current page, i.e. to show the user a notification saying "Hey, you're offline".
