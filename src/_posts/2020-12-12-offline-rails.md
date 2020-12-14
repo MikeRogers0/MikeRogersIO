@@ -80,7 +80,7 @@ A Service Worker is a JavaScript file you serve to the browser, which will inter
 
 ### Service Worker Limitations
 
-When researching this topic, I found Server Workers aren't a perfect solution. 
+When researching this topic, I found Server Workers aren't a perfect solution.
 
 - URL of service worker must stay the same, e.g. `/service-worker.js`
 - If you're using webpacker-dev-server, it will give you a hard time.
