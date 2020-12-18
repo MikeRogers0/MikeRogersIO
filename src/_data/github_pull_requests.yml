@@ -1,4 +1,165 @@
 ---
+- title: Adding StimulusJS
+  number: 1
+  url: https://github.com/meg-gutshall/code-talks-platform/pull/1
+  repository_url: https://www.github.com/meg-gutshall/code-talks-platform
+  repository: meg-gutshall/code-talks-platform
+  created_at: 2020-12-17 21:17:00 UTC
+  created_on: '2020-12-17'
+- title: Tidying up env & generators file
+  number: 46
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/46
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-12-17 21:06:36 UTC
+  created_on: '2020-12-17'
+- title: Adding /letter_opener link to routes
+  number: 45
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/45
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-12-17 20:57:10 UTC
+  created_on: '2020-12-17'
+- title: 'Fix: NameError: undefined method `xmlschema'' for class `Time'''
+  number: 23
+  url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/23
+  repository_url: https://www.github.com/Virtual-Coffee/Virtual-Coffee-Bot
+  repository: Virtual-Coffee/Virtual-Coffee-Bot
+  created_at: 2020-12-17 17:13:52 UTC
+  created_on: '2020-12-17'
+- title: Add Typo CI
+  number: 14
+  url: https://github.com/licensezero/prosperitylicense.com/pull/14
+  repository_url: https://www.github.com/licensezero/prosperitylicense.com
+  repository: licensezero/prosperitylicense.com
+  created_at: 2020-12-16 18:09:28 UTC
+  created_on: '2020-12-16'
+- title: Updating changelog on release
+  number: 81
+  url: https://github.com/TypoCI/spellcheck-action/pull/81
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-12-16 17:25:28 UTC
+  created_on: '2020-12-16'
+- title: Bumping dependencies to latest versions
+  number: 80
+  url: https://github.com/TypoCI/spellcheck-action/pull/80
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-12-16 16:43:02 UTC
+  created_on: '2020-12-16'
+- title: Updating to Ruby 2.7.2
+  number: 79
+  url: https://github.com/TypoCI/spellcheck-action/pull/79
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-12-16 16:22:30 UTC
+  created_on: '2020-12-16'
+- title: Only tracking major version tag for GitHub Actions
+  number: 78
+  url: https://github.com/TypoCI/spellcheck-action/pull/78
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-12-16 16:17:28 UTC
+  created_on: '2020-12-16'
+- title: Updating Rubocop and its rules
+  number: 77
+  url: https://github.com/TypoCI/spellcheck-action/pull/77
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-12-16 16:11:33 UTC
+  created_on: '2020-12-16'
+- title: Adding Bootsnap precompile to Dockerfile
+  number: 44
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/44
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-12-16 15:23:40 UTC
+  created_on: '2020-12-16'
+- title: Updating Hanami setup to be more inline with my rails setup
+  number: 6
+  url: https://github.com/Ruby-Starter-Kits/Docker-Hanami-Generator/pull/6
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Hanami-Generator
+  repository: Ruby-Starter-Kits/Docker-Hanami-Generator
+  created_at: 2020-12-15 15:56:20 UTC
+  created_on: '2020-12-15'
+- title: Bumping ruby version to 2.7.2
+  number: 5
+  url: https://github.com/Ruby-Starter-Kits/Docker-Hanami-Generator/pull/5
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Hanami-Generator
+  repository: Ruby-Starter-Kits/Docker-Hanami-Generator
+  created_at: 2020-12-15 15:28:53 UTC
+  created_on: '2020-12-15'
+- title: Bumping to Ruby 2.7.2
+  number: 13
+  url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/13
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Generator
+  repository: Ruby-Starter-Kits/Docker-Middleman-Generator
+  created_at: 2020-12-15 15:19:10 UTC
+  created_on: '2020-12-15'
+- title: Increasing Ruby to 2.7.2
+  number: 34
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/34
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-12-15 15:01:29 UTC
+  created_on: '2020-12-15'
+- title: Explicitly sticking to default bundler version
+  number: 33
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/33
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-12-15 14:48:35 UTC
+  created_on: '2020-12-15'
+- title: Telling ruby/setup-ruby to not install a different version of bundler
+  number: 43
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/43
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-12-15 12:40:19 UTC
+  created_on: '2020-12-15'
+- title: Retagging satackey/action-docker-layer-caching to v0
+  number: 4
+  url: https://github.com/Ruby-Starter-Kits/Docker-Hanami-Generator/pull/4
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Hanami-Generator
+  repository: Ruby-Starter-Kits/Docker-Hanami-Generator
+  created_at: 2020-12-15 12:01:52 UTC
+  created_on: '2020-12-15'
+- title: Retagging satackey/action-docker-layer-caching to v0
+  number: 32
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/32
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2020-12-15 11:58:24 UTC
+  created_on: '2020-12-15'
+- title: Retagging satackey/action-docker-layer-caching to v0
+  number: 42
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/42
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-12-15 11:56:39 UTC
+  created_on: '2020-12-15'
+- title: Using action-docker-layer-caching v0
+  number: 12
+  url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/12
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Generator
+  repository: Ruby-Starter-Kits/Docker-Middleman-Generator
+  created_at: 2020-12-15 11:52:24 UTC
+  created_on: '2020-12-15'
+- title: 'Fix: No longer trying to copy .env.example during build'
+  number: 11
+  url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/11
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Generator
+  repository: Ruby-Starter-Kits/Docker-Middleman-Generator
+  created_at: 2020-12-15 11:50:40 UTC
+  created_on: '2020-12-15'
+- title: Adding post on Offline Rails
+  number: 152
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/152
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2020-12-14 17:35:54 UTC
+  created_on: '2020-12-14'
 - title: Enabling RSpec & Rubocop flows on PRs
   number: 22
   url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/22
