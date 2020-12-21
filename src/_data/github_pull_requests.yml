@@ -1,4 +1,81 @@
 ---
+- title: Renaming FactoryBot spec file to match what Rubocop expects
+  number: 48
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/48
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-12-19 20:22:43 UTC
+  created_on: '2020-12-19'
+- title: Adding Factory Bot
+  number: 3
+  url: https://github.com/meg-gutshall/code-talks-platform/pull/3
+  repository_url: https://www.github.com/meg-gutshall/code-talks-platform
+  repository: meg-gutshall/code-talks-platform
+  created_at: 2020-12-19 20:17:54 UTC
+  created_on: '2020-12-19'
+- title: Adding factory_bot
+  number: 47
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/47
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-12-19 18:05:44 UTC
+  created_on: '2020-12-19'
+- title: Being less specific in the version I track for GitHub Action
+  number: 44
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/44
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-12-18 23:45:22 UTC
+  created_on: '2020-12-18'
+- title: Bumping gems to latest
+  number: 43
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/43
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2020-12-18 23:34:13 UTC
+  created_on: '2020-12-18'
+- title: Updating gems & libaries to latest
+  number: 33
+  url: https://github.com/PigCI/Marketing/pull/33
+  repository_url: https://www.github.com/PigCI/Marketing
+  repository: PigCI/Marketing
+  created_at: 2020-12-18 22:38:09 UTC
+  created_on: '2020-12-18'
+- title: Upating Rubocop configuration
+  number: 58
+  url: https://github.com/PigCI/pig-ci-rails/pull/58
+  repository_url: https://www.github.com/PigCI/pig-ci-rails
+  repository: PigCI/pig-ci-rails
+  created_at: 2020-12-18 20:47:00 UTC
+  created_on: '2020-12-18'
+- title: Making GitHub Actions versions less specific
+  number: 57
+  url: https://github.com/PigCI/pig-ci-rails/pull/57
+  repository_url: https://www.github.com/PigCI/pig-ci-rails
+  repository: PigCI/pig-ci-rails
+  created_at: 2020-12-18 20:35:05 UTC
+  created_on: '2020-12-18'
+- title: 'Copy: Be clearer it checks code for spelling mistakes'
+  number: 82
+  url: https://github.com/TypoCI/spellcheck-action/pull/82
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2020-12-18 12:57:52 UTC
+  created_on: '2020-12-18'
+- title: 'Copy Change: Commits > Code'
+  number: 65
+  url: https://github.com/TypoCI/Marketing/pull/65
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2020-12-18 12:26:34 UTC
+  created_on: '2020-12-18'
+- title: Upgrading dependencies to latest
+  number: 64
+  url: https://github.com/TypoCI/Marketing/pull/64
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2020-12-18 12:08:02 UTC
+  created_on: '2020-12-18'
 - title: Adding StimulusJS
   number: 1
   url: https://github.com/meg-gutshall/code-talks-platform/pull/1
