@@ -1,4 +1,11 @@
 ---
+- title: Attemping to fix the undefined method `xmlschema' for class `Time'`
+  number: 26
+  url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/26
+  repository_url: https://www.github.com/Virtual-Coffee/Virtual-Coffee-Bot
+  repository: Virtual-Coffee/Virtual-Coffee-Bot
+  created_at: 2020-12-21 19:46:56 UTC
+  created_on: '2020-12-21'
 - title: Renaming FactoryBot spec file to match what Rubocop expects
   number: 48
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/48
@@ -48,13 +55,6 @@
   repository: TypoCI/Marketing
   created_at: 2020-12-18 12:26:34 UTC
   created_on: '2020-12-18'
-- title: 'Fix: NameError: undefined method `xmlschema'' for class `Time'''
-  number: 23
-  url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/23
-  repository_url: https://www.github.com/Virtual-Coffee/Virtual-Coffee-Bot
-  repository: Virtual-Coffee/Virtual-Coffee-Bot
-  created_at: 2020-12-17 17:13:52 UTC
-  created_on: '2020-12-17'
 - title: Add Typo CI
   number: 14
   url: https://github.com/licensezero/prosperitylicense.com/pull/14
