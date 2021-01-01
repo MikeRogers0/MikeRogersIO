@@ -1,4 +1,32 @@
 ---
+- title: Adding option to turn on Rails app after template has run
+  number: 53
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/53
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2020-12-30 19:40:32 UTC
+  created_on: '2020-12-30'
+- title: Reviewing code on Zoom
+  number: 1
+  url: https://github.com/ameerrah9/Fresh-Find-Frontend/pull/1
+  repository_url: https://www.github.com/ameerrah9/Fresh-Find-Frontend
+  repository: ameerrah9/Fresh-Find-Frontend
+  created_at: 2020-12-30 14:01:05 UTC
+  created_on: '2020-12-30'
+- title: Adjusting API
+  number: 1
+  url: https://github.com/ameerrah9/Fresh-Find-BackEnd/pull/1
+  repository_url: https://www.github.com/ameerrah9/Fresh-Find-BackEnd
+  repository: ameerrah9/Fresh-Find-BackEnd
+  created_at: 2020-12-30 14:00:52 UTC
+  created_on: '2020-12-30'
+- title: Tidying up readme some more
+  number: 2
+  url: https://github.com/MikeRogers0/MikeRogers0/pull/2
+  repository_url: https://www.github.com/MikeRogers0/MikeRogers0
+  repository: MikeRogers0/MikeRogers0
+  created_at: 2020-12-29 20:22:19 UTC
+  created_on: '2020-12-29'
 - title: Attemping to fix the undefined method `xmlschema' for class `Time'`
   number: 26
   url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/26
@@ -6,13 +34,6 @@
   repository: Virtual-Coffee/Virtual-Coffee-Bot
   created_at: 2020-12-21 19:46:56 UTC
   created_on: '2020-12-21'
-- title: Renaming FactoryBot spec file to match what Rubocop expects
-  number: 48
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/48
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
-  repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2020-12-19 20:22:43 UTC
-  created_on: '2020-12-19'
 - title: Adding Factory Bot
   number: 3
   url: https://github.com/meg-gutshall/code-talks-platform/pull/3
