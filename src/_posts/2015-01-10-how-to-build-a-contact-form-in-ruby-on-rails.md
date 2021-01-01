@@ -6,7 +6,7 @@ description: How to make a contact form in Rails with a BDD approach
 
 {% youtube_playlist PLsqSLeo9DZwSq6KzOW66dhNCxn0AVBhkV %}
 
-In this set of tutorials I run through how to make a contact form in Rails. You can find all the code behind this tutorial in the [GitHub Repo](https://github.com/MikeRogers0/RoR4-Contact-Form).
+In this set of tutorials I run through how to make a contact form in Rails. You can find all the code behind this tutorial in the [GitHub Repo](https://github.com/MikeRogers0-YouTube/RoR4-Contact-Form).
 
 ## Gems
 
