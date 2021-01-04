@@ -1,4 +1,81 @@
 ---
+- title: Removing duplicate reference to branch when updating repo
+  number: 62
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/62
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-01-03 22:30:24 UTC
+  created_on: '2021-01-03'
+- title: Updating SendGrids opinionated default to use SENDGRID_API_KEY
+  number: 61
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/61
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-01-03 22:18:03 UTC
+  created_on: '2021-01-03'
+- title: Sample Repo has moved, so updating URL
+  number: 46
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/46
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2021-01-03 21:50:52 UTC
+  created_on: '2021-01-03'
+- title: Setting branch reference when pushing
+  number: 7
+  url: https://github.com/Ruby-Starter-Kits/Docker-Hanami-Generator/pull/7
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Hanami-Generator
+  repository: Ruby-Starter-Kits/Docker-Hanami-Generator
+  created_at: 2021-01-03 20:02:35 UTC
+  created_on: '2021-01-03'
+- title: Setting branch reference when pushing
+  number: 14
+  url: https://github.com/Ruby-Starter-Kits/Docker-Middleman-Generator/pull/14
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Middleman-Generator
+  repository: Ruby-Starter-Kits/Docker-Middleman-Generator
+  created_at: 2021-01-03 19:59:30 UTC
+  created_on: '2021-01-03'
+- title: Setting branch reference when pushing
+  number: 35
+  url: https://github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator/pull/35
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
+  created_at: 2021-01-03 19:55:38 UTC
+  created_on: '2021-01-03'
+- title: Updating Changelog Generator to push to master
+  number: 89
+  url: https://github.com/TypoCI/spellcheck-action/pull/89
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-01-03 19:45:31 UTC
+  created_on: '2021-01-03'
+- title: 'Fix: Changelog generator pushes to master now'
+  number: 45
+  url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/45
+  repository_url: https://www.github.com/MikeRogers0/puma-ngrok-tunnel
+  repository: MikeRogers0/puma-ngrok-tunnel
+  created_at: 2021-01-03 19:39:34 UTC
+  created_on: '2021-01-03'
+- title: Updating changelog generator to push to master
+  number: 60
+  url: https://github.com/PigCI/pig-ci-rails/pull/60
+  repository_url: https://www.github.com/PigCI/pig-ci-rails
+  repository: PigCI/pig-ci-rails
+  created_at: 2021-01-03 19:28:09 UTC
+  created_on: '2021-01-03'
+- title: Adding support for Ruby 3.0
+  number: 20
+  url: https://github.com/bt-rb/bridgetown-minify-html/pull/20
+  repository_url: https://www.github.com/bt-rb/bridgetown-minify-html
+  repository: bt-rb/bridgetown-minify-html
+  created_at: 2021-01-03 17:38:10 UTC
+  created_on: '2021-01-03'
+- title: 'Fix: Changelog was pushing to main not master'
+  number: 19
+  url: https://github.com/bt-rb/bridgetown-minify-html/pull/19
+  repository_url: https://www.github.com/bt-rb/bridgetown-minify-html
+  repository: bt-rb/bridgetown-minify-html
+  created_at: 2021-01-03 17:03:03 UTC
+  created_on: '2021-01-03'
 - title: 'Fix: GH Action ad-m/github-push-action pushing to wrong branch'
   number: 155
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/155
@@ -13,6 +90,13 @@
   repository: MikeRogers0/MikeRogersIO
   created_at: 2021-01-03 16:15:09 UTC
   created_on: '2021-01-03'
+- title: Setting the default branch when pushing
+  number: 60
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/60
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-01-02 22:27:08 UTC
+  created_on: '2021-01-02'
 - title: Document the new default branch in the README
   number: 74
   url: https://github.com/ad-m/github-push-action/pull/74
