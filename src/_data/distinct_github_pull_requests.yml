@@ -1,11 +1,18 @@
 ---
-- title: Removing duplicate reference to branch when updating repo
-  number: 62
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/62
+- title: Bumping dependencies to latest
+  number: 97
+  url: https://github.com/TypoCI/spellcheck-action/pull/97
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-01-06 16:39:25 UTC
+  created_on: '2021-01-06'
+- title: Re-adding the volumes to the main docker container
+  number: 63
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/63
   repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
   repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2021-01-03 22:30:24 UTC
-  created_on: '2021-01-03'
+  created_at: 2021-01-04 10:57:24 UTC
+  created_on: '2021-01-04'
 - title: Sample Repo has moved, so updating URL
   number: 46
   url: https://github.com/MikeRogers0/puma-ngrok-tunnel/pull/46
@@ -34,19 +41,19 @@
   repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
   created_at: 2021-01-03 19:55:38 UTC
   created_on: '2021-01-03'
-- title: Updating Changelog Generator to push to master
-  number: 89
-  url: https://github.com/TypoCI/spellcheck-action/pull/89
-  repository_url: https://www.github.com/TypoCI/spellcheck-action
-  repository: TypoCI/spellcheck-action
-  created_at: 2021-01-03 19:45:31 UTC
-  created_on: '2021-01-03'
 - title: Updating changelog generator to push to master
   number: 60
   url: https://github.com/PigCI/pig-ci-rails/pull/60
   repository_url: https://www.github.com/PigCI/pig-ci-rails
   repository: PigCI/pig-ci-rails
   created_at: 2021-01-03 19:28:09 UTC
+  created_on: '2021-01-03'
+- title: 'Bug fix: Updating changelog generator to push to master, not main'
+  number: 416
+  url: https://github.com/hopsoft/stimulus_reflex/pull/416
+  repository_url: https://www.github.com/hopsoft/stimulus_reflex
+  repository: hopsoft/stimulus_reflex
+  created_at: 2021-01-03 17:46:57 UTC
   created_on: '2021-01-03'
 - title: Adding support for Ruby 3.0
   number: 20

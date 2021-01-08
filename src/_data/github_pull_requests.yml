@@ -1,4 +1,32 @@
 ---
+- title: Bumping dependencies to latest
+  number: 97
+  url: https://github.com/TypoCI/spellcheck-action/pull/97
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-01-06 16:39:25 UTC
+  created_on: '2021-01-06'
+- title: Refactoring StandardRB warnings
+  number: 96
+  url: https://github.com/TypoCI/spellcheck-action/pull/96
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-01-06 16:29:41 UTC
+  created_on: '2021-01-06'
+- title: Adding support for .typo-ci.yml within .github folder
+  number: 95
+  url: https://github.com/TypoCI/spellcheck-action/pull/95
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-01-06 16:06:23 UTC
+  created_on: '2021-01-06'
+- title: Re-adding the volumes to the main docker container
+  number: 63
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/63
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-01-04 10:57:24 UTC
+  created_on: '2021-01-04'
 - title: Removing duplicate reference to branch when updating repo
   number: 62
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/62
@@ -61,6 +89,13 @@
   repository_url: https://www.github.com/PigCI/pig-ci-rails
   repository: PigCI/pig-ci-rails
   created_at: 2021-01-03 19:28:09 UTC
+  created_on: '2021-01-03'
+- title: 'Bug fix: Updating changelog generator to push to master, not main'
+  number: 416
+  url: https://github.com/hopsoft/stimulus_reflex/pull/416
+  repository_url: https://www.github.com/hopsoft/stimulus_reflex
+  repository: hopsoft/stimulus_reflex
+  created_at: 2021-01-03 17:46:57 UTC
   created_on: '2021-01-03'
 - title: Adding support for Ruby 3.0
   number: 20
