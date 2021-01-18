@@ -1,4 +1,25 @@
 ---
+- title: No longer asking for help with the Parsers, they're done
+  number: 15
+  url: https://github.com/MikeRogers0/Ruby-World/pull/15
+  repository_url: https://www.github.com/MikeRogers0/Ruby-World
+  repository: MikeRogers0/Ruby-World
+  created_at: 2021-01-17 19:53:30 UTC
+  created_on: '2021-01-17'
+- title: Removing .DS_Store file
+  number: 10
+  url: https://github.com/excid3/madmin/pull/10
+  repository_url: https://www.github.com/excid3/madmin
+  repository: excid3/madmin
+  created_at: 2021-01-15 23:21:23 UTC
+  created_on: '2021-01-15'
+- title: Fixing Rubocop reference in standardrb file
+  number: 67
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/67
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-01-15 22:13:57 UTC
+  created_on: '2021-01-15'
 - title: Automate the updating of Tailwind CSS via GitHub Action
   number: 3
   url: https://github.com/rails/tailwindcss-rails/pull/3
@@ -13,20 +34,6 @@
   repository: MikeRogers0-YouTube/ActiveStorage-Image-Resizing
   created_at: 2021-01-12 17:59:25 UTC
   created_on: '2021-01-12'
-- title: Adjusting current day colouring so it pops out a bit
-  number: 7
-  url: https://github.com/MikeRogers0/Ruby-World/pull/7
-  repository_url: https://www.github.com/MikeRogers0/Ruby-World
-  repository: MikeRogers0/Ruby-World
-  created_at: 2021-01-10 21:26:07 UTC
-  created_on: '2021-01-10'
-- title: Disabling dependabot by default
-  number: 65
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/65
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
-  repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2021-01-09 22:16:56 UTC
-  created_on: '2021-01-09'
 - title: Require user be present when Creating or changing an idea
   number: 16
   url: https://github.com/meg-gutshall/code-talks-platform/pull/16
