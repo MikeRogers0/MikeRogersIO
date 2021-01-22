@@ -1,4 +1,11 @@
 ---
+- title: Switching to standardrb for Ruby Linting
+  number: 35
+  url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/35
+  repository_url: https://www.github.com/Virtual-Coffee/Virtual-Coffee-Bot
+  repository: Virtual-Coffee/Virtual-Coffee-Bot
+  created_at: 2021-01-18 11:03:14 UTC
+  created_on: '2021-01-18'
 - title: No longer asking for help with the Parsers, they're done
   number: 15
   url: https://github.com/MikeRogers0/Ruby-World/pull/15
@@ -6,6 +13,13 @@
   repository: MikeRogers0/Ruby-World
   created_at: 2021-01-17 19:53:30 UTC
   created_on: '2021-01-17'
+- title: Changing 'rails new' --master to be --main
+  number: 41141
+  url: https://github.com/rails/rails/pull/41141
+  repository_url: https://www.github.com/rails/rails
+  repository: rails/rails
+  created_at: 2021-01-16 16:49:15 UTC
+  created_on: '2021-01-16'
 - title: Removing .DS_Store file
   number: 10
   url: https://github.com/excid3/madmin/pull/10
@@ -132,13 +146,6 @@
   repository: MikeRogers0/MikeRogers0
   created_at: 2020-12-29 20:22:19 UTC
   created_on: '2020-12-29'
-- title: Attemping to fix the undefined method `xmlschema' for class `Time'`
-  number: 26
-  url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/26
-  repository_url: https://www.github.com/Virtual-Coffee/Virtual-Coffee-Bot
-  repository: Virtual-Coffee/Virtual-Coffee-Bot
-  created_at: 2020-12-21 19:46:56 UTC
-  created_on: '2020-12-21'
 - title: Updating gems & libaries to latest
   number: 33
   url: https://github.com/PigCI/Marketing/pull/33
