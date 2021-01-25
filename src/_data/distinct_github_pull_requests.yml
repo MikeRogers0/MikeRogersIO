@@ -1,4 +1,18 @@
 ---
+- title: 'Fix: CSS Purging wasn''t working'
+  number: 20
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/20
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-01-24 19:15:45 UTC
+  created_on: '2021-01-24'
+- title: Taking Rails Offline Talk
+  number: 3
+  url: https://github.com/MikeRogers0/Talks/pull/3
+  repository_url: https://www.github.com/MikeRogers0/Talks
+  repository: MikeRogers0/Talks
+  created_at: 2021-01-23 19:29:27 UTC
+  created_on: '2021-01-23'
 - title: Switching to standardrb for Ruby Linting
   number: 35
   url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/35
@@ -209,13 +223,6 @@
   repository: MikeRogers0/Appleipsum
   created_at: 2020-11-20 20:53:08 UTC
   created_on: '2020-11-20'
-- title: Trying the tree command for generating directory index listings
-  number: 2
-  url: https://github.com/MikeRogers0/Talks/pull/2
-  repository_url: https://www.github.com/MikeRogers0/Talks
-  repository: MikeRogers0/Talks
-  created_at: 2020-11-15 20:11:08 UTC
-  created_on: '2020-11-15'
 - title: Bumping gems where possible
   number: 57
   url: https://github.com/PigCI/Sample-Rails-PigCI-Setup-App/pull/57
