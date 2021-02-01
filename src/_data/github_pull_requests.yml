@@ -1,4 +1,25 @@
 ---
+- title: Updating to Ruby 3.0
+  number: 106
+  url: https://github.com/TypoCI/spellcheck-action/pull/106
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-01-31 16:25:31 UTC
+  created_on: '2021-01-31'
+- title: Removing Dependabot
+  number: 105
+  url: https://github.com/TypoCI/spellcheck-action/pull/105
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-01-31 16:15:42 UTC
+  created_on: '2021-01-31'
+- title: Clearing logs on startup
+  number: 68
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/68
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-01-29 10:28:12 UTC
+  created_on: '2021-01-29'
 - title: Redirecting to /posts when root of app is hit
   number: 3
   url: https://github.com/MikeRogers0-YouTube/Tutorial-Starting-Place/pull/3
