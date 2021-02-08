@@ -1,4 +1,11 @@
 ---
+- title: Experimenting with event trigger
+  number: 69
+  url: https://github.com/TypoCI/Marketing/pull/69
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2021-02-07 12:02:46 UTC
+  created_on: '2021-02-07'
 - title: Updating to Ruby 3.0
   number: 106
   url: https://github.com/TypoCI/spellcheck-action/pull/106
@@ -180,13 +187,6 @@
   repository_url: https://www.github.com/PigCI/Marketing
   repository: PigCI/Marketing
   created_at: 2020-12-18 22:38:09 UTC
-  created_on: '2020-12-18'
-- title: 'Copy Change: Commits > Code'
-  number: 65
-  url: https://github.com/TypoCI/Marketing/pull/65
-  repository_url: https://www.github.com/TypoCI/Marketing
-  repository: TypoCI/Marketing
-  created_at: 2020-12-18 12:26:34 UTC
   created_on: '2020-12-18'
 - title: Add Typo CI
   number: 14

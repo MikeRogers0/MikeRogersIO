@@ -1,4 +1,25 @@
 ---
+- title: Experimenting with event trigger
+  number: 69
+  url: https://github.com/TypoCI/Marketing/pull/69
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2021-02-07 12:02:46 UTC
+  created_on: '2021-02-07'
+- title: Exploring options for checking performance on Netlify
+  number: 68
+  url: https://github.com/TypoCI/Marketing/pull/68
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2021-02-05 18:31:32 UTC
+  created_on: '2021-02-05'
+- title: Bumping gems & libaries to latest
+  number: 67
+  url: https://github.com/TypoCI/Marketing/pull/67
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2021-02-05 16:09:58 UTC
+  created_on: '2021-02-05'
 - title: Updating to Ruby 3.0
   number: 106
   url: https://github.com/TypoCI/spellcheck-action/pull/106
