@@ -1,4 +1,32 @@
 ---
+- title: Fixing current day being shown as past
+  number: 24
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/24
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-02-09 19:38:44 UTC
+  created_on: '2021-02-09'
+- title: Adding monthly rebuild trigger
+  number: 23
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/23
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-02-09 19:27:20 UTC
+  created_on: '2021-02-09'
+- title: Adding Atlanta Ruby Meetup Group
+  number: 22
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/22
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-02-09 17:52:05 UTC
+  created_on: '2021-02-09'
+- title: Adding Ruby Malaysia
+  number: 21
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/21
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-02-08 10:38:03 UTC
+  created_on: '2021-02-08'
 - title: Experimenting with event trigger
   number: 69
   url: https://github.com/TypoCI/Marketing/pull/69
