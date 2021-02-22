@@ -1,4 +1,18 @@
 ---
+- title: Ditching to rubocop in favour of standardrb
+  number: 37
+  url: https://github.com/PigCI/Marketing/pull/37
+  repository_url: https://www.github.com/PigCI/Marketing
+  repository: PigCI/Marketing
+  created_at: 2021-02-21 21:08:34 UTC
+  created_on: '2021-02-21'
+- title: Updating .github/workflows to be simpler
+  number: 67
+  url: https://github.com/PigCI/pig-ci-rails/pull/67
+  repository_url: https://www.github.com/PigCI/pig-ci-rails
+  repository: PigCI/pig-ci-rails
+  created_at: 2021-02-21 20:54:37 UTC
+  created_on: '2021-02-21'
 - title: Using ENV["URL"] for setting URL of host
   number: 70
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/70
@@ -125,13 +139,6 @@
   repository: Ruby-Starter-Kits/Docker-Bridgetown-Generator
   created_at: 2021-01-03 19:55:38 UTC
   created_on: '2021-01-03'
-- title: Updating changelog generator to push to master
-  number: 60
-  url: https://github.com/PigCI/pig-ci-rails/pull/60
-  repository_url: https://www.github.com/PigCI/pig-ci-rails
-  repository: PigCI/pig-ci-rails
-  created_at: 2021-01-03 19:28:09 UTC
-  created_on: '2021-01-03'
 - title: 'Bug fix: Updating changelog generator to push to master, not main'
   number: 416
   url: https://github.com/hopsoft/stimulus_reflex/pull/416
@@ -181,13 +188,6 @@
   repository: MikeRogers0/MikeRogers0
   created_at: 2020-12-29 20:22:19 UTC
   created_on: '2020-12-29'
-- title: Updating gems & libaries to latest
-  number: 33
-  url: https://github.com/PigCI/Marketing/pull/33
-  repository_url: https://www.github.com/PigCI/Marketing
-  repository: PigCI/Marketing
-  created_at: 2020-12-18 22:38:09 UTC
-  created_on: '2020-12-18'
 - title: Add Typo CI
   number: 14
   url: https://github.com/licensezero/prosperitylicense.com/pull/14

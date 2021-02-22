@@ -1,4 +1,46 @@
 ---
+- title: Ditching to rubocop in favour of standardrb
+  number: 37
+  url: https://github.com/PigCI/Marketing/pull/37
+  repository_url: https://www.github.com/PigCI/Marketing
+  repository: PigCI/Marketing
+  created_at: 2021-02-21 21:08:34 UTC
+  created_on: '2021-02-21'
+- title: Updating .github/workflows to be simpler
+  number: 67
+  url: https://github.com/PigCI/pig-ci-rails/pull/67
+  repository_url: https://www.github.com/PigCI/pig-ci-rails
+  repository: PigCI/pig-ci-rails
+  created_at: 2021-02-21 20:54:37 UTC
+  created_on: '2021-02-21'
+- title: Using pigci.mikerogers.io over pigci.com
+  number: 66
+  url: https://github.com/PigCI/pig-ci-rails/pull/66
+  repository_url: https://www.github.com/PigCI/pig-ci-rails
+  repository: PigCI/pig-ci-rails
+  created_at: 2021-02-21 20:31:52 UTC
+  created_on: '2021-02-21'
+- title: Removing .dockerignore
+  number: 36
+  url: https://github.com/PigCI/Marketing/pull/36
+  repository_url: https://www.github.com/PigCI/Marketing
+  repository: PigCI/Marketing
+  created_at: 2021-02-21 12:23:30 UTC
+  created_on: '2021-02-21'
+- title: Updating RSpec workflow to be fewer steps
+  number: 35
+  url: https://github.com/PigCI/Marketing/pull/35
+  repository_url: https://www.github.com/PigCI/Marketing
+  repository: PigCI/Marketing
+  created_at: 2021-02-21 12:01:54 UTC
+  created_on: '2021-02-21'
+- title: Using subdomain of my mikerogers.io instead of pigci.com
+  number: 34
+  url: https://github.com/PigCI/Marketing/pull/34
+  repository_url: https://www.github.com/PigCI/Marketing
+  repository: PigCI/Marketing
+  created_at: 2021-02-21 11:44:17 UTC
+  created_on: '2021-02-21'
 - title: Using ENV["URL"] for setting URL of host
   number: 70
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/70
