@@ -1,4 +1,32 @@
 ---
+- title: Using HTML5 doctype accross all HTML files
+  number: 149
+  url: https://github.com/zzak/sdoc/pull/149
+  repository_url: https://www.github.com/zzak/sdoc
+  repository: zzak/sdoc
+  created_at: 2021-02-25 15:28:27 UTC
+  created_on: '2021-02-25'
+- title: Update GitHub Workflows to use 'bundler-cache'
+  number: 39
+  url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/39
+  repository_url: https://www.github.com/Virtual-Coffee/Virtual-Coffee-Bot
+  repository: Virtual-Coffee/Virtual-Coffee-Bot
+  created_at: 2021-02-24 13:48:21 UTC
+  created_on: '2021-02-24'
+- title: Adding robots.txt to guide as Lighthouse is warning about it
+  number: 41534
+  url: https://github.com/rails/rails/pull/41534
+  repository_url: https://www.github.com/rails/rails
+  repository: rails/rails
+  created_at: 2021-02-23 18:21:55 UTC
+  created_on: '2021-02-23'
+- title: 'Fix: Updating the Installation link to go to /docs'
+  number: 9
+  url: https://github.com/manzinello/mailgo.dev/pull/9
+  repository_url: https://www.github.com/manzinello/mailgo.dev
+  repository: manzinello/mailgo.dev
+  created_at: 2021-02-23 16:12:12 UTC
+  created_on: '2021-02-23'
 - title: Ditching to rubocop in favour of standardrb
   number: 37
   url: https://github.com/PigCI/Marketing/pull/37
