@@ -1,4 +1,25 @@
 ---
+- title: Sorting events on the day by datetime
+  number: 25
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/25
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-03-07 15:55:57 UTC
+  created_on: '2021-03-07'
+- title: Re-removing active_storage from production
+  number: 34
+  url: https://github.com/MikeRogers0/spotify-daily-shuffle/pull/34
+  repository_url: https://www.github.com/MikeRogers0/spotify-daily-shuffle
+  repository: MikeRogers0/spotify-daily-shuffle
+  created_at: 2021-03-07 15:39:05 UTC
+  created_on: '2021-03-07'
+- title: Moving rubocop file to be hidden
+  number: 74
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/74
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-03-05 18:28:00 UTC
+  created_on: '2021-03-05'
 - title: Using HTML5 doctype accross all HTML files
   number: 149
   url: https://github.com/zzak/sdoc/pull/149
@@ -41,20 +62,6 @@
   repository: PigCI/pig-ci-rails
   created_at: 2021-02-21 20:54:37 UTC
   created_on: '2021-02-21'
-- title: Using ENV["URL"] for setting URL of host
-  number: 70
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/70
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
-  repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2021-02-18 20:02:53 UTC
-  created_on: '2021-02-18'
-- title: Fixing current day being shown as past
-  number: 24
-  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/24
-  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
-  repository: MikeRogers0/Ruby-Meetup-Calendar
-  created_at: 2021-02-09 19:38:44 UTC
-  created_on: '2021-02-09'
 - title: Experimenting with event trigger
   number: 69
   url: https://github.com/TypoCI/Marketing/pull/69

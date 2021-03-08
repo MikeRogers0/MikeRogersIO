@@ -1,4 +1,67 @@
 ---
+- title: Sorting events on the day by datetime
+  number: 25
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/25
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-03-07 15:55:57 UTC
+  created_on: '2021-03-07'
+- title: Re-removing active_storage from production
+  number: 34
+  url: https://github.com/MikeRogers0/spotify-daily-shuffle/pull/34
+  repository_url: https://www.github.com/MikeRogers0/spotify-daily-shuffle
+  repository: MikeRogers0/spotify-daily-shuffle
+  created_at: 2021-03-07 15:39:05 UTC
+  created_on: '2021-03-07'
+- title: Switching to Standard
+  number: 33
+  url: https://github.com/MikeRogers0/spotify-daily-shuffle/pull/33
+  repository_url: https://www.github.com/MikeRogers0/spotify-daily-shuffle
+  repository: MikeRogers0/spotify-daily-shuffle
+  created_at: 2021-03-07 15:31:43 UTC
+  created_on: '2021-03-07'
+- title: Removing dependabot
+  number: 32
+  url: https://github.com/MikeRogers0/spotify-daily-shuffle/pull/32
+  repository_url: https://www.github.com/MikeRogers0/spotify-daily-shuffle
+  repository: MikeRogers0/spotify-daily-shuffle
+  created_at: 2021-03-07 15:11:45 UTC
+  created_on: '2021-03-07'
+- title: Moving rubocop file to be hidden
+  number: 74
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/74
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-03-05 18:28:00 UTC
+  created_on: '2021-03-05'
+- title: Readding rubocop.yml for build-stage
+  number: 73
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/73
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-03-05 17:57:37 UTC
+  created_on: '2021-03-05'
+- title: Removing RAILS_ENV from Procfile
+  number: 72
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/72
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-03-05 17:52:31 UTC
+  created_on: '2021-03-05'
+- title: Updating to Ruby 3.0
+  number: 71
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/71
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-03-05 13:05:42 UTC
+  created_on: '2021-03-05'
+- title: Updating to lastest Ruby Starter Kit Template
+  number: 31
+  url: https://github.com/MikeRogers0/spotify-daily-shuffle/pull/31
+  repository_url: https://www.github.com/MikeRogers0/spotify-daily-shuffle
+  repository: MikeRogers0/spotify-daily-shuffle
+  created_at: 2021-03-05 12:24:01 UTC
+  created_on: '2021-03-05'
 - title: Using HTML5 doctype accross all HTML files
   number: 149
   url: https://github.com/zzak/sdoc/pull/149
