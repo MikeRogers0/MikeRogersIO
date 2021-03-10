@@ -13,22 +13,12 @@ jobs:
     steps:
     - uses: actions/checkout@master
 
-    - name: Set up Ruby 2.7
+    - name: Set up Ruby 3.0
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7.1
+        ruby-version: 3.0
+        bundler-cache: true
 
-    - uses: actions/cache@v1.1.2
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gem-
-    
-    - name: Build Environment
-      run: |
-        bundle config path vendor/bundle
-        bundle install --jobs 4 --retry 3
     - name: Update Data
       run: |
         bundle exec rake update_data:github_pull_requests
