@@ -9,6 +9,17 @@
     "Launched": November 1st, 2019
     "Stack": Heroku, Ruby on Rails, Bootstrap, GitHub API, RSpec
 
+- name: Ruby Meetup Calendar
+  featured: true
+  image_path: ruby-meetup-calendar.png
+  url: https://ruby-meetup-calendar.mikerogers.io/
+  date: 8/1/2020
+  description: |
+    Displays all the current Ruby meetings currently happening.
+  stats:
+    "Launched": January 8th, 2020
+    "Stack": Netlify, Bridgetown, GitHub Actions, React
+
 - name: PigCI
   featured: true
   image_path: pig-ci.png
@@ -32,19 +43,8 @@
     "Launched": May 4th, 2019
     "Stack": Ngrok, Minitest, Rubygems
 
-- name: Bundlify
-  featured: false
-  image_path: bundlify.png
-  url: https://www.bundlify.com/
-  date: 1/8/2018
-  description: |
-    Bundlify is an SaaS startup which makes invoicing on a branded domain super easy.
-  stats:
-    "Launched": Aug 1st, 2018
-    "Stack": Ruby on Rails, Middleman, Yarn, PostgreSQL, Heroku, Stripe Connect, RSpec
-
 - name: My Daily Shuffle
-  featured: true
+  featured: false
   image_path: my-daily-shuffle.jpg
   url: https://spotify-daily-shuffle.mikerogers.io/
   date: 8/7/2018
@@ -53,36 +53,3 @@
   stats:
     "Launched": Jul 8th, 2018
     "Stack": Ruby on Rails, Spotify API
-
-- name: TrackChanges
-  featured: false
-  image_path: trackchanges.png
-  url: https://trackchanges.mikerogers.io/
-  date: 3/12/2017
-  description: |
-    TrackChanges is a Chrome Extension which helps to share changes made in inspect mode with developers.
-  stats:
-    "Launched": Dec 3rd, 2017
-    "Stack": ES16, Chrome API, Babel
-
-- name: AwesomeWeb
-  featured: false
-  image_path: awesomeweb.jpg
-  url: https://www.awesomeweb.com/
-  date: 1/2/2016
-  description: |
-    A freelance marketplace for Web Designers and Developers.
-  stats:
-    "Stack": Ruby on Rails, Apache Solr, Heroku
-
-- name: LivePage
-  featured: false
-  image_path: livepage.jpg
-  url: https://livepage.mikerogers.io/
-  source_url: https://github.com/MikeRogers0/LivePage
-  date: 10/4/2013
-  description: |
-    LivePage is a Chrome Extension that reloads web pages as they change.
-  stats:
-    "Launched": Apr 10th, 2013
-    "Stack": JavaScript, Chrome API, Internationalisation
