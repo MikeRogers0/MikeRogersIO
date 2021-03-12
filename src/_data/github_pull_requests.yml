@@ -1,4 +1,11 @@
 ---
+- title: Making next event alert use the alarm emoji
+  number: 40
+  url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/40
+  repository_url: https://www.github.com/Virtual-Coffee/Virtual-Coffee-Bot
+  repository: Virtual-Coffee/Virtual-Coffee-Bot
+  created_at: 2021-03-10 19:15:36 UTC
+  created_on: '2021-03-10'
 - title: Using ruby/setup-ruby built in ruby cache
   number: 157
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/157
@@ -124,6 +131,13 @@
   repository_url: https://www.github.com/manzinello/mailgo.dev
   repository: manzinello/mailgo.dev
   created_at: 2021-02-23 16:12:12 UTC
+  created_on: '2021-02-23'
+- title: Removing duplicate bundle install
+  number: 103
+  url: https://github.com/whomwah/rqrcode/pull/103
+  repository_url: https://www.github.com/whomwah/rqrcode
+  repository: whomwah/rqrcode
+  created_at: 2021-02-23 14:05:44 UTC
   created_on: '2021-02-23'
 - title: Ditching to rubocop in favour of standardrb
   number: 37
