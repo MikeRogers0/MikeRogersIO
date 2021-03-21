@@ -21,6 +21,7 @@ gem "bridgetown"#, github: "bridgetownrb/bridgetown", branch: "main"
 gem "rake"
 gem "rubocop"
 gem "octokit"
+gem "rmagick"
 
 group :bridgetown_plugins do
   gem "bridgetown-feed"

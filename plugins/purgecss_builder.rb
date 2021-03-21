@@ -1,4 +1,4 @@
-class PurgeCSS < SiteBuilder
+class PurgeCSSBuilder < SiteBuilder
   def build
     unless config[:watch] # don't run in "watch mode"
       hook :site, :post_write do

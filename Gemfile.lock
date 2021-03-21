@@ -99,6 +99,7 @@ GEM
       ffi (~> 1.0)
     regexp_parser (2.0.0)
     rexml (3.2.4)
+    rmagick (4.2.2)
     rouge (3.25.0)
     rubocop (1.4.2)
       parallel (~> 1.10)
@@ -140,6 +141,7 @@ DEPENDENCIES
   bridgetown-seo-tag
   octokit
   rake
+  rmagick
   rubocop
 
 BUNDLED WITH
