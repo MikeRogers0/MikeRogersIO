@@ -27,6 +27,13 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Content-Security-Policy = '''
+      default-src 'self' https:;
+      object-src  'none';
+      worker-src  'none';
+      manifest-src 'self';
+      script-src 'strict-dynamic' 'unsafe-inline' https:;
+      base-uri 'none';
+      require-trusted-types-for 'script';
       block-all-mixed-content;
       upgrade-insecure-requests;'''
     Strict-Transport-Security = "max-age=15552000; includeSubDomains"
