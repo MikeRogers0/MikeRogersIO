@@ -1,3 +1,6 @@
+[[plugins]]
+  package="netlify-plugin-chromium"
+
 [build]
   command = "yarn deploy && ./bin/netlify.sh"
   publish = "build"

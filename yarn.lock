@@ -4406,6 +4406,11 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+netlify-plugin-chromium@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/netlify-plugin-chromium/-/netlify-plugin-chromium-1.1.4.tgz#d0a04ef2fbd677a19f3be94ccf47c320d2c3c334"
+  integrity sha512-yLgw6YePOF38URWVsHg3nBBoVSKcbMabKxziJX5i01/weyXWtFQVFvDWSOhyWkQgoMJ6zwF2UznA0Icy+m4pow==
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
