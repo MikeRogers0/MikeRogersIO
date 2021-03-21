@@ -17,12 +17,11 @@ class SocialImageBuilder < SiteBuilder
       site.posts.docs.each do |post|
         result_svg_string = Liquid::Template.parse(sample_svg).render("post" => { "title" => CGI.escapeHTML(post.data[:title]) })
         dest_svg = File.join(image_dest_path, "#{post.data[:slug]}.svg")
+        dest_png = File.join(image_dest_path, "#{post.data[:slug]}.png")
         File.write(dest_svg, result_svg_string)
-        #img = Magick::Image.from_blob(result_svg_string) {
-          #self.format = 'SVG'
-          #self.background_color = 'transparent'
-        #}
-        #img.first.write(dest_svg)
+
+        # export CHROME_PATH="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+        system("$CHROME_PATH --headless --screenshot --window-size=1280,640 --screenshot=#{dest_png} file://#{dest_svg}")
       end
     end
   end
