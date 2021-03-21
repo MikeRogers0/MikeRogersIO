@@ -15,7 +15,7 @@ class SocialImageBuilder < SiteBuilder
       create_social_directory!
 
       site.posts.docs.each do |post|
-        result_svg_string = Liquid::Template.parse(sample_svg).render("post" => { "title" => post.data[:title] })
+        result_svg_string = Liquid::Template.parse(sample_svg).render("post" => { "title" => CGI.escapeHTML(post.data[:title]) })
         dest_svg = File.join(image_dest_path, "#{post.data[:slug]}.svg")
         File.write(dest_svg, result_svg_string)
         #img = Magick::Image.from_blob(result_svg_string) {
