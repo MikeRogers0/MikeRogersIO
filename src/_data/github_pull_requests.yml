@@ -1,4 +1,32 @@
 ---
+- title: Adding auto generated social images to all posts
+  number: 160
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/160
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-03-21 21:25:21 UTC
+  created_on: '2021-03-21'
+- title: Simplifying Content-Security-Policy
+  number: 159
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/159
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-03-21 17:25:11 UTC
+  created_on: '2021-03-21'
+- title: Moving farady to dependency dependency
+  number: 2
+  url: https://github.com/lostisland/faraday-net_http_persistent/pull/2
+  repository_url: https://www.github.com/lostisland/faraday-net_http_persistent
+  repository: lostisland/faraday-net_http_persistent
+  created_at: 2021-03-19 00:27:27 UTC
+  created_on: '2021-03-19'
+- title: 'Post: What should controllers look like'
+  number: 158
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/158
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-03-18 21:38:55 UTC
+  created_on: '2021-03-18'
 - title: Adding badges
   number: 3
   url: https://github.com/MikeRogers0/MikeRogers0/pull/3
