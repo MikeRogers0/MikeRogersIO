@@ -7,7 +7,7 @@
     "serve": "bundle exec bridgetown serve --trace",
     "clean": "bundle exec bridgetown clean",
     "webpack-build": "webpack --mode production",
-    "webpack-dev": "webpack --mode development -w",
+    "webpack-dev": "webpack --mode development -w --stats-children",
     "deploy": "yarn clean && yarn webpack-build && yarn build",
     "sync": "node sync.js",
     "start": "node start.js"
