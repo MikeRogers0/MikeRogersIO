@@ -1,4 +1,18 @@
 ---
+- title: Declearing net-http-persistent gem requirement in the Gemfile
+  number: 3
+  url: https://github.com/lostisland/faraday-net_http_persistent/pull/3
+  repository_url: https://www.github.com/lostisland/faraday-net_http_persistent
+  repository: lostisland/faraday-net_http_persistent
+  created_at: 2021-03-25 22:00:15 UTC
+  created_on: '2021-03-25'
+- title: Adding support for Dutch (nl) language
+  number: 115
+  url: https://github.com/TypoCI/spellcheck-action/pull/115
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-03-25 21:20:13 UTC
+  created_on: '2021-03-25'
 - title: Adding auto generated social images to all posts
   number: 160
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/160
@@ -6,13 +20,6 @@
   repository: MikeRogers0/MikeRogersIO
   created_at: 2021-03-21 21:25:21 UTC
   created_on: '2021-03-21'
-- title: Moving farady to dependency dependency
-  number: 2
-  url: https://github.com/lostisland/faraday-net_http_persistent/pull/2
-  repository_url: https://www.github.com/lostisland/faraday-net_http_persistent
-  repository: lostisland/faraday-net_http_persistent
-  created_at: 2021-03-19 00:27:27 UTC
-  created_on: '2021-03-19'
 - title: Adding badges
   number: 3
   url: https://github.com/MikeRogers0/MikeRogers0/pull/3
@@ -111,13 +118,6 @@
   repository: TypoCI/Marketing
   created_at: 2021-02-07 12:02:46 UTC
   created_on: '2021-02-07'
-- title: Updating to Ruby 3.0
-  number: 106
-  url: https://github.com/TypoCI/spellcheck-action/pull/106
-  repository_url: https://www.github.com/TypoCI/spellcheck-action
-  repository: TypoCI/spellcheck-action
-  created_at: 2021-01-31 16:25:31 UTC
-  created_on: '2021-01-31'
 - title: Redirecting to /posts when root of app is hit
   number: 3
   url: https://github.com/MikeRogers0-YouTube/Tutorial-Starting-Place/pull/3
