@@ -9,6 +9,10 @@
 
   div.highlight {
     @apply bg-gray-100;
+
+    @screen dark {
+      @apply bg-gray-900;
+    }
   }
 
   ul, ol {

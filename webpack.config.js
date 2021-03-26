@@ -1,6 +1,6 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const ManifestPlugin = require("webpack-manifest-plugin");
+const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 
 module.exports = {
   entry: "./frontend/javascript/index.js",
@@ -23,7 +23,7 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: (process.env.BRIDGETOWN_ENV === 'production' ? "../css/all.[contenthash].css" : "../css/all.css" ),
     }),
-    new ManifestPlugin({
+    new WebpackManifestPlugin({
       fileName: path.resolve(__dirname, ".bridgetown-webpack", "manifest.json"),
     }),
   ],
@@ -55,14 +55,19 @@ module.exports = {
           "css-loader",
           {
             loader: 'postcss-loader',
-            options: {
-              ident: 'postcss',
-            },
           },
         ],
       },
       {
-        test: /\.woff2?$|\.ttf$|\.eot$|\.svg$/,
+        test: /\.svg$/,
+        loader: "file-loader",
+        options: {
+          outputPath: "../images",
+          publicPath: "../images",
+        },
+      },
+      {
+        test: /\.woff2?$|\.ttf$|\.eot$/,
         loader: "file-loader",
         options: {
           outputPath: "../fonts",

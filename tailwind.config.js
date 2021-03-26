@@ -1,8 +1,16 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: false, // Handled by plugins/purgecss_builder.rb
 
-  theme: {
+  darkMode: false,
 
+  corePlugins: {
+    float: false,
+    clear: false,
+  },
+
+  theme: {
     container: {
       center: true,
       padding: {
@@ -45,6 +53,7 @@ module.exports = {
       },
 
       colors: { // These are the colours we should aim to stick to.
+        'cool-gray': colors.coolGray
       },
       screens: {
         dark: { raw: "(prefers-color-scheme: dark)" },
