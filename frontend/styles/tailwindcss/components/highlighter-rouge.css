@@ -1,22 +1,19 @@
 .highlighter-rouge {
   pre.highlight {
-    @apply p-4 break-normal overflow-x-scroll;
+    @apply px-3 py-4 break-normal overflow-x-scroll;
   }
-
-  @apply mb-4;
-
-  
 }
 
-.highlighter-rouge {
+div.highlighter-rouge {
+  @apply mt-6 mb-6;
   border-radius: 0.25rem;
   overflow: hidden;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.6), 0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.0);
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,.6), 0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.0);*/
 }
 
-.highlighter-rouge[class^="language-"]:before {
+div.highlighter-rouge[class^="language-"]:before {
   font-family: HelveticaNeue, 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
-  background: url('/assets/images/terminal-controls.svg') no-repeat 0.3rem 0.25rem, linear-gradient(to bottom, #ebebeb, #d5d5d5);
+  background: url('../../src/images/terminal-controls.svg') no-repeat 0.3rem 0.25rem, linear-gradient(to bottom, #ebebeb, #d5d5d5);
   color: #4d494d;
   font-size: 0.8rem;
   line-height: 20px;
@@ -29,6 +26,6 @@
   display: block;
 }
 
-pre.language-bash:before {
+div.highlighter-rouge.language-bash:before {
   content: '⌨️  Terminal';
 }
