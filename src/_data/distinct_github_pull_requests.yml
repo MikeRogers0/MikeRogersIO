@@ -1,4 +1,18 @@
 ---
+- title: Adjust Readme to center title & subtitle
+  number: 23
+  url: https://github.com/bt-rb/bridgetown-minify-html/pull/23
+  repository_url: https://www.github.com/bt-rb/bridgetown-minify-html
+  repository: bt-rb/bridgetown-minify-html
+  created_at: 2021-03-28 19:24:19 UTC
+  created_on: '2021-03-28'
+- title: Adding shared-mime-info package to Dockerfile
+  number: 76
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/76
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-03-26 10:55:42 UTC
+  created_on: '2021-03-26'
 - title: Declearing net-http-persistent gem requirement in the Gemfile
   number: 3
   url: https://github.com/lostisland/faraday-net_http_persistent/pull/3
@@ -20,6 +34,13 @@
   repository: MikeRogers0/MikeRogersIO
   created_at: 2021-03-21 21:25:21 UTC
   created_on: '2021-03-21'
+- title: Replacing Net::HTTP::Persistent with faraday-net_http_persistent
+  number: 1250
+  url: https://github.com/lostisland/faraday/pull/1250
+  repository_url: https://www.github.com/lostisland/faraday
+  repository: lostisland/faraday
+  created_at: 2021-03-19 00:18:53 UTC
+  created_on: '2021-03-19'
 - title: Adding badges
   number: 3
   url: https://github.com/MikeRogers0/MikeRogers0/pull/3
@@ -69,13 +90,6 @@
   repository: zzak/sdoc
   created_at: 2021-03-06 17:40:18 UTC
   created_on: '2021-03-06'
-- title: Moving rubocop file to be hidden
-  number: 74
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/74
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
-  repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2021-03-05 18:28:00 UTC
-  created_on: '2021-03-05'
 - title: Adding robots.txt to guide as Lighthouse is warning about it
   number: 41534
   url: https://github.com/rails/rails/pull/41534
@@ -208,13 +222,6 @@
   repository_url: https://www.github.com/hopsoft/stimulus_reflex
   repository: hopsoft/stimulus_reflex
   created_at: 2021-01-03 17:46:57 UTC
-  created_on: '2021-01-03'
-- title: Adding support for Ruby 3.0
-  number: 20
-  url: https://github.com/bt-rb/bridgetown-minify-html/pull/20
-  repository_url: https://www.github.com/bt-rb/bridgetown-minify-html
-  repository: bt-rb/bridgetown-minify-html
-  created_at: 2021-01-03 17:38:10 UTC
   created_on: '2021-01-03'
 - title: Document the new default branch in the README
   number: 74
