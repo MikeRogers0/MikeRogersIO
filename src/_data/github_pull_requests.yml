@@ -1,4 +1,74 @@
 ---
+- title: Adding Favicon
+  number: 48
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/48
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-04-01 22:49:11 UTC
+  created_on: '2021-04-01'
+- title: Making the cards fits the colour scheme more nicely
+  number: 46
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/46
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-04-01 22:10:59 UTC
+  created_on: '2021-04-01'
+- title: Adding SEO sharing bits
+  number: 45
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/45
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-04-01 21:44:54 UTC
+  created_on: '2021-04-01'
+- title: Switching language to en-gb over en_gb
+  number: 162
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/162
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-04-01 21:22:41 UTC
+  created_on: '2021-04-01'
+- title: Adjusting design to be WCAG AAA compliant (And a few other fixups)
+  number: 44
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/44
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-04-01 20:18:24 UTC
+  created_on: '2021-04-01'
+- title: Adding filter for Cincy.rb who share a meetup group with others
+  number: 43
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/43
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-04-01 19:12:19 UTC
+  created_on: '2021-04-01'
+- title: Building groups page
+  number: 42
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/42
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-04-01 18:17:53 UTC
+  created_on: '2021-04-01'
+- title: Sorting the groups data
+  number: 41
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/41
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-04-01 16:22:45 UTC
+  created_on: '2021-04-01'
+- title: Skip pulling meetups without a source
+  number: 40
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/40
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-04-01 14:49:11 UTC
+  created_on: '2021-04-01'
+- title: Not sharing redis/postgres ports with host machine by default
+  number: 77
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/77
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-03-30 20:07:00 UTC
+  created_on: '2021-03-30'
 - title: Adjust Readme to center title & subtitle
   number: 23
   url: https://github.com/bt-rb/bridgetown-minify-html/pull/23
@@ -13,6 +83,13 @@
   repository: bt-rb/bridgetown-minify-html
   created_at: 2021-03-28 19:13:02 UTC
   created_on: '2021-03-28'
+- title: Mobile search changes - CSS Adjustments
+  number: 1
+  url: https://github.com/p8/sdoc/pull/1
+  repository_url: https://www.github.com/p8/sdoc
+  repository: p8/sdoc
+  created_at: 2021-03-27 17:20:01 UTC
+  created_on: '2021-03-27'
 - title: Adding shared-mime-info package to Dockerfile
   number: 76
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/76

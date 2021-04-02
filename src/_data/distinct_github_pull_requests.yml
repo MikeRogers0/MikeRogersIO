@@ -1,4 +1,25 @@
 ---
+- title: Adding Favicon
+  number: 48
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/48
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-04-01 22:49:11 UTC
+  created_on: '2021-04-01'
+- title: Switching language to en-gb over en_gb
+  number: 162
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/162
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-04-01 21:22:41 UTC
+  created_on: '2021-04-01'
+- title: Not sharing redis/postgres ports with host machine by default
+  number: 77
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/77
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-03-30 20:07:00 UTC
+  created_on: '2021-03-30'
 - title: Adjust Readme to center title & subtitle
   number: 23
   url: https://github.com/bt-rb/bridgetown-minify-html/pull/23
@@ -6,13 +27,13 @@
   repository: bt-rb/bridgetown-minify-html
   created_at: 2021-03-28 19:24:19 UTC
   created_on: '2021-03-28'
-- title: Adding shared-mime-info package to Dockerfile
-  number: 76
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/76
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
-  repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2021-03-26 10:55:42 UTC
-  created_on: '2021-03-26'
+- title: Mobile search changes - CSS Adjustments
+  number: 1
+  url: https://github.com/p8/sdoc/pull/1
+  repository_url: https://www.github.com/p8/sdoc
+  repository: p8/sdoc
+  created_at: 2021-03-27 17:20:01 UTC
+  created_on: '2021-03-27'
 - title: Declearing net-http-persistent gem requirement in the Gemfile
   number: 3
   url: https://github.com/lostisland/faraday-net_http_persistent/pull/3
@@ -27,13 +48,6 @@
   repository: TypoCI/spellcheck-action
   created_at: 2021-03-25 21:20:13 UTC
   created_on: '2021-03-25'
-- title: Adding auto generated social images to all posts
-  number: 160
-  url: https://github.com/MikeRogers0/MikeRogersIO/pull/160
-  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
-  repository: MikeRogers0/MikeRogersIO
-  created_at: 2021-03-21 21:25:21 UTC
-  created_on: '2021-03-21'
 - title: Replacing Net::HTTP::Persistent with faraday-net_http_persistent
   number: 1250
   url: https://github.com/lostisland/faraday/pull/1250
@@ -48,13 +62,6 @@
   repository: MikeRogers0/MikeRogers0
   created_at: 2021-03-14 16:42:11 UTC
   created_on: '2021-03-14'
-- title: Updating events daily
-  number: 30
-  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/30
-  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
-  repository: MikeRogers0/Ruby-Meetup-Calendar
-  created_at: 2021-03-12 20:42:16 UTC
-  created_on: '2021-03-12'
 - title: Making next event alert use the alarm emoji
   number: 40
   url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/40
