@@ -1,4 +1,11 @@
 ---
+- title: Adding ecommerce & cakephp words
+  number: 122
+  url: https://github.com/TypoCI/spellcheck-action/pull/122
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-04-08 16:50:05 UTC
+  created_on: '2021-04-08'
 - title: Adding workflow dispatch for updating the template repo
   number: 80
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/80
@@ -20,6 +27,13 @@
   repository: MikeRogers0/MikeRogersIO
   created_at: 2021-04-01 21:22:41 UTC
   created_on: '2021-04-01'
+- title: Move to GitHub action for tests
+  number: 157
+  url: https://github.com/zzak/sdoc/pull/157
+  repository_url: https://www.github.com/zzak/sdoc
+  repository: zzak/sdoc
+  created_at: 2021-03-31 17:44:12 UTC
+  created_on: '2021-03-31'
 - title: Adjust Readme to center title & subtitle
   number: 23
   url: https://github.com/bt-rb/bridgetown-minify-html/pull/23
@@ -40,13 +54,6 @@
   repository_url: https://www.github.com/lostisland/faraday-net_http_persistent
   repository: lostisland/faraday-net_http_persistent
   created_at: 2021-03-25 22:00:15 UTC
-  created_on: '2021-03-25'
-- title: Adding support for Dutch (nl) language
-  number: 115
-  url: https://github.com/TypoCI/spellcheck-action/pull/115
-  repository_url: https://www.github.com/TypoCI/spellcheck-action
-  repository: TypoCI/spellcheck-action
-  created_at: 2021-03-25 21:20:13 UTC
   created_on: '2021-03-25'
 - title: Replacing Net::HTTP::Persistent with faraday-net_http_persistent
   number: 1250
@@ -90,13 +97,6 @@
   repository: MikeRogers0/spotify-daily-shuffle
   created_at: 2021-03-07 15:39:05 UTC
   created_on: '2021-03-07'
-- title: Adding viewport to views
-  number: 153
-  url: https://github.com/zzak/sdoc/pull/153
-  repository_url: https://www.github.com/zzak/sdoc
-  repository: zzak/sdoc
-  created_at: 2021-03-06 17:40:18 UTC
-  created_on: '2021-03-06'
 - title: Adding robots.txt to guide as Lighthouse is warning about it
   number: 41534
   url: https://github.com/rails/rails/pull/41534

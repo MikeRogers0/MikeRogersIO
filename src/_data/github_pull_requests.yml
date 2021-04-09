@@ -1,4 +1,46 @@
 ---
+- title: Adding ecommerce & cakephp words
+  number: 122
+  url: https://github.com/TypoCI/spellcheck-action/pull/122
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-04-08 16:50:05 UTC
+  created_on: '2021-04-08'
+- title: 'Ranking Experiment: Starting the Action Name with A'
+  number: 121
+  url: https://github.com/TypoCI/spellcheck-action/pull/121
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-04-07 21:31:37 UTC
+  created_on: '2021-04-07'
+- title: Adding currencies to word list
+  number: 120
+  url: https://github.com/TypoCI/spellcheck-action/pull/120
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-04-07 18:02:28 UTC
+  created_on: '2021-04-07'
+- title: Removing license requirements & switching to MIT
+  number: 119
+  url: https://github.com/TypoCI/spellcheck-action/pull/119
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-04-07 17:04:18 UTC
+  created_on: '2021-04-07'
+- title: Locking github_changelog_generator to 1.15.2
+  number: 118
+  url: https://github.com/TypoCI/spellcheck-action/pull/118
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-04-07 16:41:52 UTC
+  created_on: '2021-04-07'
+- title: Adding .github/.typo-ci.yml to default excluded files list
+  number: 117
+  url: https://github.com/TypoCI/spellcheck-action/pull/117
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-04-07 16:35:57 UTC
+  created_on: '2021-04-07'
 - title: Adding workflow dispatch for updating the template repo
   number: 80
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/80
@@ -97,6 +139,13 @@
   repository: MikeRogers0/Ruby-Meetup-Calendar
   created_at: 2021-04-01 14:49:11 UTC
   created_on: '2021-04-01'
+- title: Move to GitHub action for tests
+  number: 157
+  url: https://github.com/zzak/sdoc/pull/157
+  repository_url: https://www.github.com/zzak/sdoc
+  repository: zzak/sdoc
+  created_at: 2021-03-31 17:44:12 UTC
+  created_on: '2021-03-31'
 - title: Not sharing redis/postgres ports with host machine by default
   number: 77
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/77
