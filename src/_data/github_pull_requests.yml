@@ -1,4 +1,11 @@
 ---
+- title: Allowing the use of .github/.typo-ci.yml
+  number: 124
+  url: https://github.com/TypoCI/spellcheck-action/pull/124
+  repository_url: https://www.github.com/TypoCI/spellcheck-action
+  repository: TypoCI/spellcheck-action
+  created_at: 2021-04-12 15:06:07 UTC
+  created_on: '2021-04-12'
 - title: Going through seeding talk for Zoom
   number: 5
   url: https://github.com/MikeRogers0/Talks/pull/5
@@ -48,6 +55,13 @@
   repository: TypoCI/spellcheck-action
   created_at: 2021-04-07 16:35:57 UTC
   created_on: '2021-04-07'
+- title: Adding netlify.toml - We can use it for PR previews
+  number: 163
+  url: https://github.com/zzak/sdoc/pull/163
+  repository_url: https://www.github.com/zzak/sdoc
+  repository: zzak/sdoc
+  created_at: 2021-04-05 10:46:10 UTC
+  created_on: '2021-04-05'
 - title: Adding workflow dispatch for updating the template repo
   number: 80
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/80
