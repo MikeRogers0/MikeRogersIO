@@ -1,10 +1,59 @@
 ---
+- title: Linking to Rubygems.org in Readme
+  number: 9
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/9
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-04-22 21:20:58 UTC
+  created_on: '2021-04-22'
+- title: Changing name of ENV used for RubyGems API key
+  number: 8
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/8
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-04-22 19:57:52 UTC
+  created_on: '2021-04-22'
+- title: Renaming skip_dnt to collect_dnt
+  number: 7
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/7
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-04-21 19:07:48 UTC
+  created_on: '2021-04-21'
+- title: Removing TODO list from the Readme
+  number: 6
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/6
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-04-21 18:54:56 UTC
+  created_on: '2021-04-21'
+- title: Move <noscript> fallback to before </body>
+  number: 5
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/5
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-04-21 18:53:14 UTC
+  created_on: '2021-04-21'
 - title: Allowing the use of .github/.typo-ci.yml
   number: 124
   url: https://github.com/TypoCI/spellcheck-action/pull/124
   repository_url: https://www.github.com/TypoCI/spellcheck-action
   repository: TypoCI/spellcheck-action
   created_at: 2021-04-12 15:06:07 UTC
+  created_on: '2021-04-12'
+- title: Adding top level documentation for Yard docs
+  number: 4
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/4
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-04-12 10:51:43 UTC
+  created_on: '2021-04-12'
+- title: Spotted some wording improvements on the Readme
+  number: 3
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/3
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-04-12 10:28:13 UTC
   created_on: '2021-04-12'
 - title: Going through seeding talk for Zoom
   number: 5
@@ -13,6 +62,20 @@
   repository: MikeRogers0/Talks
   created_at: 2021-04-10 17:24:31 UTC
   created_on: '2021-04-10'
+- title: Sorting dependencies in gemspec file alphabetically
+  number: 2
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/2
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-04-09 20:45:53 UTC
+  created_on: '2021-04-09'
+- title: Adding Appraisals
+  number: 1
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/1
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-04-09 18:22:30 UTC
+  created_on: '2021-04-09'
 - title: Adding ecommerce & cakephp words
   number: 122
   url: https://github.com/TypoCI/spellcheck-action/pull/122

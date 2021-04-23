@@ -1,4 +1,11 @@
 ---
+- title: Linking to Rubygems.org in Readme
+  number: 9
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/9
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-04-22 21:20:58 UTC
+  created_on: '2021-04-22'
 - title: Allowing the use of .github/.typo-ci.yml
   number: 124
   url: https://github.com/TypoCI/spellcheck-action/pull/124
