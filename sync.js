@@ -13,7 +13,7 @@ browserSync.init({
   notify: false,
   proxy: proxy,
   port: port,
-  files: "build/index.html",
+  files: "output/index.html",
   ghostMode: {
     clicks: false,
     forms: false,

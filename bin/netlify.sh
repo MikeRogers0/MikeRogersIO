@@ -3,7 +3,7 @@
 
 echo "Updating netlify.toml with references to our built files"
 
-CSS_PATH=`find build/_bridgetown/static/css/*.css -type f | sed -e 's,build\/,/,g'`
+CSS_PATH=`find output/_bridgetown/static/css/*.css -type f | sed -e 's,output\/,/,g'`
 
 echo "CSS Path: ${CSS_PATH}"
 

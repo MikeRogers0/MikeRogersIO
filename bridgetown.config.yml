@@ -20,7 +20,7 @@ url: "https://mikerogers.io" # the base hostname & protocol for your site, e.g. 
 
 
 # Default is "output", I kept auto completing "git push o" to "git push output", so renaming this.
-destination: build
+destination: output
 
 permalink: /:year/:month/:day/:slug
 
