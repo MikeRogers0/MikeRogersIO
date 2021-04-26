@@ -1,4 +1,18 @@
 ---
+- title: Adding new settings missed in 0.1.0
+  number: 11
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/11
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-04-24 16:46:58 UTC
+  created_on: '2021-04-24'
+- title: Run Standardrb on Pull Requests
+  number: 57
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/57
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-04-23 17:14:42 UTC
+  created_on: '2021-04-23'
 - title: Linking to Rubygems.org in Readme
   number: 9
   url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/9
@@ -160,6 +174,13 @@
   repository: MikeRogers0/Ruby-Meetup-Calendar
   created_at: 2021-04-02 20:46:57 UTC
   created_on: '2021-04-02'
+- title: Linking to SVGs in CSS Sheet
+  number: 49
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/49
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-04-01 23:12:16 UTC
+  created_on: '2021-04-01'
 - title: Adding Favicon
   number: 48
   url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/48
