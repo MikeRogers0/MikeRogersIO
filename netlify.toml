@@ -1,6 +1,11 @@
 [[plugins]]
   package="netlify-plugin-chromium"
 
+[[plugins]]
+  package = "netlify-plugin-cache"
+  [plugins.inputs]
+  paths = [".bridgetown-cache", ".bridgetown-webpack"]
+
 [build]
   command = "yarn deploy && ./bin/netlify.sh"
   publish = "build"
