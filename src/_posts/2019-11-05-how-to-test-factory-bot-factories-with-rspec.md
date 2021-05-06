@@ -9,7 +9,7 @@ I'm a big fan of using [FactoryBot](https://github.com/thoughtbot/factory_bot) w
 
 One drawback when working with factories (and fixtures!) is when a models validation or schema change, causing your factory to no longer be valid. It can sometimes be a little unobvious on exactly where the issue is.
 
-A technique I use to help stop this, is to test the validity of the factories along with their traits at the start of my test suite. 
+A technique I use to help stop this, is to test the validity of the factories along with their traits at the start of my test suite.
 
 To do this in RSpec, I setup a file in `spec/factories_spec.rb` with the following contents:
 
@@ -17,8 +17,8 @@ To do this in RSpec, I setup a file in `spec/factories_spec.rb` with the followi
 # spec/factories_spec.rb
 require 'rails_helper'
 
-describe FactoryBot do
-  it { FactoryBot.lint traits: true }
+RSpec.describe FactoryBot do
+  it { FactoryBot.lint(traits: true) }
 end
 ```
 
