@@ -18,7 +18,7 @@ To do this in RSpec, I setup a file in `spec/factories_spec.rb` with the followi
 require 'rails_helper'
 
 RSpec.describe FactoryBot do
-  it { FactoryBot.lint traits: true }
+  it { FactoryBot.lint(traits: true) }
 end
 ```
 
