@@ -1,4 +1,18 @@
 ---
+- title: Enabling bundler-cache on GitHub Actions
+  number: 24
+  url: https://github.com/bt-rb/bridgetown-minify-html/pull/24
+  repository_url: https://www.github.com/bt-rb/bridgetown-minify-html
+  repository: bt-rb/bridgetown-minify-html
+  created_at: 2021-05-08 19:33:08 UTC
+  created_on: '2021-05-08'
+- title: Only run Lighthouse CI on PRs
+  number: 69
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/69
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-05-08 17:28:01 UTC
+  created_on: '2021-05-08'
 - title: Adding "RSpec." before describe
   number: 164
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/164
@@ -27,13 +41,6 @@
   repository: simpleanalytics/rubyonrails-plugin
   created_at: 2021-04-24 16:46:58 UTC
   created_on: '2021-04-24'
-- title: Run Standardrb on Pull Requests
-  number: 57
-  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/57
-  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
-  repository: MikeRogers0/Ruby-Meetup-Calendar
-  created_at: 2021-04-23 17:14:42 UTC
-  created_on: '2021-04-23'
 - title: Going through seeding talk for Zoom
   number: 5
   url: https://github.com/MikeRogers0/Talks/pull/5
@@ -55,13 +62,6 @@
   repository: Ruby-Starter-Kits/Docker-Rails-Generator
   created_at: 2021-04-03 13:34:28 UTC
   created_on: '2021-04-03'
-- title: Adjust Readme to center title & subtitle
-  number: 23
-  url: https://github.com/bt-rb/bridgetown-minify-html/pull/23
-  repository_url: https://www.github.com/bt-rb/bridgetown-minify-html
-  repository: bt-rb/bridgetown-minify-html
-  created_at: 2021-03-28 19:24:19 UTC
-  created_on: '2021-03-28'
 - title: Mobile search changes - CSS Adjustments
   number: 1
   url: https://github.com/p8/sdoc/pull/1
