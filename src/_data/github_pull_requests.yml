@@ -1,4 +1,32 @@
 ---
+- title: Tidying CSS - Removing hard coded Rem values & unused CSS Variables
+  number: 71
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/71
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-05-12 15:33:17 UTC
+  created_on: '2021-05-12'
+- title: 'Post: Removing Tailwind & what that was like'
+  number: 165
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/165
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-05-12 09:35:16 UTC
+  created_on: '2021-05-12'
+- title: Not counting uninstalled apps towards MRR
+  number: 5
+  url: https://github.com/TypoCI/Marketplace-App/pull/5
+  repository_url: https://www.github.com/TypoCI/Marketplace-App
+  repository: TypoCI/Marketplace-App
+  created_at: 2021-05-10 16:58:18 UTC
+  created_on: '2021-05-10'
+- title: Running Lighthouse on main branch every week
+  number: 70
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/70
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-05-10 14:06:04 UTC
+  created_on: '2021-05-10'
 - title: Enabling bundler-cache on GitHub Actions
   number: 24
   url: https://github.com/bt-rb/bridgetown-minify-html/pull/24
