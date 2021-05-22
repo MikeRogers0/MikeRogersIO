@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shutting Down Typo CI
+title: Saying Goodbye To Typo CI
 description: I decided it was time to close Typo CI. Before I pulled the plug, I want to document some lessons learnt.
 ---
 
@@ -28,7 +28,7 @@ When I first started Typo CI, I didn't talk to users at all & I really regret th
 
 The big discovery I've had was "the users who want to use Typo CI, often don't have the right level of permission within their organisation to install it". For example, a developer may want to help improve the spelling within their codebase by adding Typo CI, but to do this they need their boss to install it. This extra bit of friction would lead to the idea of installing Typo CI being suggested, but just never actioned.
 
-An example teepo
+![Sample Annotation](/2021/05/typo-ci-annotation.png)
 
 One user I spoke to said "I can see Typo CI is spotting spelling mistakes in my code, but what should I do with them?". This made me think the approach of annotating Pull Requests with suggestions wasn't the most ideal solution.
 
