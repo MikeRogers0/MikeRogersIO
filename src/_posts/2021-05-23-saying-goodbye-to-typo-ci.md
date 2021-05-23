@@ -20,7 +20,7 @@ This was a really difficult decision, but here is a summary of the main reasons.
 
 I lost a lot of enthusiasm to build Typo CI after I started working with the GitHub Marketplace. I really feel that GitHub isn't interested in having 3rd Party Apps promoted on their platform any more.
 
-One of the largest sources of frustration I had with the GitHub Marketplace was just being able to charge for usage. When I first launched, GitHub required I have at least 100 users before I could apply to add a paid tier (and I wasn't allow to handle billing myself as per their developer agreement). I reached the 100 user threshold in about a month, then *it took GitHub over 6 months to allow me to start charging for usage*.
+One of the largest sources of frustration I had with the GitHub Marketplace was just being able to charge for usage. When I first launched, GitHub required I have at least 100 users before I could apply to add a paid tier (and I wasn't allowed to handle billing myself as per their developer agreement). I reached the 100 user threshold in about a month, then *it took GitHub over 6 months to allow me to start charging for usage*.
 
 Having to wait so long to validate if I had a product people would pay for was not great. But I was also quite upset that when I contacted GitHub, often I wouldn't hear a response for many weeks.
 
