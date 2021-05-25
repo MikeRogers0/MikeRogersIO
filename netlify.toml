@@ -42,6 +42,7 @@
     Strict-Transport-Security = "max-age=15552000; includeSubDomains"
     Referrer-Policy = "no-referrer-when-downgrade"
     Cache-Control = "public, max-age=604800, s-max-age=604800"
+    Permissions-Policy = "interest-cohort=()"
 
 [[headers]]
   for = "/"
