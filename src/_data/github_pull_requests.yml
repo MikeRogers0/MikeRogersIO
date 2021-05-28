@@ -1,4 +1,18 @@
 ---
+- title: Remove Lighthouse CI check
+  number: 73
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/73
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-05-27 21:31:16 UTC
+  created_on: '2021-05-27'
+- title: Opt'ing out of Google’s FLoC User Tracking
+  number: 168
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/168
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-05-25 14:44:03 UTC
+  created_on: '2021-05-25'
 - title: Tidy up Shutdown post images
   number: 167
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/167
