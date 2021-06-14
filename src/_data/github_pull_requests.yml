@@ -1,4 +1,39 @@
 ---
+- title: Bumping installer version to 1.0.0
+  number: 87
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/87
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-06-13 22:20:07 UTC
+  created_on: '2021-06-13'
+- title: Removing MikeRogers0 from funding list
+  number: 2
+  url: https://github.com/Ruby-Starter-Kits/.github/pull/2
+  repository_url: https://www.github.com/Ruby-Starter-Kits/.github
+  repository: Ruby-Starter-Kits/.github
+  created_at: 2021-06-13 22:17:04 UTC
+  created_on: '2021-06-13'
+- title: Upgrading to Ruby 3.0.1
+  number: 86
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/86
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-06-13 20:43:18 UTC
+  created_on: '2021-06-13'
+- title: Some of the files were consistent, so fixing adhoc bits
+  number: 85
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/85
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-06-13 20:29:31 UTC
+  created_on: '2021-06-13'
+- title: Upgrading to Docker Compose V3
+  number: 84
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/84
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-06-13 18:33:37 UTC
+  created_on: '2021-06-13'
 - title: Removing future events when adding new events
   number: 76
   url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/76

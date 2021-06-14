@@ -1,4 +1,18 @@
 ---
+- title: Bumping installer version to 1.0.0
+  number: 87
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/87
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-06-13 22:20:07 UTC
+  created_on: '2021-06-13'
+- title: Removing MikeRogers0 from funding list
+  number: 2
+  url: https://github.com/Ruby-Starter-Kits/.github/pull/2
+  repository_url: https://www.github.com/Ruby-Starter-Kits/.github
+  repository: Ruby-Starter-Kits/.github
+  created_at: 2021-06-13 22:17:04 UTC
+  created_on: '2021-06-13'
 - title: Removing future events when adding new events
   number: 76
   url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/76
@@ -55,13 +69,6 @@
   repository: zzak/sdoc
   created_at: 2021-04-05 10:46:10 UTC
   created_on: '2021-04-05'
-- title: Adding workflow dispatch for updating the template repo
-  number: 80
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/80
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
-  repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2021-04-03 13:34:28 UTC
-  created_on: '2021-04-03'
 - title: Mobile search changes - CSS Adjustments
   number: 1
   url: https://github.com/p8/sdoc/pull/1
