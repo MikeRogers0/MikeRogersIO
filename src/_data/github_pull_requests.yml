@@ -1,4 +1,25 @@
 ---
+- title: Using master branch to build GitHub Site
+  number: 5
+  url: https://github.com/MikeRogers0/MikeRogers0/pull/5
+  repository_url: https://www.github.com/MikeRogers0/MikeRogers0
+  repository: MikeRogers0/MikeRogers0
+  created_at: 2021-06-19 17:01:47 UTC
+  created_on: '2021-06-19'
+- title: Removing TypoCI reference - I'm not working on it anymore
+  number: 4
+  url: https://github.com/MikeRogers0/MikeRogers0/pull/4
+  repository_url: https://www.github.com/MikeRogers0/MikeRogers0
+  repository: MikeRogers0/MikeRogers0
+  created_at: 2021-06-19 16:30:03 UTC
+  created_on: '2021-06-19'
+- title: 'refactor: Additional wins for the Dockerfile'
+  number: 88
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/88
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-06-19 16:03:52 UTC
+  created_on: '2021-06-19'
 - title: Bumping installer version to 1.0.0
   number: 87
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/87

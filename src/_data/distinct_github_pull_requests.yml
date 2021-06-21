@@ -1,11 +1,18 @@
 ---
-- title: Bumping installer version to 1.0.0
-  number: 87
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/87
+- title: Using master branch to build GitHub Site
+  number: 5
+  url: https://github.com/MikeRogers0/MikeRogers0/pull/5
+  repository_url: https://www.github.com/MikeRogers0/MikeRogers0
+  repository: MikeRogers0/MikeRogers0
+  created_at: 2021-06-19 17:01:47 UTC
+  created_on: '2021-06-19'
+- title: 'refactor: Additional wins for the Dockerfile'
+  number: 88
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/88
   repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
   repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2021-06-13 22:20:07 UTC
-  created_on: '2021-06-13'
+  created_at: 2021-06-19 16:03:52 UTC
+  created_on: '2021-06-19'
 - title: Removing MikeRogers0 from funding list
   number: 2
   url: https://github.com/Ruby-Starter-Kits/.github/pull/2
@@ -90,13 +97,6 @@
   repository: lostisland/faraday
   created_at: 2021-03-19 00:18:53 UTC
   created_on: '2021-03-19'
-- title: Adding badges
-  number: 3
-  url: https://github.com/MikeRogers0/MikeRogers0/pull/3
-  repository_url: https://www.github.com/MikeRogers0/MikeRogers0
-  repository: MikeRogers0/MikeRogers0
-  created_at: 2021-03-14 16:42:11 UTC
-  created_on: '2021-03-14'
 - title: Making next event alert use the alarm emoji
   number: 40
   url: https://github.com/Virtual-Coffee/Virtual-Coffee-Bot/pull/40
