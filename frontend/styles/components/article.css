@@ -1,0 +1,8 @@
+.article {
+  img {
+    @mixin shadow;
+
+    margin: var(--spacing-4) auto;
+    max-width: 100%;
+  }
+}

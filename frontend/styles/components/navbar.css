@@ -1,0 +1,6 @@
+.navbar {
+  @mixin shadow;
+
+  background: var(--background-secondary);
+  margin-bottom: var(--spacing-6);
+}

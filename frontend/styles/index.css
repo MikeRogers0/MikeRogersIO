@@ -1,19 +1,7 @@
-@import "tailwindcss/base";
-@import "tailwindcss/custom_base";
+@import-glob "variables/*.css";
 
-@import "tailwindcss/components";
+@import-glob "normalize.css";
 
-/* My custom components */
-@import "tailwindcss/components/article";
-@import "tailwindcss/components/btn";
-@import "tailwindcss/components/container";
-@import "tailwindcss/components/embed-responsive";
-
-/* Code Highlighting */
-@import "pygments-css/default";
-@import "pygments-css/monokai";
-@import "tailwindcss/components/highlighter-rouge";
-
-
-@import "tailwindcss/utilities";
-@import "tailwindcss/custom_utilities";
+@import-glob "base/*.css";
+@import-glob "components/**/*.css";
+@import-glob "utilities/*.css";
