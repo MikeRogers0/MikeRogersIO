@@ -1,4 +1,18 @@
 ---
+- title: 'chore: Removing GitHub Actions reference from Readme'
+  number: 46
+  url: https://github.com/Virtual-Coffee/bot-meetingplace-events/pull/46
+  repository_url: https://www.github.com/Virtual-Coffee/bot-meetingplace-events
+  repository: Virtual-Coffee/bot-meetingplace-events
+  created_at: 2021-06-27 15:54:33 UTC
+  created_on: '2021-06-27'
+- title: 'feat: Increase node-sass dependency to ^6'
+  number: 74
+  url: https://github.com/stjudecloud/theme/pull/74
+  repository_url: https://www.github.com/stjudecloud/theme
+  repository: stjudecloud/theme
+  created_at: 2021-06-23 18:35:29 UTC
+  created_on: '2021-06-23'
 - title: Using master branch to build GitHub Site
   number: 5
   url: https://github.com/MikeRogers0/MikeRogers0/pull/5
