@@ -1,4 +1,11 @@
 ---
+- title: 'feat: Increasing timeout and retry interval'
+  number: 90
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/90
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-07-03 16:57:38 UTC
+  created_on: '2021-07-03'
 - title: 'chore: Removing GitHub Actions reference from Readme'
   number: 46
   url: https://github.com/Virtual-Coffee/bot-meetingplace-events/pull/46
@@ -19,13 +26,6 @@
   repository_url: https://www.github.com/MikeRogers0/MikeRogers0
   repository: MikeRogers0/MikeRogers0
   created_at: 2021-06-19 17:01:47 UTC
-  created_on: '2021-06-19'
-- title: 'refactor: Additional wins for the Dockerfile'
-  number: 88
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/88
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
-  repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2021-06-19 16:03:52 UTC
   created_on: '2021-06-19'
 - title: Removing MikeRogers0 from funding list
   number: 2
