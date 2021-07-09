@@ -1,4 +1,11 @@
 ---
+- title: 'feat: Fixing Apprasial Set error by downgrading rake to 13.0.3'
+  number: 12
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/12
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-07-08 14:30:19 UTC
+  created_on: '2021-07-08'
 - title: 'feat: Increasing timeout and retry interval'
   number: 90
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/90
@@ -69,13 +76,6 @@
   repository: TypoCI/spellcheck-action
   created_at: 2021-04-28 12:07:46 UTC
   created_on: '2021-04-28'
-- title: Adding new settings missed in 0.1.0
-  number: 11
-  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/11
-  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
-  repository: simpleanalytics/rubyonrails-plugin
-  created_at: 2021-04-24 16:46:58 UTC
-  created_on: '2021-04-24'
 - title: Going through seeding talk for Zoom
   number: 5
   url: https://github.com/MikeRogers0/Talks/pull/5

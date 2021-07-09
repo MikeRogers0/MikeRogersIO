@@ -1,4 +1,11 @@
 ---
+- title: 'feat: Fixing Apprasial Set error by downgrading rake to 13.0.3'
+  number: 12
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/12
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-07-08 14:30:19 UTC
+  created_on: '2021-07-08'
 - title: 'feat: Increasing timeout and retry interval'
   number: 90
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/90
