@@ -1,13 +1,15 @@
 .navbar {
   @mixin shadow;
 
+  padding-top: var(--spacing-4);
+  padding-bottom: var(--spacing-4);
   background: var(--background-secondary);
-  padding: var(--spacing-4);
   margin-bottom: var(--spacing-6);
+
+  background: linear-gradient(123deg, #2E99B0 0%, #2E99B0 45%, #1F2041 45%, #1F2041 100%);
 }
 
 .navbar__inner {
-  @mixin container;
   justify-content: space-between;
   align-items: center;
   display: flex;

@@ -1,0 +1,6 @@
+.main {
+  @mixin container;
+  padding-top: var(--spacing-4);
+  padding-bottom: var(--spacing-6);
+  overflow: hidden;
+}

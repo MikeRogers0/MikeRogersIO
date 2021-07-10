@@ -7,6 +7,10 @@
   --background-tertiary: #d0d5dc;
   --background-tertiary-light: #ffffff;
 
+  --background-button: #2E99B0;
+  --background-button--hover: #107b92;
+
+
   --text-primary: #f9fafb;
   --text-primary-darker: #a1a1ab;
   --text-secondary: #101828;

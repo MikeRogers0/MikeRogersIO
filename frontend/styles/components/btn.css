@@ -2,17 +2,19 @@
   border-radius: var(--border-radius-1);
   display: inline-block;
   line-height: var(--line-height-1);
-  padding: var(--spacing-1);
-  background-color: var(--background-secondary);
+  padding: var(--spacing-3);
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
+  background-color: var(--background-button);
   color: var(--text-primary);
+  text-decoration: none;
 
   &:active, &:focus {
     @mixin shadow;
   }
 
   &:hover {
-    background-color: var(--background-tertiary);
-    color: var(--background-secondary);
+    background-color: var(--background-button--hover);
   }
 }
 

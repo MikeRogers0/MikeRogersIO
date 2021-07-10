@@ -2,6 +2,8 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
 
   /*
    * We have to declare media queries as their processed, as it appears PostCSS
