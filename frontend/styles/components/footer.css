@@ -1,0 +1,7 @@
+.footer {
+  background: var(--background-secondary);
+  padding: var(--spacing-4);
+  overflow: hidden;
+  font-size: var(--font-size-2);
+  text-align: center;
+}

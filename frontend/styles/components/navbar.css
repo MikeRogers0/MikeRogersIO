@@ -2,5 +2,32 @@
   @mixin shadow;
 
   background: var(--background-secondary);
+  padding: var(--spacing-4);
   margin-bottom: var(--spacing-6);
+}
+
+.navbar__inner {
+  @mixin container;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar__social-icons {
+  @mixin list-inline;
+  margin: 0;
+}
+
+.navbar a {
+  /*text-gray-900 dark:text-gray-100 text-base no-underline hover:text-gray-400 focus:text-gray-600 font-bold text-xl*/
+  font-weight: bold;
+  text-decoration: none;
+  font-size: var(--font-size-5);
+  color: var(--link-secondary);
+}
+
+.navbar__brand {
+  display: inline;
+  vertical-align: middle;
 }
