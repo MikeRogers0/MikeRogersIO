@@ -1,14 +1,29 @@
 .jumbotron {
   padding-top: var(--spacing-6);
   padding-bottom: var(--spacing-7);
+  margin-bottom: var(--spacing-7);
 }
 
 .jumbotron--centered {
   text-align: center;
 }
 
-.jumbotron__xl {
+.jumbotron--xl {
   p {
     font-size: var(--font-size-5);
   }
+
+  em {
+    padding-left: var(--spacing-1);
+    padding-right: var(--spacing-1);
+    font-style: normal;
+    border-bottom: 2px dotted var(--background-secondary);
+  }
+}
+
+.jumbotron__image {
+  @mixin shadow;
+  border-radius: 9999px;
+  margin-top: var(--spacing-6);
+  margin-bottom: var(--spacing-6);
 }
