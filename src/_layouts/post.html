@@ -3,9 +3,9 @@ layout: default
 ---
 
 <article class="article">
-  <header class="text-center mb-6">
-    <h1 class="mb-1">{{ page.title }}</h1>
-    <p class="text-sm text-gray-muted">
+  <header class="article__header">
+    <h1>{{ page.title }}</h1>
+    <p>
       Posted on
       <time  datetime="{{ page.date | date: "%Y-%m-%d" }}">
         {% assign d = page.date | date: "%-d" %}

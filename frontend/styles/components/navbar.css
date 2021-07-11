@@ -6,7 +6,7 @@
   margin-bottom: var(--spacing-6);
 
   background: var(--background-tertiary);
-  background: linear-gradient(123deg, var(--background-secondary) 0%, var(--background-secondary) 45%, var(--background-tertiary) 45%, var(--background-tertiary) 100%);
+  background: linear-gradient(123deg, var(--background-secondary) 0%, var(--background-secondary) 50%, var(--background-tertiary) 50%, var(--background-tertiary) 100%);
 }
 
 .navbar__inner {

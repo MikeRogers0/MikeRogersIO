@@ -5,3 +5,5 @@
 @import-glob "base/*.css";
 @import-glob "components/**/*.css";
 @import-glob "utilities/*.css";
+
+@import "pygments-css/monokai.css";

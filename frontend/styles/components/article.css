@@ -3,6 +3,16 @@
     @mixin shadow;
 
     margin: var(--spacing-4) auto;
-    max-width: 100%;
+    max-width: 80%;
+    display: block;
+  }
+}
+
+.article__header {
+  text-align: center;
+  margin-bottom: var(--spacing-6);
+
+  h1  {
+    margin-bottom: var(--spacing-1);
   }
 }

@@ -1,0 +1,11 @@
+.highlighter-rouge {
+ margin-bottom: var(--spacing-4);
+}
+
+.highlighter-rouge pre.highlight {
+ padding: var(--spacing-4);
+ word-wrap: normal;
+ overflow-wrap: normal;
+ word-break: normal;
+ overflow-x: scroll
+}
