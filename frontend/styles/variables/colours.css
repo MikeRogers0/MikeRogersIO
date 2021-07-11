@@ -1,20 +1,11 @@
 :root {
-  --background-primary: #161e2e;
-  --background-secondary: #1a202e;
-  --background-secondary-lightest: #3f4a5b;
-  --background-secondary-light: #232c39;
-  --background-secondary-dark: #0f192c;
-  --background-tertiary: #d0d5dc;
-  --background-tertiary-light: #ffffff;
-
-  --background-button: #2E99B0;
-  --background-button--hover: #107b92;
-
+  --background-primary: #00192F;
+  --background-secondary: #02667C;
+  --background-secondary--darken: #003349;
+  --background-tertiary: #003349;
 
   --text-primary: #f9fafb;
   --text-primary-darker: #a1a1ab;
-  --text-secondary: #101828;
-  --text-secondary-light: #ababb3;
 
   --link-primary: #c5d1ff;
   --link-secondary: #fff;

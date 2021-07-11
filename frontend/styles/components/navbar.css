@@ -3,10 +3,10 @@
 
   padding-top: var(--spacing-4);
   padding-bottom: var(--spacing-4);
-  background: var(--background-secondary);
   margin-bottom: var(--spacing-6);
 
-  background: linear-gradient(123deg, #2E99B0 0%, #2E99B0 45%, #1F2041 45%, #1F2041 100%);
+  background: var(--background-tertiary);
+  background: linear-gradient(123deg, var(--background-secondary) 0%, var(--background-secondary) 45%, var(--background-tertiary) 45%, var(--background-tertiary) 100%);
 }
 
 .navbar__inner {
@@ -22,11 +22,14 @@
 }
 
 .navbar a {
-  /*text-gray-900 dark:text-gray-100 text-base no-underline hover:text-gray-400 focus:text-gray-600 font-bold text-xl*/
   font-weight: bold;
   text-decoration: none;
   font-size: var(--font-size-5);
   color: var(--link-secondary);
+
+  &:hover {
+    color: #CCCCCC;
+  }
 }
 
 .navbar__brand {
