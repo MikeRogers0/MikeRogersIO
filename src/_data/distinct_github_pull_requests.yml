@@ -1,17 +1,38 @@
 ---
+- title: 'feat: Fixing Apprasial Set error by downgrading rake to 13.0.3'
+  number: 12
+  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/12
+  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
+  repository: simpleanalytics/rubyonrails-plugin
+  created_at: 2021-07-08 14:30:19 UTC
+  created_on: '2021-07-08'
+- title: 'feat: Increasing timeout and retry interval'
+  number: 90
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/90
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-07-03 16:57:38 UTC
+  created_on: '2021-07-03'
+- title: 'chore: Removing GitHub Actions reference from Readme'
+  number: 46
+  url: https://github.com/Virtual-Coffee/bot-meetingplace-events/pull/46
+  repository_url: https://www.github.com/Virtual-Coffee/bot-meetingplace-events
+  repository: Virtual-Coffee/bot-meetingplace-events
+  created_at: 2021-06-27 15:54:33 UTC
+  created_on: '2021-06-27'
+- title: 'feat: Increase node-sass dependency to ^6'
+  number: 74
+  url: https://github.com/stjudecloud/theme/pull/74
+  repository_url: https://www.github.com/stjudecloud/theme
+  repository: stjudecloud/theme
+  created_at: 2021-06-23 18:35:29 UTC
+  created_on: '2021-06-23'
 - title: Using master branch to build GitHub Site
   number: 5
   url: https://github.com/MikeRogers0/MikeRogers0/pull/5
   repository_url: https://www.github.com/MikeRogers0/MikeRogers0
   repository: MikeRogers0/MikeRogers0
   created_at: 2021-06-19 17:01:47 UTC
-  created_on: '2021-06-19'
-- title: 'refactor: Additional wins for the Dockerfile'
-  number: 88
-  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/88
-  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
-  repository: Ruby-Starter-Kits/Docker-Rails-Generator
-  created_at: 2021-06-19 16:03:52 UTC
   created_on: '2021-06-19'
 - title: Removing MikeRogers0 from funding list
   number: 2
@@ -55,13 +76,6 @@
   repository: TypoCI/spellcheck-action
   created_at: 2021-04-28 12:07:46 UTC
   created_on: '2021-04-28'
-- title: Adding new settings missed in 0.1.0
-  number: 11
-  url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/11
-  repository_url: https://www.github.com/simpleanalytics/rubyonrails-plugin
-  repository: simpleanalytics/rubyonrails-plugin
-  created_at: 2021-04-24 16:46:58 UTC
-  created_on: '2021-04-24'
 - title: Going through seeding talk for Zoom
   number: 5
   url: https://github.com/MikeRogers0/Talks/pull/5
