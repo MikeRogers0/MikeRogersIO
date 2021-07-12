@@ -1,18 +1,14 @@
-<div class="my-24">
-  <h2 class="h1 text-center">
+<div class="jumbotron">
+  <h2 class="h1">
     Projects
   </h2>
 
-  <div class="my-6 grid gap-12 lg:grid-cols-3">
+  <div class="projects--list">
 
     {% for project in site.data.projects %}
       {% if project.featured %}
         {% render "projects/_project" project: project %}
       {% endif %}
     {% endfor %}
-  </div>
-
-  <div class="text-center">
-    <a href="/projects" class="btn btn--primary">See all Projects</a>
   </div>
 </div>

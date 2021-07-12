@@ -1,0 +1,14 @@
+.post-thumbnail {
+  margin-bottom: var(--spacing-6);
+}
+
+.post-thumbnail__title {
+  margin-bottom: var(--spacing-1);
+}
+
+.post-thumbnail__datetime {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: var(--font-size-2);
+  color: var(--text-muted);
+}

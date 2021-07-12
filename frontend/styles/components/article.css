@@ -11,7 +11,7 @@
     font-size: .875rem;
   }
 
-  p > code {
+  p > code, li > code {
     color: #d61f69;
     font-weight: 400;
   }

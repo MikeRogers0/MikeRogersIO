@@ -1,14 +1,14 @@
-<div class="mb-3 border-b border-gray-subtle">
-  <h2 class="mb-1 h3">
+<div class="post-thumbnail">
+  <h3 class="post-thumbnail__title">
     <a href="{{ post.url }}">
       {{ post.title }}
     </a>
-  </h2>
+  </h3>
 
-  <p class="text-sm text-gray-muted">
+  <p class="post-thumbnail__datetime">
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">
       {% assign d = post.date | date: "%-d" %}
-      {{ post.date | date: "%B" }} 
+      {{ post.date | date: "%B" }}
       {% case d %}
       {% when '1' or '21' or '31' %}{{ d }}st,
       {% when '2' or '22' %}{{ d }}nd,

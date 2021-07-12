@@ -12,8 +12,8 @@ title: Ruby Developer
 
   <p>I've specialised in making performant Ruby on Rails applications since 2012.</p>
 
-  <div>
-    <a href="mailto:me+site@mikerogers.io?subject=Work%20with%20You" class="btn btn--primary">Contact Me via Email</a>
+  <div class="jumbotron__action">
+    <a href="mailto:me+site@mikerogers.io?subject=Work%20with%20You" class="btn">Contact Me via Email</a>
   </div>
 </div>
 
@@ -42,13 +42,10 @@ title: Ruby Developer
 
 {% render "index/projects" site: site %}
 
-<div class="my-12">
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
-    <div class="col-span-1">
-      {% render "index/posts" posts: site.posts %}
-    </div>
-    <div class="col-span-1">
-      {% render "index/pull_requests" pull_requests: site.data.distinct_github_pull_requests %}
-    </div>
-  </div>
+<div class="jumbotron">
+  {% render "index/posts" posts: site.posts %}
+</div>
+
+<div class="jumbotron">
+  {% render "index/pull_requests" pull_requests: site.data.distinct_github_pull_requests %}
 </div>

@@ -1,17 +1,18 @@
-.embed-responsive {
-}
-
 .embed-responsive--16by9 {
-  @apply w-full my-4;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .embed-responsive--item {
   width: 360px;
   height: 200px;
-  @apply max-w-full mx-auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@screen md {
+@media (--viewport-md) {
   .embed-responsive--item {
     width: 720px;
     height: 400px;

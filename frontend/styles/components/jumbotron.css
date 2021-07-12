@@ -2,13 +2,26 @@
   padding-top: var(--spacing-6);
   padding-bottom: var(--spacing-7);
   margin-bottom: var(--spacing-7);
+
+  h2 {
+    text-align: center;
+  }
 }
 
 .jumbotron--centered {
   text-align: center;
 }
 
+.jumbotron__action {
+  margin-top: var(--spacing-12);
+  text-align: center;
+}
+
 .jumbotron--xl {
+  h1 {
+    font-size: var(--font-size-8);
+  }
+
   p {
     font-size: var(--font-size-5);
   }

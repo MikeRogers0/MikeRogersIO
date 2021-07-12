@@ -8,12 +8,17 @@
   background-color: var(--background-secondary);
   color: var(--text-primary);
   text-decoration: none;
+  position: relative;
+  transition: transform .1s ease-in-out, filter .1s ease-in-out;
+  filter: drop-shadow(0px 0px 0px var(--background-tertiary));
 
   &:active, &:focus {
+    background-color: var(--background-secondary--darken);
     @mixin shadow;
   }
 
   &:hover {
-    background-color: var(--background-secondary--darken);
+    filter: drop-shadow(5px 5px 0px var(--background-tertiary));
+    transform: translate(3px,-3px);
   }
 }
