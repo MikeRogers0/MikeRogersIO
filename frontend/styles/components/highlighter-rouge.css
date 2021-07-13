@@ -7,5 +7,10 @@
  word-wrap: normal;
  overflow-wrap: normal;
  word-break: normal;
- overflow-x: scroll
+ overflow-x: scroll;
+ background: #00000F;
+}
+
+.highlight .c1 {
+  color: #a2a096;
 }
