@@ -1,0 +1,38 @@
+.navbar {
+  @mixin shadow;
+
+  padding-top: var(--spacing-4);
+  padding-bottom: var(--spacing-4);
+  margin-bottom: var(--spacing-6);
+
+  background: var(--background-tertiary);
+  background: linear-gradient(123deg, var(--background-secondary) 0%, var(--background-secondary) 50%, var(--background-tertiary) 50%, var(--background-tertiary) 100%);
+}
+
+.navbar__inner {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar__social-icons {
+  @mixin list-inline;
+  margin: 0;
+}
+
+.navbar a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: var(--font-size-5);
+  color: var(--link-secondary);
+
+  &:hover {
+    color: #CCCCCC;
+  }
+}
+
+.navbar__brand {
+  display: inline;
+  vertical-align: middle;
+}

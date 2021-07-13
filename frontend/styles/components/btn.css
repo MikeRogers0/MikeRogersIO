@@ -1,0 +1,32 @@
+.btn {
+  border-radius: var(--border-radius-1);
+  display: inline-block;
+  line-height: var(--line-height-1);
+  padding: var(--spacing-3);
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
+  background-color: var(--background-secondary);
+  color: var(--text-primary);
+  text-decoration: none;
+  position: relative;
+  transition: transform .1s ease-in-out, filter .1s ease-in-out;
+  filter: drop-shadow(0px 0px 0px var(--background-tertiary));
+
+  &:active, &:focus {
+    background-color: var(--background-secondary--darken);
+    @mixin shadow;
+  }
+
+  &:hover {
+    filter: drop-shadow(5px 5px 0px var(--background-tertiary));
+    transform: translate(3px,-3px);
+  }
+}
+
+.btn--image {
+  padding: var(--spacing-1);
+
+  img {
+    border-radius: var(--border-radius-1);
+  }
+}

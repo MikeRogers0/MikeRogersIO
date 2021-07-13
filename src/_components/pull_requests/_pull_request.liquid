@@ -1,11 +1,9 @@
-<div class="mb-3 border-b border-gray-subtle">
-  <h2 class="mb-1 h3">
+<div class="pull_request">
+  <h3>
     <a href="{{ pull_request.url }}" target="_blank" rel="noopener">
       {{ pull_request.title }} (#{{ pull_request.number }})
     </a>
-  </h2>
+  </h3>
 
-  <div class="text-sm text-gray-muted mb-4">
-    {{ pull_request.repository }}
-  </div>
+  <p>{{ pull_request.repository }}</p>
 </div>

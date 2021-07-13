@@ -1,0 +1,8 @@
+.pull_request {
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: var(--font-size-2);
+    color: var(--text-muted);
+  }
+}

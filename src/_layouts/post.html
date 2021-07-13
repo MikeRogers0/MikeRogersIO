@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<article class="container article">
-  <header class="text-center mb-6">
-    <h1 class="mb-1">{{ page.title }}</h1>
-    <p class="text-sm text-gray-muted">
+<article class="article">
+  <header class="article__header">
+    <h1>{{ page.title }}</h1>
+    <p>
       Posted on
       <time  datetime="{{ page.date | date: "%Y-%m-%d" }}">
         {% assign d = page.date | date: "%-d" %}
@@ -23,8 +23,8 @@ layout: default
 
   {{ content }}
 
-  <footer class="text-center text-sm text-gray-muted mt-8 pt-4 border-t border-gray-subtle">
-    <p class="mb-2">Any code samples unless stated otherwise are licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">The MIT License (MIT)</a>.</p>
+  <footer class="article_footer">
+    <p>Any code samples unless stated otherwise are licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">The MIT License (MIT)</a>.</p>
     <p>Share the ♥ <a href="https://www.buymeacoffee.com/MikeRogers0" target="_blank" rel="noopener noreferrer">Buy me a Coffee</a>.</p>
   </footer>
 </article>

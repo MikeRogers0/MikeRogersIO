@@ -4,7 +4,7 @@ const ManifestPlugin = require("webpack-manifest-plugin");
 
 module.exports = {
   entry: "./frontend/javascript/index.js",
-  devtool: (process.env.BRIDGETOWN_ENV === 'production' ? false : "source-map"),
+  devtool: "source-map",
   // Set some or all of these to true if you want more verbose logging:
   stats: {
     modules: false,
@@ -14,14 +14,24 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, "output", "_bridgetown", "static", "js"),
-    filename: (process.env.BRIDGETOWN_ENV === 'production' ? "all.[contenthash].js" : "all.js" ),
+    filename: "all.[contenthash].js",
   },
   resolve: {
     extensions: [".js", ".jsx"],
+    alias: {
+    },
+    modules: [
+      path.resolve(__dirname, 'frontend', 'javascript'),
+      path.resolve(__dirname, 'frontend', 'styles'),
+      path.resolve('./node_modules')
+    ],
+    alias: {
+      bridgetownComponents: path.resolve(__dirname, "src", "_components")
+    }
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: (process.env.BRIDGETOWN_ENV === 'production' ? "../css/all.[contenthash].css" : "../css/all.css" ),
+      filename: "../css/all.[contenthash].css",
     }),
     new ManifestPlugin({
       fileName: path.resolve(__dirname, ".bridgetown-webpack", "manifest.json"),
@@ -48,19 +58,21 @@ module.exports = {
           },
         },
       },
+
       {
         test: /\.(s[ac]|c)ss$/,
         use: [
           MiniCssExtractPlugin.loader,
-          "css-loader",
           {
-            loader: 'postcss-loader',
+            loader: "css-loader",
             options: {
-              ident: 'postcss',
-            },
+              importLoaders: 1
+            }
           },
+          "postcss-loader",
         ],
       },
+
       {
         test: /\.woff2?$|\.ttf$|\.eot$|\.svg$/,
         loader: "file-loader",

@@ -3,17 +3,17 @@ layout: default
 title: Ruby Developer
 ---
 
-<div class="container text-center my-24">
+<div class="jumbotron jumbotron--centered jumbotron--xl">
   <a href="/" rel="me" class="block">
-    <img src="/images/mike-rogers.jpg" alt="Mike Rogers" class="rounded-full mx-auto shadow-lg hover:shadow-md mb-12" width="100" height="100" loading="lazy">
+    <img src="/images/mike-rogers.jpg" alt="Mike coding on his Laptop" class="jumbotron__image" width="100" height="100" loading="lazy">
   </a>
 
-  <h1>I'm <em class="bg-blue-900 text-white rounded px-1 not-italic">Mike Rogers</em>, a Web Developer from London</h1>
+  <h1>I'm <em>Mike Rogers</em>, a Web Developer from London</h1>
 
-  <p class="text-xl">I've specialised in making performant Ruby on Rails applications since 2012.</p>
+  <p>I've specialised in making performant Ruby on Rails applications since 2012.</p>
 
-  <div class="text-center">
-    <a href="mailto:me+site@mikerogers.io?subject=Work%20with%20You" class="btn btn--primary">Contact Me via Email</a>
+  <div class="jumbotron__action">
+    <a href="mailto:me+site@mikerogers.io?subject=Work%20with%20You" class="btn">Contact Me via Email</a>
   </div>
 </div>
 
@@ -42,13 +42,6 @@ title: Ruby Developer
 
 {% render "index/projects" site: site %}
 
-<div class="container my-12">
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
-    <div class="col-span-1">
-      {% render "index/posts" posts: site.posts %}
-    </div>
-    <div class="col-span-1">
-      {% render "index/pull_requests" pull_requests: site.data.distinct_github_pull_requests %}
-    </div>
-  </div>
+<div class="jumbotron">
+  {% render "index/posts" posts: site.posts %}
 </div>

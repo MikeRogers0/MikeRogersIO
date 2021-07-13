@@ -1,0 +1,13 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+canvas, embed, iframe, img, object, svg, video {
+  vertical-align: middle;
+}

@@ -10,24 +10,24 @@ pagination:
   {% render "posts/_post" post: post %}
 {% endfor %}
 
-<nav class="flex items-center justify-between mt-4">
-  <div class="w-0 flex-1 flex">
+<nav class="pagination">
+  <div>
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="btn btn--secondary inline-flex items-center text-sm">
+      <a href="{{ paginator.previous_page_path }}" class="btn">
         Previous Page
       </a>
     {% endif %}
   </div>
 
-  <div class="hidden md:flex">
-    <div class="px-4 inline-flex items-center text-sm text-gray-muted">
+  <div class="pagination__page-count">
+    <div>
      Page {{ paginator.page }} of {{ paginator.total_pages }}
     </div>
   </div>
 
-  <div class="w-0 flex-1 flex justify-end">
+  <div class="justify-end">
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="btn btn--secondary inline-flex items-center text-sm">
+      <a href="{{ paginator.next_page_path }}" class="btn">
         Next Page
       </a>
     {% endif %}

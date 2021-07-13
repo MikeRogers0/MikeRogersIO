@@ -1,0 +1,15 @@
+.pagination {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-top: var(--spacing-2);
+  font-size: var(--font-size-2);
+}
+
+.pagination__page-count {
+  display: none;
+
+  @media(--viewport-lg) {
+    display: flex;
+  }
+}

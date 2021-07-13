@@ -1,24 +1,30 @@
-<div class="shadow bg-white dark:bg-cool-gray-900 mb-6">
-  <nav class="container py-4 flex flex-wrap items-center justify-between">
+<div class="navbar">
+  <nav class="container navbar__inner">
     <div>
-      <a href="/" class="text-gray-900 dark:text-gray-100 text-base no-underline hover:text-gray-400 focus:text-gray-600 font-bold text-xl" rel="me">
+      <a href="/" rel="me">
         {% svg /images/prompt.svg width: 24 %}
         Mike Rogers
       </a>
     </div>
-    <div>
-      <a href="https://github.com/MikeRogers0" class="text-gray-800 dark:text-gray-100 hover:text-gray-400 focus:text-gray-600 inline-block mr-6" target="_blank" rel="noopener me">
-        <span class="sr-only">Check me out on GitHub</span>
-        {% svg /images/brand-github.svg width=30  %}
-      </a>
-      <a href="https://twitter.com/mikerogers0" class="text-gray-800 dark:text-gray-100 hover:text-gray-400 focus:text-gray-600 inline-block mr-6" target="_blank" rel="noopener me">
-        <span class="sr-only">Follow me on Twitter</span>
-        {% svg /images/brand-twitter.svg width=30 %}
-      </a>
-      <a href="https://www.youtube.com/c/MikeRogers0" class="text-gray-800 dark:text-gray-100 hover:text-gray-400 focus:text-gray-600 inline-block" target="_blank" rel="noopener me">
-        <span class="sr-only">Check me out on YouTube</span>
-        {% svg /images/youtube.svg width=30  %}
-      </a>
-    </div>
+    <ul class="navbar__social-icons">
+      <li>
+        <a href="https://github.com/MikeRogers0" target="_blank" rel="noopener me">
+          <span class="sr-only">Check me out on GitHub</span>
+          {% svg /images/brand-github.svg width=30  %}
+        </a>
+        <li>
+        </li>
+        <a href="https://twitter.com/mikerogers0" target="_blank" rel="noopener me">
+          <span class="sr-only">Follow me on Twitter</span>
+          {% svg /images/brand-twitter.svg width=30 %}
+        </a>
+        <li>
+        </li>
+        <a href="https://www.youtube.com/c/MikeRogers0" target="_blank" rel="noopener me">
+          <span class="sr-only">Check me out on YouTube</span>
+          {% svg /images/youtube.svg width=30  %}
+        </a>
+      </li>
+    </ul>
   </nav>
 </div>

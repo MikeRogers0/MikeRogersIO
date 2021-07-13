@@ -1,0 +1,42 @@
+.article {
+  img {
+    @mixin shadow;
+
+    margin: var(--spacing-4) auto;
+    max-width: 80%;
+    display: block;
+  }
+
+  code {
+    font-size: .875rem;
+  }
+
+  p > code, li > code {
+    color: #a6e22e;
+    font-weight: 400;
+  }
+}
+
+.article__header {
+  text-align: center;
+  margin-bottom: var(--spacing-6);
+
+  h1  {
+    margin-bottom: var(--spacing-1);
+  }
+
+  p {
+    font-size: var(--font-size-2);
+    color: var(--text-muted);
+  }
+}
+
+
+.article_footer {
+  text-align: center;
+  font-size: var(--font-size-2);
+  padding-top: var(--spacing-2);
+  border-top: 1px solid var(--border-primary);
+  margin-top: var(--spacing-6);
+  overflow: hidden;
+}

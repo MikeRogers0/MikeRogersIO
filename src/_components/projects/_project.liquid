@@ -1,8 +1,8 @@
-<div class="flex flex-wrap flex-col sm:flex-row lg:flex-col text-center">
-  <a class="mb-4 bg-gray-50 p-1 block mx-auto rounded shadow-lg hover:shadow" href="{{ project.url }}" target="_blank" rel="noopener">
-    <div class="bg-black rounded shadow-inner">
-      <img class="block w-auto mx-auto opacity-90 hover:opacity-100" src="/images/{{ project.image_path }}" alt="{{ project.name }} Logo" width="232" height="148" loading="lazy">
+<div class="project">
+  <a href="{{ project.url }}" target="_blank" rel="noopener" class="btn btn--image">
+    <div>
+      <img src="/images/{{ project.image_path }}" alt="{{ project.name }} Logo" width="232" height="148" loading="lazy">
     </div>
   </a>
-  <p class="text-muted text-sm text-center w-full">{{ project.description }}</p>
+  <p>{{ project.description }}</p>
 </div>
