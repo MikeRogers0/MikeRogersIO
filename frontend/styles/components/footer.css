@@ -4,4 +4,8 @@
   overflow: hidden;
   font-size: var(--font-size-2);
   text-align: center;
+
+  ul {
+    margin-top: var(--spacing-6);
+  }
 }
