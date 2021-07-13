@@ -22,3 +22,11 @@
     transform: translate(3px,-3px);
   }
 }
+
+.btn--image {
+  padding: var(--spacing-1);
+
+  img {
+    border-radius: var(--border-radius-1);
+  }
+}
