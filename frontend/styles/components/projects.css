@@ -1,4 +1,4 @@
-.projects--list {
+.projects--thumbnails {
   display: grid;
   grid-template-columns: repeat(1,minmax(0,1fr));
   grid-gap: var(--spacing-6);
@@ -9,8 +9,14 @@
     gap: var(--spacing-12);
     grid-template-columns: repeat(3,minmax(0,1fr));
   }
+
+  .project {
+    text-align: center;
+  }
 }
 
-.project {
-  text-align: center;
+.projects--list {
+  .project {
+    margin-bottom: var(--spacing-6);
+  }
 }
