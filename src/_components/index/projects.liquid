@@ -5,7 +5,7 @@
 
   <div class="projects--thumbnails">
 
-    {% for project in site.data.projects %}
+    {% for project in site.projects %}
       {% if project.featured %}
         {% render "projects/_project" project: project %}
       {% endif %}
