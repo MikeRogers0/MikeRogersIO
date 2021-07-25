@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<!--
+https://brian-miller.webflow.io/project/vestibulum-turpis
+https://tara-portfolio.webflow.io/portfolio/consequuntur-id-reprehenderit-non
+-->
+
+<article class="project">
+  <header class="project__header">
+    <h1>{{ page.title }}</h1>
+
+    <p class="lead">{{ page.description }}</p>
+
+    <ul>
+      {% for stat in page.stats %}
+        <li>{{ stat[0] }}: {{ stat[1] }}</li>
+      {% endfor %}
+    </ul>
+
+    <div>
+      <a href="#" class="btn btn--border">View Live Project</a>
+      <a href="#" class="btn btn--border">View Source Code</a>
+    </div>
+
+  </header>
+
+  {{ content }}
+</article>
