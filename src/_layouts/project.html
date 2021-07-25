@@ -15,16 +15,20 @@ https://tara-portfolio.webflow.io/portfolio/consequuntur-id-reprehenderit-non
 
     <ul>
       {% for stat in page.stats %}
-        <li>{{ stat[0] }}: {{ stat[1] }}</li>
+        <li><strong>{{ stat[0] }}:</strong> {{ stat[1] }}</li>
       {% endfor %}
     </ul>
 
-    <div>
-      <a href="#" class="btn btn--border">View Live Project</a>
-      <a href="#" class="btn btn--border">View Source Code</a>
-    </div>
+    <ul>
+      <li><a href="#" class="btn btn--border">View Live Project</a></li>
+      <li><a href="#" class="btn btn--border">View Source Code</a></li>
+    </ul>
 
   </header>
+
+  <aside class="project__preview">
+    <img src="/images/{{ page.image_path }}" alt="{{ page.title }} Logo" width="232" height="148" loading="lazy">
+  </aside>
 
   {{ content }}
 </article>
