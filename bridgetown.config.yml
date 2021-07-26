@@ -32,6 +32,8 @@ pagination:
 collections:
   projects:
     output: true
+  videos:
+    output: true
 
 svg:
   optimize: true

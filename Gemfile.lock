@@ -141,6 +141,7 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
+  activesupport (~> 6.1)
   bridgetown
   bridgetown-feed
   bridgetown-inline-svg
@@ -152,4 +153,4 @@ DEPENDENCIES
   rubocop
 
 BUNDLED WITH
-   2.2.14
+   2.2.15

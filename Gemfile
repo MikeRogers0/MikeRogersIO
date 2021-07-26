@@ -29,3 +29,5 @@ group :bridgetown_plugins do
   gem "bridgetown-minify-html" #, github: 'MikeRogers0/bridgetown-minify-html'
   gem "bridgetown-inline-svg"
 end
+
+gem "activesupport", "~> 6.1"
