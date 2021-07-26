@@ -2,33 +2,27 @@
 layout: default
 ---
 
-<!--
-https://brian-miller.webflow.io/project/vestibulum-turpis
-https://tara-portfolio.webflow.io/portfolio/consequuntur-id-reprehenderit-non
--->
+<article class="project project--show">
+  <h1>{{ page.title }}</h1>
 
-<article class="project">
-  <header class="project__header">
-    <h1>{{ page.title }}</h1>
+  <div class="project__summary">
+    <section>
+      {{ content }}
+    </section>
 
-    <p class="lead">{{ page.description }}</p>
-
-    <ul>
-      {% for stat in page.stats %}
-        <li><strong>{{ stat[0] }}:</strong> {{ stat[1] }}</li>
-      {% endfor %}
-    </ul>
-
-    <ul>
-      <li><a href="#" class="btn btn--border">View Live Project</a></li>
-      <li><a href="#" class="btn btn--border">View Source Code</a></li>
-    </ul>
-
-  </header>
-
-  <aside class="project__preview">
-    <img src="/images/{{ page.image_path }}" alt="{{ page.title }} Logo" width="232" height="148" loading="lazy">
-  </aside>
-
-  {{ content }}
+    <aside>
+      <ul class="list-unstyled">
+        {% for stat in page.stats %}
+          <li><strong>{{ stat[0] }}</strong> <br />{{ stat[1] }}</li>
+        {% endfor %}
+        <li><strong>Links</strong>
+          <ul class="project__links">
+            {% for link in page.links %}
+              <li><a href="{{ link[1] }}" target="_blank" rel="noopener">{{ link[0] }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+    </aside>
+  </div>
 </article>

@@ -1,13 +1,8 @@
 <div class="project">
-  <a href="{{ project.url }}" target="_blank" rel="noopener" class="btn btn--image">
+  <a href="{{ project.live_url }}" target="_blank" rel="noopener" class="btn btn--image">
     <div>
       <img src="/images/{{ project.image_path }}" alt="{{ project.title }} Logo" width="232" height="148" loading="lazy">
     </div>
   </a>
   <p>{{ project.description }}</p>
-
-  <div>
-    <a href="#" class="btn btn--border">View Source</a>
-    <a href="{{ project.url }}" class="btn btn--border">View Write Up</a>
-  </div>
 </div>

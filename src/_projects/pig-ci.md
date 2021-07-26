@@ -1,17 +1,18 @@
 ---
-layout: post
+layout: project
 title: PigCI
 description: PigCI is a GitHub integration that monitors memory usage in CI to help spot memory leaks.
 
-datetime: '2019-08-01T10:00:00+00:00'
 featured: true
 image_path: pig-ci.png
-url: https://pigci.com/
-source_url: https://github.com/PigCI/pig-ci-rails
+live_url: https://pigci.com/
 date: 1/8/2019
 stats:
   "Launched": Aug 1st, 2019
   "Stack": Heroku, Ruby on Rails, Bootstrap, GitHub API, RSpec
+links:
+  "Live Preview": https://pigci.com/
+  "Source Code": https://github.com/PigCI/pig-ci-rails
 ---
 
-Hello World
+PigCI is a GitHub integration that monitors memory usage in CI to help spot memory leaks.
