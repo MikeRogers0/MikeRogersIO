@@ -2,8 +2,9 @@
 layout: video
 title: ngrok in 60 seconds
 id: dfMdLGZLXSg
-published_at: '2021-07-13T02:46:18+00:00'
----Ngrok is a way to open a port on your local machine up to the world wide web.
+published_at: '2021-07-13T02:44:50Z'
+---
+Ngrok is a way to open a port on your local machine up to the world wide web.
 
 # Sources
 

@@ -2,8 +2,9 @@
 layout: video
 title: Aggregating Failures in RSpec
 id: 10jBIa244iI
-published_at: '2021-03-10T13:14:26+00:00'
----RSpec has a cool method & metadata option for running specs, even after an exception has failed.
+published_at: '2021-03-10T12:58:11Z'
+---
+RSpec has a cool method & metadata option for running specs, even after an exception has failed.
 
 It's super handy for when you have big RSpec tests with lots going on & the extra information would help debug an issue.
 

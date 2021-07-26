@@ -2,8 +2,9 @@
 layout: video
 title: Introduction to Docker-Compose (For Ruby on Rails)
 id: VvLYIMOlM3Y
-published_at: '2021-04-03T19:41:14+00:00'
----Lets dive into how to use Docker-Compose to orchestrate a Ruby on Rails application.
+published_at: '2021-04-03T19:33:56Z'
+---
+Lets dive into how to use Docker-Compose to orchestrate a Ruby on Rails application.
 
 # Sources
 

@@ -2,8 +2,9 @@
 layout: video
 title: Environment Variables & Settings Objects in Ruby
 id: PeUR4OhjeCc
-published_at: '2021-06-14T03:08:17+00:00'
----ENV's (Environment Variables) are a fantastic way to pass API credentials to your application without storing them in version control.
+published_at: '2021-06-14T03:00:44Z'
+---
+ENV's (Environment Variables) are a fantastic way to pass API credentials to your application without storing them in version control.
 
 In this episode of quickly explain how an ENV works, how to add a fallback & an awesome approach to managing them across your application.
 

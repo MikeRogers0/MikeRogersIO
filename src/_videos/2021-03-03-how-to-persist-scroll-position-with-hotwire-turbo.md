@@ -2,8 +2,9 @@
 layout: video
 title: How to Persist Scroll Position with Hotwire Turbo
 id: yRH6ezEAfF8
-published_at: '2021-03-03T17:21:15+00:00'
----I hate it when I click a link in a sidebar, then you loose your place. With Hotwire Turbo you can pretty easily persist the scroll position of an element between page loads.
+published_at: '2021-03-03T16:55:54Z'
+---
+I hate it when I click a link in a sidebar, then you loose your place. With Hotwire Turbo you can pretty easily persist the scroll position of an element between page loads.
 
 In this tutorial I show you how to look into the Hotwire Turbo event cycle to persist scroll positions of elements on your page.
 

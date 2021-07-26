@@ -2,8 +2,9 @@
 layout: video
 title: An Introduction to Docker for Ruby Developers
 id: JTQpEXKoLUg
-published_at: '2021-03-20T16:11:05+00:00'
----I'm a big fan of Docker, I think it can make getting starting using Ruby so much easier
+published_at: '2021-03-20T15:59:17Z'
+---
+I'm a big fan of Docker, I think it can make getting starting using Ruby so much easier
 
 In this video, I'm going to cover the basics of how to install & use Docker with Ruby.
 

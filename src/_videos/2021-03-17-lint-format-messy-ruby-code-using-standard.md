@@ -2,8 +2,9 @@
 layout: video
 title: Lint & Format Messy Ruby Code Using Standard
 id: zQ4BiObOf2U
-published_at: '2021-03-17T16:03:27+00:00'
----You can use the Standard gem to make ruby code within a project super consistent. I use it on all my projects, it allows me to focus on coding & not having to worry about if I'm formatting my code correctly.
+published_at: '2021-03-17T15:34:20Z'
+---
+You can use the Standard gem to make ruby code within a project super consistent. I use it on all my projects, it allows me to focus on coding & not having to worry about if I'm formatting my code correctly.
 
 It recently reached V1.0, so it's a really good time to start using it.
 
