@@ -1,0 +1,28 @@
+.video__list {
+  display: grid;
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  grid-gap: var(--spacing-4);
+  gap: var(--spacing-4);
+
+  @media (--viewport-md) {
+    grid-gap: var(--spacing-12);
+    gap: var(--spacing-12);
+    grid-template-columns: repeat(3,minmax(0,1fr));
+  }
+}
+
+.video--thumbnail {
+  img {
+    @mixin shadow;
+
+    margin: var(--spacing-4) auto;
+    max-width: 80%;
+    height: auto;
+    display: block;
+  }
+
+  .video--thumbnail__title {
+    font-size: var(--font-size-4);
+    text-align: center;
+  }
+}

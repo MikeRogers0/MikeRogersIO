@@ -5,11 +5,14 @@ permalink: /videos/
 pagination:
   enabled: true
   collection: videos
+  per_page: 12
 ---
 
-{% for video in paginator.documents %}
-  {% render "videos/_video" video: video %}
-{% endfor %}
+<div class="video__list">
+  {% for video in paginator.documents %}
+    {% render "videos/_video" video: video %}
+  {% endfor %}
+</div>
 
 <nav class="pagination">
   <div>
