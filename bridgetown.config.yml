@@ -29,6 +29,10 @@ timezone: Other/UTC
 pagination:
   enabled: true
 
+collections:
+  projects:
+    output: true
+
 svg:
   optimize: true
 

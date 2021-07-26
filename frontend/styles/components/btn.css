@@ -30,3 +30,12 @@
     border-radius: var(--border-radius-1);
   }
 }
+
+.btn--border {
+  border: 3px solid var(--background-secondary);
+  background-color: transparent;
+
+  &:hover {
+    background-color: var(--background-tertiary);
+  }
+}

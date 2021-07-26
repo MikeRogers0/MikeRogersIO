@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article class="project project--show">
+  <h1>{{ page.title }}</h1>
+
+  <div class="project__summary">
+    <section>
+      {{ content }}
+    </section>
+
+    <aside>
+      <ul class="list-unstyled">
+        {% for stat in page.stats %}
+          <li><strong>{{ stat[0] }}</strong> <br />{{ stat[1] }}</li>
+        {% endfor %}
+        <li><strong>Links</strong>
+          <ul class="project__links">
+            {% for link in page.links %}
+              <li><a href="{{ link[1] }}" target="_blank" rel="noopener">{{ link[0] }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+    </aside>
+  </div>
+</article>
