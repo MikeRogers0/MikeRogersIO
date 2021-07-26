@@ -1,7 +1,7 @@
 ---
 layout: video
 title: simple_analytics_rails - Demo
-id: 0JigdrZiF3Y
+youtube_id: 0JigdrZiF3Y
 published_at: '2021-04-09T20:25:09Z'
 ---
 SAMPLE DESCRIPTION

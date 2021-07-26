@@ -1,7 +1,7 @@
 ---
 layout: video
 title: How to connect to a dyno on Heroku
-id: oIyetK1XmxA
+youtube_id: oIyetK1XmxA
 published_at: '2020-11-05T15:05:12Z'
 ---
 When you connect to Heroku, it'll spin up a dyno for your current session. So you can run a CPU intensive task & it won't crash your web app. It also has an ephemeral file system, so any changes will not be persisted.

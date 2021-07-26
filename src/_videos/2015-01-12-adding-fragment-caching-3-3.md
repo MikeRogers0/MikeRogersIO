@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Adding fragment caching (3/3)
-id: WaDg7NcivrY
+youtube_id: WaDg7NcivrY
 published_at: '2015-01-12T15:40:29Z'
 ---
 A quick run though on how to use fragment caching in rails. 

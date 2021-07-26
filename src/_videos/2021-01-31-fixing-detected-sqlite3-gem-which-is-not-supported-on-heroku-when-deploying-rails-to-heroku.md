@@ -2,7 +2,7 @@
 layout: video
 title: Fixing "Detected sqlite3 gem which is not supported on Heroku" when deploying
   Rails to Heroku
-id: AA6GZBPeveU
+youtube_id: AA6GZBPeveU
 published_at: '2021-01-31T14:54:02Z'
 ---
 When I first deployed Rails to Heroku I was greeted with the error:

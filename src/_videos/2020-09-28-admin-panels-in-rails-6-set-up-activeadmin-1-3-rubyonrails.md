@@ -1,7 +1,7 @@
 ---
 layout: video
 title: 'Admin Panels In Rails 6 - Set up ActiveAdmin (1/3) #RubyOnRails'
-id: QBzOZxRVfs8
+youtube_id: QBzOZxRVfs8
 published_at: '2020-09-28T17:45:47Z'
 ---
 Part 2: https://www.youtube.com/watch?v=5tCWXSaTfUI

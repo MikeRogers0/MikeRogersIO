@@ -1,7 +1,7 @@
 ---
 layout: video
 title: How To Setup Sidekiq on Heroku
-id: 5wwhmgGZJbI
+youtube_id: 5wwhmgGZJbI
 published_at: '2020-11-03T20:42:30Z'
 ---
 Sidekiq is the most popular choice for running background jobs in Rails. Here is how to set it up on Heroku & get an awesome Web UI to monitor it.

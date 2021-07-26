@@ -1,7 +1,7 @@
 ---
 layout: video
 title: 'Admin Panels In Rails 6 - Decorators & Custom Actions (3/3) #RubyOnRails'
-id: ZuF6M3s-hq0
+youtube_id: ZuF6M3s-hq0
 published_at: '2020-09-28T19:17:11Z'
 ---
 Part 1: https://www.youtube.com/watch?v=QBzOZxRVfs8

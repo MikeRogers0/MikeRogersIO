@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Sdoc - Keyboard Navigation
-id: RbXg8BLSDpY
+youtube_id: RbXg8BLSDpY
 published_at: '2021-05-20T01:32:24Z'
 ---
 SAMPLE DESCRIPTION

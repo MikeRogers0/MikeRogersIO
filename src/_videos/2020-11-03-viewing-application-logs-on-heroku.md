@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Viewing Application Logs on Heroku
-id: 9AeVbICHllA
+youtube_id: 9AeVbICHllA
 published_at: '2020-11-03T11:56:42Z'
 ---
 This video quickly shows you how to view all your application logs on Heroku, I'm also going to explain how to setup Papertrail & give you a quick demo of it. 

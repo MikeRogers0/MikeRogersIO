@@ -1,7 +1,7 @@
 ---
 layout: video
 title: How to Review Emails with ActionMailer::Preview (Ruby on Rails 6)
-id: 1HEClpa8A3M
+youtube_id: 1HEClpa8A3M
 published_at: '2021-01-20T16:12:33Z'
 ---
 ActionMailer::Preview is such an under utilised feature of most of the Ruby on Rails projects I've worked on. It allows you to build mailers within your browser & it comes built in.

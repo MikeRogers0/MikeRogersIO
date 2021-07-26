@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Resize Images with Active Storage in Rails
-id: pLCYFVd0tFo
+youtube_id: pLCYFVd0tFo
 published_at: '2021-01-06T14:18:23Z'
 ---
 Active Storage is built into Ruby on Rails and is a fantastic way to resize images. In this episode we'll go through how to set it up and how to resize images on the fly.

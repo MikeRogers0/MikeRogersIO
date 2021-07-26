@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Adding twitter feed to homepage (1/3)
-id: uAx2Pu0vIwE
+youtube_id: uAx2Pu0vIwE
 published_at: '2015-01-12T15:42:35Z'
 ---
 How to add a basic twitter feed to a site with Ruby on Rails.

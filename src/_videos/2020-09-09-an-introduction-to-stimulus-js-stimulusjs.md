@@ -1,7 +1,7 @@
 ---
 layout: video
 title: 'An Introduction To Stimulus.js #StimulusJS'
-id: Pp4_uNhGdmM
+youtube_id: Pp4_uNhGdmM
 published_at: '2020-09-09T19:08:48Z'
 ---
 What is Stimulus.js ( https://stimulusjs.org )? We'll it's an awesome JavaScript framework from Basecamp which is pretty nifty!

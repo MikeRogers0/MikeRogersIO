@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Print CSS Tutorial
-id: 2HHgw0-o0bI
+youtube_id: 2HHgw0-o0bI
 published_at: '2009-05-21T15:50:07Z'
 ---
 In this tutorial i show you how to make print CSS really quickly. 

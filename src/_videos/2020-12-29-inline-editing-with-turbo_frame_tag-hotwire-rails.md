@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Inline Editing With turbo_frame_tag (hotwire-rails)
-id: e2GOdfUsc9U
+youtube_id: e2GOdfUsc9U
 published_at: '2020-12-29T17:01:32Z'
 ---
 In this tutorial I'm going to demo how to make inline editable content with only a few lines of code, without touching JavaScript. I'm going to use turbo_frame_tag ( https://github.com/hotwired/turbo-rails/blob/main/app/helpers/turbo/frames_helper.rb ) which comes from hotwire-rails ( https://rubygems.org/gems/hotwire-rails ).

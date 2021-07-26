@@ -1,7 +1,7 @@
 ---
 layout: video
 title: 'Seeding Data In Ruby On Rails #RubyOnRails'
-id: _HSudwhdAR8
+youtube_id: _HSudwhdAR8
 published_at: '2020-09-22T07:39:09Z'
 ---
 Let's go through the basics of Seeds in Ruby on Rails & give you a few examples of how to make awesome ones.

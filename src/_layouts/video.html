@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article class="article">
+  <header class="article__header">
+    <h1>{{ page.title }}</h1>
+    <p>
+      Posted on
+      <time  datetime="{{ page.date | date: "%Y-%m-%d" }}">
+        {% assign d = page.date | date: "%-d" %}
+        {{ page.date | date: "%B" }} 
+        {% case d %}
+          {% when '1' or '21' or '31' %}{{ d }}st,
+          {% when '2' or '22' %}{{ d }}nd,
+          {% when '3' or '23' %}{{ d }}rd,
+          {% else %}{{ d }}th,
+        {% endcase %}
+        {{ page.date | date: "%Y" }}
+      </time>
+    </p>
+  </header>
+
+  {{ content }}
+
+  <footer class="article_footer">
+    <p>Any code samples unless stated otherwise are licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">The MIT License (MIT)</a>.</p>
+    <p>Share the ♥ <a href="https://www.buymeacoffee.com/MikeRogers0" target="_blank" rel="noopener noreferrer">Buy me a Coffee</a>.</p>
+  </footer>
+</article>

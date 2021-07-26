@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Upload Files with Simple File Upload
-id: vQo-sHqO7Z8
+youtube_id: vQo-sHqO7Z8
 published_at: '2021-01-25T17:57:18Z'
 ---
 Allowing users to upload images is kind of a annoying once you start building for the cloud. You'll need to setup AWS to have API keys with just the right permissions and not all clients will want to deal with AWS.

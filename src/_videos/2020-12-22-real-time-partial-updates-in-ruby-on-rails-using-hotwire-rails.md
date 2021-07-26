@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Real-Time Partial Updates in Ruby on Rails using hotwire-rails
-id: MRv4XGu6QkY
+youtube_id: MRv4XGu6QkY
 published_at: '2020-12-22T21:57:06Z'
 ---
 Basecamp just released Hotwire ( https://hotwire.dev/ ), it's a collection of libraries which make creating blazingly fast frontends really simple with Ruby on Rails.

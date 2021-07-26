@@ -1,7 +1,7 @@
 ---
 layout: video
 title: 'Installing Ruby on Rails Using asdf #RubyOnRails'
-id: Ji2jhj7t0bk
+youtube_id: Ji2jhj7t0bk
 published_at: '2020-10-19T14:51:37Z'
 ---
 Actually getting Ruby on Rails up and going is kind of tricky. I've taken to using asdf to install Ruby, which I then use to install Ruby on Rails on my system.

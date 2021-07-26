@@ -1,7 +1,7 @@
 ---
 layout: video
 title: PDF Previews with Rails 6 Active Storage
-id: W_A4wWW3uaU
+youtube_id: W_A4wWW3uaU
 published_at: '2021-01-11T17:04:34Z'
 ---
 You can use the `.preview` method on Active Storage objects (which contain a PDF or videos) to create image previews of the content within the file.

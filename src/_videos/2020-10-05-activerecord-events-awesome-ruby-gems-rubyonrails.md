@@ -1,7 +1,7 @@
 ---
 layout: video
 title: 'ActiveRecord::Events - Awesome Ruby Gems #RubyOnRails'
-id: TIR7YDF3O-4
+youtube_id: TIR7YDF3O-4
 published_at: '2020-10-05T20:20:22Z'
 ---
 ActiveRecord::Events on Github: https://github.com/pienkowb/active_record-events

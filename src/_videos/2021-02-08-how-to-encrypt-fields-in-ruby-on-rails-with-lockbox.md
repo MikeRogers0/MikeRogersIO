@@ -1,7 +1,7 @@
 ---
 layout: video
 title: How To Encrypt Fields in Ruby on Rails with Lockbox
-id: sEOLtIGkDeM
+youtube_id: sEOLtIGkDeM
 published_at: '2021-02-08T16:14:16Z'
 ---
 In this tutorial I'm going to show you how to use the Lockbox gem ( https://github.com/ankane/lockbox ) to encrypt field within your Database. 

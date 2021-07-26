@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Monitoring Exceptions on Heroku (Via Sentry)
-id: VWOwQonc1XE
+youtube_id: VWOwQonc1XE
 published_at: '2020-11-03T15:26:39Z'
 ---
 Tracking Exceptions is super easy with Sentry & Heroku. In this video I'll run you through the setup & show you what it looks like.

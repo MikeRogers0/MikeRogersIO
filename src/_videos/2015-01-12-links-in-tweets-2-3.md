@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Links in tweets (2/3)
-id: 6zZzXcnxBwA
+youtube_id: 6zZzXcnxBwA
 published_at: '2015-01-12T15:52:13Z'
 ---
 A quick run though on how to parse the text twitter returns in tweets and turn them into clickable urls.

@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Deploying Ruby on Rails to Heroku
-id: ONsUBM10ypg
+youtube_id: ONsUBM10ypg
 published_at: '2020-11-02T19:40:15Z'
 ---
 Let's deploy a Ruby on Rails Application to Heroku! I'm going to cover how to set up your application so it'll deploy every time you push to GitHub and we'll run migrations on deploy automatically.

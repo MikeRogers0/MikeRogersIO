@@ -1,7 +1,7 @@
 ---
 layout: video
 title: 'Admin Panels In Rails 6 - Resources, Filters & Scopes (2/3) #RubyOnRails'
-id: 5tCWXSaTfUI
+youtube_id: 5tCWXSaTfUI
 published_at: '2020-09-28T18:28:06Z'
 ---
 Part 1: https://www.youtube.com/watch?v=QBzOZxRVfs8

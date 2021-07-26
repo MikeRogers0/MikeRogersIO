@@ -1,7 +1,7 @@
 ---
 layout: video
 title: How To Use Yarn with The Rails Asset Pipeline
-id: niUmTM97z7c
+youtube_id: niUmTM97z7c
 published_at: '2021-02-23T16:07:15Z'
 ---
 Did you know you can use NPM packages in the Ruby on Rails Asset Pipeline without Webpacker? Here is the demo of how to do it :)

@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Offline Rails (2/3) - webpacker-pwa & Workbox
-id: c9slVBXsXyo
+youtube_id: c9slVBXsXyo
 published_at: '2020-11-24T15:07:04Z'
 ---
 Using both webpacker-pwa & Workbox allow us to write our Service Worker using modern JavaScript approaches.

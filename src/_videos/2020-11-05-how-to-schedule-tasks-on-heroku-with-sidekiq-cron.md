@@ -1,7 +1,7 @@
 ---
 layout: video
 title: How to Schedule Tasks on Heroku (with sidekiq-cron)
-id: NDi80eGpBQc
+youtube_id: NDi80eGpBQc
 published_at: '2020-11-05T14:35:33Z'
 ---
 Heroku comes with a Scheduler, which is awesome if you aren't running a worker however if you're already running a worker you should look into using sidekiq-cron to handled you scheduled tasks.

@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Offline Rails (1/3) - The serviceworker-rails gem
-id: EKa6IOBRnHI
+youtube_id: EKa6IOBRnHI
 published_at: '2020-11-24T12:23:14Z'
 ---
 Add a offline fallback to your Ruby on Rails app via the serviceworker-rails gem. It's a great way to get started with using Service Workers & works really nicely with the asset pipeline.

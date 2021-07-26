@@ -1,9 +1,9 @@
 require "yaml"
 
 class Video
-  def initialize(title:, id:, description:, published_at:)
+  def initialize(title:, video_id:, description:, published_at:)
     @title = title
-    @id = id
+    @video_id = video_id
     @description = description
     @published_at = published_at
   end
@@ -13,7 +13,7 @@ class Video
       file.write(YAML.dump({
         "layout" => "video",
         "title" => @title,
-        "id" => @id,
+        "video_id" => @video_id,
         "published_at" => @published_at.iso8601
       }))
       file.write("---\n")

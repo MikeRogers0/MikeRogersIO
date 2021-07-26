@@ -1,7 +1,7 @@
 ---
 layout: video
 title: 'How to Translate your Rails App with I18n #RubyOnRails'
-id: ckUONm7cTyA
+youtube_id: ckUONm7cTyA
 published_at: '2020-10-13T17:19:16Z'
 ---
 Showing your app in multiple languages is a big really fun with Rails! Here's is how to approach it.

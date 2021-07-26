@@ -1,0 +1,23 @@
+<div class="video-thumbnail">
+  <h3 class="video-thumbnail__title">
+    <a href="{{ video.url }}">
+      {{ video.title }}
+    </a>
+  </h3>
+
+  <img src="https://i1.ytimg.com/vi/{{ video.youtube_id }}/hqdefault.jpg" width="480" height="360" alt="video Thumbnail" />
+
+  <p class="video-thumbnail__datetime">
+    <time datetime="{{ video.date | date: "%Y-%m-%d" }}">
+      {% assign d = video.date | date: "%-d" %}
+      {{ video.date | date: "%B" }}
+      {% case d %}
+      {% when '1' or '21' or '31' %}{{ d }}st,
+      {% when '2' or '22' %}{{ d }}nd,
+      {% when '3' or '23' %}{{ d }}rd,
+      {% else %}{{ d }}th,
+      {% endcase %}
+      {{ video.date | date: "%Y" }}
+    </time>
+  </p>
+</div>

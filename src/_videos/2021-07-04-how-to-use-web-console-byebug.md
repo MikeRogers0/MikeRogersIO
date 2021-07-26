@@ -1,7 +1,7 @@
 ---
 layout: video
 title: How to use web-console & byebug
-id: XdWnDHjtNqM
+youtube_id: XdWnDHjtNqM
 published_at: '2021-07-04T17:53:19Z'
 ---
 Both web-console & byebug come by default when you run `rails new`, let's have a quick dive into them.

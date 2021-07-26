@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Ransack - Add a search to Ruby on Rails
-id: RcYCQFSeGvQ
+youtube_id: RcYCQFSeGvQ
 published_at: '2020-12-14T15:37:34Z'
 ---
 Adding a search  to your Ruby on Rails application can be a 5 minute task via the Ransack gem.

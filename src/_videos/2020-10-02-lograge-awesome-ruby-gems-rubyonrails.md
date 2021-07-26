@@ -1,7 +1,7 @@
 ---
 layout: video
 title: 'Lograge - Awesome Ruby Gems #RubyOnRails'
-id: xSv0nTsoEWE
+youtube_id: xSv0nTsoEWE
 published_at: '2020-10-02T10:07:45Z'
 ---
 Lograge on GitHub: https://github.com/roidrage/lograge

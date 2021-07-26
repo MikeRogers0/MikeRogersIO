@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Bypass Facebook's "Like to see the pictures" pages
-id: v7bn4DlLF9E
+youtube_id: v7bn4DlLF9E
 published_at: '2010-04-22T22:21:16Z'
 ---
 How to bypass "Like to see the pictures"pages on Facebook Using Google Chrome.

@@ -1,7 +1,7 @@
 ---
 layout: video
 title: 'Simple Form - Awesome Ruby Gems #RubyOnRails'
-id: NfZk74R2Oi4
+youtube_id: NfZk74R2Oi4
 published_at: '2020-10-10T13:24:20Z'
 ---
 Simple Form on Github: https://github.com/heartcombo/simple_form

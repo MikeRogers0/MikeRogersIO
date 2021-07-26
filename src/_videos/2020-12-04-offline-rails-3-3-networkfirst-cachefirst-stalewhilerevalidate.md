@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Offline Rails (3/3) - NetworkFirst, CacheFirst & StaleWhileRevalidate
-id: iL7erF3t83o
+youtube_id: iL7erF3t83o
 published_at: '2020-12-04T20:57:33Z'
 ---
 Let's go through the strategies for caching your Rails Applications.
