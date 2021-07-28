@@ -47,6 +47,10 @@
 }
 
 .project {
+  img {
+    height: auto;
+  }
+
   @media (--viewport-md) {
     img {
       width: 100%;
