@@ -1,0 +1,39 @@
+---
+layout: page
+title: Videos
+permalink: /videos/
+pagination:
+  enabled: true
+  collection: videos
+  per_page: 12
+---
+
+<div class="video__list">
+  {% for video in paginator.documents %}
+    {% render "videos/_video" video: video %}
+  {% endfor %}
+</div>
+
+<nav class="pagination">
+  <div>
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="btn">
+        Previous Page
+      </a>
+    {% endif %}
+  </div>
+
+  <div class="pagination__page-count">
+    <div>
+     Page {{ paginator.page }} of {{ paginator.total_pages }}
+    </div>
+  </div>
+
+  <div class="justify-end">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="btn">
+        Next Page
+      </a>
+    {% endif %}
+  </div>
+</nav>

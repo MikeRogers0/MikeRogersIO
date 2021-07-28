@@ -32,6 +32,10 @@ pagination:
 collections:
   projects:
     output: true
+  videos:
+    output: true
+    sort_by: date
+    sort_direction: descending
 
 svg:
   optimize: true

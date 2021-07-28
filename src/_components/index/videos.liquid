@@ -1,0 +1,15 @@
+<div class="jumbotron">
+  <h2 class="h1">
+    Videos
+  </h2>
+
+  <div class="video__list">
+    {% for video in site.videos limit: 3 %}
+        {% render "videos/_video" video: video %}
+    {% endfor %}
+  </div>
+
+  <div class="jumbotron__action">
+    <a href="/videos" class="btn btn--primary">See More Videos</a>
+  </div>
+</div>

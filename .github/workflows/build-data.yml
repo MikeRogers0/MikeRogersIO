@@ -22,6 +22,7 @@ jobs:
     - name: Update Data
       run: |
         bundle exec rake update_data:github_pull_requests
+        bundle exec rake update_data:youtube_videos
     - name: Commit files
       run: |
         git config --local user.email "github-actions@example.com"
