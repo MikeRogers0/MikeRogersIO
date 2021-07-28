@@ -45,3 +45,12 @@
     margin-bottom: var(--spacing-2);
   }
 }
+
+.project {
+  @media (--viewport-md) {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

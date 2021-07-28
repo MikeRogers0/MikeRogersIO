@@ -1,11 +1,13 @@
-<h2 class="h1 text-center">
-  Recent Posts
-</h2>
+<div class="jumbotron">
+  <h2 class="h1 text-center">
+    Recent Posts
+  </h2>
 
-{% for post in posts limit: 4 %}
-  {% render "posts/_post" post: post %}
-{% endfor %}
+  {% for post in site.posts limit: 4 %}
+    {% render "posts/_post" post: post %}
+  {% endfor %}
 
-<div class="jumbotron__action">
-  <a href="/posts" class="btn btn--primary">See More Posts</a>
+  <div class="jumbotron__action">
+    <a href="/posts" class="btn btn--primary">See More Posts</a>
+  </div>
 </div>
