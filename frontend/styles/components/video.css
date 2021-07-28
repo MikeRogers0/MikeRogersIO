@@ -1,10 +1,14 @@
 .video__list {
   display: grid;
   grid-template-columns: repeat(1,minmax(0,1fr));
-  grid-gap: var(--spacing-4);
-  gap: var(--spacing-4);
+  grid-gap: var(--spacing-12);
+  gap: var(--spacing-12);
   margin-bottom: var(--spacing-6);
   text-align: center;
+
+  img {
+    height: auto;
+  }
 
   @media (--viewport-md) {
     grid-gap: var(--spacing-12);
