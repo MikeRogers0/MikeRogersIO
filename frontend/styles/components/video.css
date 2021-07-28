@@ -3,6 +3,7 @@
   grid-template-columns: repeat(1,minmax(0,1fr));
   grid-gap: var(--spacing-4);
   gap: var(--spacing-4);
+  margin-bottom: var(--spacing-6);
 
   @media (--viewport-md) {
     grid-gap: var(--spacing-12);
@@ -24,5 +25,6 @@
   .video--thumbnail__title {
     font-size: var(--font-size-4);
     text-align: center;
+    margin-bottom: 0;
   }
 }

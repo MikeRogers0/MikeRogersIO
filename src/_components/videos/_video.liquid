@@ -8,18 +8,4 @@
       {{ video.title }}
     </a>
   </h2>
-
-  <p class="video--thumbnail__datetime">
-    <time datetime="{{ video.date | date: "%Y-%m-%d" }}">
-      {% assign d = video.date | date: "%-d" %}
-      {{ video.date | date: "%B" }}
-      {% case d %}
-      {% when '1' or '21' or '31' %}{{ d }}st,
-      {% when '2' or '22' %}{{ d }}nd,
-      {% when '3' or '23' %}{{ d }}rd,
-      {% else %}{{ d }}th,
-      {% endcase %}
-      {{ video.date | date: "%Y" }}
-    </time>
-  </p>
 </div>
