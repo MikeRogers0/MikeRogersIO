@@ -15,6 +15,14 @@
     color: #a6e22e;
     font-weight: 400;
   }
+
+
+  ul {
+
+    li {
+      margin-bottom: var(--spacing-3);
+    }
+  }
 }
 
 .article__header {
