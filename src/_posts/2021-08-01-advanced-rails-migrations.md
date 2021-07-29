@@ -73,6 +73,17 @@ class CreatePokemons < ActiveRecord::Migration[6.1]
 end
 ```
 
+## Join Tables
+
+```ruby
+class CreateJoinTableForTrainersAndPokemons < ActiveRecord::Migration[6.1]
+  def change
+    create_join_table :pokemons, :trainers, column_options: {foreign_key: true, null: false}, table_name: :join_pokemons_trainers
+    add_index :join_pokemons_trainers, [:pokemon_id, :trainer_id], name: :index_join_pokemons_trainers
+  end
+end
+```
+
 ## Comments:
 
 - explain why a field is like it is
