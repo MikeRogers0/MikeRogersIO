@@ -4,7 +4,9 @@ title: Advanced Ruby on Rails Migrations
 description: I always forget how to write these so off we go.
 ---
 
-In most projects I've worked on, rails wasn't the only thing touching the database. I hate it & want to make it so if someone has direct access to the database it's hard for them to break it.
+The way Ruby on Rails handles migrations is really wonderful, when I compare it to other frameworks Rails always feels the most effortless to maintain.
+
+You can actually add some pretty nifty things at the database level via the Rails Migrations. Mostly I just like to add extra stuff in, so if anyone accessed our database not via our Rails Application the data should remain safe.
 
 ## Using null: false
 
@@ -19,7 +21,7 @@ class CreateUsers < ActiveRecord::Migration[6.1]
 end
 ```
 
-## Unique validations
+## Unique or blank validations
 
 ```ruby
 class AddSpecialPowerToPokemons < ActiveRecord::Migration[6.1]
@@ -111,3 +113,7 @@ class UpdateTypeNameOfPokemon < ActiveRecord::Migration[6.1]
   end
 end
 ```
+
+## Summary
+
+Often I'll add extra constraints to the columns on the database level which are paired with the [Active Model Validations](https://api.rubyonrails.org/classes/ActiveModel/Validations.html), the end result is nice.
