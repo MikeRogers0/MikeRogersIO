@@ -6,12 +6,14 @@ description: I always forget how to write these so off we go.
 
 The way Ruby on Rails handles migrations is really wonderful, when I compare it to other frameworks Rails always feels the most effortless to maintain.
 
-You can actually add some pretty nifty things at the database level via the Rails Migrations. Mostly I just like to add extra stuff in, so if anyone accessed our database not via our Rails Application the data should remain safe.
+You can actually add some pretty nifty things at the database level via the Rails Migrations. Mostly I just like to add extra constraints in, so if anyone accessed our database not via our Rails Application (E.g. someone connected directly to the production database) the data should remain valid.
 
-## Using null: false
+## Requiring a field be present
+
+Using the `null: false` argument, were can tell the database we definitely don't want this field to be nil. I think it'll accept a blank (e.g. "") value.
 
 ```ruby
-class CreateUsers < ActiveRecord::Migration[6.1]
+class CreateTrainers < ActiveRecord::Migration[6.1]
   def change
     create_table :trainers do |t|
       t.string :email, null: false
@@ -23,6 +25,8 @@ end
 
 ## Unique or blank validations
 
+The `unique: true` argument will require the field in the database be unique, but you can also allow the uniqueness rule to only be required when the field is filled in.
+
 ```ruby
 class AddSpecialPowerToPokemons < ActiveRecord::Migration[6.1]
   def change
@@ -32,6 +36,10 @@ end
 ```
 
 ## Check constraints
+
+You can also add more complex rules around data validation using check constraints.
+
+### Require a field when another is present
 
 ```ruby
 class CreatePokemons < ActiveRecord::Migration[6.1]
@@ -49,7 +57,7 @@ class CreatePokemons < ActiveRecord::Migration[6.1]
 end
 ```
 
-## Default Values
+### Field can't be less then zero (with default value)
 
 ```ruby
 class AddLevelToPokemon < ActiveRecord::Migration[6.1]
@@ -82,18 +90,6 @@ class CreateJoinTableForTrainersAndPokemons < ActiveRecord::Migration[6.1]
   def change
     create_join_table :pokemons, :trainers, column_options: {foreign_key: true, null: false}, table_name: :join_pokemons_trainers
     add_index :join_pokemons_trainers, [:pokemon_id, :trainer_id], name: :index_join_pokemons_trainers
-  end
-end
-```
-
-## Comments:
-
-- explain why a field is like it is
-
-```ruby
-class AddCaughtAtPokemon < ActiveRecord::Migration[6.1]
-  def change
-    add_column :pokemons, :caught_at, :datetime, comment: "Something Awesome"
   end
 end
 ```
