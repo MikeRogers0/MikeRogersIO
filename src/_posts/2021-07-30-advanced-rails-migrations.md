@@ -71,7 +71,9 @@ end
 
 ## Adding foreign keys
 
-- rails doesn't add them by default for some reason.
+By default Rails doesn't add foreign keys to relationships, which means it's really easy for other people accessing the database to remove things our model has a value for.
+
+By adding this in, if someone tries to remove a row which still is being used by another row the database will not allow it.
 
 ```ruby
 class CreatePokemons < ActiveRecord::Migration[6.1]
@@ -84,6 +86,8 @@ end
 ```
 
 ## Join Tables
+
+You can speed up your join tables with an index
 
 ```ruby
 class CreateJoinTableForTrainersAndPokemons < ActiveRecord::Migration[6.1]
