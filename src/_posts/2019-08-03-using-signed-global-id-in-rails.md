@@ -15,7 +15,7 @@ person_sgid_to_s = Person.find(1).to_sgid.to_s
 # => "BAhJIh5naWQ6Ly9pZGluYWlkaS9Vc2VyLzM5NTk5BjoGRVQ=--81d7358dd5ee2ca33189bb404592df5e8d11420e"
 # Your app will decode this to: "gid://app/Person/1"
 
-GlobalID::Locator.locate(person_sgid_to_s)
+GlobalID::Locator.locate_signed(person_sgid_to_s)
 # => #<Person:0x007fae94bf6298 @id="1">
 ```
 
@@ -57,8 +57,8 @@ class Webhook::CallsController < ApplicationAPIController
   #  * current_user_sgid - Signed Global ID of the user making the call.
   #  * callable_sgid - Signed Global ID of the object the user is requesting to call.
   def complete
-    user = GlobalID::Locator.locate(params[:current_user_sgid])
-    callable = GlobalID::Locator.locate(params[:callable_sgid])
+    user = GlobalID::Locator.locate_signed(params[:current_user_sgid])
+    callable = GlobalID::Locator.locate_signed(params[:callable_sgid])
 
     if user.can_call?(callable)
       render json: { phone_number: callable.phone_number }
