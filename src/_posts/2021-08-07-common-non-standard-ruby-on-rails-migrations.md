@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Advanced Ruby on Rails Migrations
-description: I've always liked the way Rails handles migrations, here are some best practises I picked up recently.
+title: Common (Non-standard) Ruby on Rails Migrations
+description: I've always liked the way Rails handles migrations, here is a cheat sheet of the ones I do often.
 ---
 
 The way Ruby on Rails handles migrations is really wonderful, when I compare it to other frameworks Rails always feels the most effortless to maintain.
@@ -10,7 +10,7 @@ You can actually add some pretty nifty things at the database level via the Rail
 
 ## Requiring a field be present
 
-Using the `null: false` argument, were can tell the database we definitely don't want this field to be nil. I think it'll accept a blank (e.g. "") value.
+Using the `null: false` argument, we can tell the database we definitely don't want this field to be `nil`. For fields you'd really like a value to be present, you can set this to true.
 
 ```ruby
 class CreateTeams < ActiveRecord::Migration[6.1]
@@ -25,7 +25,7 @@ end
 
 ## Unique or blank validations
 
-The `unique: true` argument will require the field in the database be unique, but you can also allow the uniqueness rule to only be required when the field is filled in.
+The `unique: true` argument will require the field in the database to be unique, but you can also allow the uniqueness rule to only be required when the field is filled in.
 
 ```ruby
 class AddSpecialSkillToPlayers < ActiveRecord::Migration[6.1]
@@ -35,11 +35,24 @@ class AddSpecialSkillToPlayers < ActiveRecord::Migration[6.1]
 end
 ```
 
+### Unique ignoring case
+
+We can pass in a little custom SQL into our index.
+
+```ruby
+class AddSpecialSkillToPlayers < ActiveRecord::Migration[6.1]
+  def change
+    add_column :players, :special_skill, :string
+    add_index :players, "BTRIM(LOWER((special_skill)::text))", name: "players_special_skill_unique", unique: true
+  end
+end
+```
+
 ## Check constraints
 
 You can also add more complex rules around data validation using check constraints.
 
-### Require a field when another is present
+### Require a field when another is present
 
 ```ruby
 class CreatePlayers < ActiveRecord::Migration[6.1]
@@ -48,7 +61,7 @@ class CreatePlayers < ActiveRecord::Migration[6.1]
       t.string :speciality, null: false
 
       t.string :grass_type
-	  # When the type is "Species::Grass", the grass_type field can't be blank.
+      # When the type is "Species::Grass", the grass_type field can't be blank.
       t.check_constraint "(speciality::text != 'grass'::text) OR (speciality::text = 'grass'::text AND grass_type::text <> ''::text)"
 
       t.timestamps
@@ -65,12 +78,12 @@ By using a check constraint you can even check if a field is present, and is an 
 class AddLevelToPlayers < ActiveRecord::Migration[6.1]
   def change
     add_column :players, :level, :bigint, default: 1, null: false
-	add_check_constraint "(level::bigint >= 1)"
+    add_check_constraint "(level::bigint >= 1)"
   end
 end
 ```
 
-## Adding foreign keys
+## Adding relationships foreign keys
 
 By default Rails doesn't add foreign keys to relationships, which means it's really easy for other people accessing the database to remove things our model has a value for.
 
@@ -81,6 +94,20 @@ class CreatePlayers < ActiveRecord::Migration[6.1]
   def change
     create_table :players do |t|
       t.references :user, null: false, foreign_key: true
+    end
+  end
+end
+```
+
+### Custom relationships with alternative name
+
+We need to use the `to_table` within the `foreign_key` argument to tell Rails what this column is connected to.
+
+```ruby
+class CreatePlayers < ActiveRecord::Migration[6.1]
+  def change
+    create_table :players do |t|
+      t.references :previous_team, null: true, foreign_key: { to_table: :teams }
 	end
   end
 end
@@ -119,4 +146,4 @@ end
 
 ## Summary
 
-Often I'll add extra constraints to the columns on the database level which are paired with the [Active Model Validations](https://api.rubyonrails.org/classes/ActiveModel/Validations.html), the end result is nice.
+Those are the main non-standard things I do in migrations, which I'd often pair with [Active Model Validations](https://api.rubyonrails.org/classes/ActiveModel/Validations.html) to give a super consistent user experience.
