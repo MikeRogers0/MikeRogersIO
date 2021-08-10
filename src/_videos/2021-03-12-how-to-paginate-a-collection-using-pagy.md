@@ -1,7 +1,7 @@
 ---
 layout: video
 title: How To Paginate A Collection Using Pagy
-video_id: aILtxj_LVuA
+youtube_id: aILtxj_LVuA
 published_at: '2021-03-12T16:06:46+00:00'
 ---
 Paginating a collection in Ruby on Rails is super fun! In the past I used will_paginate & kaminari, but now I really like Pagy.

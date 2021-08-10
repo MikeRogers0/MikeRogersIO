@@ -5,7 +5,7 @@ class Source::YoutubeVideos
     source_data.each do |video|
       Video.new(
         title: video["title"],
-        video_id: video["videoId"],
+        youtube_id: video["videoId"],
         description: video["group"]["description"],
         published_at: Time.parse(video["published"])
       ).save

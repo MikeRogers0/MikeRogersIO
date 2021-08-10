@@ -1,7 +1,7 @@
 ---
 layout: video
 title: How to Remove ActiveStorage & ActionMailbox Routes in Rails
-video_id: IDsYWrsmO9g
+youtube_id: IDsYWrsmO9g
 published_at: '2021-03-24T19:45:59+00:00'
 ---
 Rails adds extra routes by default for ActiveStorage & ActionMailbox, they're great libraries but here is how to remove those routes if you're not using them.

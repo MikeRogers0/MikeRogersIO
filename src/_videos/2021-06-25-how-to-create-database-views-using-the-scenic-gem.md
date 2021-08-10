@@ -1,7 +1,7 @@
 ---
 layout: video
 title: How to Create Database Views using the Scenic Gem
-video_id: rdyzedPLuEQ
+youtube_id: rdyzedPLuEQ
 published_at: '2021-06-25T03:19:01+00:00'
 ---
 In this tutorial we use the Scenic gem to create a Postgres Database View to view the contents of multiple tables at the same time.
