@@ -1,8 +1,8 @@
 ---
 layout: video
 title: How to Inline CSS Styles in Email Mailers Using premailer-rails
-youtube_id: 8eah-f24DlY
-published_at: '2021-02-16T16:30:31Z'
+video_id: 8eah-f24DlY
+published_at: '2021-02-16T17:30:00+00:00'
 ---
 Did you know you can inline CSS in Ruby on Rail's mailers using the premailer-rails gem? You just need to drop it in & it'll just work!
 

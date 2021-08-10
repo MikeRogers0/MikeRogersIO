@@ -1,4 +1,137 @@
 ---
+- title: 'bug: Fixing data update being unable to run'
+  number: 177
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/177
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-08-10 19:11:33 UTC
+  created_on: '2021-08-10'
+- title: 'bug: Remove trailing slashes on endpoint api calls'
+  number: 5
+  url: https://github.com/MikeRogers0/omniauth-dnanexus/pull/5
+  repository_url: https://www.github.com/MikeRogers0/omniauth-dnanexus
+  repository: MikeRogers0/omniauth-dnanexus
+  created_at: 2021-08-09 21:59:46 UTC
+  created_on: '2021-08-09'
+- title: 'feat: Updating links to point to GitHub action'
+  number: 72
+  url: https://github.com/TypoCI/Marketing/pull/72
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2021-08-05 02:48:57 UTC
+  created_on: '2021-08-05'
+- title: Bumping all packages to latest
+  number: 71
+  url: https://github.com/TypoCI/Marketing/pull/71
+  repository_url: https://www.github.com/TypoCI/Marketing
+  repository: TypoCI/Marketing
+  created_at: 2021-08-05 02:35:35 UTC
+  created_on: '2021-08-05'
+- title: Signed IDs, should use locate_signed over locate
+  number: 176
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/176
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-08-03 18:12:21 UTC
+  created_on: '2021-08-03'
+- title: 'Post: Common (Non-standard) Ruby on Rails Migrations'
+  number: 175
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/175
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-07-29 05:03:37 UTC
+  created_on: '2021-07-29'
+- title: Using a custom filter to change the content if YouTube Description
+  number: 174
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/174
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-07-29 04:26:25 UTC
+  created_on: '2021-07-29'
+- title: Adding more spacing to jumbotrons
+  number: 173
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/173
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-07-28 04:12:24 UTC
+  created_on: '2021-07-28'
+- title: Bumping gems & making homepage prettier
+  number: 172
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/172
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-07-28 03:51:17 UTC
+  created_on: '2021-07-28'
+- title: Pull in YouTube vidoes
+  number: 171
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/171
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-07-26 05:01:51 UTC
+  created_on: '2021-07-26'
+- title: 'Adding projects as a collection '
+  number: 170
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/170
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-07-26 02:13:10 UTC
+  created_on: '2021-07-26'
+- title: 'feat: Adding HexDevs'
+  number: 78
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/78
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-07-24 22:30:01 UTC
+  created_on: '2021-07-24'
+- title: 'doc: Adding links to readme'
+  number: 4
+  url: https://github.com/MikeRogers0/omniauth-dnanexus/pull/4
+  repository_url: https://www.github.com/MikeRogers0/omniauth-dnanexus
+  repository: MikeRogers0/omniauth-dnanexus
+  created_at: 2021-07-13 19:09:58 UTC
+  created_on: '2021-07-13'
+- title: 'feat: Automate the changelog'
+  number: 3
+  url: https://github.com/MikeRogers0/omniauth-dnanexus/pull/3
+  repository_url: https://www.github.com/MikeRogers0/omniauth-dnanexus
+  repository: MikeRogers0/omniauth-dnanexus
+  created_at: 2021-07-13 19:01:57 UTC
+  created_on: '2021-07-13'
+- title: 'fix: Correcting gem name in GH Action'
+  number: 2
+  url: https://github.com/MikeRogers0/omniauth-dnanexus/pull/2
+  repository_url: https://www.github.com/MikeRogers0/omniauth-dnanexus
+  repository: MikeRogers0/omniauth-dnanexus
+  created_at: 2021-07-13 18:39:30 UTC
+  created_on: '2021-07-13'
+- title: 'refactor: Consistent capitalisation for DNAnexus'
+  number: 1
+  url: https://github.com/MikeRogers0/omniauth-dnanexus/pull/1
+  repository_url: https://www.github.com/MikeRogers0/omniauth-dnanexus
+  repository: MikeRogers0/omniauth-dnanexus
+  created_at: 2021-07-13 18:35:42 UTC
+  created_on: '2021-07-13'
+- title: 'bug: Removing yarn cache clean --all from Dockerfile'
+  number: 93
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/93
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-07-13 14:26:07 UTC
+  created_on: '2021-07-13'
+- title: 'doc: Add example on how to generate Rails Master Key'
+  number: 92
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/92
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-07-13 14:23:51 UTC
+  created_on: '2021-07-13'
+- title: 'feat: Adding support for streamed responses'
+  number: 6
+  url: https://github.com/lostisland/faraday-net_http_persistent/pull/6
+  repository_url: https://www.github.com/lostisland/faraday-net_http_persistent
+  repository: lostisland/faraday-net_http_persistent
+  created_at: 2021-07-11 21:03:54 UTC
+  created_on: '2021-07-11'
 - title: 'feat: Fixing Apprasial Set error by downgrading rake to 13.0.3'
   number: 12
   url: https://github.com/simpleanalytics/rubyonrails-plugin/pull/12
@@ -20,6 +153,13 @@
   repository: Ruby-Starter-Kits/Docker-Rails-Generator
   created_at: 2021-07-03 16:48:05 UTC
   created_on: '2021-07-03'
+- title: Ditching TailwindCSS
+  number: 169
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/169
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-06-28 03:15:48 UTC
+  created_on: '2021-06-28'
 - title: 'chore: Removing GitHub Actions reference from Readme'
   number: 46
   url: https://github.com/Virtual-Coffee/bot-meetingplace-events/pull/46

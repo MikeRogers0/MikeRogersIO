@@ -1,8 +1,8 @@
 ---
 layout: video
 title: How to do Glob Imports in PostCSS
-youtube_id: D8J-WhJuXv0
-published_at: '2021-05-07T15:49:39Z'
+video_id: D8J-WhJuXv0
+published_at: '2021-05-07T17:34:01+00:00'
 ---
 Using glob imports is a great way to reduce the amount of work required to manage your CSS files. Here is how I use postcss-import-ext-glob in PostCSS in my projects.
 
