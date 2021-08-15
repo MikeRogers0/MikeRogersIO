@@ -1,4 +1,18 @@
 ---
+- title: 'feat: Move common docker commands into bin files'
+  number: 95
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/95
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-08-15 02:17:44 UTC
+  created_on: '2021-08-15'
+- title: 'fix: Explicitly setting ActiveJob queue adapter'
+  number: 94
+  url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/94
+  repository_url: https://www.github.com/Ruby-Starter-Kits/Docker-Rails-Generator
+  repository: Ruby-Starter-Kits/Docker-Rails-Generator
+  created_at: 2021-08-15 01:48:12 UTC
+  created_on: '2021-08-15'
 - title: 'bug: Fixing data update being unable to run'
   number: 177
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/177
