@@ -1,4 +1,11 @@
 ---
+- title: 'fix: Add new videos when running automated scripts'
+  number: 178
+  url: https://github.com/MikeRogers0/MikeRogersIO/pull/178
+  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
+  repository: MikeRogers0/MikeRogersIO
+  created_at: 2021-08-19 18:23:57 UTC
+  created_on: '2021-08-19'
 - title: 'fix: Mailtrap was unable to load the JSON as open() wasn''t loaded'
   number: 96
   url: https://github.com/Ruby-Starter-Kits/Docker-Rails-Generator/pull/96
@@ -13,13 +20,6 @@
   repository: MikeRogers0-YouTube/Deploying-With-Kubernetes
   created_at: 2021-08-15 23:18:13 UTC
   created_on: '2021-08-15'
-- title: 'bug: Fixing data update being unable to run'
-  number: 177
-  url: https://github.com/MikeRogers0/MikeRogersIO/pull/177
-  repository_url: https://www.github.com/MikeRogers0/MikeRogersIO
-  repository: MikeRogers0/MikeRogersIO
-  created_at: 2021-08-10 19:11:33 UTC
-  created_on: '2021-08-10'
 - title: 'bug: Remove trailing slashes on endpoint api calls'
   number: 5
   url: https://github.com/MikeRogers0/omniauth-dnanexus/pull/5
