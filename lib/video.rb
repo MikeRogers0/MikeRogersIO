@@ -9,6 +9,9 @@ class Video
   end
 
   def save
+    # Don't override existing files as I'd like to add code snippets to new code
+    return if File.exist?(file_path)
+
     File.open(file_path, (File::CREAT | File::TRUNC | File::WRONLY)) do |file|
       file.write(YAML.dump({
         "layout" => "video",
