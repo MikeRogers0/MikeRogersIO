@@ -1,4 +1,11 @@
 ---
+- title: 'feat: Add Ruby Ireland'
+  number: 79
+  url: https://github.com/MikeRogers0/Ruby-Meetup-Calendar/pull/79
+  repository_url: https://www.github.com/MikeRogers0/Ruby-Meetup-Calendar
+  repository: MikeRogers0/Ruby-Meetup-Calendar
+  created_at: 2021-08-25 14:47:57 UTC
+  created_on: '2021-08-25'
 - title: Don't auto add videos to the site
   number: 179
   url: https://github.com/MikeRogers0/MikeRogersIO/pull/179
