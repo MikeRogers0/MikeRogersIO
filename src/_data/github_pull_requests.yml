@@ -1,4 +1,11 @@
 ---
+- title: Updating Seeds
+  number: 7
+  url: https://github.com/MikeRogers0/Talks/pull/7
+  repository_url: https://www.github.com/MikeRogers0/Talks
+  repository: MikeRogers0/Talks
+  created_at: 2021-09-05 22:14:34 UTC
+  created_on: '2021-09-05'
 - title: 'fix: Not requiring avatar_url to be present in GraphQL'
   number: 35
   url: https://github.com/stjudecloud/university/pull/35

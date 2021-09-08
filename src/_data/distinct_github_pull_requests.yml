@@ -1,4 +1,11 @@
 ---
+- title: Updating Seeds
+  number: 7
+  url: https://github.com/MikeRogers0/Talks/pull/7
+  repository_url: https://www.github.com/MikeRogers0/Talks
+  repository: MikeRogers0/Talks
+  created_at: 2021-09-05 22:14:34 UTC
+  created_on: '2021-09-05'
 - title: 'fix: Not requiring avatar_url to be present in GraphQL'
   number: 35
   url: https://github.com/stjudecloud/university/pull/35
@@ -111,13 +118,6 @@
   repository: TypoCI/spellcheck-action
   created_at: 2021-04-28 12:07:46 UTC
   created_on: '2021-04-28'
-- title: Going through seeding talk for Zoom
-  number: 5
-  url: https://github.com/MikeRogers0/Talks/pull/5
-  repository_url: https://www.github.com/MikeRogers0/Talks
-  repository: MikeRogers0/Talks
-  created_at: 2021-04-10 17:24:31 UTC
-  created_on: '2021-04-10'
 - title: Adding netlify.toml - We can use it for PR previews
   number: 163
   url: https://github.com/zzak/sdoc/pull/163
